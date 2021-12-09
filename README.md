@@ -1,2 +1,3 @@
 # Synth-pub
-Eurorack synthesizer module designs
+
+Designs for my Eurorack synthesizer modules
