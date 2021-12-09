@@ -1,4 +1,5 @@
 fp-info-cache
 *.cmp
 *.net
+*.xml
 *-cache.lib
