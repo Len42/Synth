@@ -1,0 +1,882 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +12V--lmp-power
+#
+DEF +12V--lmp-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V--lmp-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V--lmp-power
+#
+DEF +5V--lmp-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V--lmp-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# -12V--lmp-power
+#
+DEF -12V--lmp-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 150 50 H I C CNN
+F1 "-12V--lmp-power" 0 -140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 -50 0 -100 N
+P 2 0 1 0 0 -100 30 -50 N
+P 2 0 1 0 0 0 0 -100 N
+X -12V 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 1N5711--lmp-diode
+#
+DEF 1N5711--lmp-diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1N5711--lmp-diode" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "STMicroelectronics" 0 0 50 H I C CNN "Manufacturer"
+F5 "1N5711" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 "511-1N5711" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/STMicroelectronics/1N5711?qs=FITO%2F%2FQgYDnH7pJ7rS2FRA%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ATmega328P-PU--lmp-IC-misc
+#
+DEF ATmega328P-PU--lmp-IC-misc U 0 20 Y Y 1 F N
+F0 "U" -600 1350 50 H V L BNN
+F1 "ATmega328P-PU--lmp-IC-misc" 750 -1350 50 H V R TNN
+F2 "Package_DIP:DIP-28_W7.62mm" -100 0 50 H I C CIN
+F3 "" 200 0 50 H I C CNN
+F4 "16 MHz" 750 -1450 50 H V R CNN "Value2"
+F5 "Microchip" 200 0 50 H I C CNN "Manufacturer"
+F6 "ATMEGA328P-PU" 200 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Mouser" 200 0 50 H I C CNN "Distributor"
+F8 "556-ATMEGA328P-PU" 200 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.mouser.ca/ProductDetail/?qs=K8BHR703ZXguOQv3sKbWcg%3D%3D" -100 0 50 H I C CNN "DistributorPartLink"
+F10 "Adafruit" 0 0 50 H I C CNN "Distributor2"
+F11 "123" 0 0 50 H I C CNN "DistributorPartNum2"
+F12 "https://www.adafruit.com/product/123" 0 0 50 H I C CNN "DistributorPartLink2"
+F13 "programmed with Arduino bootloader" 0 0 50 H I C CNN "Note"
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -600 -1300 700 1300 0 1 10 f
+X (PCINT14/~RESET~/)PC6 1 800 -300 100 L 50 40 1 1 B
+X (PCINT7/TOSC2/PB7)XTAL2 10 800 500 100 L 50 40 1 1 B
+X (PCINT21/OC0B/T1/PD5)d5 11 800 -1000 100 L 50 40 1 1 B
+X (PCINT22/OC0A/AIN0/PD6)d6 12 800 -1100 100 L 50 40 1 1 B
+X (PCINT23/AIN1/PD7)d7 13 800 -1200 100 L 50 40 1 1 B
+X (PCINT0/CLKO/ICP1/PB0)d8 14 800 1200 100 L 50 40 1 1 B
+X (PCINT1/OC1A/PB1)d9 15 800 1100 100 L 50 40 1 1 B
+X (PCINT2/OC1B/~SS~/PB2)d10 16 800 1000 100 L 50 40 1 1 B
+X (PCINT3/OC2A/MOSI/PB3)d11 17 800 900 100 L 50 40 1 1 B
+X (PCINT4/MISO/PB4)d12 18 800 800 100 L 50 40 1 1 B
+X (PCINT5/SCK/PB5)d13 19 800 700 100 L 50 40 1 1 B
+X (PCINT16/RXD/PD0)d0 2 800 -500 100 L 50 40 1 1 B
+X AVCC 20 -700 900 100 R 50 40 1 1 W
+X AREF 21 -700 400 100 R 50 40 1 1 P
+X GND 22 -700 -1200 100 R 50 40 1 1 W
+X (PCINT8/ADC0/PC0)a0 23 800 300 100 L 50 40 1 1 B
+X (PCINT9/ADC1/PC1)a1 24 800 200 100 L 50 40 1 1 B
+X (PCINT10/ADC2/PC2)a2 25 800 100 100 L 50 40 1 1 B
+X (PCINT11/ADC3/PC3)a3 26 800 0 100 L 50 40 1 1 B
+X (PCINT12/SDA/ADC4/PC4)a4 27 800 -100 100 L 50 40 1 1 B
+X (PCINT13/SCL/ADC5/PC5)a5 28 800 -200 100 L 50 40 1 1 B
+X (PCINT17/TXD/PD1)d1 3 800 -600 100 L 50 40 1 1 B
+X (PCINT18/INT0/PD2)d2 4 800 -700 100 L 50 40 1 1 B
+X (PCINT19/OC2B/INT1/PD3)d3 5 800 -800 100 L 50 40 1 1 B
+X (PCINT20/XCK/T0/PD4)d4 6 800 -900 100 L 50 40 1 1 B
+X VCC 7 -700 1200 100 R 50 40 1 1 W
+X GND 8 -700 -1100 100 R 50 40 1 1 W
+X (PCINT6/TOSC1/PB6)XTAL1 9 800 600 100 L 50 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CC_100N--lmp
+#
+DEF CC_100N--lmp C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CC_100N--lmp" 25 -100 50 H V L CNN
+F2 "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" 38 -150 50 H I C CNN
+F3 "" -25 -150 50 H I C CNN
+F4 "IC decoupling" 25 -200 50 H I L CNN "Note"
+F5 "TDK" 0 0 50 H I C CNN "Manufacturer"
+F6 "FG18X7R1H104KNT06" 0 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Mouser" 0 0 50 H I C CNN "Distributor"
+F8 "810-FG18X7R1H104KNT6" 0 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CF--lmp
+#
+DEF CF--lmp C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CF--lmp" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP_10U--lmp-synth
+#
+DEF CP_10U--lmp-synth C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CP_10U--lmp-synth" 25 -100 50 H V L CNN
+F2 "-lmp-misc:CP_Radial_D4.0mm_P2.50mm" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "25 VDC" 25 -175 50 H I L CNN "Value2"
+F5 "12 V decoupling" 25 -250 50 H I L CNN "Note"
+F6 "Panasonic" 0 -150 50 H I C CNN "Manufacturer"
+F7 "EEA-FC1E100" 0 -150 50 H I C CNN "ManufacturerPartNum"
+F8 "Mouser" 0 -150 50 H I C CNN "Distributor"
+F9 "667-EEA-FC1E100" 0 -150 50 H I C CNN "DistributorPartNum"
+F10 "https://www.mouser.ca/ProductDetail/Panasonic/EEA-FC1E100?qs=nLJruSqDb94EJwiFQJd4iw%3D%3D" 0 -150 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Delptronics_Back_Left_4HP--lmp-synth
+#
+DEF Conn_Delptronics_Back_Left_4HP--lmp-synth J 0 125 Y Y 1 F N
+F0 "J" 0 1200 50 H V C CNN
+F1 "Conn_Delptronics_Back_Left_4HP--lmp-synth" 0 -1300 50 H V C CNN
+F2 "-lmp-synth:PinHeader_Delptronics_Back_Left_4HP" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "part of Delptronics Module Constrution Set" 0 0 50 H I C CNN "Note"
+F5 "NoPart" 0 0 50 H I C CNN "NoPart"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -1195 0 -1205 1 1 6 N
+S -50 -1095 0 -1105 1 1 6 N
+S -50 -995 0 -1005 1 1 6 N
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 1005 0 995 1 1 6 N
+S -50 1105 0 1095 1 1 6 N
+S -50 1150 50 -1250 1 1 10 f
+X P5_3 1 -200 1100 150 R 50 50 1 1 P
+X J6_1 10 -200 200 150 R 50 50 1 1 P
+X P7_3 11 -200 100 150 R 50 50 1 1 P
+X P7_2 12 -200 0 150 R 50 50 1 1 P
+X P7_1 13 -200 -100 150 R 50 50 1 1 P
+X J7_2 14 -200 -200 150 R 50 50 1 1 P
+X J7_1 15 -200 -300 150 R 50 50 1 1 P
+X P8_3 16 -200 -400 150 R 50 50 1 1 P
+X P8_2 17 -200 -500 150 R 50 50 1 1 P
+X P8_1 18 -200 -600 150 R 50 50 1 1 P
+X J8_2 19 -200 -700 150 R 50 50 1 1 P
+X P5_2 2 -200 1000 150 R 50 50 1 1 P
+X J8_1 20 -200 -800 150 R 50 50 1 1 P
+X B1_3 21 -200 -900 150 R 50 50 1 1 P
+X B1_2 22 -200 -1000 150 R 50 50 1 1 P
+X B1_1 23 -200 -1100 150 R 50 50 1 1 P
+X GND 24 -200 -1200 150 R 50 50 1 1 W
+X P5_1 3 -200 900 150 R 50 50 1 1 P
+X J5_2 4 -200 800 150 R 50 50 1 1 P
+X J5_1 5 -200 700 150 R 50 50 1 1 P
+X P6_3 6 -200 600 150 R 50 50 1 1 P
+X P6_2 7 -200 500 150 R 50 50 1 1 P
+X P6_1 8 -200 400 150 R 50 50 1 1 P
+X J6_2 9 -200 300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Delptronics_Front_Left_4HP--lmp-synth
+#
+DEF Conn_Delptronics_Front_Left_4HP--lmp-synth J 0 125 Y Y 1 F N
+F0 "J" 0 1200 50 H V C CNN
+F1 "Conn_Delptronics_Front_Left_4HP--lmp-synth" 0 -1300 50 H V C CNN
+F2 "-lmp-synth:PinSocket_Delptronics_Front" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "part of Delptronics Module Constrution Set" 0 0 50 H I C CNN "Note"
+F5 "NoPart" 0 0 50 H I C CNN "NoPart"
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -1195 0 -1205 1 1 6 N
+S -50 -1095 0 -1105 1 1 6 N
+S -50 -995 0 -1005 1 1 6 N
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 1005 0 995 1 1 6 N
+S -50 1105 0 1095 1 1 6 N
+S -50 1150 50 -1250 1 1 10 f
+X P5_3 1 -200 1100 150 R 50 50 1 1 P
+X J6_1 10 -200 200 150 R 50 50 1 1 P
+X P7_3 11 -200 100 150 R 50 50 1 1 P
+X P7_2 12 -200 0 150 R 50 50 1 1 P
+X P7_1 13 -200 -100 150 R 50 50 1 1 P
+X J7_2 14 -200 -200 150 R 50 50 1 1 P
+X J7_1 15 -200 -300 150 R 50 50 1 1 P
+X P8_3 16 -200 -400 150 R 50 50 1 1 P
+X P8_2 17 -200 -500 150 R 50 50 1 1 P
+X P8_1 18 -200 -600 150 R 50 50 1 1 P
+X J8_2 19 -200 -700 150 R 50 50 1 1 P
+X P5_2 2 -200 1000 150 R 50 50 1 1 P
+X J8_1 20 -200 -800 150 R 50 50 1 1 P
+X B1_3 21 -200 -900 150 R 50 50 1 1 P
+X B1_2 22 -200 -1000 150 R 50 50 1 1 P
+X B1_1 23 -200 -1100 150 R 50 50 1 1 P
+X GND 24 -200 -1200 150 R 50 50 1 1 W
+X P5_1 3 -200 900 150 R 50 50 1 1 P
+X J5_2 4 -200 800 150 R 50 50 1 1 P
+X J5_1 5 -200 700 150 R 50 50 1 1 P
+X P6_3 6 -200 600 150 R 50 50 1 1 P
+X P6_2 7 -200 500 150 R 50 50 1 1 P
+X P6_1 8 -200 400 150 R 50 50 1 1 P
+X J6_2 9 -200 300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Delptronics_Pwr_Hdr_10--lmp-synth
+#
+DEF Conn_Delptronics_Pwr_Hdr_10--lmp-synth J 0 20 Y Y 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Conn_Delptronics_Pwr_Hdr_10--lmp-synth" 50 -300 50 H V C CNN
+F2 "-lmp-synth:PinHeader-Eurorack-10-TH" 100 -360 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+F4 "part of Delptronics Module Constrution Set" 0 0 50 H I C CNN "Note"
+F5 "NoPart" 0 0 50 H I C CNN "NoPart"
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S 150 -250 -50 250 1 1 10 f
+X -12V 1 300 -200 150 L 50 40 1 1 W
+X ~ 10 -200 200 150 R 50 50 1 1 W
+X ~ 2 -200 -200 150 R 50 40 1 1 W
+X GND 3 300 -100 150 L 50 40 1 1 W
+X ~ 4 -200 -100 150 R 50 50 1 1 W
+X GND 5 300 0 150 L 50 40 1 1 W
+X ~ 6 -200 0 150 R 50 50 1 1 W
+X GND 7 300 100 150 L 50 40 1 1 W
+X ~ 8 -200 100 150 R 50 50 1 1 W
+X +12V 9 300 200 150 L 50 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Conn_FTDI--lmp
+#
+DEF Conn_FTDI--lmp J 0 50 Y Y 1 F N
+F0 "J" -50 300 50 H V L CNN
+F1 "Conn_FTDI--lmp" -50 -400 50 H V L CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+T 0 240 200 40 0 0 0 Blk Normal 0 R C
+T 0 240 -300 40 0 0 0 Grn Normal 0 R C
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 250 -350 1 1 10 f
+X GND 1 -200 200 150 R 50 40 1 1 P
+X CTS 2 -200 100 150 R 50 40 1 1 P
+X VCC 3 -200 0 150 R 50 40 1 1 P
+X TXO 4 -200 -100 150 R 50 40 1 1 P
+X RXI 5 -200 -200 150 R 50 40 1 1 P
+X DTR 6 -200 -300 150 R 50 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND--lmp-power
+#
+DEF GND--lmp-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND--lmp-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Jack_WQP-PJ398--lmp-synth
+#
+DEF Jack_WQP-PJ398--lmp-synth J 0 20 Y Y 1 F N
+F0 "J" 0 395 50 H V C CNN
+F1 "Jack_WQP-PJ398--lmp-synth" 0 300 50 H V C CNN
+F2 "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "[label]" 0 205 50 H V C CNN "Label"
+F5 "QingPu / Thonk" 0 0 50 H I C CNN "Manufacturer"
+F6 "PJ398SM / WQP518MA" 0 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Thonk" 0 0 50 H I C CNN "Distributor"
+F8 "PJ398SM" 0 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.thonk.co.uk/shop/thonkiconn/" 0 0 50 H I C CNN "DistributorPartLink"
+F10 "SynthCube" 0 0 50 H I C CNN "Distributor2"
+F11 "WQP518MA" 0 0 50 H I C CNN "DistributorPartNum2"
+F12 "https://synthcube.com/cart/3-5mm-euro-jacks" 0 0 50 H I C CNN "DistributorPartLink2"
+F13 "Adafruit" 0 0 50 H I C CNN "Distributor3"
+F14 "4031" 0 0 50 H I C CNN "DistributorPartNum3"
+F15 "https://www.adafruit.com/product/4031" 0 0 50 H I C CNN "DistributorPartLink3"
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -100 0 -150 -100 0 1 10 F
+S 100 150 -100 -200 0 1 10 f
+P 2 0 1 0 70 -10 80 -30 N
+P 4 0 1 10 0 0 25 -25 50 0 100 0 N
+P 4 0 1 0 100 -100 70 -100 70 -10 60 -30 N
+P 5 0 1 10 100 100 -25 100 -25 0 -50 -25 -75 0 N
+X ~ S 200 100 100 L 50 50 1 1 P
+X ~ T 200 0 100 L 50 50 1 1 P
+X ~ TN 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_2_Open--lmp
+#
+DEF Jumper_2_Open--lmp JP 0 0 Y N 1 F N
+F0 "JP" 0 110 50 H V C CNN
+F1 "Jumper_2_Open--lmp" 0 -90 50 H V C CNN
+F2 "-lmp-misc:PinHeader_1x02_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L78L05_TO92--lmp-regulator
+#
+DEF L78L05_TO92--lmp-regulator U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "L78L05_TO92--lmp-regulator" 0 125 50 H V L CNN
+F2 "-lmp-misc:TO-92_Inline_Wide" 0 225 50 H I C CIN
+F3 "" 0 -50 50 H I C CNN
+F4 "STMicroelectronics " 0 0 50 H I C CNN "Manufacturer"
+F5 "L78L05ACZ-AP" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 "511-L78L05ACZ-AP" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/STMicroelectronics/L78L05ACZ-AP?qs=sGAEpiMZZMuLLNXTG1MZanrpqIdcnbmrowz4nhu1BnI%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X VO 1 300 0 100 L 50 50 1 1 w
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# LED_5mm_Blue--lmp-synth
+#
+DEF LED_5mm_Blue--lmp-synth D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED_5mm_Blue--lmp-synth" 0 -125 50 H V C CNN
+F2 "LED_THT:LED_D5.0mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "[label]" 0 -200 50 H V C CNN "Label"
+F5 "VCC" 0 0 50 H I C CNN "Manufacturer"
+F6 "VAOL-5LSBY1" 0 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Mouser" 0 0 50 H I C CNN "Distributor"
+F8 "593-VAOL-5LSBY1" 0 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.mouser.ca/ProductDetail/VCC/VAOL-5LSBY1?qs=sGAEpiMZZMvHYEB9WUp7EneOMcS%2FsWIS9dCGd3NWsaQ%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Logo_CC_BY--lmp
+#
+DEF Logo_CC_BY--lmp G 0 40 Y Y 1 F N
+F0 "G" 0 -63 60 H I C CNN
+F1 "Logo_CC_BY--lmp" 0 63 60 H I C CNN
+F2 "-lmp-misc:Logo_CC_BY" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "NoPart" 0 0 50 H I C CNN "NoPart"
+DRAW
+P 10 0 0 1 64 -64 65 -62 65 -61 64 -59 56 -59 54 -60 54 -64 56 -65 61 -65 64 -64 F
+P 14 0 0 1 62 -78 65 -76 66 -73 66 -71 63 -70 58 -69 56 -69 55 -70 54 -73 54 -76 55 -78 56 -78 59 -79 62 -78 F
+P 14 0 0 1 79 49 80 51 80 55 78 58 75 60 72 60 68 58 67 56 66 53 67 49 69 47 72 46 76 46 79 49 F
+P 25 0 0 1 81 15 82 16 82 17 84 18 85 18 87 20 87 38 86 41 83 42 79 43 69 43 64 42 61 41 59 39 58 34 58 28 59 26 59 19 60 18 62 18 64 16 65 14 65 -8 81 -8 81 15 F
+P 41 0 0 1 -185 -13 -179 -9 -176 -5 -180 -3 -181 -3 -183 -2 -186 -2 -188 -4 -189 -4 -193 -6 -197 -6 -201 -3 -203 1 -203 9 -202 13 -201 15 -198 17 -195 18 -191 17 -188 15 -187 13 -185 13 -182 15 -181 15 -178 18 -179 20 -184 25 -191 27 -198 27 -204 25 -210 22 -211 21 -214 15 -216 9 -216 2 -214 -4 -210 -10 -205 -14 -199 -16 -192 -16 -185 -13 F
+P 42 0 0 1 -145 -14 -140 -10 -138 -8 -137 -5 -138 -4 -141 -2 -145 -2 -148 -4 -149 -5 -154 -6 -158 -5 -161 -2 -162 3 -163 5 -162 9 -161 14 -159 16 -155 17 -151 17 -148 15 -146 13 -144 13 -141 14 -140 15 -136 17 -137 18 -139 21 -142 23 -150 27 -157 27 -163 26 -169 22 -171 20 -173 16 -175 11 -175 5 -174 -2 -171 -8 -165 -14 -159 -16 -152 -16 -145 -14 F
+P 66 0 0 1 86 -24 97 -20 107 -14 115 -5 121 4 123 10 124 17 124 37 122 45 121 48 115 58 107 66 98 73 87 77 86 77 74 79 63 78 52 75 42 69 34 61 27 51 24 44 21 34 21 24 21 22 31 22 31 32 34 42 39 51 46 58 54 64 55 65 58 66 62 67 85 67 92 64 98 61 104 55 109 48 113 39 115 30 115 21 112 12 108 3 102 -4 94 -10 84 -14 79 -15 69 -16 60 -13 51 -9 43 -2 39 2 33 12 32 19 31 22 21 22 22 13 26 4 28 -1 35 -10 44 -17 53 -22 64 -25 75 -26 86 -24 F
+P 75 0 0 1 -165 -64 -152 -60 -141 -55 -131 -48 -122 -39 -115 -29 -110 -17 -107 -5 -106 4 -107 18 -110 31 -116 43 -124 53 -135 63 -146 69 -157 74 -170 76 -183 76 -195 74 -207 69 -211 67 -220 61 -228 53 -235 44 -240 35 -242 31 -245 19 -245 8 -233 8 -231 20 -227 30 -222 40 -214 48 -205 54 -196 59 -185 62 -173 63 -161 61 -150 56 -140 50 -132 42 -125 32 -121 21 -120 15 -119 3 -121 -9 -125 -20 -131 -29 -139 -38 -149 -44 -160 -49 -161 -49 -173 -51 -184 -50 -196 -48 -206 -42 -209 -40 -217 -33 -225 -24 -230 -13 -232 -3 -233 8 -245 8 -246 6 -245 -6 -243 -18 -242 -20 -236 -31 -229 -40 -220 -49 -210 -56 -199 -61 -188 -64 -178 -65 -165 -64 F
+P 96 0 0 1 269 -3 269 87 266 90 262 93 -262 93 -268 87 -268 -39 -263 -39 -263 79 -262 83 -262 87 -229 87 -217 88 218 88 231 87 262 87 262 85 263 82 263 39 264 23 264 -39 -107 -39 -111 -44 -118 -53 -128 -62 -139 -69 -150 -75 -155 -76 -163 -77 -172 -78 -190 -78 -196 -76 -204 -74 -215 -68 -225 -61 -234 -54 -241 -45 -245 -39 -263 -39 -268 -39 -268 -83 49 -83 49 -53 64 -53 74 -53 80 -53 82 -55 85 -59 86 -60 87 -63 89 -64 90 -63 91 -60 93 -57 96 -54 99 -53 100 -54 101 -54 101 -55 99 -58 97 -63 94 -68 92 -73 92 -77 91 -78 91 -81 90 -82 88 -83 87 -82 86 -82 85 -80 85 -76 84 -72 83 -67 80 -62 74 -53 64 -53 67 -54 71 -58 71 -61 70 -64 69 -65 69 -67 70 -69 72 -72 72 -75 70 -79 68 -80 66 -82 63 -82 58 -83 49 -83 -268 -83 -268 -94 268 -94 269 -3 F
+ENDDRAW
+ENDDEF
+#
+# Logo_OSHW--lmp
+#
+DEF Logo_OSHW--lmp G 0 40 N N 1 F N
+F0 "G" 0 -192 60 H I C CNN
+F1 "Logo_OSHW--lmp" 0 192 60 H I C CNN
+F2 "-lmp-misc:Logo_OSHW" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "NoPart" 0 0 50 H I C CNN "NoPart"
+DRAW
+P 20 0 0 1 118 -136 118 -122 119 -121 120 -119 121 -118 122 -118 125 -117 132 -117 134 -116 136 -114 139 -110 133 -108 124 -108 120 -110 117 -112 117 -108 109 -108 109 -152 117 -152 118 -136 F
+P 22 0 0 1 106 -207 107 -203 107 -194 108 -191 108 -190 111 -187 121 -187 123 -186 125 -184 126 -181 127 -180 126 -179 123 -178 119 -177 114 -178 107 -181 106 -179 105 -178 97 -178 97 -222 106 -222 106 -207 F
+P 24 0 0 1 -72 -221 -71 -205 -71 -194 -70 -190 -69 -188 -67 -187 -59 -187 -56 -186 -53 -183 -52 -181 -52 -180 -53 -179 -57 -177 -62 -177 -67 -178 -71 -180 -71 -179 -72 -179 -73 -178 -81 -178 -81 -221 -79 -222 -76 -222 -72 -221 F
+P 30 0 0 1 -74 -137 -73 -129 -73 -124 -72 -121 -70 -118 -68 -117 -64 -117 -60 -118 -57 -121 -57 -122 -56 -125 -56 -152 -47 -152 -47 -124 -48 -120 -48 -117 -49 -115 -51 -112 -55 -109 -60 -108 -65 -108 -70 -110 -71 -110 -73 -111 -74 -111 -74 -108 -83 -108 -83 -152 -74 -152 -74 -137 F
+P 32 0 0 1 87 -150 90 -147 90 -151 91 -152 99 -152 99 -108 90 -108 90 -128 89 -133 89 -138 87 -140 87 -141 83 -143 79 -143 76 -141 75 -141 74 -139 74 -138 73 -136 73 -107 68 -108 64 -108 63 -120 63 -134 64 -139 66 -145 68 -148 70 -149 72 -151 75 -152 79 -152 87 -150 F
+P 38 0 0 1 166 -150 170 -147 173 -145 167 -139 164 -141 163 -141 159 -143 155 -143 151 -141 149 -139 148 -136 147 -131 147 -126 148 -122 151 -118 155 -117 160 -117 164 -119 167 -121 173 -115 170 -112 167 -110 161 -108 155 -108 149 -109 144 -112 140 -116 139 -118 138 -121 138 -138 139 -141 141 -143 141 -144 147 -150 148 -150 154 -152 160 -152 166 -150 F
+P 41 0 0 1 -187 -151 -182 -148 -178 -144 -176 -137 -175 -130 -175 -127 -176 -120 -179 -114 -183 -110 -188 -108 -195 -108 -201 -109 -206 -112 -209 -116 -211 -122 -211 -130 -203 -130 -202 -126 -201 -121 -198 -118 -195 -116 -191 -117 -188 -119 -186 -120 -185 -122 -185 -138 -189 -142 -193 -143 -197 -142 -200 -140 -202 -136 -203 -130 -211 -130 -211 -134 -210 -141 -207 -146 -203 -150 -202 -150 -198 -151 -193 -152 -187 -151 F
+P 43 0 0 1 154 -221 159 -218 162 -215 162 -213 160 -211 157 -210 153 -211 151 -212 147 -213 142 -212 139 -210 137 -206 137 -204 138 -203 164 -203 164 -195 163 -189 160 -184 156 -180 147 -177 142 -177 137 -179 133 -183 130 -188 128 -194 128 -195 137 -195 137 -192 139 -189 142 -186 146 -185 147 -185 153 -189 155 -195 137 -195 128 -195 128 -204 130 -211 133 -216 137 -220 141 -221 148 -222 154 -221 F
+P 47 0 0 1 201 -151 206 -149 209 -147 210 -146 210 -144 207 -142 205 -140 203 -140 201 -142 197 -143 191 -143 188 -141 186 -139 185 -136 185 -135 187 -133 212 -133 212 -126 211 -122 209 -116 205 -111 200 -108 187 -108 182 -111 179 -116 176 -122 176 -124 185 -124 185 -122 187 -120 189 -117 192 -116 197 -117 200 -119 202 -123 202 -125 186 -125 185 -124 176 -124 176 -134 177 -141 180 -146 184 -149 184 -150 189 -151 195 -152 201 -151 F
+P 49 0 0 1 -28 -220 -26 -218 -25 -218 -25 -221 -23 -222 -16 -222 -16 -160 -25 -160 -25 -180 -26 -181 -27 -180 -32 -178 -37 -177 -41 -177 -45 -179 -47 -181 -48 -184 -50 -187 -50 -192 -51 -199 -51 -201 -50 -207 -41 -207 -41 -192 -40 -190 -40 -189 -39 -188 -37 -187 -30 -187 -27 -188 -26 -191 -25 -195 -25 -205 -26 -208 -27 -210 -28 -211 -31 -213 -35 -213 -39 -210 -40 -209 -41 -207 -50 -207 -50 -211 -49 -215 -47 -217 -44 -219 -39 -222 -34 -222 -28 -220 F
+P 52 0 0 1 17 -178 12 -191 12 -192 10 -198 9 -202 8 -205 7 -206 7 -205 6 -202 4 -197 3 -192 -1 -178 -10 -178 -10 -180 -9 -183 -8 -188 -4 -200 -3 -201 -1 -207 0 -213 2 -217 3 -220 3 -222 7 -222 11 -221 15 -208 17 -203 18 -198 19 -195 20 -193 23 -199 25 -207 27 -212 28 -216 29 -218 30 -221 31 -222 34 -222 38 -221 43 -205 48 -190 49 -186 50 -183 52 -178 42 -178 41 -179 41 -181 39 -189 37 -195 34 -205 24 -178 17 -178 F
+P 53 0 0 1 -100 -151 -96 -149 -93 -147 -92 -146 -92 -144 -94 -142 -95 -142 -96 -140 -98 -140 -100 -141 -102 -143 -111 -143 -114 -140 -115 -140 -116 -137 -117 -135 -115 -133 -89 -133 -90 -126 -90 -125 -91 -118 -94 -114 -99 -109 -102 -108 -114 -108 -117 -110 -119 -111 -123 -115 -124 -118 -125 -122 -125 -124 -117 -124 -116 -121 -114 -118 -111 -117 -110 -116 -106 -116 -103 -118 -100 -121 -99 -124 -101 -125 -116 -125 -117 -124 -125 -124 -126 -127 -126 -137 -125 -140 -122 -146 -118 -149 -115 -151 -111 -152 -105 -152 -100 -151 F
+P 53 0 0 1 43 -151 47 -149 48 -149 51 -147 54 -144 56 -136 56 -123 55 -119 53 -115 51 -113 47 -110 47 -109 44 -108 35 -108 30 -109 26 -112 22 -116 21 -119 20 -124 20 -131 29 -131 29 -126 30 -122 32 -119 32 -118 36 -117 40 -117 43 -118 44 -118 45 -121 46 -125 47 -130 46 -135 46 -136 45 -139 43 -141 43 -142 39 -143 35 -143 32 -141 31 -140 30 -136 29 -131 20 -131 20 -135 21 -139 21 -140 23 -145 26 -148 30 -151 33 -152 38 -152 43 -151 F
+P 57 0 0 1 7 -150 9 -149 12 -147 14 -142 14 -138 13 -133 10 -129 9 -128 5 -126 0 -125 -1 -125 -6 -124 -10 -123 -11 -121 -11 -119 -10 -118 -7 -116 -4 -116 6 -118 7 -119 9 -119 11 -117 13 -113 12 -111 8 -110 6 -109 2 -108 -8 -108 -12 -109 -16 -112 -19 -116 -20 -120 -19 -126 -18 -127 -16 -130 -11 -132 -5 -134 0 -134 3 -135 5 -137 5 -140 3 -142 3 -143 -5 -143 -10 -142 -13 -141 -17 -139 -20 -141 -23 -144 -20 -147 -17 -149 -14 -150 -12 -151 -10 -151 -6 -152 -1 -152 7 -150 F
+P 57 0 0 1 88 -221 88 -189 87 -186 86 -184 84 -181 81 -179 78 -178 74 -177 65 -177 60 -178 57 -181 56 -181 55 -183 58 -186 62 -188 64 -187 68 -186 73 -185 76 -186 78 -188 79 -191 79 -195 70 -195 66 -196 60 -197 56 -199 53 -203 53 -210 61 -210 61 -207 62 -205 63 -204 67 -203 79 -203 79 -207 78 -207 78 -210 77 -212 76 -212 74 -213 67 -213 63 -212 61 -210 53 -210 53 -213 56 -217 60 -220 68 -222 73 -221 76 -220 77 -220 78 -219 79 -220 79 -221 81 -222 84 -222 88 -221 F
+P 60 0 0 1 -101 -219 -100 -219 -99 -220 -99 -221 -98 -222 -90 -222 -90 -200 -91 -193 -91 -188 -93 -182 -95 -181 -97 -179 -99 -178 -104 -177 -110 -177 -115 -178 -119 -179 -122 -181 -123 -182 -123 -184 -120 -186 -118 -188 -116 -188 -115 -187 -114 -187 -110 -185 -106 -185 -100 -189 -99 -193 -101 -195 -111 -195 -116 -196 -119 -197 -120 -197 -123 -200 -125 -204 -126 -209 -117 -209 -117 -206 -115 -204 -113 -204 -110 -203 -99 -203 -100 -207 -101 -209 -102 -212 -103 -212 -105 -213 -113 -213 -115 -212 -116 -211 -117 -209 -126 -209 -125 -213 -123 -217 -119 -220 -117 -221 -112 -222 -107 -222 -101 -219 F
+P 67 0 0 1 -159 -221 -158 -205 -158 -196 -157 -192 -157 -190 -155 -188 -155 -187 -151 -186 -147 -187 -144 -189 -142 -191 -142 -200 -141 -207 -141 -222 -133 -222 -133 -187 -134 -184 -138 -180 -141 -179 -143 -178 -147 -177 -150 -177 -154 -178 -158 -181 -158 -147 -155 -150 -152 -151 -147 -152 -143 -152 -140 -151 -133 -144 -133 -115 -137 -111 -140 -109 -143 -108 -152 -108 -155 -109 -157 -110 -158 -110 -158 -108 -168 -108 -168 -133 -158 -133 -158 -124 -156 -120 -154 -117 -150 -116 -147 -117 -144 -119 -143 -120 -142 -124 -142 -134 -143 -138 -144 -141 -145 -142 -148 -143 -152 -143 -154 -142 -155 -141 -157 -138 -158 -133 -168 -133 -168 -220 -167 -221 -165 -222 -163 -222 -159 -221 F
+P 252 0 0 1 -96 -71 -92 -69 -88 -66 -82 -62 -78 -59 -73 -56 -69 -53 -66 -51 -65 -51 -63 -52 -60 -53 -56 -55 -55 -56 -49 -58 -48 -58 -47 -57 -46 -54 -41 -44 -32 -23 -29 -15 -26 -8 -24 -1 -22 5 -20 9 -19 12 -18 14 -21 17 -23 18 -27 21 -35 29 -40 38 -44 46 -45 56 -45 65 -42 74 -38 82 -32 90 -20 99 -11 102 -2 103 7 103 16 100 25 96 32 90 37 85 42 76 45 67 46 58 45 49 42 40 37 32 31 24 30 23 26 20 23 18 21 17 19 15 19 12 20 9 24 -1 30 -15 33 -23 42 -44 44 -50 46 -54 47 -57 48 -58 48 -59 50 -58 53 -57 57 -55 58 -54 62 -53 64 -51 66 -51 72 -55 82 -61 85 -64 90 -67 94 -70 97 -72 99 -73 103 -71 106 -68 111 -64 116 -58 117 -57 122 -53 126 -48 132 -42 131 -41 130 -38 128 -35 124 -30 121 -25 118 -21 115 -16 112 -12 110 -9 109 -8 110 -6 112 2 120 22 121 25 122 27 123 27 126 28 131 29 143 31 148 32 154 34 159 35 162 35 164 36 164 37 165 40 165 78 164 80 163 80 160 81 156 82 150 83 144 85 139 86 133 87 128 88 124 88 121 91 119 94 117 99 114 105 107 121 120 139 122 143 126 149 129 154 131 157 131 159 130 160 128 163 125 167 116 176 112 179 103 188 99 190 99 189 96 187 92 185 88 182 82 178 78 175 73 172 69 169 66 167 64 166 60 166 57 167 53 169 47 171 31 178 28 194 28 196 27 203 26 209 24 217 23 222 -22 222 -24 217 -24 216 -25 212 -26 207 -27 201 -28 194 -31 178 -46 171 -50 170 -55 168 -59 166 -64 166 -65 167 -68 168 -72 171 -77 174 -82 178 -86 181 -91 184 -95 187 -98 189 -99 190 -100 190 -102 189 -128 163 -130 160 -131 159 -131 158 -130 156 -127 152 -124 146 -119 139 -107 121 -114 105 -114 104 -117 98 -120 93 -121 90 -122 89 -124 88 -127 88 -137 86 -144 85 -149 84 -155 82 -160 81 -163 80 -164 80 -164 75 -165 70 -165 44 -164 40 -164 37 -163 36 -162 36 -159 35 -155 34 -149 33 -143 31 -131 29 -123 27 -122 27 -122 26 -121 24 -119 21 -111 1 -110 -3 -109 -6 -109 -9 -111 -11 -114 -15 -117 -20 -121 -25 -124 -29 -127 -34 -129 -38 -131 -41 -131 -43 -128 -45 -125 -49 -107 -67 -103 -70 -100 -73 -99 -73 -96 -71 F
+ENDDRAW
+ENDDEF
+#
+# MBR150--lmp-diode
+#
+DEF MBR150--lmp-diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MBR150--lmp-diode" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "On Semi" 0 0 50 H I C CNN "Manufacturer"
+F5 "MBR150RLG" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 "863-MBR150RLG" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/ON-Semiconductor/MBR150RLG?qs=3JMERSakebpMUdfDTQP0Kw%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PCB_Delptronics_MCS_4HP--lmp-synth
+#
+DEF PCB_Delptronics_MCS_4HP--lmp-synth H 0 0 N N 1 F N
+F0 "H" 0 490 50 H V C CNN
+F1 "PCB_Delptronics_MCS_4HP--lmp-synth" 0 400 50 H V C CNN
+F2 "-lmp-misc:NoFootprint" 0 0 50 H I C CNN
+F3 "" 0 490 50 H I C CNN
+F4 "Delptronics" 0 0 50 H I C CNN "Manufacturer"
+F5 "Delptronics" 0 0 50 H I C CNN "Distributor"
+F6 "https://delptronics.com/module-construction-set.php" 0 0 50 H I C CNN "DistributorPartLink"
+F7 "synthCube" 0 0 50 H I C CNN "Distributor2"
+F8 "DELPMCSMSTR" 0 0 50 H I C CNN "DistributorPartNum2"
+F9 "https://synthcube.com/cart/delptronics-module-construction-set" 0 0 50 H I C CNN "DistributorPartLink2"
+F10 "Modular Addict" 0 0 50 H I C CNN "Distributor3"
+F11 "https://modularaddict.com/module-construction-set-eurorack-prototype-development-platform-delptronics" 0 0 50 H I C CNN "DistributorPartLink3"
+F12 "PCB & panel kit" 0 310 50 H V C CNN "Note"
+DRAW
+S -300 250 300 -250 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG--lmp-power
+#
+DEF PWR_FLAG--lmp-power #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG--lmp-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# Q_NPN_2N3904--lmp
+#
+DEF Q_NPN_2N3904--lmp Q 0 0 Y N 1 F N
+F0 "Q" 175 75 50 H V L CNN
+F1 "Q_NPN_2N3904--lmp" 175 0 50 H V L CNN
+F2 "-lmp-misc:TO-92_Inline_Wide" 175 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+F4 "Central Semiconductor" 0 0 50 H I C CNN "Manufacturer"
+F5 "2N3904 PBFREE" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 "610-2N3904" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/Central-Semiconductor/2N3904-PBFREE?qs=u16ybLDytRZopNVvg2vJjA%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 15 -30 100 -80 f
+P 2 0 1 0 15 30 100 80 N
+P 3 0 1 0 15 75 15 -75 15 -75 N
+P 4 0 1 0 100 -80 70 -40 50 -70 100 -80 F
+X E 1 100 -150 70 U 50 50 1 1 P
+X B 2 -100 0 115 R 50 50 1 1 P
+X C 3 100 150 70 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R--lmp
+#
+DEF R--lmp R 0 0 N Y 1 F N
+F0 "R" -90 0 50 V V C CNN
+F1 "R--lmp" 95 0 50 V V C CNN
+F2 "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "1%, 1/6 W" 170 0 50 V I C CNN "Value2"
+F5 "YAGEO" 0 0 50 H I C CNN "Manufacturer"
+F6 "MFR-12*" 0 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Mouser" 0 0 50 H I C CNN "Distributor"
+F8 "603-MFR-12*" 0 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.mouser.ca/c/passive-components/resistors/film-resistors/metal-film-resistors-through-hole/?m=YAGEO&power%20rating=166%20mW%20%281%2F6%20W%29&tolerance=1%20%25&instock=y" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K_Output--lmp-synth
+#
+DEF R_1K_Output--lmp-synth R 0 0 N Y 1 F N
+F0 "R" -90 0 50 V V C CNN
+F1 "R_1K_Output--lmp-synth" 95 0 50 V V C CNN
+F2 "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "5%, 1/4 W" 175 0 50 V V C CNN "Value2"
+F5 "Output limiting" -75 -75 50 V I C CNN "Note"
+F6 "Vishay / Dale" 0 0 50 H I C CNN "Manufacturer"
+F7 "CCF071K00JKE36" 0 0 50 H I C CNN "ManufacturerPartNum"
+F8 "Mouser" -75 0 50 V I C CNN "Distributor"
+F9 "71-CCF071K00JKE36" 0 0 50 H I C CNN "DistributorPartNum"
+F10 "https://www.mouser.ca/ProductDetail/Vishay-Dale/CCF071K00JKE36?qs=sGAEpiMZZMsPqMdJzcrNwqw41JD0NFylHV1MADcQnpo%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_POT_Panel_PCB_Alpha--lmp-synth
+#
+DEF R_POT_Panel_PCB_Alpha--lmp-synth RV 0 40 Y N 1 F N
+F0 "RV" -360 0 50 V V C CNN
+F1 "R_POT_Panel_PCB_Alpha--lmp-synth" -285 0 50 V V C CNN
+F2 "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "[LIN/LOG]" -205 0 50 V V C CNN "Value2"
+F5 "[label]" -125 0 50 V V C CNN "Label"
+F6 "Alpha" 0 0 50 H I C CNN "Manufacturer"
+F7 "RD901F-*" 0 0 50 H I C CNN "ManufacturerPartNum"
+F8 "Thonk" 0 0 50 H I C CNN "Distributor"
+F9 "Group_Pot_Alpha_6.35mm" 0 0 50 H I C CNN "DistributorPartNum"
+F10 "https://www.thonk.co.uk/shop/alpha-9mm-pots/" 0 0 50 H I C CNN "DistributorPartLink"
+F11 "Mouser" 0 0 50 H I C CNN "Distributor2"
+F12 "311-1940F-*" 0 0 50 H I C CNN "DistributorPartNum2"
+F13 "https://www.mouser.ca/c/passive-components/potentiometers-trimmers-rheostats/potentiometers/?q=RD901F&orientation=Vertical" 0 0 50 H I C CNN "DistributorPartLink2"
+F14 "SynthCube" 0 0 50 H I C CNN "Distributor3"
+F15 "9MMALPHAPOTMSTR" 0 0 50 H I C CNN "DistributorPartNum3"
+F16 "https://synthcube.com/cart/alpha-9mm-potentiometer-right-angle-pcb-mount-6-35mm-round-shaft" 0 0 50 H I C CNN "DistributorPartLink3"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_POT_TRIM_Panel_SongHuei--lmp-synth
+#
+DEF R_POT_TRIM_Panel_SongHuei--lmp-synth RV 0 40 Y N 1 F N
+F0 "RV" -360 0 50 V V C CNN
+F1 "R_POT_TRIM_Panel_SongHuei--lmp-synth" -285 0 50 V V C CNN
+F2 "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "[LIN/LOG]" -205 0 50 V V C CNN "Value2"
+F5 "[label]" -125 0 50 V V C CNN "Label"
+F6 "Song Huei" 0 0 50 H I C CNN "Manufacturer"
+F7 "R0904N*" 0 0 50 H I C CNN "ManufacturerPartNum"
+F8 "SynthCube" 0 0 50 H I C CNN "Distributor"
+F9 "SH9MMTPOTMSTR" 0 0 50 H I C CNN "DistributorPartNum"
+F10 "https://synthcube.com/cart/9mm-trimmer-pots" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resonator_16MHz--lmp
+#
+DEF Resonator_16MHz--lmp Y 0 40 Y N 1 F N
+F0 "Y" 125 75 50 H V L CNN
+F1 "Resonator_16MHz--lmp" 125 0 50 H V L CNN
+F2 "Crystal:Resonator_muRata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+F4 "Murata" 0 0 50 H I C CNN "Manufacturer"
+F5 "CSTLS16M0X53Z-A0" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 " 81-CSTLS16M0X53Z-A0" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/?qs=x6vGwhDZZUZCi2wdIsDbVA%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
+DRAW
+C -100 0 10 0 1 0 F
+C 0 -150 10 0 1 0 F
+C 100 0 10 0 1 0 F
+S -140 -100 -60 -110 0 1 0 F
+S -140 -70 -60 -80 0 1 0 F
+S -25 75 25 -75 0 1 12 N
+S 60 -100 140 -110 0 1 0 F
+S 60 -70 140 -80 0 1 0 F
+P 2 0 1 0 -100 -70 -100 0 N
+P 2 0 1 0 -100 0 -55 0 N
+P 2 0 1 0 -100 50 -100 0 N
+P 2 0 1 15 -50 -50 -50 50 N
+P 2 0 1 15 50 -50 50 50 N
+P 2 0 1 0 50 0 100 0 N
+P 2 0 1 0 100 0 100 -70 N
+P 2 0 1 0 100 50 100 0 N
+P 4 0 1 0 95 -110 95 -150 -95 -150 -95 -105 N
+X 1 1 -100 100 50 D 50 50 1 1 P
+X 2 2 0 -200 50 U 50 50 1 1 P
+X 3 3 100 100 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_SPDT_ON_OFF_ON--lmp-synth
+#
+DEF SW_SPDT_ON_OFF_ON--lmp-synth SW 0 0 Y N 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "SW_SPDT_ON_OFF_ON--lmp-synth" 0 -200 50 H V C CNN
+F2 "-lmp-misc:SW_SPDT_THT_2.54" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "[label]" 0 0 50 H V C CNN "Label"
+F5 "Mountain Switch" 0 0 50 H I C CNN "Manufacturer"
+F6 "10TC412" 0 0 50 H I C CNN "ManufacturerPartNum"
+F7 "Mouser" 0 0 50 H I C CNN "Distributor"
+F8 "10TC412" 0 0 50 H I C CNN "DistributorPartNum"
+F9 "https://www.mouser.ca/ProductDetail/Mountain-Switch/10TC412?qs=ITV4B%252BNEbTr7VI8tqT4%252BiQ%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+F10 "Thonk" 0 0 50 H I C CNN "Distributor2"
+F11 "SynthCube" 0 0 50 H I C CNN "Distributor3"
+F12 "https://www.thonk.co.uk/shop/sub-mini-toggle-switches/" 0 0 50 H I C CNN "DistributorPartLink2"
+F13 "https://synthcube.com/cart/toggle-switch-submini-pc-pin" 0 0 50 H I C CNN "DistributorPartLink3"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+C 90 0 20 0 1 0 N
+P 2 0 0 0 -60 5 70 40 N
+X 1 1 200 100 100 L 50 50 1 1 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+X 3 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_SPST--lmp-synth
+#
+DEF SW_SPST--lmp-synth SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "SW_SPST--lmp-synth" 0 -100 50 H V C CNN
+F2 "-lmp-misc:SW_SPST_THT_2.54" 10 -170 50 H I C CNN
+F3 "" 10 -170 50 H I C CNN
+F4 "Mountain Switch" 10 -170 50 H I C CNN "Manufacturer"
+F5 "10TC405" 10 -170 50 H I C CNN "ManufacturerPartNum"
+F6 "https://www.mouser.ca/ProductDetail/Mountain-Switch/10TC405?qs=iZD9pWtnGRc4L7BaVXXEAQ%3D%3D" 10 -170 50 H I C CNN "DistributorPartLink"
+F7 "Mouser" 10 -170 50 H I C CNN "Distributor"
+F8 "10TC405" 10 -170 50 H I C CNN "DistributorPartNum"
+F9 "[label]" 0 -175 50 H V C CNN "Label"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TL074--lmp-opamp
+#
+DEF TL074--lmp-opamp U 0 5 Y Y 5 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "TL074--lmp-opamp" 0 -200 50 H V L CNN
+F2 "-lmp-misc:DIP-14_W7.62mm_LongPads" -50 100 50 H I C CNN
+F3 "" 50 200 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
+F5 "TL074BCN" 0 0 50 H I C CNN "ManufacturerPartNum"
+F6 "Mouser" 0 0 50 H I C CNN "Distributor"
+F7 "595-TL074BCN" 0 0 50 H I C CNN "DistributorPartNum"
+F8 "https://www.mouser.ca/ProductDetail/?qs=vxEfx8VrU7BHurOY5iQdiA%3D%3D" 0 0 50 H I C CNN "DistributorPartLink"
+$FPLIST
+ SOIC*3.9x8.7mm*P1.27mm*
+ DIP*W7.62mm*
+ TSSOP*4.4x5mm*P0.65mm*
+ SSOP*5.3x6.2mm*P0.65mm*
+ MSOP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 3 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 4 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X + 10 -300 100 100 R 50 50 3 1 I
+X ~ 8 300 0 100 L 50 50 3 1 O
+X - 9 -300 -100 100 R 50 50 3 1 I
+X + 12 -300 100 100 R 50 50 4 1 I
+X - 13 -300 -100 100 R 50 50 4 1 I
+X ~ 14 300 0 100 L 50 50 4 1 O
+X V- 11 -100 -300 150 U 50 50 5 1 W
+X V+ 4 -100 300 150 D 50 50 5 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

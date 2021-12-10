@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LFO-DigiVC)(type Legacy)(uri ${KIPRJMOD}/LFO-DigiVC.lib)(options "")(descr ""))
+)
