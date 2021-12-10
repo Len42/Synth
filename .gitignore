@@ -2,3 +2,5 @@ fp-info-cache
 *.cmp
 *.net
 *-cache.lib
+*.sch-bak
+*.kicad_pcb-bak
