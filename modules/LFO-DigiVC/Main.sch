@@ -1412,18 +1412,6 @@ Wire Wire Line
 	3600 2000 3500 2000
 Wire Wire Line
 	4300 2700 4300 2800
-$Comp
-L LFO-DigiVC:Logo_OSHW--lmp #G4
-U 1 1 61AE951C
-P 4950 7500
-F 0 "#G4" H 4950 7308 60  0001 C CNN
-F 1 "Logo_OSHW" H 4950 7692 60  0001 C CNN
-F 2 "-lmp-misc:Logo_OSHW" H 4950 7500 50  0001 C CNN
-F 3 "https://www.oshwa.org/definition/" H 4950 7500 50  0001 C CNN
-F 4 "NoPart" H 4950 7500 50  0001 C CNN "NoPart"
-	1    4950 7500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 2400 5100 2400
 Wire Wire Line

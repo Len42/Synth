@@ -878,18 +878,6 @@ F 3 "" H 4150 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LFO-DigiVC:Logo_OSHW--lmp #G3
-U 1 1 61AE6CC6
-P 4950 7500
-F 0 "#G3" H 4950 7308 60  0001 C CNN
-F 1 "Logo_OSHW" H 4950 7692 60  0001 C CNN
-F 2 "-lmp-misc:Logo_OSHW" H 4950 7500 50  0001 C CNN
-F 3 "https://www.oshwa.org/definition/" H 4950 7500 50  0001 C CNN
-F 4 "NoPart" H 4950 7500 50  0001 C CNN "NoPart"
-	1    4950 7500
-	1    0    0    -1  
-$EndComp
-$Comp
 L LFO-DigiVC:GND--lmp-power #PWR0106
 U 1 1 61B25E69
 P 4150 1750
