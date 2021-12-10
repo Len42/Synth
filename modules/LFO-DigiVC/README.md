@@ -3,10 +3,11 @@
 ## 4HP Eurorack Module
 
 ### Features
+- LFO rate from approx. 0.05 Hz (20 seconds) to 200 Hz
+- CV input for LFO rate, with attenuator
 - Three simultaneous waveform outputs, switchable between:
     - triangle, ramp, and square, or
 	- three sine waves, 120° out of phase
-- CV input for LFO rate with attenuator
 
 ### Notes
 
