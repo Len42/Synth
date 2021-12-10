@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeLookupTables", "MakeLookupTables.vcxproj", "{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Debug|x64.ActiveCfg = Debug|x64
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Debug|x64.Build.0 = Debug|x64
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Debug|x86.Build.0 = Debug|Win32
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Release|x64.ActiveCfg = Release|x64
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Release|x64.Build.0 = Release|x64
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Release|x86.ActiveCfg = Release|Win32
+		{37F2EEE5-EE40-4E95-A3B2-DAE9B37DABAF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2650E3EF-CE5B-4AFE-8211-8EA3D09260E0}
+	EndGlobalSection
+EndGlobal
