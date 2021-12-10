@@ -20,7 +20,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 Text Notes 900  700  0    50   ~ 10
 Front Panel
 $Comp
-L Noise-SH-rescue:Logo_CC_BY_SA--lmp #G1
+L Noise-SH:Logo_CC_BY_SA--lmp #G1
 U 1 1 60E205CA
 P 900 7550
 F 0 "#G1" H 900 7487 60  0001 C CNN
@@ -31,7 +31,7 @@ F 3 "https://creativecommons.org/licenses/by-sa/4.0/" H 900 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Conn_Delptronics_Front_Left_4HP--lmp-synth J9
+L Noise-SH:Conn_Delptronics_Front_Left_4HP--lmp-synth J9
 U 1 1 60E205D9
 P 3550 2200
 F 0 "J9" H 3550 3550 50  0000 C CNN
@@ -44,7 +44,7 @@ F 5 "part of Delptronics Module Constrution Set" H 3550 2200 50  0001 C CNN "Not
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Conn_Delptronics_Back_Left_4HP--lmp-synth J10
+L Noise-SH:Conn_Delptronics_Back_Left_4HP--lmp-synth J10
 U 1 1 60CAA39B
 P 4450 2200
 F 0 "J10" H 4400 3550 50  0000 L CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3400 3300 3400
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR05
+L Noise-SH:GND--lmp-power #PWR05
 U 1 1 60CD7485
 P 3300 3450
 F 0 "#PWR05" H 3300 3200 50  0001 C CNN
@@ -117,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4900 1550 4850
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR04
+L Noise-SH:GND--lmp-power #PWR04
 U 1 1 60E49087
 P 1550 4900
 F 0 "#PWR04" H 1550 4650 50  0001 C CNN
@@ -132,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 6100 1550 6050
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR03
+L Noise-SH:GND--lmp-power #PWR03
 U 1 1 60E473D6
 P 1550 6100
 F 0 "#PWR03" H 1550 5850 50  0001 C CNN
@@ -147,7 +147,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5500 1550 5450
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR02
+L Noise-SH:GND--lmp-power #PWR02
 U 1 1 60E458BF
 P 1550 5500
 F 0 "#PWR02" H 1550 5250 50  0001 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4300 1550 4250
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR01
+L Noise-SH:GND--lmp-power #PWR01
 U 1 1 60E205DB
 P 1550 4300
 F 0 "#PWR01" H 1550 4050 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 1550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Jack_WQP-PJ398--lmp-synth J5
+L Noise-SH:Jack_WQP-PJ398--lmp-synth J5
 U 1 1 60E205DF
 P 1300 4150
 AR Path="/60E205DF" Ref="J5"  Part="1" 
@@ -198,7 +198,7 @@ F 15 "4031" H 1300 4150 50  0001 C CNN "DistributorPartNum3"
 	1    0    0    1   
 $EndComp
 $Comp
-L Noise-SH-rescue:Jack_WQP-PJ398--lmp-synth J6
+L Noise-SH:Jack_WQP-PJ398--lmp-synth J6
 U 1 1 60E35493
 P 1300 5350
 AR Path="/60E35493" Ref="J6"  Part="1" 
@@ -223,7 +223,7 @@ F 15 "4031" H 1300 5350 50  0001 C CNN "DistributorPartNum3"
 	1    0    0    1   
 $EndComp
 $Comp
-L Noise-SH-rescue:Jack_WQP-PJ398--lmp-synth J7
+L Noise-SH:Jack_WQP-PJ398--lmp-synth J7
 U 1 1 60E3736C
 P 1300 5950
 AR Path="/60E3736C" Ref="J7"  Part="1" 
@@ -248,7 +248,7 @@ F 15 "4031" H 1300 5950 50  0001 C CNN "DistributorPartNum3"
 	1    0    0    1   
 $EndComp
 $Comp
-L Noise-SH-rescue:Jack_WQP-PJ398--lmp-synth J8
+L Noise-SH:Jack_WQP-PJ398--lmp-synth J8
 U 1 1 60E378DF
 P 1300 4750
 AR Path="/60E378DF" Ref="J8"  Part="1" 
@@ -280,7 +280,7 @@ NoConn ~ 1500 4650
 NoConn ~ 1500 5850
 NoConn ~ 1500 5250
 $Comp
-L Noise-SH-rescue:LED_5mm_Blue--lmp-synth D3
+L Noise-SH:LED_5mm_Blue--lmp-synth D3
 U 1 1 60E9F439
 P 1350 3650
 AR Path="/60E9F439" Ref="D3"  Part="1" 
@@ -301,7 +301,7 @@ $EndComp
 Wire Wire Line
 	1050 1850 1050 2250
 $Comp
-L Noise-SH-rescue:R_POT_Panel_PCB_Alpha--lmp-synth RV7
+L Noise-SH:R_POT_Panel_PCB_Alpha--lmp-synth RV7
 U 1 1 60E2D734
 P 1350 2650
 F 0 "RV7" H 1280 2513 50  0000 R CNN
@@ -328,7 +328,7 @@ $EndComp
 Wire Wire Line
 	1350 2800 1350 2850
 $Comp
-L Noise-SH-rescue:SW_SPST--lmp-synth SW6
+L Noise-SH:SW_SPST--lmp-synth SW6
 U 1 1 60F35C8E
 P 1300 2250
 F 0 "SW6" H 1300 2575 50  0000 C CNN
@@ -355,7 +355,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 1650 1100 1650
 $Comp
-L Noise-SH-rescue:SW_SPDT_ON_ON--lmp-synth SW5
+L Noise-SH:SW_SPDT_ON_ON--lmp-synth SW5
 U 1 1 60E2ECA7
 P 1300 1550
 AR Path="/60E2ECA7" Ref="SW5"  Part="1" 
@@ -388,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	950  1750 1650 1750
 $Comp
-L Noise-SH-rescue:R_POT_Panel_PCB_Alpha--lmp-synth RV8
+L Noise-SH:R_POT_Panel_PCB_Alpha--lmp-synth RV8
 U 1 1 61183B05
 P 1350 3150
 F 0 "RV8" H 1281 3013 50  0000 R CNN
@@ -440,7 +440,7 @@ OUT-NOISE-WHITE
 Text GLabel 4950 1100 2    50   Input ~ 0
 OUT-NOISE-PINK
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR06
+L Noise-SH:GND--lmp-power #PWR06
 U 1 1 60E205DD
 P 4700 3450
 F 0 "#PWR06" H 4700 3200 50  0001 C CNN
@@ -494,7 +494,7 @@ Connection ~ 9250 1100
 Wire Wire Line
 	9250 1100 9550 1100
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG0102
+L Noise-SH:PWR_FLAG--lmp-power #FLG0102
 U 1 1 60E47861
 P 9550 1700
 F 0 "#FLG0102" H 9550 1775 50  0001 C CNN
@@ -505,7 +505,7 @@ F 3 "~" H 9550 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG0101
+L Noise-SH:PWR_FLAG--lmp-power #FLG0101
 U 1 1 60E46A75
 P 9550 1100
 F 0 "#FLG0101" H 9550 1175 50  0001 C CNN
@@ -532,7 +532,7 @@ Connection ~ 7150 3100
 Wire Wire Line
 	6450 3100 7150 3100
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR011
+L Noise-SH:GND--lmp-power #PWR011
 U 1 1 60E6B187
 P 7800 3150
 F 0 "#PWR011" H 7800 2900 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 7800 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:TL072--lmp-opamp U2
+L Noise-SH:TL072--lmp-opamp U2
 U 3 1 60E82BE4
 P 8200 3100
 F 0 "U2" H 8158 3146 50  0000 L CNN
@@ -565,7 +565,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CC_100N--lmp C6
+L Noise-SH:CC_100N--lmp C6
 U 1 1 60EA094A
 P 8500 2950
 F 0 "C6" H 8615 2996 50  0000 L CNN
@@ -582,7 +582,7 @@ F 9 "IC decoupling" H 8500 2950 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CC_100N--lmp C7
+L Noise-SH:CC_100N--lmp C7
 U 1 1 60EA0950
 P 8500 3250
 F 0 "C7" H 8615 3296 50  0000 L CNN
@@ -599,7 +599,7 @@ F 9 "IC decoupling" H 8500 3250 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CC_100N--lmp C5
+L Noise-SH:CC_100N--lmp C5
 U 1 1 60E8BD91
 P 7150 3250
 F 0 "C5" H 7265 3296 50  0000 L CNN
@@ -616,7 +616,7 @@ F 9 "IC decoupling" H 7150 3250 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CC_100N--lmp C4
+L Noise-SH:CC_100N--lmp C4
 U 1 1 60E8B4DE
 P 7150 2950
 F 0 "C4" H 7265 2996 50  0000 L CNN
@@ -633,7 +633,7 @@ F 9 "IC decoupling" H 7150 2950 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:TL074--lmp-opamp U4
+L Noise-SH:TL074--lmp-opamp U4
 U 5 1 60E8AF46
 P 6850 3100
 F 0 "U4" H 6808 3146 50  0000 L CNN
@@ -655,7 +655,7 @@ F 3 "" H 9250 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:-12V--lmp-power #PWR09
+L Noise-SH:-12V--lmp-power #PWR09
 U 1 1 60E5D3C2
 P 6450 3500
 F 0 "#PWR09" H 6450 3650 50  0001 C CNN
@@ -666,7 +666,7 @@ F 3 "" H 6450 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR08
+L Noise-SH:GND--lmp-power #PWR08
 U 1 1 60E5D3BA
 P 6450 3150
 F 0 "#PWR08" H 6450 2900 50  0001 C CNN
@@ -677,7 +677,7 @@ F 3 "" H 6450 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR07
+L Noise-SH:+12V--lmp-power #PWR07
 U 1 1 60E5D3B4
 P 6450 2700
 F 0 "#PWR07" H 6450 2550 50  0001 C CNN
@@ -694,7 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 1100 9250 1000
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG04
+L Noise-SH:PWR_FLAG--lmp-power #FLG04
 U 1 1 60C8985D
 P 7650 1100
 F 0 "#FLG04" H 7650 1175 50  0001 C CNN
@@ -718,7 +718,7 @@ Connection ~ 7950 1700
 Wire Wire Line
 	7950 1700 8100 1700
 $Comp
-L Noise-SH-rescue:CP_10U--lmp-synth C11
+L Noise-SH:CP_10U--lmp-synth C11
 U 1 1 60E3F037
 P 8550 1550
 F 0 "C11" H 8668 1596 50  0000 L CNN
@@ -736,7 +736,7 @@ F 10 "25 VDC" H 8550 1550 50  0001 C CNN "Value2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CP_10U--lmp-synth C10
+L Noise-SH:CP_10U--lmp-synth C10
 U 1 1 60E3E7EC
 P 8550 1250
 F 0 "C10" H 8668 1296 50  0000 L CNN
@@ -754,7 +754,7 @@ F 10 "25 VDC" H 8550 1250 50  0001 C CNN "Value2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R2
+L Noise-SH:R--lmp R2
 U 1 1 60E3E434
 P 8250 1700
 F 0 "R2" V 8043 1700 50  0000 C CNN
@@ -770,7 +770,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-25FTF52-10R?qs=sGAEpiMZZMsPqM
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R1
+L Noise-SH:R--lmp R1
 U 1 1 60E3DDAE
 P 8250 1100
 F 0 "R1" V 8043 1100 50  0000 C CNN
@@ -799,7 +799,7 @@ $EndComp
 Text Notes 5950 700  0    50   ~ 10
 Power
 $Comp
-L Noise-SH-rescue:-12V--lmp-power #PWR015
+L Noise-SH:-12V--lmp-power #PWR015
 U 1 1 60C864E4
 P 7950 1800
 F 0 "#PWR015" H 7950 1950 50  0001 C CNN
@@ -821,7 +821,7 @@ Wire Wire Line
 Connection ~ 6450 1300
 Connection ~ 6950 1400
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG01
+L Noise-SH:PWR_FLAG--lmp-power #FLG01
 U 1 1 60E205CC
 P 6450 1100
 F 0 "#FLG01" H 6450 1175 50  0001 C CNN
@@ -832,7 +832,7 @@ F 3 "~" H 6450 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG02
+L Noise-SH:PWR_FLAG--lmp-power #FLG02
 U 1 1 60E205CD
 P 6450 1300
 F 0 "#FLG02" H 6450 1375 50  0001 C CNN
@@ -843,7 +843,7 @@ F 3 "~" H 6450 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG03
+L Noise-SH:PWR_FLAG--lmp-power #FLG03
 U 1 1 60E205CE
 P 6450 1500
 F 0 "#FLG03" H 6450 1575 50  0001 C CNN
@@ -858,7 +858,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1700 7050 1700
 $Comp
-L Noise-SH-rescue:MBR150--lmp-diode D1
+L Noise-SH:MBR150--lmp-diode D1
 U 1 1 60E205CF
 P 7200 1700
 F 0 "D1" H 7200 1917 50  0000 C CNN
@@ -874,7 +874,7 @@ F 8 "https://www.mouser.ca/ProductDetail/ON-Semiconductor/MBR150RLG?qs=3JMERSake
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:MBR150--lmp-diode D2
+L Noise-SH:MBR150--lmp-diode D2
 U 1 1 60E205D0
 P 7200 1100
 F 0 "D2" H 7200 1317 50  0000 C CNN
@@ -890,7 +890,7 @@ F 8 "https://www.mouser.ca/ProductDetail/ON-Semiconductor/MBR150RLG?qs=3JMERSake
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CP_10U--lmp-synth C2
+L Noise-SH:CP_10U--lmp-synth C2
 U 1 1 60E205D1
 P 7500 1250
 F 0 "C2" H 7618 1296 50  0000 L CNN
@@ -908,7 +908,7 @@ F 10 "25 VDC" H 7500 1250 50  0001 C CNN "Value2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CP_10U--lmp-synth C1
+L Noise-SH:CP_10U--lmp-synth C1
 U 1 1 60E205D2
 P 7500 1550
 F 0 "C1" H 7618 1596 50  0000 L CNN
@@ -926,7 +926,7 @@ F 10 "25 VDC" H 7500 1550 50  0001 C CNN "Value2"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR014
+L Noise-SH:GND--lmp-power #PWR014
 U 1 1 60C80BF1
 P 7950 1450
 F 0 "#PWR014" H 7950 1200 50  0001 C CNN
@@ -946,7 +946,7 @@ Wire Wire Line
 	7350 1700 7500 1700
 Connection ~ 7500 1700
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR013
+L Noise-SH:+12V--lmp-power #PWR013
 U 1 1 60E205D4
 P 7950 1000
 F 0 "#PWR013" H 7950 850 50  0001 C CNN
@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1800 7950 1700
 $Comp
-L Noise-SH-rescue:PWR_FLAG--lmp-power #FLG05
+L Noise-SH:PWR_FLAG--lmp-power #FLG05
 U 1 1 60C89F71
 P 7650 1700
 F 0 "#FLG05" H 7650 1775 50  0001 C CNN
@@ -1087,7 +1087,7 @@ Connection ~ 6750 2800
 Wire Wire Line
 	6750 2800 7150 2800
 $Comp
-L Noise-SH-rescue:CC_100N--lmp C3
+L Noise-SH:CC_100N--lmp C3
 U 1 1 6126B150
 P 9000 1400
 F 0 "C3" H 9115 1446 50  0000 L CNN
@@ -1142,7 +1142,7 @@ Connection ~ 4850 3000
 Text Notes 3250 4150 0    50   ~ 0
 IN-SAMPLE is normalled from OUT-NOISE.
 $Comp
-L Noise-SH-rescue:PCB_Delptronics_MCS_4HP--lmp-synth H1
+L Noise-SH:PCB_Delptronics_MCS_4HP--lmp-synth H1
 U 1 1 61B16299
 P 7300 5200
 F 0 "H1" H 7628 5291 50  0000 L CNN
@@ -1180,7 +1180,7 @@ Connection ~ 6450 1500
 Wire Wire Line
 	6950 1100 6450 1100
 $Comp
-L Noise-SH-rescue:Conn_Delptronics_Pwr_Hdr_10--lmp-synth J11
+L Noise-SH:Conn_Delptronics_Pwr_Hdr_10--lmp-synth J11
 U 1 1 60E205CB
 P 6650 1300
 F 0 "J11" H 6700 1725 50  0000 C CNN

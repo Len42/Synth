@@ -26,7 +26,7 @@ F0 "Main" 50
 F1 "Main.sch" 50
 $EndSheet
 $Comp
-L Noise-SH-rescue:Logo_CC_BY_SA--lmp #G2
+L Noise-SH:Logo_CC_BY_SA--lmp #G2
 U 1 1 60C31EA4
 P 900 7550
 F 0 "#G2" H 900 7487 60  0001 C CNN

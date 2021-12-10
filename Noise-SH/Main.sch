@@ -18,7 +18,7 @@ All fixed resistors are 1% tolerance unless otherwise specified.\nAll electrolyt
 Text Notes 1250 7650 0    50   ~ 0
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 $Comp
-L Noise-SH-rescue:Logo_CC_BY_SA--lmp #G?
+L Noise-SH:Logo_CC_BY_SA--lmp #G?
 U 1 1 60E26811
 P 900 7550
 AR Path="/60E26811" Ref="#G?"  Part="1" 
@@ -32,7 +32,7 @@ F 3 "https://creativecommons.org/licenses/by-sa/4.0/" H 900 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Q_NPN_2N3904--lmp Q1
+L Noise-SH:Q_NPN_2N3904--lmp Q1
 U 1 1 60DF7CC7
 P 1200 2250
 AR Path="/60DF7CC7" Ref="Q1"  Part="1" 
@@ -52,7 +52,7 @@ F 8 "https://www.mouser.ca/ProductDetail/Central-Semiconductor/2N3904-PBFREE?qs=
 $EndComp
 NoConn ~ 1300 2400
 $Comp
-L Noise-SH-rescue:R--lmp R3
+L Noise-SH:R--lmp R3
 U 1 1 60DF9207
 P 1300 1850
 F 0 "R3" H 1370 1896 50  0000 L CNN
@@ -68,7 +68,7 @@ F 8 "https://www.mouser.ca/ProductDetail/?qs=iCzJi%2FIZBF5PYwecy8ih6Q%3D%3D" H 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR019
+L Noise-SH:GND--lmp-power #PWR019
 U 1 1 60DF93A1
 P 1000 2350
 F 0 "#PWR019" H 1000 2100 50  0001 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 1000 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Q_NPN_2N3904--lmp Q2
+L Noise-SH:Q_NPN_2N3904--lmp Q2
 U 1 1 60DF992C
 P 2450 2050
 AR Path="/60DF992C" Ref="Q2"  Part="1" 
@@ -98,7 +98,7 @@ F 8 "https://www.mouser.ca/ProductDetail/Central-Semiconductor/2N3904-PBFREE?qs=
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R6
+L Noise-SH:R--lmp R6
 U 1 1 60DFA3B1
 P 2250 1800
 F 0 "R6" V 2043 1800 50  0000 C CNN
@@ -114,7 +114,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-1M?qs=sGAEpiMZZMsPqMd
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R7
+L Noise-SH:R--lmp R7
 U 1 1 60DFAA17
 P 2550 1450
 F 0 "R7" H 2620 1496 50  0000 L CNN
@@ -130,7 +130,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-4K7?qs=sGAEpiMZZMsPqM
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR023
+L Noise-SH:GND--lmp-power #PWR023
 U 1 1 60DFB070
 P 2550 2350
 F 0 "#PWR023" H 2550 2100 50  0001 C CNN
@@ -141,7 +141,7 @@ F 3 "" H 2550 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:C--lmp C14
+L Noise-SH:C--lmp C14
 U 1 1 60DFC321
 P 2950 1700
 F 0 "C14" V 2698 1700 50  0000 C CNN
@@ -193,7 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1700 3150 1700
 $Comp
-L Noise-SH-rescue:R--lmp R10
+L Noise-SH:R--lmp R10
 U 1 1 60E01E2B
 P 3300 1700
 F 0 "R10" V 3093 1700 50  0000 C CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 1400 3700 1400
 $Comp
-L Noise-SH-rescue:R--lmp R14
+L Noise-SH:R--lmp R14
 U 1 1 60E0193D
 P 3850 1400
 F 0 "R14" V 3643 1400 50  0000 C CNN
@@ -242,7 +242,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=sGAEpiMZZMsPq
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:TL072--lmp-opamp U2
+L Noise-SH:TL072--lmp-opamp U2
 U 1 1 60DFED15
 P 3850 1800
 F 0 "U2" H 3850 2000 50  0000 C CNN
@@ -261,7 +261,7 @@ Wire Wire Line
 	3500 1700 3450 1700
 Connection ~ 3500 1700
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR026
+L Noise-SH:GND--lmp-power #PWR026
 U 1 1 60E0B43D
 P 3450 2000
 F 0 "#PWR026" H 3450 1750 50  0001 C CNN
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 3300 4700 3200
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR028
+L Noise-SH:GND--lmp-power #PWR028
 U 1 1 60E0CBE5
 P 4700 3300
 F 0 "#PWR028" H 4700 3050 50  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 4700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:TL072--lmp-opamp U2
+L Noise-SH:TL072--lmp-opamp U2
 U 2 1 60E0480A
 P 5100 3100
 F 0 "U2" H 5100 3300 50  0000 C CNN
@@ -341,7 +341,7 @@ F 8 "https://www.mouser.ca/ProductDetail/Texas-Instruments/TL072BCP?qs=p6YqzpSxL
 	1    0    0    1   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R17
+L Noise-SH:R--lmp R17
 U 1 1 60E07524
 P 5100 2700
 F 0 "R17" V 4893 2700 50  0000 C CNN
@@ -357,7 +357,7 @@ F 8 "https://www.mouser.ca/ProductDetail/?qs=19cKSROHwrBLAZVjkXsohw%3D%3D" H 510
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R16
+L Noise-SH:R--lmp R16
 U 1 1 60E07A77
 P 4550 3000
 F 0 "R16" V 4343 3000 50  0000 C CNN
@@ -415,7 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5750 4650 5600
 $Comp
-L Noise-SH-rescue:Q_JFET_N_SDG--lmp Q3
+L Noise-SH:Q_JFET_N_SDG--lmp Q3
 U 1 1 60E5783E
 P 4650 5900
 AR Path="/60E5783E" Ref="Q3"  Part="1" 
@@ -434,7 +434,7 @@ F 8 "https://www.mouser.ca/ProductDetail/InterFET/J309?qs=%2Fha2pyFadug%252BRXW7
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:1N4148--lmp-diode D5
+L Noise-SH:1N4148--lmp-diode D5
 U 1 1 60E56A53
 P 4300 5300
 F 0 "D5" V 4254 5220 50  0000 R CNN
@@ -450,7 +450,7 @@ F 8 "https://www.mouser.ca/ProductDetail/?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" H 430
 	0    -1   1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R15
+L Noise-SH:R--lmp R15
 U 1 1 60E58EE7
 P 4300 5800
 F 0 "R15" H 4370 5846 50  0000 L CNN
@@ -479,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5900 5900 5900
 $Comp
-L Noise-SH-rescue:TL074--lmp-opamp U4
+L Noise-SH:TL074--lmp-opamp U4
 U 4 1 60E7F3C7
 P 5550 5900
 F 0 "U4" H 5550 6100 50  0000 C CNN
@@ -496,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6400 4950 6350
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR029
+L Noise-SH:GND--lmp-power #PWR029
 U 1 1 60E73600
 P 4950 6400
 F 0 "#PWR029" H 4950 6150 50  0001 C CNN
@@ -507,7 +507,7 @@ F 3 "" H 4950 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CF--lmp C15
+L Noise-SH:CF--lmp C15
 U 1 1 60E73265
 P 4950 6200
 F 0 "C15" H 5065 6291 50  0000 L CNN
@@ -540,7 +540,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6000 4100 6000
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR027
+L Noise-SH:GND--lmp-power #PWR027
 U 1 1 60E2A3EE
 P 2500 6500
 F 0 "#PWR027" H 2500 6250 50  0001 C CNN
@@ -551,7 +551,7 @@ F 3 "" H 2500 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R13
+L Noise-SH:R--lmp R13
 U 1 1 60E2A102
 P 2500 6300
 F 0 "R13" H 2570 6346 50  0000 L CNN
@@ -569,7 +569,7 @@ $EndComp
 Text GLabel 2400 6100 0    50   Input ~ 0
 IN-SAMPLE
 $Comp
-L Noise-SH-rescue:TL074--lmp-opamp U4
+L Noise-SH:TL074--lmp-opamp U4
 U 3 1 60E28B22
 P 3750 6000
 F 0 "U4" H 3750 6200 50  0000 C CNN
@@ -584,7 +584,7 @@ Sample & Hold
 Wire Wire Line
 	4100 4950 4300 4950
 $Comp
-L Noise-SH-rescue:TL074--lmp-opamp U4
+L Noise-SH:TL074--lmp-opamp U4
 U 1 1 60E26EBE
 P 3800 4950
 F 0 "U4" H 3800 4583 50  0000 C CNN
@@ -625,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5550 2700 5500
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR024
+L Noise-SH:GND--lmp-power #PWR024
 U 1 1 60EE7A6D
 P 2700 5550
 F 0 "#PWR024" H 2700 5300 50  0001 C CNN
@@ -651,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 4450 3350 4500
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR025
+L Noise-SH:+12V--lmp-power #PWR025
 U 1 1 60ED84BB
 P 3350 4450
 F 0 "#PWR025" H 3350 4300 50  0001 C CNN
@@ -664,7 +664,7 @@ $EndComp
 Text Label 4300 4950 0    50   ~ 0
 TRIGGER
 $Comp
-L Noise-SH-rescue:R--lmp R11
+L Noise-SH:R--lmp R11
 U 1 1 60EBA283
 P 3350 4650
 F 0 "R11" H 3420 4696 50  0000 L CNN
@@ -682,7 +682,7 @@ $EndComp
 Text Notes 950  4250 0    50   ~ 0
 after Mutable Instruments
 $Comp
-L Noise-SH-rescue:R--lmp R8
+L Noise-SH:R--lmp R8
 U 1 1 60EC7CCC
 P 2700 5050
 F 0 "R8" V 2493 5050 50  0000 C CNN
@@ -698,7 +698,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-11K?qs=sGAEpiMZZMsPqM
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R9
+L Noise-SH:R--lmp R9
 U 1 1 60EB91DF
 P 2950 5300
 F 0 "R9" H 3020 5346 50  0000 L CNN
@@ -714,7 +714,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=sGAEpiMZZMsPq
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:1N4148--lmp-diode D4
+L Noise-SH:1N4148--lmp-diode D4
 U 1 1 60EBAE0D
 P 2450 5300
 F 0 "D4" V 2404 5380 50  0000 L CNN
@@ -730,7 +730,7 @@ F 8 "https://www.mouser.ca/ProductDetail/?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" H 245
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R5
+L Noise-SH:R--lmp R5
 U 1 1 60EB8C41
 P 1950 5300
 F 0 "R5" H 2020 5346 50  0000 L CNN
@@ -750,7 +750,7 @@ INOUT-TRIG
 Text Notes 1925 6000 0    50   ~ 0
 IN-SAMPLE from internal \nnoise source or external signal
 $Comp
-L Noise-SH-rescue:C--lmp C12
+L Noise-SH:C--lmp C12
 U 1 1 610F1564
 P 1800 2050
 F 0 "C12" V 1458 2050 50  0000 C CNN
@@ -771,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2050 1650 2050
 $Comp
-L Noise-SH-rescue:C--lmp C13
+L Noise-SH:C--lmp C13
 U 1 1 60EC75FB
 P 2200 5050
 F 0 "C13" V 1948 5050 50  0000 C CNN
@@ -804,7 +804,7 @@ Wire Wire Line
 	4900 4950 4300 4950
 Connection ~ 4300 4950
 $Comp
-L Noise-SH-rescue:CF--lmp C16
+L Noise-SH:CF--lmp C16
 U 1 1 6123E3FA
 P 5100 2300
 F 0 "C16" V 4848 2300 50  0000 C CNN
@@ -824,7 +824,7 @@ OUT-CLOCK-TRIG
 Text Notes 9800 2650 0    50   ~ 0
 0-8V pulse wave
 $Comp
-L Noise-SH-rescue:R--lmp R23
+L Noise-SH:R--lmp R23
 U 1 1 612FDCC7
 P 9150 1950
 F 0 "R23" V 8943 1950 50  0000 C CNN
@@ -841,7 +841,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:Q_PNP_2N3906--lmp Q5
+L Noise-SH:Q_PNP_2N3906--lmp Q5
 U 1 1 612FE85F
 P 9450 1950
 F 0 "Q5" H 9638 1996 50  0000 L CNN
@@ -859,7 +859,7 @@ $EndComp
 Wire Wire Line
 	9350 1950 9300 1950
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR037
+L Noise-SH:+12V--lmp-power #PWR037
 U 1 1 61308D97
 P 9550 1700
 F 0 "#PWR037" H 9550 1550 50  0001 C CNN
@@ -870,7 +870,7 @@ F 3 "" H 9550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R24
+L Noise-SH:R--lmp R24
 U 1 1 6130E6AD
 P 9550 2300
 F 0 "R24" H 9620 2346 50  0000 L CNN
@@ -887,7 +887,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R25
+L Noise-SH:R--lmp R25
 U 1 1 6130E938
 P 9550 2700
 F 0 "R25" H 9620 2746 50  0000 L CNN
@@ -904,7 +904,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR038
+L Noise-SH:GND--lmp-power #PWR038
 U 1 1 6130F19C
 P 9550 2900
 F 0 "#PWR038" H 9550 2650 50  0001 C CNN
@@ -928,7 +928,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 1700 9550 1800
 $Comp
-L Noise-SH-rescue:R--lmp R27
+L Noise-SH:R--lmp R27
 U 1 1 61354A88
 P 4850 1300
 F 0 "R27" V 4643 1300 50  0000 C CNN
@@ -945,7 +945,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:CF--lmp C17
+L Noise-SH:CF--lmp C17
 U 1 1 6135646F
 P 5100 1450
 F 0 "C17" H 5215 1496 50  0000 L CNN
@@ -961,7 +961,7 @@ F 8 "https://www.mouser.ca/ProductDetail/80-MMK5102J100J1TA18" H 5100 1450 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR018
+L Noise-SH:GND--lmp-power #PWR018
 U 1 1 6135D811
 P 5100 1600
 F 0 "#PWR018" H 5100 1350 50  0001 C CNN
@@ -978,7 +978,7 @@ Wire Wire Line
 	2500 6100 3450 6100
 Connection ~ 2500 6100
 $Comp
-L Noise-SH-rescue:R--lmp R12
+L Noise-SH:R--lmp R12
 U 1 1 60EB97BA
 P 3350 5300
 F 0 "R12" H 3420 5346 50  0000 L CNN
@@ -1008,7 +1008,7 @@ Wire Wire Line
 Text GLabel 6500 6050 0    50   UnSpc ~ 0
 RV-SLEW-2
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR035
+L Noise-SH:GND--lmp-power #PWR035
 U 1 1 61056D64
 P 6700 6450
 F 0 "#PWR035" H 6700 6200 50  0001 C CNN
@@ -1041,7 +1041,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 5950 7650 5950
 $Comp
-L Noise-SH-rescue:TL074--lmp-opamp U4
+L Noise-SH:TL074--lmp-opamp U4
 U 2 1 61057EAC
 P 7300 5950
 F 0 "U4" H 7300 6200 50  0000 C CNN
@@ -1061,7 +1061,7 @@ Wire Wire Line
 Text GLabel 8100 5950 2    50   Output ~ 0
 OUT-HOLD
 $Comp
-L Noise-SH-rescue:R_1K_Output--lmp-synth R18
+L Noise-SH:R_1K_Output--lmp-synth R18
 U 1 1 60E92019
 P 7900 5950
 F 0 "R18" V 7603 5950 50  0000 C CNN
@@ -1079,7 +1079,7 @@ F 10 "5%, 1/4 W" V 7785 5950 50  0000 C CNN "Value2"
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:C--lmp C18
+L Noise-SH:C--lmp C18
 U 1 1 61263914
 P 6700 6250
 F 0 "C18" H 6585 6204 50  0000 R CNN
@@ -1099,7 +1099,7 @@ Pot on front panel
 Text GLabel 6000 5900 2    50   UnSpc ~ 0
 RV-SLEW-1
 $Comp
-L Noise-SH-rescue:CP--lmp C9
+L Noise-SH:CP--lmp C9
 U 1 1 614E541E
 P 7550 5050
 F 0 "C9" H 7668 5096 50  0000 L CNN
@@ -1119,7 +1119,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4250 4900 4250
 $Comp
-L Noise-SH-rescue:R--lmp R4
+L Noise-SH:R--lmp R4
 U 1 1 614D2C8E
 P 5450 4250
 F 0 "R4" V 5243 4250 50  0000 C CNN
@@ -1145,7 +1145,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4400 5850 4450
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR030
+L Noise-SH:GND--lmp-power #PWR030
 U 1 1 614BCF86
 P 5850 4850
 F 0 "#PWR030" H 5850 4600 50  0001 C CNN
@@ -1156,7 +1156,7 @@ F 3 "" H 5850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:R--lmp R19
+L Noise-SH:R--lmp R19
 U 1 1 614B66C0
 P 5850 4650
 F 0 "R19" H 5920 4696 50  0000 L CNN
@@ -1173,7 +1173,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:Q_PNP_2N3906--lmp Q4
+L Noise-SH:Q_PNP_2N3906--lmp Q4
 U 1 1 614B66AE
 P 5750 4250
 F 0 "Q4" H 5938 4296 50  0000 L CNN
@@ -1195,7 +1195,7 @@ Connection ~ 6950 5250
 Wire Wire Line
 	6950 5250 6950 5050
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR036
+L Noise-SH:GND--lmp-power #PWR036
 U 1 1 613A2A8C
 P 8800 4700
 F 0 "#PWR036" H 8800 4450 50  0001 C CNN
@@ -1212,7 +1212,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4450 7850 4450
 $Comp
-L Noise-SH-rescue:R_1K_Output--lmp-synth R22
+L Noise-SH:R_1K_Output--lmp-synth R22
 U 1 1 6138E588
 P 8000 4450
 F 0 "R22" V 7703 4450 50  0000 C CNN
@@ -1230,7 +1230,7 @@ F 10 "https://www.mouser.ca/ProductDetail/Vishay-Dale/CCF071K00JKE36?qs=sGAEpiMZ
 	0    1    1    0   
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR032
+L Noise-SH:GND--lmp-power #PWR032
 U 1 1 6138DE02
 P 6950 5300
 F 0 "#PWR032" H 6950 5050 50  0001 C CNN
@@ -1252,7 +1252,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4850 7550 4850
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR033
+L Noise-SH:+12V--lmp-power #PWR033
 U 1 1 6136E3AA
 P 7550 3950
 F 0 "#PWR033" H 7550 3800 50  0001 C CNN
@@ -1284,7 +1284,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3950 7550 4000
 $Comp
-L Noise-SH-rescue:R--lmp R21
+L Noise-SH:R--lmp R21
 U 1 1 6133A920
 P 7550 4200
 F 0 "R21" H 7620 4246 50  0000 L CNN
@@ -1301,7 +1301,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:ICM7556--lmp-IC-misc U3
+L Noise-SH:ICM7556--lmp-IC-misc U3
 U 2 1 61338AB1
 P 6950 4650
 F 0 "U3" H 7050 5150 50  0000 L CNN
@@ -1325,7 +1325,7 @@ LED on front panel
 Wire Wire Line
 	4900 4250 4900 4950
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR021
+L Noise-SH:+12V--lmp-power #PWR021
 U 1 1 614B66B4
 P 5850 4050
 F 0 "#PWR021" H 5850 3900 50  0001 C CNN
@@ -1352,7 +1352,7 @@ Switch on front panel \nselects white or pink noise.
 Text GLabel 5900 2000 0    50   Input ~ 0
 NOISE-SELECT
 $Comp
-L Noise-SH-rescue:R_1K_Output--lmp-synth R28
+L Noise-SH:R_1K_Output--lmp-synth R28
 U 1 1 611BF4AE
 P 6100 2000
 F 0 "R28" V 5803 2000 50  0000 C CNN
@@ -1404,7 +1404,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1450 7050 1450
 $Comp
-L Noise-SH-rescue:R--lmp R26
+L Noise-SH:R--lmp R26
 U 1 1 612E9712
 P 7200 1450
 F 0 "R26" V 6993 1450 50  0000 C CNN
@@ -1450,7 +1450,7 @@ Wire Wire Line
 	8800 2350 8850 2350
 NoConn ~ 7800 2150
 $Comp
-L Noise-SH-rescue:ICM7556--lmp-IC-misc U3
+L Noise-SH:ICM7556--lmp-IC-misc U3
 U 1 1 6125557B
 P 8300 2150
 F 0 "U3" H 8400 2650 50  0000 L CNN
@@ -1466,7 +1466,7 @@ F 8 "https://www.mouser.ca/ProductDetail/Renesas-Intersil/ICM7556IPDZ?qs=9fLuogz
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:+12V--lmp-power #PWR034
+L Noise-SH:+12V--lmp-power #PWR034
 U 1 1 6125602B
 P 8300 1250
 F 0 "#PWR034" H 8300 1100 50  0001 C CNN
@@ -1483,7 +1483,7 @@ RV-CLOCK-FREQ-1
 Text GLabel 7450 1450 2    50   UnSpc ~ 0
 RV-CLOCK-FREQ-2
 $Comp
-L Noise-SH-rescue:R--lmp R20
+L Noise-SH:R--lmp R20
 U 1 1 612717B3
 P 7000 1750
 F 0 "R20" H 7070 1796 50  0000 L CNN
@@ -1500,7 +1500,7 @@ F 9 "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:CP--lmp C8
+L Noise-SH:CP--lmp C8
 U 1 1 6126BA4F
 P 7000 2800
 F 0 "C8" H 7118 2846 50  0000 L CNN
@@ -1516,7 +1516,7 @@ F 8 "https://www.mouser.ca/ProductDetail/232-50YXJ1M5X11" H 7000 2800 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Noise-SH-rescue:GND--lmp-power #PWR031
+L Noise-SH:GND--lmp-power #PWR031
 U 1 1 6125DB08
 P 7000 3050
 F 0 "#PWR031" H 7000 2800 50  0001 C CNN
