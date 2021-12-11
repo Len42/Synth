@@ -4,3 +4,8 @@ fp-info-cache
 *-cache.lib
 *.sch-bak
 *.kicad_pcb-bak
+.vs/
+Debug/
+Release/
+x64/
+*.user
