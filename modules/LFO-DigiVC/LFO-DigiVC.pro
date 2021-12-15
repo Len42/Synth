@@ -1,4 +1,4 @@
-update=2021-12-10 16:01:40
+update=2021-12-14 19:53:15
 version=1
 last_client=kicad
 [general]
@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=../../common/kicad-page-layouts/cc-by.kicad_wks
 PlotDirectoryName=output/
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=../../common/kicad-page-layouts/cc-by.kicad_wks
 LastNetListRead=
 CopperLayerCount=6
 BoardThickness=1.6
@@ -68,7 +68,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

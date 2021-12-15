@@ -13,23 +13,10 @@ Comment2 "4HP module designed for Delptronics Module Construction Set"
 Comment3 "Eurorack module with noise generation and sample-and-hold"
 Comment4 "COMPLETED"
 $EndDescr
-Text Notes 650  7200 0    50   ~ 0
+Text Notes 6800 6150 0    50   ~ 0
 All fixed resistors are 1% tolerance unless otherwise specified.\nAll electrolytic capacitors are rated for 25VDC unless otherwise specified.
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 Text Notes 900  700  0    50   ~ 10
 Front Panel
-$Comp
-L Noise-SH:Logo_CC_BY_SA--lmp #G1
-U 1 1 60E205CA
-P 900 7550
-F 0 "#G1" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY_SA" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY_SA" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by-sa/4.0/" H 900 7550 50  0001 C CNN
-	1    900  7550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Noise-SH:Conn_Delptronics_Front_Left_4HP--lmp-synth J9
 U 1 1 60E205D9
@@ -1144,21 +1131,21 @@ IN-SAMPLE is normalled from OUT-NOISE.
 $Comp
 L Noise-SH:PCB_Delptronics_MCS_4HP--lmp-synth H1
 U 1 1 61B16299
-P 7300 5200
-F 0 "H1" H 7628 5291 50  0000 L CNN
-F 1 "PCB_Delptronics_MCS_4HP" H 7628 5200 50  0000 L CNN
-F 2 "-lmp-misc:NoFootprint" H 7300 5200 50  0001 C CNN
-F 3 "https://delptronics.com/module-construction-set.php" H 7300 5690 50  0001 C CNN
-F 4 "Delptronics" H 7300 5200 50  0001 C CNN "Manufacturer"
-F 5 "Delptronics" H 7300 5200 50  0001 C CNN "Distributor"
-F 6 "https://delptronics.com/module-construction-set.php" H 7300 5200 50  0001 C CNN "DistributorPartLink"
-F 7 "synthCube" H 7300 5200 50  0001 C CNN "Distributor2"
-F 8 "DELPMCSMSTR" H 7300 5200 50  0001 C CNN "DistributorPartNum2"
-F 9 "https://synthcube.com/cart/delptronics-module-construction-set" H 7300 5200 50  0001 C CNN "DistributorPartLink2"
-F 10 "Modular Addict" H 7300 5200 50  0001 C CNN "Distributor3"
-F 11 "https://modularaddict.com/module-construction-set-eurorack-prototype-development-platform-delptronics" H 7300 5200 50  0001 C CNN "DistributorPartLink3"
-F 12 "PCB & panel kit" H 7628 5109 50  0000 L CNN "Note"
-	1    7300 5200
+P 6650 4850
+F 0 "H1" H 6978 4941 50  0000 L CNN
+F 1 "PCB_Delptronics_MCS_4HP" H 6978 4850 50  0000 L CNN
+F 2 "-lmp-misc:NoFootprint" H 6650 4850 50  0001 C CNN
+F 3 "https://delptronics.com/module-construction-set.php" H 6650 5340 50  0001 C CNN
+F 4 "Delptronics" H 6650 4850 50  0001 C CNN "Manufacturer"
+F 5 "Delptronics" H 6650 4850 50  0001 C CNN "Distributor"
+F 6 "https://delptronics.com/module-construction-set.php" H 6650 4850 50  0001 C CNN "DistributorPartLink"
+F 7 "synthCube" H 6650 4850 50  0001 C CNN "Distributor2"
+F 8 "DELPMCSMSTR" H 6650 4850 50  0001 C CNN "DistributorPartNum2"
+F 9 "https://synthcube.com/cart/delptronics-module-construction-set" H 6650 4850 50  0001 C CNN "DistributorPartLink2"
+F 10 "Modular Addict" H 6650 4850 50  0001 C CNN "Distributor3"
+F 11 "https://modularaddict.com/module-construction-set-eurorack-prototype-development-platform-delptronics" H 6650 4850 50  0001 C CNN "DistributorPartLink3"
+F 12 "PCB & panel kit" H 6978 4759 50  0000 L CNN "Note"
+	1    6650 4850
 	1    0    0    -1  
 $EndComp
 Connection ~ 6950 1100

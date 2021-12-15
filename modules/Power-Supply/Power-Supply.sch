@@ -13,20 +13,6 @@ Comment2 "Power supply for Eurorack with outputs +12 VDC, -12 VDC (1 A), +5 VDC 
 Comment3 "COMPLETED"
 Comment4 ""
 $EndDescr
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-$Comp
-L Power-Supply:Logo_CC_BY--lmp G2
-U 1 1 60BD4DF8
-P 900 7550
-F 0 "G2" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by/4.0/" H 900 7550 50  0001 C CNN
-F 4 "NoPart" H 900 7550 50  0001 C CNN "NoPart"
-	1    900  7550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 4500 3650 4600
 Wire Wire Line

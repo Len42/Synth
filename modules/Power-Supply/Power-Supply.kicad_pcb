@@ -159,7 +159,7 @@
     (add_net "Net-(U2-Pad3)")
   )
 
-  (module -lmp-misc:Logo_CC_BY (layer F.Cu) (tedit 0) (tstamp 60F27BE6)
+  (module -lmp-misc:Logo_CC_BY locked (layer F.Cu) (tedit 0) (tstamp 60F27BE6)
     (at 163.449 124.333)
     (path /60BD4DF8)
     (fp_text reference G2 (at 0 0) (layer F.SilkS) hide

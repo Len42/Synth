@@ -586,24 +586,8 @@ $EndComp
 Connection ~ 9250 5400
 Text Notes 900  4550 0    50   ~ 10
 CV Input
-Text Notes 6990 6490 0    50   ~ 0
+Text Notes 650  7600 0    50   ~ 0
 All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified.
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-$Comp
-L LFO-DigiVC:Logo_CC_BY--lmp #G?
-U 1 1 61154316
-P 900 7550
-AR Path="/61154316" Ref="#G?"  Part="1" 
-AR Path="/610CEC44/61154316" Ref="#G2"  Part="1" 
-F 0 "#G2" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by/4.0/" H 900 7550 50  0001 C CNN
-F 4 "NoPart" H 900 7550 50  0001 C CNN "NoPart"
-	1    900  7550
-	1    0    0    -1  
-$EndComp
 Text GLabel 1300 6450 0    50   Input ~ 0
 POT-IN-2
 Text GLabel 1350 5050 0    50   Input ~ 0

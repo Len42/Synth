@@ -13,7 +13,7 @@ Comment2 "4HP module designed for Delptronics Module Construction Set"
 Comment3 "Eurorack microcontroller-based VC-LFO module"
 Comment4 "COMPLETED"
 $EndDescr
-Text Notes 6990 6490 0    50   ~ 0
+Text Notes 650  7600 0    50   ~ 0
 All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified.
 Wire Wire Line
 	9800 1400 9800 1500
@@ -28,8 +28,6 @@ F 3 "" H 9800 1400 50  0001 C CNN
 	1    9800 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 Connection ~ 7350 2100
 Connection ~ 7350 1500
 Connection ~ 9600 1500
@@ -296,18 +294,6 @@ Text Notes 850  1100 0    50   ~ 10
 Front Panel
 Text Notes 5650 1100 0    50   ~ 10
 Power
-$Comp
-L LFO-DigiVC:Logo_CC_BY--lmp #G1
-U 1 1 60C31EA4
-P 900 7550
-F 0 "#G1" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by/4.0/" H 900 7550 50  0001 C CNN
-F 4 "NoPart" H 900 7550 50  0001 C CNN "NoPart"
-	1    900  7550
-	1    0    0    -1  
-$EndComp
 Text Notes 3400 1100 0    50   ~ 10
 Rear Board Connector
 $Comp

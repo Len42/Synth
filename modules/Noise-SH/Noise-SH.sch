@@ -25,19 +25,6 @@ U 60E21390
 F0 "Main" 50
 F1 "Main.sch" 50
 $EndSheet
-$Comp
-L Noise-SH:Logo_CC_BY_SA--lmp #G2
-U 1 1 60C31EA4
-P 900 7550
-F 0 "#G2" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY_SA" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY_SA" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by-sa/4.0/" H 900 7550 50  0001 C CNN
-	1    900  7550
-	1    0    0    -1  
-$EndComp
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 Text Notes 3850 1400 0    150  ~ 30
 Front Panel \n& Power
 Text Notes 3800 3500 0    150  ~ 30

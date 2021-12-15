@@ -13,24 +13,8 @@ Comment2 "4HP module designed for Delptronics Module Construction Set"
 Comment3 "Eurorack module with noise generation and sample-and-hold"
 Comment4 "COMPLETED"
 $EndDescr
-Text Notes 650  7200 0    50   ~ 0
+Text Notes 850  7400 0    50   ~ 0
 All fixed resistors are 1% tolerance unless otherwise specified.\nAll electrolytic capacitors are rated for 25VDC unless otherwise specified.
-Text Notes 1250 7650 0    50   ~ 0
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-$Comp
-L Noise-SH:Logo_CC_BY_SA--lmp #G?
-U 1 1 60E26811
-P 900 7550
-AR Path="/60E26811" Ref="#G?"  Part="1" 
-AR Path="/60E21390/60E26811" Ref="#G3"  Part="1" 
-AR Path="/61B1E4CE/60E26811" Ref="#G3"  Part="1" 
-F 0 "#G3" H 900 7487 60  0001 C CNN
-F 1 "Logo_CC_BY_SA" H 900 7613 60  0001 C CNN
-F 2 "-lmp-misc:Logo_CC_BY_SA" H 900 7550 50  0001 C CNN
-F 3 "https://creativecommons.org/licenses/by-sa/4.0/" H 900 7550 50  0001 C CNN
-	1    900  7550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Noise-SH:Q_NPN_2N3904--lmp Q1
 U 1 1 60DF7CC7
@@ -402,35 +386,34 @@ F 3 "" H 2550 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 6000 4450 6000
+	3250 6100 3400 6100
 Wire Wire Line
-	4300 5950 4300 6000
+	3250 6050 3250 6100
 Wire Wire Line
-	4100 6000 4300 6000
-Connection ~ 4300 5600
+	3050 6100 3250 6100
 Wire Wire Line
-	4300 5650 4300 5600
+	3250 5750 3250 5700
 Wire Wire Line
-	4650 5600 4300 5600
+	3600 5700 3250 5700
 Wire Wire Line
-	4650 5750 4650 5600
+	3600 5850 3600 5700
 $Comp
 L Noise-SH:Q_JFET_N_SDG--lmp Q3
 U 1 1 60E5783E
-P 4650 5900
+P 3600 6000
 AR Path="/60E5783E" Ref="Q3"  Part="1" 
 AR Path="/60E21390/60E5783E" Ref="Q3"  Part="1" 
 AR Path="/61B1E4CE/60E5783E" Ref="Q3"  Part="1" 
-F 0 "Q3" V 4883 5900 50  0000 C CNN
-F 1 "J309" V 4974 5900 50  0000 C CNN
-F 2 "-lmp-misc:TO-92_Inline_Wide" H 4850 6000 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/676/jfet-j308-j309-j310-interfet.r00-1649146.pdf" H 4650 5900 50  0001 C CNN
-F 4 "InterFET" H 4650 5900 50  0001 C CNN "Manufacturer"
-F 5 "J309" H 4650 5900 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 4650 5900 50  0001 C CNN "Distributor"
-F 7 "106-J309" H 4650 5900 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/InterFET/J309?qs=%2Fha2pyFadug%252BRXW75aF8sJNF9wzp6WNhAjvZlcGd5MA%3D" H 4650 5900 50  0001 C CNN "DistributorPartLink"
-	1    4650 5900
+F 0 "Q3" V 3833 6000 50  0000 C CNN
+F 1 "J309" V 3924 6000 50  0000 C CNN
+F 2 "-lmp-misc:TO-92_Inline_Wide" H 3800 6100 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/676/jfet-j308-j309-j310-interfet.r00-1649146.pdf" H 3600 6000 50  0001 C CNN
+F 4 "InterFET" H 3600 6000 50  0001 C CNN "Manufacturer"
+F 5 "J309" H 3600 6000 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 3600 6000 50  0001 C CNN "Distributor"
+F 7 "106-J309" H 3600 6000 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/InterFET/J309?qs=%2Fha2pyFadug%252BRXW75aF8sJNF9wzp6WNhAjvZlcGd5MA%3D" H 3600 6000 50  0001 C CNN "DistributorPartLink"
+	1    3600 6000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -452,131 +435,131 @@ $EndComp
 $Comp
 L Noise-SH:R--lmp R15
 U 1 1 60E58EE7
-P 4300 5800
-F 0 "R15" H 4370 5846 50  0000 L CNN
-F 1 "1M" H 4370 5755 50  0000 L CNN
-F 2 "-lmp-stripboard:SB_Gen_2" V 4230 5800 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 4300 5800 50  0001 C CNN
-F 4 "YAGEO" H 4300 5800 50  0001 C CNN "Manufacturer"
-F 5 "MFR-12FTF52-1M" H 4300 5800 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 4300 5800 50  0001 C CNN "Distributor"
-F 7 "603-MFR-12FTF52-1M" H 4300 5800 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-1M?qs=sGAEpiMZZMsPqMdJzcrNwiweiCzxKzWL%252BPYAYdUNTvA%3D" H 4300 5800 50  0001 C CNN "DistributorPartLink"
-	1    4300 5800
+P 3250 5900
+F 0 "R15" H 3320 5946 50  0000 L CNN
+F 1 "1M" H 3320 5855 50  0000 L CNN
+F 2 "-lmp-stripboard:SB_Gen_2" V 3180 5900 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 3250 5900 50  0001 C CNN
+F 4 "YAGEO" H 3250 5900 50  0001 C CNN "Manufacturer"
+F 5 "MFR-12FTF52-1M" H 3250 5900 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 3250 5900 50  0001 C CNN "Distributor"
+F 7 "603-MFR-12FTF52-1M" H 3250 5900 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-1M?qs=sGAEpiMZZMsPqMdJzcrNwiweiCzxKzWL%252BPYAYdUNTvA%3D" H 3250 5900 50  0001 C CNN "DistributorPartLink"
+	1    3250 5900
 	1    0    0    -1  
 $EndComp
-Connection ~ 4950 6000
+Connection ~ 3900 6100
 Wire Wire Line
-	5250 6000 4950 6000
+	4200 6100 3900 6100
 Wire Wire Line
-	5200 5800 5250 5800
+	4150 5900 4200 5900
 Wire Wire Line
-	5200 5550 5200 5800
+	4150 5650 4150 5900
 Wire Wire Line
-	5900 5550 5200 5550
+	4850 5650 4150 5650
 Wire Wire Line
-	5900 5900 5900 5550
+	4850 6000 4850 5650
 Wire Wire Line
-	5850 5900 5900 5900
+	4800 6000 4850 6000
 $Comp
 L Noise-SH:TL074--lmp-opamp U4
 U 4 1 60E7F3C7
-P 5550 5900
-F 0 "U4" H 5550 6100 50  0000 C CNN
-F 1 "TL074" H 5550 6200 50  0000 C CNN
-F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 5500 6000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5600 6100 50  0001 C CNN
-	4    5550 5900
+P 4500 6000
+F 0 "U4" H 4500 6200 50  0000 C CNN
+F 1 "TL074" H 4500 6300 50  0000 C CNN
+F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 4450 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4550 6200 50  0001 C CNN
+	4    4500 6000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4950 6000 4850 6000
+	3900 6100 3800 6100
 Wire Wire Line
-	4950 6050 4950 6000
+	3900 6150 3900 6100
 Wire Wire Line
-	4950 6400 4950 6350
+	3900 6500 3900 6450
 $Comp
 L Noise-SH:GND--lmp-power #PWR029
 U 1 1 60E73600
-P 4950 6400
-F 0 "#PWR029" H 4950 6150 50  0001 C CNN
-F 1 "GND" H 4955 6227 50  0000 C CNN
-F 2 "" H 4950 6400 50  0001 C CNN
-F 3 "" H 4950 6400 50  0001 C CNN
-	1    4950 6400
+P 3900 6500
+F 0 "#PWR029" H 3900 6250 50  0001 C CNN
+F 1 "GND" H 3905 6327 50  0000 C CNN
+F 2 "" H 3900 6500 50  0001 C CNN
+F 3 "" H 3900 6500 50  0001 C CNN
+	1    3900 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Noise-SH:CF--lmp C15
 U 1 1 60E73265
-P 4950 6200
-F 0 "C15" H 5065 6291 50  0000 L CNN
-F 1 "10N" H 5065 6200 50  0000 L CNN
-F 2 "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm" H 4988 6050 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/212/1/KEM_F3072_SMR-1103375.pdf" H 4950 6200 50  0001 C CNN
-F 4 "PPS" H 5065 6109 50  0000 L CNN "Type"
-F 5 "KEMET" H 4950 6200 50  0001 C CNN "Manufacturer"
-F 6 "SMR5103J50J01L16.5CBULK" H 4950 6200 50  0001 C CNN "ManufacturerPartNum"
-F 7 "Mouser" H 4950 6200 50  0001 C CNN "Distributor"
-F 8 "80-SMR5103J50J0116" H 4950 6200 50  0001 C CNN "DistributorPartNum"
-F 9 "https://www.mouser.ca/ProductDetail/?qs=lyRJTFulC0ZVzsb1DGnFvw%3D%3D" H 4950 6200 50  0001 C CNN "DistributorPartLink"
-	1    4950 6200
+P 3900 6300
+F 0 "C15" H 4015 6391 50  0000 L CNN
+F 1 "10N" H 4015 6300 50  0000 L CNN
+F 2 "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm" H 3938 6150 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/1/KEM_F3072_SMR-1103375.pdf" H 3900 6300 50  0001 C CNN
+F 4 "PPS" H 4015 6209 50  0000 L CNN "Type"
+F 5 "KEMET" H 3900 6300 50  0001 C CNN "Manufacturer"
+F 6 "SMR5103J50J01L16.5CBULK" H 3900 6300 50  0001 C CNN "ManufacturerPartNum"
+F 7 "Mouser" H 3900 6300 50  0001 C CNN "Distributor"
+F 8 "80-SMR5103J50J0116" H 3900 6300 50  0001 C CNN "DistributorPartNum"
+F 9 "https://www.mouser.ca/ProductDetail/?qs=lyRJTFulC0ZVzsb1DGnFvw%3D%3D" H 3900 6300 50  0001 C CNN "DistributorPartLink"
+	1    3900 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 6500 2500 6450
+	1450 6600 1450 6550
 Wire Wire Line
-	2500 6100 2500 6150
+	1450 6200 1450 6250
 Wire Wire Line
-	2400 6100 2500 6100
+	1350 6200 1450 6200
 Wire Wire Line
-	3400 5900 3450 5900
+	2350 6000 2400 6000
 Wire Wire Line
-	3400 5650 3400 5900
+	2350 5750 2350 6000
 Wire Wire Line
-	4100 5650 3400 5650
+	3050 5750 2350 5750
 Wire Wire Line
-	4100 6000 4100 5650
+	3050 6100 3050 5750
 Wire Wire Line
-	4050 6000 4100 6000
+	3000 6100 3050 6100
 $Comp
 L Noise-SH:GND--lmp-power #PWR027
 U 1 1 60E2A3EE
-P 2500 6500
-F 0 "#PWR027" H 2500 6250 50  0001 C CNN
-F 1 "GND" H 2505 6327 50  0000 C CNN
-F 2 "" H 2500 6500 50  0001 C CNN
-F 3 "" H 2500 6500 50  0001 C CNN
-	1    2500 6500
+P 1450 6600
+F 0 "#PWR027" H 1450 6350 50  0001 C CNN
+F 1 "GND" H 1455 6427 50  0000 C CNN
+F 2 "" H 1450 6600 50  0001 C CNN
+F 3 "" H 1450 6600 50  0001 C CNN
+	1    1450 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Noise-SH:R--lmp R13
 U 1 1 60E2A102
-P 2500 6300
-F 0 "R13" H 2570 6346 50  0000 L CNN
-F 1 "1M" H 2570 6255 50  0000 L CNN
-F 2 "-lmp-stripboard:SB_Gen_1" V 2430 6300 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 2500 6300 50  0001 C CNN
-F 4 "YAGEO" H 2500 6300 50  0001 C CNN "Manufacturer"
-F 5 "MFR-12FTF52-1M" H 2500 6300 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 2500 6300 50  0001 C CNN "Distributor"
-F 7 "603-MFR-12FTF52-1M" H 2500 6300 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-1M?qs=sGAEpiMZZMsPqMdJzcrNwiweiCzxKzWL%252BPYAYdUNTvA%3D" H 2500 6300 50  0001 C CNN "DistributorPartLink"
-	1    2500 6300
+P 1450 6400
+F 0 "R13" H 1520 6446 50  0000 L CNN
+F 1 "1M" H 1520 6355 50  0000 L CNN
+F 2 "-lmp-stripboard:SB_Gen_1" V 1380 6400 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" H 1450 6400 50  0001 C CNN
+F 4 "YAGEO" H 1450 6400 50  0001 C CNN "Manufacturer"
+F 5 "MFR-12FTF52-1M" H 1450 6400 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 1450 6400 50  0001 C CNN "Distributor"
+F 7 "603-MFR-12FTF52-1M" H 1450 6400 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-1M?qs=sGAEpiMZZMsPqMdJzcrNwiweiCzxKzWL%252BPYAYdUNTvA%3D" H 1450 6400 50  0001 C CNN "DistributorPartLink"
+	1    1450 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 6100 0    50   Input ~ 0
+Text GLabel 1350 6200 0    50   Input ~ 0
 IN-SAMPLE
 $Comp
 L Noise-SH:TL074--lmp-opamp U4
 U 3 1 60E28B22
-P 3750 6000
-F 0 "U4" H 3750 6200 50  0000 C CNN
-F 1 "TL074" H 3750 6300 50  0000 C CNN
-F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 3700 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3800 6200 50  0001 C CNN
-	3    3750 6000
+P 2700 6100
+F 0 "U4" H 2700 6300 50  0000 C CNN
+F 1 "TL074" H 2700 6400 50  0000 C CNN
+F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 2650 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2750 6300 50  0001 C CNN
+	3    2700 6100
 	1    0    0    1   
 $EndComp
 Text Notes 950  4100 0    50   ~ 10
@@ -622,17 +605,15 @@ Wire Wire Line
 Connection ~ 1950 5050
 Wire Wire Line
 	1950 5150 1950 5050
-Wire Wire Line
-	2700 5550 2700 5500
 $Comp
 L Noise-SH:GND--lmp-power #PWR024
 U 1 1 60EE7A6D
-P 2700 5550
-F 0 "#PWR024" H 2700 5300 50  0001 C CNN
-F 1 "GND" H 2705 5377 50  0000 C CNN
-F 2 "" H 2700 5550 50  0001 C CNN
-F 3 "" H 2700 5550 50  0001 C CNN
-	1    2700 5550
+P 1950 5550
+F 0 "#PWR024" H 1950 5300 50  0001 C CNN
+F 1 "GND" H 1955 5377 50  0000 C CNN
+F 2 "" H 1950 5550 50  0001 C CNN
+F 3 "" H 1950 5550 50  0001 C CNN
+	1    1950 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -747,7 +728,7 @@ F 8 "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=sGAEpiMZZMsPq
 $EndComp
 Text GLabel 1400 5050 0    50   Input ~ 0
 INOUT-TRIG
-Text Notes 1925 6000 0    50   ~ 0
+Text Notes 875  6100 0    50   ~ 0
 IN-SAMPLE from internal \nnoise source or external signal
 $Comp
 L Noise-SH:C--lmp C12
@@ -788,16 +769,11 @@ F 8 "https://www.mouser.ca/ProductDetail/TDK/CK45-R3AD101K-NRA?qs=2FIyTMJ0hNnnCw
 $EndComp
 Wire Wire Line
 	1400 5050 1950 5050
-Connection ~ 5900 5900
+Connection ~ 4850 6000
 Wire Wire Line
-	5900 5900 6000 5900
-Wire Wire Line
-	2450 5500 2700 5500
-Connection ~ 4100 6000
-Connection ~ 4300 6000
-Connection ~ 2700 5500
-Wire Wire Line
-	2700 5500 2950 5500
+	4850 6000 4950 6000
+Connection ~ 3050 6100
+Connection ~ 3250 6100
 Wire Wire Line
 	4300 4950 4300 5150
 Wire Wire Line
@@ -975,8 +951,8 @@ Connection ~ 5100 1300
 Wire Wire Line
 	5100 1300 5000 1300
 Wire Wire Line
-	2500 6100 3450 6100
-Connection ~ 2500 6100
+	1450 6200 2400 6200
+Connection ~ 1450 6200
 $Comp
 L Noise-SH:R--lmp R12
 U 1 1 60EB97BA
@@ -999,104 +975,102 @@ Wire Wire Line
 Connection ~ 2950 5500
 Text Notes 2400 4750 0    50   ~ 0
 R9 is selected to give \nminimum required \npulse width to charge \ncapacitor C15
-Wire Wire Line
-	4300 5450 4300 5600
 Text Notes 950  1050 0    50   ~ 0
 after Synthnerd
 Wire Wire Line
 	8800 4600 8800 4700
-Text GLabel 6500 6050 0    50   UnSpc ~ 0
+Text GLabel 5450 6150 0    50   UnSpc ~ 0
 RV-SLEW-2
 $Comp
 L Noise-SH:GND--lmp-power #PWR035
 U 1 1 61056D64
-P 6700 6450
-F 0 "#PWR035" H 6700 6200 50  0001 C CNN
-F 1 "GND" H 6705 6277 50  0000 C CNN
-F 2 "" H 6700 6450 50  0001 C CNN
-F 3 "" H 6700 6450 50  0001 C CNN
-	1    6700 6450
+P 5650 6550
+F 0 "#PWR035" H 5650 6300 50  0001 C CNN
+F 1 "GND" H 5655 6377 50  0000 C CNN
+F 2 "" H 5650 6550 50  0001 C CNN
+F 3 "" H 5650 6550 50  0001 C CNN
+	1    5650 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 6050 6700 6050
+	5450 6150 5650 6150
 Wire Wire Line
-	6700 6100 6700 6050
-Connection ~ 6700 6050
+	5650 6200 5650 6150
+Connection ~ 5650 6150
 Wire Wire Line
-	6700 6050 7000 6050
+	5650 6150 5950 6150
 Wire Wire Line
-	6700 6450 6700 6400
-Connection ~ 7650 5950
+	5650 6550 5650 6500
+Connection ~ 6600 6050
 Wire Wire Line
-	7650 5950 7750 5950
+	6600 6050 6700 6050
 Wire Wire Line
-	6950 5850 7000 5850
+	5900 5950 5950 5950
 Wire Wire Line
-	6950 5600 6950 5850
+	5900 5700 5900 5950
 Wire Wire Line
-	7650 5600 6950 5600
+	6600 5700 5900 5700
 Wire Wire Line
-	7650 5950 7650 5600
+	6600 6050 6600 5700
 Wire Wire Line
-	7600 5950 7650 5950
+	6550 6050 6600 6050
 $Comp
 L Noise-SH:TL074--lmp-opamp U4
 U 2 1 61057EAC
-P 7300 5950
-F 0 "U4" H 7300 6200 50  0000 C CNN
-F 1 "TL074" H 7300 6300 50  0000 C CNN
-F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 7250 6050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7350 6150 50  0001 C CNN
-F 4 "Texas Instruments" H 7300 5950 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCN" H 7300 5950 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 7300 5950 50  0001 C CNN "Distributor"
-F 7 "595-TL074BCN" H 7300 5950 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/?qs=vxEfx8VrU7BHurOY5iQdiA%3D%3D" H 7300 5950 50  0001 C CNN "DistributorPartLink"
-	2    7300 5950
+P 6250 6050
+F 0 "U4" H 6300 6250 50  0000 C CNN
+F 1 "TL074" H 6300 6350 50  0000 C CNN
+F 2 "-lmp-misc:DIP-14_W7.62mm_LongPads" H 6200 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6300 6250 50  0001 C CNN
+F 4 "Texas Instruments" H 6250 6050 50  0001 C CNN "Manufacturer"
+F 5 "TL074BCN" H 6250 6050 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 6250 6050 50  0001 C CNN "Distributor"
+F 7 "595-TL074BCN" H 6250 6050 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/?qs=vxEfx8VrU7BHurOY5iQdiA%3D%3D" H 6250 6050 50  0001 C CNN "DistributorPartLink"
+	2    6250 6050
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8100 5950 8050 5950
-Text GLabel 8100 5950 2    50   Output ~ 0
+	7050 6050 7000 6050
+Text GLabel 7050 6050 2    50   Output ~ 0
 OUT-HOLD
 $Comp
 L Noise-SH:R_1K_Output--lmp-synth R18
 U 1 1 60E92019
-P 7900 5950
-F 0 "R18" V 7603 5950 50  0000 C CNN
-F 1 "1K" V 7694 5950 50  0000 C CNN
-F 2 "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7830 5950 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/427/ccf07-1762725.pdf" H 7900 5950 50  0001 C CNN
-F 4 "Vishay / Dale" H 7900 5950 50  0001 C CNN "Manufacturer"
-F 5 "CCF071K00JKE36" H 7900 5950 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 7900 5950 50  0001 C CNN "Distributor"
-F 7 "71-CCF071K00JKE36" H 7900 5950 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/Vishay-Dale/CCF071K00JKE36?qs=sGAEpiMZZMsPqMdJzcrNwqw41JD0NFylHV1MADcQnpo%3D" H 7900 5950 50  0001 C CNN "DistributorPartLink"
-F 9 "Output limiting" H 7900 5950 50  0001 C CNN "Note"
-F 10 "5%, 1/4 W" V 7785 5950 50  0000 C CNN "Value2"
-	1    7900 5950
+P 6850 6050
+F 0 "R18" V 6553 6050 50  0000 C CNN
+F 1 "1K" V 6644 6050 50  0000 C CNN
+F 2 "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6780 6050 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/427/ccf07-1762725.pdf" H 6850 6050 50  0001 C CNN
+F 4 "Vishay / Dale" H 6850 6050 50  0001 C CNN "Manufacturer"
+F 5 "CCF071K00JKE36" H 6850 6050 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 6850 6050 50  0001 C CNN "Distributor"
+F 7 "71-CCF071K00JKE36" H 6850 6050 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/Vishay-Dale/CCF071K00JKE36?qs=sGAEpiMZZMsPqMdJzcrNwqw41JD0NFylHV1MADcQnpo%3D" H 6850 6050 50  0001 C CNN "DistributorPartLink"
+F 9 "Output limiting" H 6850 6050 50  0001 C CNN "Note"
+F 10 "5%, 1/4 W" V 6735 6050 50  0000 C CNN "Value2"
+	1    6850 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L Noise-SH:C--lmp C18
 U 1 1 61263914
-P 6700 6250
-F 0 "C18" H 6585 6204 50  0000 R CNN
-F 1 "1U" H 6585 6295 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT" H 6738 6100 50  0001 C CNN
-F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/mkt_b32560_564.pdf" H 6700 6250 50  0001 C CNN
-F 4 "TDK" H 6700 6250 50  0001 C CNN "Manufacturer"
-F 5 "B32560J0105K000" H 6700 6250 50  0001 C CNN "ManufacturerPartNum"
-F 6 "Mouser" H 6700 6250 50  0001 C CNN "Distributor"
-F 7 "871-B32560J105K" H 6700 6250 50  0001 C CNN "DistributorPartNum"
-F 8 "https://www.mouser.ca/ProductDetail/EPCOS-TDK/B32560J0105K000?qs=BXAlDLqNavmfEpgvg4LQCg%3D%3D" H 6700 6250 50  0001 C CNN "DistributorPartLink"
-	1    6700 6250
+P 5650 6350
+F 0 "C18" H 5535 6304 50  0000 R CNN
+F 1 "1U" H 5535 6395 50  0000 R CNN
+F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.0mm_P7.50mm_MKT" H 5688 6200 50  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/mkt_b32560_564.pdf" H 5650 6350 50  0001 C CNN
+F 4 "TDK" H 5650 6350 50  0001 C CNN "Manufacturer"
+F 5 "B32560J0105K000" H 5650 6350 50  0001 C CNN "ManufacturerPartNum"
+F 6 "Mouser" H 5650 6350 50  0001 C CNN "Distributor"
+F 7 "871-B32560J105K" H 5650 6350 50  0001 C CNN "DistributorPartNum"
+F 8 "https://www.mouser.ca/ProductDetail/EPCOS-TDK/B32560J0105K000?qs=BXAlDLqNavmfEpgvg4LQCg%3D%3D" H 5650 6350 50  0001 C CNN "DistributorPartLink"
+	1    5650 6350
 	-1   0    0    1   
 $EndComp
-Text Notes 5850 6350 0    50   ~ 0
+Text Notes 4800 6450 0    50   ~ 0
 Pot on front panel
-Text GLabel 6000 5900 2    50   UnSpc ~ 0
+Text GLabel 4950 6000 2    50   UnSpc ~ 0
 RV-SLEW-1
 $Comp
 L Noise-SH:CP--lmp C9
@@ -1530,4 +1504,16 @@ Text Notes 6900 900  0    50   ~ 10
 Internal Trigger Clock
 Wire Wire Line
 	8800 1950 9000 1950
+Wire Wire Line
+	3600 5500 4300 5500
+Wire Wire Line
+	4300 5500 4300 5450
+Wire Wire Line
+	3600 5500 3600 5700
+Connection ~ 3600 5700
+Wire Wire Line
+	1950 5550 1950 5500
+Connection ~ 1950 5500
+Wire Wire Line
+	2450 5500 2950 5500
 $EndSCHEMATC
