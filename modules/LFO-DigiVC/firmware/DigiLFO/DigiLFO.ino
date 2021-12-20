@@ -1,6 +1,8 @@
 /* 
 DigiLFO - Firmware for DigiLFO Eurorack module
 
+Runs on ATmega328 microcontroller.
+
 Copyright 2021 Len Popp
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
