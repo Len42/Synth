@@ -1,5 +1,7 @@
 # Voltage-Controlled Digital LFO
 
+<img src="DigiLFO.jpg" style="float:right">
+
 ## 4HP Eurorack Module
 
 ### Features
