@@ -1,8 +1,8 @@
 # Voltage-Controlled Digital LFO
 
-<img src="DigiLFO.jpg" style="float:right">
-
 ## 4HP Eurorack Module
+
+<img src="DigiLFO.jpg" style="float:right">
 
 ### Features
 - LFO rate from approx. 0.05 Hz (20 seconds) to 200 Hz

@@ -1,8 +1,8 @@
 # Noise / Sample & Hold
 
-<img src="Noise-SH.jpg" style="float:right">
-
 ## 4HP Eurorack Module
+
+<img src="Noise-SH.jpg" style="float:right">
 
 ### Features
 - White and pink(ish) noise output
