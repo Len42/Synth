@@ -16,4 +16,10 @@ This module is built using the [Delptronics Module Construction Set](https://del
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
+### Acknowledgements
+
+[synthnerd](https://synthnerd.wordpress.com/2020/03/09/synth-diy-a-white-noise-generator/)
+
+[Mutable Instruments](https://mutable-instruments.net/modules/kinks/open_source/)
+
 © 2021 Len Popp CC BY-SA
