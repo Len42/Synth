@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Power-Supply)(type KiCad)(uri ${KIPRJMOD}/Power-Supply.pretty)(options "")(descr ""))
-)
