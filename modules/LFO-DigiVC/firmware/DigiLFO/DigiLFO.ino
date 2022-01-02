@@ -333,7 +333,7 @@ void BlinkLFOLED(unsigned long tNow)
 TimedTask taskBlinkLFOLED(dtBlinkLFOLED, BlinkLFOLED);
 
 // UpdateLFOFrequency - Read the CV inputs and update the LFO frequency.
-const unsigned dtUpdateLFOFrequency = 49;
+const unsigned dtUpdateLFOFrequency = 1;
 void UpdateLFOFrequency(unsigned long tNow)
 {
   static unsigned wCVInSave = 9999; // initialize to out-of-range value
@@ -372,6 +372,28 @@ void UpdateWaveType(unsigned long tNow)
   fSineWaves = (digitalRead(pinSwWave) == HIGH);
 }
 TimedTask taskUpdateWaveType(dtUpdateWaveType, UpdateWaveType);
+
+// Watchdog - Task to keep an eye on processor load
+const unsigned dtWatchdog = 10;//250;
+const unsigned dtError = dtWatchdog + 1;
+void Watchdog(unsigned long tNow)
+{
+  static unsigned long tPrevious = 0;
+  static bool fErrorsSeen = false;
+  unsigned long dt = tNow - tPrevious;
+  // Check if this task is executing on time. Allow 1 millisecond of slop.
+  if (dt > dtError && tPrevious != 0) {
+    // This task did not execute at the expected time, implying that the processor is overloaded.
+    // Print a message only the first time.
+    if (!fErrorsSeen) {
+      fErrorsSeen = true;
+      Serial.print("ERROR: Processor overload - dt = ");
+      Serial.print(dt); Serial.print(" should be "); Serial.println(dtWatchdog);
+    }
+  }
+  tPrevious = tNow;
+}
+TimedTask taskWatchdog(dtWatchdog, Watchdog);
 
 // DebugOut - Debug Output
 const unsigned dtDebugOut = 100;//249;
@@ -415,4 +437,5 @@ void loop()
   taskBlinkLFOLED.Tick(tNow);
   taskUpdateWaveType.Tick(tNow);
   //taskDebugOut.Tick(tNow);
+  taskWatchdog.Tick(tNow); // for testing - can be removed
 }
