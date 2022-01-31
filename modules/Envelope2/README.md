@@ -9,6 +9,7 @@
 - Attack, decay, and release times range from very short (< 1 millisecond) to approx. 10 seconds
 - Envelopes are switchable between linear and logarithmic curves
 - Gate input can default to the Eurorack bus gate line (jumper-selectable)
+- Channel 1 gate input is normalled to channel 2 so one gate signal can trigger both envelopes
 
 ### Notes
 This module requries a 16-pin Eurorack power cable that supplies +5 V power in addition to +12 V and -12 V.
