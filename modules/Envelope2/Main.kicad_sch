@@ -60,7 +60,7 @@
       (property "ki_keywords" "AVR 8bit Microcontroller MegaAVR PicoPower" (id 14) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28" (id 15) (at 0 0 0)
+      (property "ki_description" "AVR Microcontroller, 8-bit, 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28" (id 15) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "DIP*W7.62mm*" (id 16) (at 0 0 0)
