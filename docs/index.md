@@ -14,6 +14,6 @@ These designs are shared as open source. See the license details in each source 
 
 ## General Info
 
-some info will appear here
+[Firmware Programming](firmware-programming.html) - How to program the firmware onto the microcontrollers in some modules
 
 © 2022 Len Popp CC BY
