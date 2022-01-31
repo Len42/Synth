@@ -15,7 +15,7 @@ This module requries a 16-pin Eurorack power cable that supplies +5 V power in a
 
 An Arduino-compatible ATmega328P microcontroller generates the envelopes. The firmware source code is in [firmware/Envelope2/Envelope2.ino](firmware/Envelope2/Envelope2.ino). MakeLookupTables is a program that generates the numtables.h file that has data tables used in the firmware.
 
-PCB layouts are provided in KiCad and gerber formats. A front panel design is included as a drilled PCB layout (with no text).
+PCB layouts are provided in KiCad and gerber formats. A front panel design is included as a drilled PCB layout (with no labels or graphics).
 
 The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Front panel](https://oshpark.com/shared_projects/PnWXqRcs)
