@@ -2,7 +2,7 @@
 
 ## 8HP Eurorack Module
 
-<img src="synth-photo.jpg" style="float:right">
+<img src="Envelope2.jpg" style="float:right">
 
 ### Features
 - Two ADSR envelope generators
