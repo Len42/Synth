@@ -18,4 +18,4 @@ This module is built using the [Delptronics Module Construction Set](https://del
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
-© 2021 Len Popp CC BY
+© 2022 Len Popp CC BY

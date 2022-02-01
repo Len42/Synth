@@ -13,7 +13,7 @@
 
 ### Notes
 
-The LFO is implemented by an Arduino-compatible ATmega328P microcontroller. The firmware source code is an Arduino sketch in firmware/DigiLFO/DigiLFO.ino. MakeLookupTables is a program that generates the numtables.h file that has data tables used in the firmware.
+The LFO is implemented by an Arduino-compatible ATmega328P microcontroller. The firmware source code is an Arduino sketch in [firmware/DigiLFO/DigiLFO.ino](firmware/DigiLFO/DigiLFO.ino). MakeLookupTables is a program that generates data tables used in the firmware. See [here](https://len42.github.io/Synth-pub/firmware-programming.html) for info about programming the firmware onto the microcontroller chip.
 
 This module is built using the [Delptronics Module Construction Set](https://delptronics.com/module-construction-set.php) which includes PCBs for the front panel controls and other components. The PCB layout file is just a guide showing how I placed the components on the Delptronics boards. (It's a bit of a mess - sorry!)
 
