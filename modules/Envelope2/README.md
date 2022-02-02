@@ -12,7 +12,7 @@
 - Channel 1 gate input is normalled to channel 2 so one gate signal can trigger both envelopes
 
 ### Notes
-This module requries a 16-pin Eurorack power cable that supplies +5 V power in addition to +12 V and -12 V.
+This module requires a 16-pin Eurorack power cable that supplies +5 V power in addition to +12 V and -12 V.
 
 An Arduino-compatible ATmega328P microcontroller generates the envelopes. The firmware source code is in [firmware/Envelope2/Envelope2.ino](firmware/Envelope2/Envelope2.ino). MakeLookupTables is a program that generates data tables used in the firmware. See [here](https://len42.github.io/Synth-pub/firmware-programming.html) for info about programming the firmware onto the microcontroller chip.
 
