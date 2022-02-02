@@ -1,8 +1,8 @@
-# Synth-pub
+# Synth
 
 ## Designs for my Eurorack synthesizer modules
 
-<img src="https://raw.githubusercontent.com/Len42/Synth-pub/main/docs/synth-photo.jpg" width=500px>
+<img src="https://raw.githubusercontent.com/Len42/Synth/main/docs/synth-photo.jpg" width=500px>
 
 This repo is where I am sharing my modular synthesizer designs.
 
