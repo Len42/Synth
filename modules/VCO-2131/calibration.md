@@ -8,7 +8,7 @@ Either:
 - Precision frequency counter or music tuner.
 
 Or:
-- Stable (but non-precision) voltage source, e.g. a voltage regulator. +5V and +10V (approximately) are required. 
+- Stable (but non-precision) voltage source, e.g. from a voltage regulator. +5V and +10V (approximately) are required. 
 - Precision voltmeter.
 - Precision frequency counter. (Not a music tuner – the frequencies will not necessarily be exact musical note pitches.)
 
