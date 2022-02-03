@@ -373,7 +373,7 @@
 
   (footprint "-lmp-misc:SW_SPDT_THT_2.54" (layer "F.Cu")
     (tedit 61EDD2A7) (tstamp 00000000-0000-0000-0000-0000614a6328)
-    (at 60.63 46.0502)
+    (at 60.63 45.79)
     (descr "Switch SPDT THT 2.54")
     (tags "SWITCH TOGGLE ILLUM SPDT NKK")
     (property "Distributor" "Mouser")
@@ -6192,7 +6192,7 @@
 
   (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 36244bcf-1955-4886-bf3f-ede9cf495f1f)
-    (at 65.786 53.34 90)
+    (at 65.786 53.3908 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Distributor" "Mouser")
@@ -8864,6 +8864,9 @@
   (gr_text "rev 1.1" (at 84.074 60.325) (layer "F.SilkS") (tstamp eaa60bd3-3fe7-4968-bff3-896b9934b3be)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
+  (gr_text "TODO: Make sure these resistors fit" (at 38.8874 136.652) (layer "Cmts.User") (tstamp cf3116e8-2920-4945-9ee9-9d9202168909)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
 
   (segment (start 178.9 91.356) (end 183.515 86.741) (width 0.762) (layer "F.Cu") (net 1) (tstamp 0136fcfd-85c1-4740-9fa0-8dc1a0ab8259))
   (segment (start 117.729 90.678) (end 125.6665 82.7405) (width 0.762) (layer "F.Cu") (net 1) (tstamp 050a5ff0-f3d2-4bdc-8c41-ffb5d4ec8091))
@@ -9355,7 +9358,7 @@
   (segment (start 62.454 131.034) (end 61.849 130.429) (width 0.381) (layer "F.Cu") (net 87) (tstamp d70b07f0-7794-49ac-aab9-bba7744f562e))
   (segment (start 55.372 46.355) (end 55.372 45.72) (width 0.381) (layer "F.Cu") (net 88) (tstamp 9759ad16-ddc1-4e8a-bc93-f83048114bb5))
   (segment (start 60.1472 51.1302) (end 55.372 46.355) (width 0.381) (layer "F.Cu") (net 88) (tstamp da091451-5052-4c1e-8fda-2cb362e456ac))
-  (segment (start 65.786 45.72) (end 60.9602 45.72) (width 0.381) (layer "F.Cu") (net 89) (tstamp 3d3bdad0-548d-4071-9075-ac87e9e96ee0))
+  (segment (start 65.786 45.7962) (end 60.9602 45.7962) (width 0.381) (layer "F.Cu") (net 89) (tstamp 3d3bdad0-548d-4071-9075-ac87e9e96ee0))
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000061aa95bb) (hatch edge 0.508)
     (connect_pads (clearance 0))
