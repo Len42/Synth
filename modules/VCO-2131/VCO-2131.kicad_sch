@@ -3619,7 +3619,7 @@
     (uuid 00000000-0000-0000-0000-0000617e157d)
     (property "Reference" "R15" (id 0) (at 83.82 62.3062 90))
     (property "Value" "125K" (id 1) (at 83.82 64.6176 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 83.82 68.072 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 83.82 68.072 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 83.82 69.85 0)
@@ -4590,7 +4590,7 @@
     (uuid 55ffc9ee-8693-4d08-bbed-04922d3c140d)
     (property "Reference" "R16" (id 0) (at 83.82 76.8255 90))
     (property "Value" "125K" (id 1) (at 83.82 79.6006 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 83.82 71.882 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 83.82 71.882 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 83.82 73.66 0)
@@ -5594,6 +5594,21 @@
     (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/e1f84108-d851-4f40-8103-83470e402534"
       (reference "H7") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
     )
+    (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/81b7b4e5-191a-460b-9626-bc6347dd5409"
+      (reference "H8") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+    )
+    (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/719c8e91-d191-42f9-9080-cd65120f85ca"
+      (reference "H9") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+    )
+    (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/493851dd-ea89-4443-85df-3cbbd7b4e432"
+      (reference "H10") (unit 1) (value "HW_Front_Panel_10HP") (footprint "")
+    )
+    (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/bde57429-db0f-4b4a-8967-17aa446855e3"
+      (reference "H11") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+    )
+    (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/d3c53827-3e02-4af6-99b8-46e3616e9479"
+      (reference "H12") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+    )
     (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
@@ -5691,10 +5706,10 @@
       (reference "R14") (unit 1) (value "300K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000617e157d"
-      (reference "R15") (unit 1) (value "125K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R15") (unit 1) (value "125K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/55ffc9ee-8693-4d08-bbed-04922d3c140d"
-      (reference "R16") (unit 1) (value "125K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R16") (unit 1) (value "125K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006163b519"
       (reference "R17") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -5820,7 +5835,7 @@
       (reference "U2") (unit 1) (value "L79L05") (footprint "-lmp-misc:TO-92_Inline_Wide")
     )
     (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/00000000-0000-0000-0000-000060f1670c"
-      (reference "U3") (unit 1) (value "LM4040") (footprint "-lmp-misc:TO-92-2_Wide_alt")
+      (reference "U3") (unit 1) (value "LM4040") (footprint "-lmp-misc:TO-92-2_Wide")
     )
     (path "/00000000-0000-0000-0000-000061849411"
       (reference "U4") (unit 1) (value "SSI2131") (footprint "-lmp-breakout:Breakout_DIP-16_W15.24mm")
