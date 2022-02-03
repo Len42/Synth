@@ -15,8 +15,8 @@ This module requires a 16-pin Eurorack power cable, but it does not depend on +5
 
 [Here are instructions for calibration](calibration.md) of the VCO for proper 1V/octave tracking.
 
-(TBD) A drilling guide is provided for the front panel.
 PCB layouts are provided in KiCad and gerber formats.
+A drilling template is provided for the front panel.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Controls board](https://oshpark.com/shared_projects/zzz)
