@@ -338,6 +338,32 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
          id="path3803-8" />
     </marker>
+    <marker
+       id="Arrow1Lstart-5"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         id="path3800-41" />
+    </marker>
+    <marker
+       id="Arrow1Lend-2"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         id="path3803-0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -354,11 +380,11 @@
      inkscape:document-rotation="0"
      showgrid="false"
      units="mm"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="944"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:lockguides="false"
      showborder="false"
@@ -572,20 +598,20 @@
     </g>
     <g
        id="g853-4-8-1-2-0-6-3-5"
-       transform="matrix(1.875,0,0,1.875,72.5135,116.591)"
-       style="stroke-width:0.533333">
+       transform="matrix(2.03125,0,0,2.03125,71.341625,116.12225)"
+       style="stroke-width:0.492308">
       <circle
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0533331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0492306;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path4268-9-6-8-6-0-6-9-9"
          cx="7.5"
          cy="3"
          r="1.5500001" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.0533333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.0492308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="M 7.55,1.4 V 4.6"
          id="path833-47-8-2-3-6-0-5-4" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.0533334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.0492309;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="M 9.1,3.0499999 H 5.9"
          id="path833-4-7-5-6-20-0-9-6-0" />
     </g>
@@ -849,7 +875,7 @@
          style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:125%;text-align:center;letter-spacing:0;word-spacing:0;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247743"
          id="tspan1362"
          x="86.569939"
-         y="75.934929">5.00 mm</tspan></text>
+         y="75.934929">5.0 mm</tspan></text>
     <g
        id="g1098-3"
        transform="translate(-4.699528e-4,19.040406)">
@@ -914,39 +940,39 @@
     </g>
     <g
        id="g853-4-8-1-2-0-6"
-       transform="matrix(1.875,0,0,1.875,49.9075,97.591)"
-       style="fill:none;stroke:#000000;stroke-width:0.533333">
+       transform="matrix(2.03125,0,0,2.03125,48.735625,97.12225)"
+       style="fill:none;stroke:#000000;stroke-width:0.492308">
       <circle
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0533331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0492306;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path4268-9-6-8-6-0-6"
          cx="7.5"
          cy="3"
          r="1.5500001" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.0533333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.0492308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="M 7.55,1.4 V 4.6"
          id="path833-47-8-2-3-6-0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.0533334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.0492309;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="M 9.1,3.0499999 H 5.9"
          id="path833-4-7-5-6-20-0-9" />
     </g>
     <g
-       id="g2136">
+       id="g1179">
       <path
-         d="m 60.97,97.370167 h 6"
+         d="m 60.814136,97.645834 h 6"
          marker-start="url(#Arrow1Lstart)"
          marker-end="url(#Arrow1Lend)"
          stroke-width="0.264583"
          id="path1924"
          style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
-         d="M 60.97,94.724333 V 106.016"
+         d="m 60.814136,95 v 11.29167"
          stroke-width="0.132292"
          id="path1926"
          style="fill:none;stroke:#000000" />
       <path
-         d="M 66.97,94.724333 V 106.016"
+         d="m 67.116146,95 v 11.29167"
          stroke-width="0.132292"
          id="path1928"
          style="fill:none;stroke:#000000" />
@@ -960,39 +986,39 @@
            style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:125%;text-align:center;letter-spacing:0;word-spacing:0;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247743"
            id="tspan1362-1"
            x="64.041069"
-           y="94.369934">6.00 mm</tspan></text>
+           y="94.369934">6.5 mm</tspan></text>
     </g>
     <g
-       id="g2136-1"
-       transform="translate(22.591675,19.051475)">
+       id="g1179-2"
+       transform="translate(22.578471,19.197931)">
       <path
-         d="m 60.97,97.370167 h 6"
-         marker-start="url(#Arrow1Lstart-9)"
-         marker-end="url(#Arrow1Lend-9)"
+         d="m 60.814136,97.645834 h 6"
+         marker-start="url(#Arrow1Lstart-5)"
+         marker-end="url(#Arrow1Lend-2)"
          stroke-width="0.264583"
-         id="path1924-4"
-         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-9);marker-end:url(#Arrow1Lend-9)" />
+         id="path1924-0"
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Lstart-5);marker-end:url(#Arrow1Lend-2)" />
       <path
-         d="M 60.97,94.724333 V 106.016"
+         d="m 60.814136,95 v 11.29167"
          stroke-width="0.132292"
-         id="path1926-5"
+         id="path1926-0"
          style="fill:none;stroke:#000000" />
       <path
-         d="M 66.97,94.724333 V 106.016"
+         d="m 67.116146,95 v 11.29167"
          stroke-width="0.132292"
-         id="path1928-7"
+         id="path1928-0"
          style="fill:none;stroke:#000000" />
       <text
          xml:space="preserve"
          style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke-width:0.247743;stop-color:#000000"
          x="64.041069"
          y="94.369934"
-         id="text1364-4-5"><tspan
+         id="text1364-4-7"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:125%;text-align:center;letter-spacing:0;word-spacing:0;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247743"
-           id="tspan1362-1-8"
+           id="tspan1362-1-5"
            x="64.041069"
-           y="94.369934">6.00 mm</tspan></text>
+           y="94.369934">6.5 mm</tspan></text>
     </g>
   </g>
 </svg>

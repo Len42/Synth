@@ -8864,7 +8864,7 @@
   (gr_text "rev 1.1" (at 84.074 60.325) (layer "F.SilkS") (tstamp eaa60bd3-3fe7-4968-bff3-896b9934b3be)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "TODO: Make sure these resistors fit" (at 38.8874 136.652) (layer "Cmts.User") (tstamp cf3116e8-2920-4945-9ee9-9d9202168909)
+  (gr_text "TODO:\n- Make sure these resistors fit\n- Check all resistor footprints" (at 38.8874 136.652) (layer "Cmts.User") (tstamp cf3116e8-2920-4945-9ee9-9d9202168909)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
