@@ -373,18 +373,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.585877"
-     inkscape:cx="285.07844"
+     inkscape:cx="284.51151"
      inkscape:cy="413.76347"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="mm"
-     inkscape:window-width="1920"
+     inkscape:window-width="960"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:lockguides="false"
      showborder="false"
@@ -444,9 +444,9 @@
          id="path833-4-7-5" />
     </g>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4248"
-       width="50.700001"
+       width="50.400002"
        height="128.34599"
        x="50.077003"
        y="50.06612" />
