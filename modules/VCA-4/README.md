@@ -6,13 +6,17 @@
 
 ### Features
 - Four exponential VCAs based on an [SSI2164 chip](https://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf)
-- 
+- Each CV input is normalled to the next one, so one CV can control multiple channels
+- Each output is normalled to mix with the next channel's input
 
 ### Notes
+PCB layouts are provided in KiCad and gerber formats. A front panel design is included as a drilled PCB layout (with no labels or graphics).
 
-[notes]
-
-PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
+(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/zzz)
+- [Controls board](https://oshpark.com/shared_projects/zzz)
+- [Middle board](https://oshpark.com/shared_projects/zzz)
+- [Back board](https://oshpark.com/shared_projects/zzz)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
