@@ -1808,7 +1808,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 65798637-24d6-4ff1-9397-b5bb12c009de)
   )
-  (text "TODO: Fix this! \nCV is all wrong. See datasheet.\n\nTODO: Check if voltage clamping is needed."
+  (text "TODO: Fix this! \nCV is all wrong. See VCA-CV-2164-2.cjs\n\nTODO: Check if voltage clamping is needed."
     (at 66.04 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7fce6f87-7c59-490d-9fe9-d49086eabb23)
