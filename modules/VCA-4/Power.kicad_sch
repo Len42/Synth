@@ -50,7 +50,7 @@
       (property "Value" "TL074" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "-lmp-misc:DIP-14_W7.62mm_LongPads" (id 2) (at -1.27 2.54 0)
+      (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at -1.27 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 1.27 5.08 0)
@@ -1161,7 +1161,6 @@
       )
     )
   )
-
 
   (junction (at 38.1 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 00627221-b0fd-448e-b5a6-250d249697c2)
