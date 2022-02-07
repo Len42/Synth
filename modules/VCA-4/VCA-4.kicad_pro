@@ -387,7 +387,6 @@
         "name": "Power",
         "nets": [
           "+12V",
-          "+2VREF",
           "+5VREF",
           "-12V",
           "GND"
