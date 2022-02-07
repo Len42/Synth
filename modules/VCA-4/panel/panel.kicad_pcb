@@ -603,9 +603,6 @@
   (gr_line (start 170.499989 50.000002) (end 170.499989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a540b2))
   (gr_line (start 119.999989 50.000002) (end 170.499989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a542c8))
   (gr_line (start 170.499989 178.499999) (end 119.999989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54339))
-  (gr_text "TODO: Maybe move CV pots left a bit?" (at 137.795 72.898) (layer "Cmts.User") (tstamp c0d7ddc3-0fb2-4859-8099-85cf17faa495)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3179ef1b-faa6-4773-ac15-5874e7722161) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
