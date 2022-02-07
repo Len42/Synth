@@ -603,6 +603,9 @@
   (gr_line (start 170.499989 50.000002) (end 170.499989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a540b2))
   (gr_line (start 119.999989 50.000002) (end 170.499989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a542c8))
   (gr_line (start 170.499989 178.499999) (end 119.999989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54339))
+  (gr_text "TODO: move jack up 4.4,\nmove trimmer down 4.4, 15 mm away from jack" (at 124.333 56.642) (layer "Cmts.User") (tstamp 4fd71c9f-fda7-44dc-a730-71f9a293687a)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3179ef1b-faa6-4773-ac15-5874e7722161) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
