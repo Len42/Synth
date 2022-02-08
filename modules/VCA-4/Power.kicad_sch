@@ -1849,7 +1849,7 @@
     (property "Value" "SSI2164" (id 1) (at 154.3812 109.093 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-lmp-breakout:Breakout_DIP-16_W15.24mm" (id 2) (at 149.86 111.76 0)
+    (property "Footprint" "-lmp-breakout:Breakout_DIP-SOIC-16_W15.24mm" (id 2) (at 149.86 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://soundsemiconductor.com/downloads/ssi2164datasheet.pdf" (id 3) (at 151.13 107.95 0)
