@@ -1,0 +1,7 @@
+
+### Software Used
+
+* [KiCad](https://www.kicad.org/) 5.1.10-1
+* [KiCad](https://www.kicad.org/) 6.0.0
+* [Arduino](https://www.arduino.cc/) 1.8.18
+* (optional) [Visual Studio 2019](https://visualstudio.microsoft.com/) - Only used to generate the numtables.h file, which is provided.
