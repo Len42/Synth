@@ -218,7 +218,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9eb)
-    (at 161.195005 85.097)
+    (at 159.295005 85.097)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -240,7 +240,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9f5)
-    (at 161.195005 123.197)
+    (at 159.295005 123.197)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -262,7 +262,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9fa)
-    (at 161.195005 66.047)
+    (at 159.295005 66.047)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -305,7 +305,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5ea04)
-    (at 161.195005 104.147)
+    (at 159.295005 104.147)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -369,7 +369,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 61FF37DB) (tstamp 17bfb2da-c5fc-4e07-91e1-b9c5ab3fe262)
-    (at 143.314005 123.197)
+    (at 141.4 129.797)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -474,7 +474,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 61FF37DB) (tstamp 8454cb6b-0849-4c10-be37-c442a713f93e)
-    (at 143.314005 85.097)
+    (at 141.4 91.697)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -516,7 +516,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 61FF37DB) (tstamp c8b088e8-33f6-4063-86e4-a7b123b42783)
-    (at 143.314005 66.047)
+    (at 141.2 72.647)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -537,7 +537,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 61FF37DB) (tstamp e240e68f-4c1e-46fd-8a6c-f3f42b719d85)
-    (at 143.314005 104.147)
+    (at 141.4 110.747)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -598,14 +598,11 @@
     (pad "" np_thru_hole circle locked (at 0 0) (size 6.3 6.3) (drill 6.3) (layers *.Cu *.Mask) (tstamp 04b4594e-0a49-4715-a6a1-54c2247add38))
   )
 
-  (gr_circle (center 161.163 66.04) (end 170.413 66.04) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 7a4ce4b3-518a-4819-b8b2-5127b3347c64))
+  (gr_circle (center 159.263 66.04) (end 168.513 66.04) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 7a4ce4b3-518a-4819-b8b2-5127b3347c64))
   (gr_line (start 119.999989 178.499999) (end 119.999989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54053))
   (gr_line (start 170.499989 50.000002) (end 170.499989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a540b2))
   (gr_line (start 119.999989 50.000002) (end 170.499989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a542c8))
   (gr_line (start 170.499989 178.499999) (end 119.999989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54339))
-  (gr_text "TODO: move jack up 4.4,\nmove trimmer down 4.4, 15 mm away from jack" (at 124.333 56.642) (layer "Cmts.User") (tstamp 4fd71c9f-fda7-44dc-a730-71f9a293687a)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-  )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3179ef1b-faa6-4773-ac15-5874e7722161) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
