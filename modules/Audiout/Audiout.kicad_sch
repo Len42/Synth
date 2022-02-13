@@ -1,0 +1,307 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 5c30b9b4-3014-4f50-9329-27a539b67e01)
+
+  (paper "A4")
+
+  (title_block
+    (title "Eurorack Audiout Module")
+    (date "2021-11-30")
+    (rev "1.2")
+    (company "Len Popp")
+    (comment 1 "Copyright © 2021 Len Popp CC BY")
+    (comment 2 "Stereo headphone and balanced line outputs with level controls, 4 HP")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Main" (at 50.8 46.99 0)
+    (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
+    (uuid 29bb7297-26fb-4776-9266-2355d022bab0)
+  )
+  (text "Front Panel & Power" (at 50.8 96.52 0)
+    (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
+    (uuid cb6062da-8dcd-4826-92fd-4071e9e97213)
+  )
+
+  (sheet (at 50.8 50.8) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060cbf552)
+    (property "Sheet name" "Main" (id 0) (at 50.8 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Main.kicad_sch" (id 1) (at 50.8 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 50.8 100.33) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060cbfb6a)
+    (property "Sheet name" "PanelPower" (id 0) (at 50.8 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PanelPower.kicad_sch" (id 1) (at 50.8 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000060cbf552" (page "2"))
+    (path "/00000000-0000-0000-0000-000060cbfb6a" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061af0f8c"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59ad1"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59987"
+      (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59052"
+      (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060dd9adf"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ed19ac"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060eef8ee"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060dc5653"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e59d13"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459eb"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e54961"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459c6"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e6b49b"
+      (reference "#PWR026") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e6cf27"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ba0be5"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b798cd"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c927a4"
+      (reference "#PWR0117") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c86281"
+      (reference "#PWR0119") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c80bf1"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
+      (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c7fbfa"
+      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c8030a"
+      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b56e39"
+      (reference "C3") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db36a"
+      (reference "C4") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db370"
+      (reference "C5") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f97f01"
+      (reference "C6") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fbf28b"
+      (reference "C7") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fbf285"
+      (reference "C8") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e495f8"
+      (reference "C9") (unit 1) (value "470N") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459b0"
+      (reference "C10") (unit 1) (value "470N") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e6d9a4"
+      (reference "C15") (unit 1) (value "1U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e7790f"
+      (reference "C16") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e9d7e4"
+      (reference "C17") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e73a2b"
+      (reference "C18") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e931cd"
+      (reference "C19") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
+      (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0cf9c"
+      (reference "J2") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060dd82a0"
+      (reference "J3") (unit 1) (value "WQP419GR") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ366ST_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060dd6bec"
+      (reference "J4") (unit 1) (value "WQP419GR") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ366ST_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060dd7bd9"
+      (reference "J5") (unit 1) (value "WQP419GR") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ366ST_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f45e88"
+      (reference "J6") (unit 1) (value "Conn_Front") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f46c63"
+      (reference "J7") (unit 1) (value "Conn_Rear") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
+      (reference "J8") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e4229a"
+      (reference "R1") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459a3"
+      (reference "R2") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e4742d"
+      (reference "R3") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459a9"
+      (reference "R4") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e5334b"
+      (reference "R5") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e55174"
+      (reference "R6") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459c0"
+      (reference "R7") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f45a12"
+      (reference "R8") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e53227"
+      (reference "R9") (unit 1) (value "43K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459ba"
+      (reference "R10") (unit 1) (value "43K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e56e20"
+      (reference "R15") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e655dd"
+      (reference "R16") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f459e1"
+      (reference "R17") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060f45a31"
+      (reference "R18") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e6c948"
+      (reference "R19") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e6ca33"
+      (reference "R20") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e76970"
+      (reference "R21") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ea2c9e"
+      (reference "R22") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e7619b"
+      (reference "R23") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060e782e2"
+      (reference "R24") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000061029786"
+      (reference "R29") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ffef64"
+      (reference "R30") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ed0fbc"
+      (reference "R31") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060eef8e8"
+      (reference "R32") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ed213b"
+      (reference "R33") (unit 1) (value "33K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060ee2dfa"
+      (reference "R34") (unit 1) (value "33K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060d8db0e"
+      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060d9d941"
+      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fe74dd"
+      (reference "U2") (unit 1) (value "TL072") (footprint "-lmp-misc:DIP-8_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fe74e3"
+      (reference "U2") (unit 2) (value "TL072") (footprint "-lmp-misc:DIP-8_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fc92ed"
+      (reference "U2") (unit 3) (value "TL072") (footprint "-lmp-misc:DIP-8_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fe74e9"
+      (reference "U3") (unit 1) (value "TL074") (footprint "-lmp-misc:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fe74ef"
+      (reference "U3") (unit 2) (value "TL074") (footprint "-lmp-misc:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000061046ab4"
+      (reference "U3") (unit 3) (value "TL074") (footprint "-lmp-misc:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fe74fb"
+      (reference "U3") (unit 4) (value "TL074") (footprint "-lmp-misc:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c16982"
+      (reference "U3") (unit 5) (value "TL074") (footprint "-lmp-misc:DIP-14_W7.62mm_LongPads")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fb6a23"
+      (reference "U4") (unit 1) (value "LM4808") (footprint "-lmp-breakout:Breakout_DIP-8_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbf552/00000000-0000-0000-0000-000060fb6a29"
+      (reference "U4") (unit 2) (value "LM4808") (footprint "-lmp-breakout:Breakout_DIP-8_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f8e9f7"
+      (reference "U4") (unit 3) (value "LM4808") (footprint "-lmp-breakout:Breakout_DIP-8_W7.62mm")
+    )
+  )
+)
