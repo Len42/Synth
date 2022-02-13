@@ -598,7 +598,6 @@
     (pad "" np_thru_hole circle locked (at 0 0) (size 6.3 6.3) (drill 6.3) (layers *.Cu *.Mask) (tstamp 04b4594e-0a49-4715-a6a1-54c2247add38))
   )
 
-  (gr_circle (center 159.263 66.04) (end 168.513 66.04) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 7a4ce4b3-518a-4819-b8b2-5127b3347c64))
   (gr_line (start 119.999989 178.499999) (end 119.999989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54053))
   (gr_line (start 170.499989 50.000002) (end 170.499989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a540b2))
   (gr_line (start 119.999989 50.000002) (end 170.499989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a542c8))
