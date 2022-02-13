@@ -1919,6 +1919,11 @@
     (uuid ffa442c7-cbef-461f-8613-c211201cec06)
   )
 
+  (text "When channel 1's output is normalled to channel 2, \nit must be inverted before mixing into the last \ninverting stage."
+    (at 68.58 182.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 01dbc3c9-f52a-4dfa-9a64-d5ac5c879651)
+  )
   (text "Power & Stuff" (at 304.8 72.39 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1855ca44-ab48-4b76-a210-97fc81d916c4)
@@ -1952,8 +1957,8 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid ee41cb8e-512d-41d2-81e1-3c50fff32aeb)
   )
-  (text "If a channel's output is not patched, \nit is normalled to mix with the next channel."
-    (at 85.09 67.31 0)
+  (text "If a channel's output is not patched, it is \nnormalled to mix with the next channel's output."
+    (at 83.82 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ff1b8132-079c-4b22-ad89-8a79f0abf279)
   )
