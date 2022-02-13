@@ -5334,6 +5334,9 @@
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061c69b4e/24bad423-5301-457d-95c3-9e5d385b8e67"
+      (reference "A1") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
+    )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061c656de"
       (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
     )
