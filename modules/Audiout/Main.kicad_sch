@@ -2286,7 +2286,7 @@
     (pin "2" (uuid fd05c247-250a-4625-9a4c-ca0bf2aa3a5f))
   )
 
-  (symbol (lib_id "-lmp-synth:LM4808") (at 205.74 87.63 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:LM4808") (at 205.74 87.63 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fb6a23)
     (property "Reference" "U4" (id 0) (at 205.74 94.615 0))
@@ -2317,7 +2317,7 @@
     (pin "3" (uuid f502d467-1eea-4740-aa02-5ec768378ee2))
   )
 
-  (symbol (lib_id "-lmp-synth:LM4808") (at 205.74 120.65 0)
+  (symbol (lib_id "-lmp-synth:LM4808") (at 205.74 120.65 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fb6a29)
     (property "Reference" "U4" (id 0) (at 205.74 111.3282 0))
@@ -2348,7 +2348,7 @@
     (pin "7" (uuid 5a2ffe10-ce02-42f9-a474-f76d881a7163))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 58.42 40.64 0) (mirror x)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 58.42 40.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fe74dd)
     (property "Reference" "U2" (id 0) (at 58.42 47.625 0))
@@ -2379,7 +2379,7 @@
     (pin "3" (uuid fbb97900-d1c5-4ae1-bf20-4be4a6c402b8))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 58.42 125.73 0) (mirror x)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 58.42 125.73 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fe74e3)
     (property "Reference" "U2" (id 0) (at 58.42 132.715 0))
@@ -2410,7 +2410,7 @@
     (pin "7" (uuid 7fa8a056-ce6b-467d-ba4f-e8fe61828733))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 132.08 0) (mirror x)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 132.08 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fe74e9)
     (property "Reference" "U3" (id 0) (at 118.11 139.065 0))
@@ -2441,7 +2441,7 @@
     (pin "3" (uuid f51e8516-43d9-4968-ab7d-a1cfafe430cd))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 154.94 0)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 154.94 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fe74ef)
     (property "Reference" "U3" (id 0) (at 118.11 146.05 0))
@@ -2472,7 +2472,7 @@
     (pin "7" (uuid f6605b91-dc62-4605-98f8-56aada3cfc98))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 69.85 0)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 69.85 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fe74fb)
     (property "Reference" "U3" (id 0) (at 118.11 60.96 0))
@@ -2533,7 +2533,7 @@
     (pin "2" (uuid fca26de5-9099-46f1-a650-97641a4fc54c))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 46.99 0) (mirror x)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 118.11 46.99 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061046ab4)
     (property "Reference" "U3" (id 0) (at 118.11 53.975 0))

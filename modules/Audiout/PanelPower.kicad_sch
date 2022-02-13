@@ -2769,7 +2769,7 @@
     (pin "1" (uuid 07e85b93-5279-493c-b59b-e59a427d3975))
   )
 
-  (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 36.83 43.18 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 36.83 43.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060cb8a0c)
     (property "Reference" "J1" (id 0) (at 32.258 40.3352 0)
@@ -2929,7 +2929,7 @@
     (pin "1" (uuid 8c611cf0-320b-4241-91ac-a35759bdc696))
   )
 
-  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 139.7 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 139.7 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dd6bec)
     (property "Reference" "J4" (id 0) (at 29.718 136.8552 0)
@@ -2967,7 +2967,7 @@
     (pin "T" (uuid 1090f6eb-b3a1-4ace-a576-8046eb29eeda))
   )
 
-  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 154.94 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 154.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dd7bd9)
     (property "Reference" "J5" (id 0) (at 29.7434 152.0952 0)
@@ -3005,7 +3005,7 @@
     (pin "T" (uuid 42ffd60b-c29c-44aa-bbb1-54ba70b2ce02))
   )
 
-  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 99.06 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:Jack_WQP419GR") (at 36.83 99.06 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dd82a0)
     (property "Reference" "J3" (id 0) (at 29.7434 96.2152 0)
@@ -3059,7 +3059,7 @@
     (pin "1" (uuid 3bee896b-0328-4b1e-9495-b260591a464f))
   )
 
-  (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 36.83 58.42 0) (mirror x)
+  (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 36.83 58.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f0cf9c)
     (property "Reference" "J2" (id 0) (at 32.258 55.5752 0)
