@@ -7,7 +7,7 @@
 ### Features
 - Four exponential VCAs based on an [SSI2164 chip](https://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf)
 - Each CV input is normalled to the next one, so one CV can control multiple channels
-- Each output is normalled to mix with the next channel's input
+- Each output is normalled to mix with the next channel's output
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A front panel design is included as a drilled PCB layout (with no labels or graphics).
