@@ -356,7 +356,7 @@
       (property "ki_keywords" "Fatkeys Quad Voltage Controlled Amplifier" (id 13) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Fatkeys™ Quad Voltage Controlled Amplifier" (id 14) (at 0 0 0)
+      (property "ki_description" "Fatkeys Quad Voltage Controlled Amplifier" (id 14) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* Breakout*DIP-16*W15.24mm*" (id 15) (at 0 0 0)
