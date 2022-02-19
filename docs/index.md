@@ -26,7 +26,7 @@ These are the modules that I have built so far:
 
 ## Not Modules
 
-[Power-Supply](https://github.com/Len42/Synth/tree/main/modules/Power-Supply) &mdash; Eurorack power supply using a laptop charger
+[Power-Supply](https://github.com/Len42/Synth/tree/main/misc/Power-Supply) &mdash; Eurorack power supply using a laptop charger
 
 [Cable Hanger](https://github.com/Len42/Synth/tree/main/misc/cable-hanger) &mdash; Simple desk-mounted patch cable rack
 
