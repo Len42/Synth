@@ -2,7 +2,7 @@
 
 ## Designs for my Eurorack synthesizer modules
 
-<img src="../docs/synth-photo.jpg" width=500px style="float:right">
+<img src="https://raw.githubusercontent.com/Len42/Synth/main/docs/synth-photo.jpg" width=500px style="float:right">
 
 My modular synthesizer designs are shared in [this repository](https://github.com/Len42/Synth).
 
