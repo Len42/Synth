@@ -24,7 +24,11 @@ These are the modules that I have built so far:
 
 [Noise-SH](https://github.com/Len42/Synth/tree/main/modules/Noise-SH) &mdash; Noise, sample-and-hold, and trigger clock, all in one module
 
+## Not Modules
+
 [Power-Supply](https://github.com/Len42/Synth/tree/main/modules/Power-Supply) &mdash; Eurorack power supply using a laptop charger
+
+[Cable Hanger](https://github.com/Len42/Synth/tree/main/misc/cable-hanger) &mdash; Simple desk-mounted patch cable rack
 
 ## General Info
 
