@@ -6,9 +6,9 @@
 
 <img src="hanger2.jpg" style="float:right">
 
-This is a simple desk-mounted patch cable hanger made from foamcore and cardboard. It's a bit janky but it does the job.
+This is a simple desk-mounted patch cable hanger made from foamcore and cardboard, sealed with Mod Podge and painted. It's attached to my desk with double-sided tape on two surfaces.
 
-The hanger is attached to my desk with double-sided tape on two surfaces.
+It's a bit janky but it does the job.
 
 A full-size parts drawing is [here](cable-hanger.svg).
 
