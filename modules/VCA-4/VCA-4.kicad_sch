@@ -5945,25 +5945,25 @@
       (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f089fa"
-      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c656e2"
       (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619c81a5"
-      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619fabc7"
       (reference "RV5") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb68dd"
-      (reference "RV6") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV6") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb73d3"
       (reference "RV7") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb7a59"
-      (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061c6570b"
       (reference "U1") (unit 1) (value "LM4040") (footprint "-lmp-misc:TO-92-2_Wide")
