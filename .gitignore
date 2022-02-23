@@ -10,3 +10,5 @@ Release/
 x64/
 *.user
 *-backups/
+*auto_saved_files*
+_autosave-*
