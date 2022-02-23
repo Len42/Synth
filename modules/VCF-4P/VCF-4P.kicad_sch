@@ -1175,12 +1175,6 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59052"
       (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c4b62c"
-      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cc6663"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200db44"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
@@ -1195,6 +1189,12 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/4b56a582-5f95-4438-9ff1-73d7a6910433"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/35f023af-7ccf-417f-8e76-b0f7268a7dbd"
+      (reference "A?") (unit 1) (value "Cable_Eurorack_16") (footprint "-lmp-misc:NoFootprint")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c8030a"
       (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
@@ -1262,17 +1262,17 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
       (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c12315"
-      (reference "J10") (unit 1) (value "Conn_Front_Left_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/5bbf070e-2efd-4e21-b379-d12649dfed08"
+      (reference "J10") (unit 1) (value "Conn_Front_Left") (footprint "-lmp-synth:PinSocket_Delptronics_Front")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c179d1"
-      (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/b00b4b72-10b7-4e77-8d3e-bc92504eb659"
+      (reference "J11") (unit 1) (value "Conn_Back_Right") (footprint "-lmp-synth:PinHeader_Delptronics_Back_8HP")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c1cf6b"
-      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/2b1c7604-6fe0-414a-a3e2-0ab175fe6035"
+      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "-lmp-synth:PinSocket_Delptronics_Front")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c2c145"
-      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/2ce92ac6-89d1-4dc9-9f6e-478036d3fc82"
+      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "-lmp-synth:PinHeader_Delptronics_Back_8HP")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b13bc3"
       (reference "JP1") (unit 1) (value "CV-BUS") (footprint "-lmp-misc:PinHeader_1x03_P2.54mm_Vertical")
