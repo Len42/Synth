@@ -1166,9 +1166,6 @@
   )
 
   (symbol_instances
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a3b57a"
-      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59ad1"
       (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -1177,12 +1174,6 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59052"
       (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a0c7a0"
-      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a85fe4"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c4b62c"
       (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
@@ -1195,9 +1186,6 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200e280"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c927a4"
-      (reference "#PWR0117") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c86281"
       (reference "#PWR0119") (unit 1) (value "+12V") (footprint "")
@@ -1220,41 +1208,38 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db370"
       (reference "C4") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7311e"
-      (reference "C5") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
-    )
     (path "/e6dff940-f1eb-4e4a-b370-952827bbca67"
       (reference "C?") (unit 1) (value "1N") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
-      (reference "H1") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+      (reference "H1") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a8fd"
-      (reference "H2") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+      (reference "H2") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b0d3"
-      (reference "H3") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+      (reference "H3") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b3cb"
-      (reference "H4") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+      (reference "H4") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d5696d"
-      (reference "H5") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+      (reference "H5") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
-      (reference "H6") (unit 1) (value "HW_Standoff_F-F_11mm_M3x0.50") (footprint "")
+      (reference "H6") (unit 1) (value "11mm_M3x0.50") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d57717"
-      (reference "H7") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+      (reference "H7") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d56ebb"
-      (reference "H8") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+      (reference "H8") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/2a086b65-8903-4f51-bbe6-0868308726b0"
-      (reference "H9") (unit 1) (value "HW_Standoff_F-F_11mm_M3x0.50") (footprint "")
+      (reference "H9") (unit 1) (value "11mm_M3x0.50") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d572ad"
-      (reference "H10") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+      (reference "H10") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/f21adf6a-f285-4b44-adee-f33ac0ad1ce8"
       (reference "H11") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
