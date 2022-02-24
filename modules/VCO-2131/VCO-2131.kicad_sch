@@ -5473,9 +5473,6 @@
     (path "/00000000-0000-0000-0000-00006103b4f6"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/00000000-0000-0000-0000-000060bf4825"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060b9f410"
       (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
     )
@@ -5517,6 +5514,39 @@
     )
     (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/00000000-0000-0000-0000-0000615d7627"
       (reference "#PWR0172") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/03fafb79-e9b4-46d8-a707-df52bba50ac0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/3edb8056-dfbd-4dc3-b4f3-1a443b05e4c3"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/42c99485-e957-4729-82f8-3a9a0997a274"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/4b1b7259-48e8-4153-9ccf-6e96d4237991"
+      (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/6bc68de8-1807-4d4b-9154-d87389963a2a"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/80bf3dea-40ff-448e-bdc6-c82ccaae14ab"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/86158768-5167-4b26-9eae-0fd5d11a2f94"
+      (reference "#PWR?") (unit 1) (value "VREF+") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/9561cd4b-241a-47c7-a656-417ba78e392b"
+      (reference "#PWR?") (unit 1) (value "VREF+") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/9e7456c4-7fc3-45aa-88a0-82140af05094"
+      (reference "#PWR?") (unit 1) (value "-5V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/b50d1137-0bfa-4160-9743-b16c0084eb0f"
+      (reference "#PWR?") (unit 1) (value "-5V") (footprint "")
+    )
+    (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/cb1b217a-7e7a-4fe5-8f21-8a2122dee06d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/593a7b50-b5e1-48c6-9245-55f8c0245262"
       (reference "A1") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
