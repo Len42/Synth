@@ -1,4 +1,4 @@
-# VCO Calibration Procedure
+# VCO-2131 Calibration
 
 This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range.
 
@@ -19,6 +19,8 @@ Three appropriate pitch control voltages and corresponding frequencies must be s
 - Middle note with +5V CV input, e.g. C5 or A5. If the +5V is not precise (e.g. it’s from a voltage regulator), calculate the frequency corresponding to the actual measured voltage.
 - High note with +10 CV input, e.g. C10 or A10. If the +10V is not precise, calculate the frequency corresponding to the actual measured voltage.
 
+Other appropriate voltages may be used instead of 5V and 10V.
+
 Examples:
 
 <table>
@@ -29,8 +31,6 @@ Examples:
 <tr><td>A0</td><td>approximate</td><td>27.xx Hz</td><td>88x.x Hz</td><td>281xx Hz</td></tr>
 </table>
 
-Other appropriate voltages may be used instead of 5V and 10V.
-
 ## Preparation
 
 Connect a waveform output (sawtooth, triangle, or pulse) to the frequency counter or tuner.
@@ -39,7 +39,9 @@ Do not connect the voltage source to the CV input yet.
 
 Leave the other inputs & outputs unconnected.
 
-Set the Range switch to the low (bass) setting, the Coarse Tuning knob fully CCW, and Fine Tuning to the centre.
+Set the Range switch to the low (bass) setting, the Coarse Tuning knob fully counter-clockwise, and Fine Tuning to the centre.
+
+Set the HF TRIM trimmer (RV10) fully counter-clockwise.
 
 ## Trimming the VCO
 
