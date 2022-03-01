@@ -5630,10 +5630,10 @@
       (reference "A1") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
     )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061c656de"
-      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061c656dd"
-      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061c656f6"
       (reference "C3") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
