@@ -3,7 +3,7 @@
 ## Output jacks wrong order
 
 - DONE: Fix the schematic labels.
-- Change the panel graphics to match.
+- DONE: Change the panel graphics to match.
 - Re-export the gerbers (after fixing everything).
 
 ## Octave switch middle setting FUBAR
