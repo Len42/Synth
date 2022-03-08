@@ -2790,7 +2790,7 @@
     (uuid 00000000-0000-0000-0000-000061ce3f2e)
     (property "Reference" "C15" (id 0) (at 73.66 21.5392 90))
     (property "Value" "100P" (id 1) (at 73.66 23.8506 90))
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (id 2) (at 69.85 28.9052 0)
+    (property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 69.85 28.9052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/VISH_S_A0012659393_1-2572337.pdf" (id 3) (at 73.66 27.94 0)
@@ -3340,7 +3340,7 @@
     (uuid 00000000-0000-0000-0000-000061d2f030)
     (property "Reference" "C16" (id 0) (at 73.66 104.0892 90))
     (property "Value" "100P" (id 1) (at 73.66 106.4006 90))
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (id 2) (at 69.85 111.4552 0)
+    (property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 69.85 111.4552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/VISH_S_A0012659393_1-2572337.pdf" (id 3) (at 73.66 110.49 0)
@@ -4036,7 +4036,7 @@
     (uuid 00000000-0000-0000-0000-000061d67e57)
     (property "Reference" "C19" (id 0) (at 204.47 21.5392 90))
     (property "Value" "100P" (id 1) (at 204.47 23.8506 90))
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (id 2) (at 200.66 28.9052 0)
+    (property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 200.66 28.9052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/VISH_S_A0012659393_1-2572337.pdf" (id 3) (at 204.47 27.94 0)
@@ -4732,7 +4732,7 @@
     (uuid 00000000-0000-0000-0000-000061f40066)
     (property "Reference" "C20" (id 0) (at 204.47 88.8492 90))
     (property "Value" "100P" (id 1) (at 204.47 91.1606 90))
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (id 2) (at 200.66 96.2152 0)
+    (property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 200.66 96.2152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/VISH_S_A0012659393_1-2572337.pdf" (id 3) (at 204.47 95.25 0)
@@ -5672,10 +5672,10 @@
       (reference "C14") (unit 1) (value "1N2") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
     )
     (path "/00000000-0000-0000-0000-000061ce3f2e"
-      (reference "C15") (unit 1) (value "100P") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
+      (reference "C15") (unit 1) (value "100P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061d2f030"
-      (reference "C16") (unit 1) (value "100P") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
+      (reference "C16") (unit 1) (value "100P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061d67ddf"
       (reference "C17") (unit 1) (value "1N2") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
@@ -5684,10 +5684,10 @@
       (reference "C18") (unit 1) (value "1N2") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
     )
     (path "/00000000-0000-0000-0000-000061d67e57"
-      (reference "C19") (unit 1) (value "100P") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
+      (reference "C19") (unit 1) (value "100P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061f40066"
-      (reference "C20") (unit 1) (value "100P") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
+      (reference "C20") (unit 1) (value "100P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061c69b4e/00000000-0000-0000-0000-000061d5696d"
       (reference "H1") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
