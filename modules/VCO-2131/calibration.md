@@ -1,6 +1,6 @@
 # VCO-2131 Calibration
 
-This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range.
+This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range. It's a bit fiddly and takes a few minutes but I was able to get good pitch tracking over 10 octaves.
 
 ## Required Equipment
 **Either:**
