@@ -2738,7 +2738,7 @@
     (property "Reference" "SW5" (id 0) (at 96.52 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ON_OFF_ON" (id 1) (at 96.52 44.45 0)
+    (property "Value" "ON_ON" (id 1) (at 96.52 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "-lmp-misc:SW_SPDT_THT_2.54" (id 2) (at 104.14 44.45 0)
