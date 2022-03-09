@@ -14,7 +14,7 @@
 ### Notes
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
 
-[Here are instructions for calibration](calibration.html) of the VCO for proper 1V/octave tracking.
+[Here are instructions for calibration](calibration.md) of the VCO for proper 1V/octave tracking.
 
 The sub-oscillator circuit on the schematic **does not work!** Sorry about that. That circuit and the associated output jack can be omitted.
 
