@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Controls & Connectors - Eurorack SSI2131 VCO")
-    (date "2022-01-31")
-    (rev "1.1")
+    (title "Main - Eurorack SSI2131 VCO")
+    (date "2022-03-09")
+    (rev "1.2")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
     (comment 2 "Eurorack VCO module based on SSI2131, 10 HP")
