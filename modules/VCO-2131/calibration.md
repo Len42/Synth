@@ -1,25 +1,27 @@
-# VCO Calibration Procedure
+# VCO-2131 Calibration
 
-This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range.
+This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range. It's a bit fiddly and takes a few minutes but I was able to get good pitch tracking over 10 octaves.
 
 ## Required Equipment
-Either:
+**Either:**
 - Precision voltage source, adjustable from 0V to +10V. An accurate 1V/octave keyboard or MIDI-CV converter can be used.
 - Precision frequency counter or music tuner.
 
-Or:
-- Stable (but non-precision) voltage source, e.g. from a voltage regulator. +5V and +10V (approximately) are required. 
+**Or:**
+- Stable (but non-precision) voltage source, _e.g._ from a voltage regulator. +5V and +10V (approximately) are required. 
 - Precision voltmeter.
-- Precision frequency counter. (Not a music tuner – the frequencies will not necessarily be exact musical note pitches.)
+- Precision frequency counter. (Not a music tuner – the frequencies will not necessarily correspond to musical note pitches.)
 
 ## Calibration Parameters
 
 Three appropriate pitch control voltages and corresponding frequencies must be selected:
-- Low note with 0V CV input, e.g. C0 (16.35 Hz) or A0 (27.5 Hz).
-- Middle note with +5V CV input, e.g. C5 or A5. If the +5V is not precise (e.g. it’s from a voltage regulator), calculate the frequency corresponding to the actual measured voltage.
-- High note with +10 CV input, e.g. C10 or A10. If the +10V is not precise, calculate the frequency corresponding to the actual measured voltage.
+- Low note with 0V CV input, _e.g._ C0 (16.35 Hz) or A0 (27.5 Hz).
+- Middle note with +5V CV input, _e.g._ C5 or A5. If the +5V is not precise (_e.g._ it’s from a voltage regulator), calculate the frequency corresponding to the actual measured voltage.
+- High note with +10 CV input, _e.g._ C10 or A10. If the +10V is not precise, calculate the frequency corresponding to the actual measured voltage.
 
-Examples:
+Other appropriate voltages may be used instead of 5V and 10V.
+
+### Examples
 
 <table>
 <tr><th>Low note</th><th>CV source</th><th>Freq. at 0V</th><th>Freq. at 5V</th><th>Freq. at 10V</th></tr>
@@ -29,8 +31,6 @@ Examples:
 <tr><td>A0</td><td>approximate</td><td>27.xx Hz</td><td>88x.x Hz</td><td>281xx Hz</td></tr>
 </table>
 
-Other appropriate voltages may be used instead of 5V and 10V.
-
 ## Preparation
 
 Connect a waveform output (sawtooth, triangle, or pulse) to the frequency counter or tuner.
@@ -39,7 +39,7 @@ Do not connect the voltage source to the CV input yet.
 
 Leave the other inputs & outputs unconnected.
 
-Set the Range switch to the low (bass) setting, the Coarse Tuning knob fully CCW, and Fine Tuning to the centre.
+Set the Range switch to the low (bass) setting, the Coarse Tuning knob fully counter-clockwise, and Fine Tuning to the centre.
 
 ## Trimming the VCO
 
