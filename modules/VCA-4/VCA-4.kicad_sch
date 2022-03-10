@@ -1949,8 +1949,8 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d0d2eee9-31f6-44fa-8149-ebb4dc2dc0dc)
   )
-  (text "Each channel's CV input is normalled to the next one."
-    (at 83.82 71.12 0)
+  (text "Each channel's CV input is normalled \nfrom the previous one."
+    (at 83.82 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e446a5fe-292a-4fa4-b98f-d9daff77fdf0)
   )
