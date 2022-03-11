@@ -598,10 +598,15 @@
     (pad "" np_thru_hole circle locked (at 0 0) (size 6.3 6.3) (drill 6.3) (layers *.Cu *.Mask) (tstamp 04b4594e-0a49-4715-a6a1-54c2247add38))
   )
 
+  (gr_circle (center 159.295 66.047) (end 168.545 66.047) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 37e8181c-a81e-498b-b2e2-0aef0c391059))
+  (gr_circle (center 159.295 85.097) (end 168.545 85.097) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp 4ef07d45-f940-4cb6-bb96-2ddec13fd099))
   (gr_line (start 119.999989 178.499999) (end 119.999989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54053))
   (gr_line (start 170.499989 50.000002) (end 170.499989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a540b2))
   (gr_line (start 119.999989 50.000002) (end 170.499989 50.000002) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a542c8))
   (gr_line (start 170.499989 178.499999) (end 119.999989 178.499999) (layer "Edge.Cuts") (width 0.1524) (tstamp 00000000-0000-0000-0000-000061a54339))
+  (gr_text "TODO: holes 6.3 & 7.3 mm" (at 156.591 97.409) (layer "Cmts.User") (tstamp 8269e9fd-85b6-4956-b9ff-6bc28fa3d59b)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3179ef1b-faa6-4773-ac15-5874e7722161) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
