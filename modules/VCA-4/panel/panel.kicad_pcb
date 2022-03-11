@@ -176,7 +176,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a5e9e1)
-    (at 151.012505 147.6378)
+    (at 151.012505 148.0828)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -197,7 +197,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a5e9e6)
-    (at 162.637505 147.6378)
+    (at 162.637505 148.0828)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -218,7 +218,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9eb)
-    (at 159.295005 85.097)
+    (at 159.295005 85.545)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -240,7 +240,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9f5)
-    (at 159.295005 123.197)
+    (at 159.295005 123.645)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -262,7 +262,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5e9fa)
-    (at 159.295005 66.047)
+    (at 159.295005 66.495)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -284,7 +284,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a5e9ff)
-    (at 162.637505 161.684)
+    (at 162.637505 162.129)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -305,7 +305,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_Alpha" (layer "F.Cu")
     (tedit 61FF3611) (tstamp 00000000-0000-0000-0000-000061a5ea04)
-    (at 159.295005 104.147)
+    (at 159.295005 104.595)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -327,7 +327,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a5ea09)
-    (at 151.012505 161.684)
+    (at 151.012505 162.129)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -348,7 +348,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 131989d7-a1db-4ed4-9574-01d0a4ea200c)
-    (at 127.670005 85.097)
+    (at 127.670005 85.545)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -369,7 +369,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp 17bfb2da-c5fc-4e07-91e1-b9c5ab3fe262)
-    (at 141.4 129.797)
+    (at 141.4 130.245)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -390,7 +390,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 201d8130-4090-4b9e-92e2-27643553a176)
-    (at 127.670005 161.684)
+    (at 127.670005 162.129)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -411,7 +411,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 2bfcf6e0-11c2-44b1-80ee-745466c52dd6)
-    (at 127.670005 147.6378)
+    (at 127.670005 148.0828)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -432,7 +432,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 2f6c54ce-96a3-45fc-af26-e51da34ff8af)
-    (at 127.670005 104.147)
+    (at 127.670005 104.595)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -453,7 +453,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 50e2510b-285f-450d-924c-851068760a2c)
-    (at 139.387505 161.684)
+    (at 139.387505 162.129)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -474,7 +474,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp 8454cb6b-0849-4c10-be37-c442a713f93e)
-    (at 141.4 91.697)
+    (at 141.4 92.145)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -495,7 +495,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 940654a6-5d39-48ec-a93c-c595fe7f6f90)
-    (at 127.67 66.047)
+    (at 127.67 66.495)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -516,7 +516,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp c8b088e8-33f6-4063-86e4-a7b123b42783)
-    (at 141.2 72.647)
+    (at 141.4 73.095)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -537,7 +537,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp e240e68f-4c1e-46fd-8a6c-f3f42b719d85)
-    (at 141.4 110.747)
+    (at 141.4 111.195)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -558,7 +558,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp f306e34b-4a70-4820-b422-4029b242ca0b)
-    (at 127.670005 123.197)
+    (at 127.670005 123.645)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -579,7 +579,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp fc4c5b7f-1db9-479f-ba4e-7302e24bc012)
-    (at 139.387505 147.6378)
+    (at 139.387505 148.0828)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
