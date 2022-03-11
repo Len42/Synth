@@ -2171,7 +2171,7 @@
     (uuid 00000000-0000-0000-0000-000061c46de2)
     (property "Reference" "R5" (id 0) (at 30.48 41.7322 90))
     (property "Value" "49K9" (id 1) (at 30.48 44.0436 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 30.48 45.212 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 30.48 45.212 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 30.48 46.99 0)
@@ -2360,7 +2360,7 @@
     (uuid 00000000-0000-0000-0000-000061cdbc22)
     (property "Reference" "R13" (id 0) (at 54.61 74.7522 90))
     (property "Value" "60K1" (id 1) (at 54.61 77.0636 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 54.61 78.232 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 54.61 78.232 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 54.61 80.01 0)
@@ -2721,7 +2721,7 @@
     (uuid 00000000-0000-0000-0000-000061d2efa5)
     (property "Reference" "R6" (id 0) (at 30.48 124.2822 90))
     (property "Value" "49K9" (id 1) (at 30.48 126.5936 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 30.48 127.762 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 30.48 127.762 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 30.48 129.54 0)
@@ -2910,7 +2910,7 @@
     (uuid 00000000-0000-0000-0000-000061d2efed)
     (property "Reference" "R14" (id 0) (at 54.61 157.3022 90))
     (property "Value" "60K1" (id 1) (at 54.61 159.6136 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 54.61 160.782 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 54.61 160.782 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 54.61 162.56 0)
@@ -3417,7 +3417,7 @@
     (uuid 00000000-0000-0000-0000-000061d67dcc)
     (property "Reference" "R26" (id 0) (at 149.86 27.7622 90))
     (property "Value" "49K9" (id 1) (at 149.86 30.0736 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 149.86 31.242 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 149.86 31.242 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 149.86 33.02 0)
@@ -3606,7 +3606,7 @@
     (uuid 00000000-0000-0000-0000-000061d67e14)
     (property "Reference" "R34" (id 0) (at 171.45 62.0522 90))
     (property "Value" "60K1" (id 1) (at 171.45 64.3636 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 171.45 65.532 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 171.45 65.532 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 171.45 67.31 0)
@@ -4113,7 +4113,7 @@
     (uuid 00000000-0000-0000-0000-000061f3ffdf)
     (property "Reference" "R27" (id 0) (at 149.86 95.0722 90))
     (property "Value" "49K9" (id 1) (at 149.86 97.3836 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 149.86 98.552 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 149.86 98.552 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 149.86 100.33 0)
@@ -4302,7 +4302,7 @@
     (uuid 00000000-0000-0000-0000-000061f40026)
     (property "Reference" "R35" (id 0) (at 171.45 129.3622 90))
     (property "Value" "60K1" (id 1) (at 171.45 131.6736 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 171.45 132.842 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 171.45 132.842 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/427/cmfmil-1762972.pdf" (id 3) (at 171.45 134.62 0)
@@ -5527,10 +5527,10 @@
       (reference "R4") (unit 1) (value "12K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061c46de2"
-      (reference "R5") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R5") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d2efa5"
-      (reference "R6") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R6") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061c47581"
       (reference "R7") (unit 1) (value "220R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -5551,10 +5551,10 @@
       (reference "R12") (unit 1) (value "150K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061cdbc22"
-      (reference "R13") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R13") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d2efed"
-      (reference "R14") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R14") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061ce2623"
       (reference "R15") (unit 1) (value "20K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -5590,10 +5590,10 @@
       (reference "R25") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d67dcc"
-      (reference "R26") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R26") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061f3ffdf"
-      (reference "R27") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R27") (unit 1) (value "49K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d67dd8"
       (reference "R28") (unit 1) (value "220R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -5614,10 +5614,10 @@
       (reference "R33") (unit 1) (value "150K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d67e14"
-      (reference "R34") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R34") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061f40026"
-      (reference "R35") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R35") (unit 1) (value "60K1") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d67e47"
       (reference "R36") (unit 1) (value "20K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
