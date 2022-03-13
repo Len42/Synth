@@ -1261,6 +1261,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9f782c92-a5e8-49db-bfda-752b35522ce4)
   )
+  (text "TODO: Verify all footprints & part nums" (at 208.28 45.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5a264c8-44bb-476b-be97-40b7df78e32c)
+  )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll electrolytic capacitors are rated 25 VDC max."
     (at 177.8 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
