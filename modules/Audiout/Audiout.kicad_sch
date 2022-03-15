@@ -1252,7 +1252,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d2a06fb-0b1e-452a-ab38-11a5f45e1b32)
   )
-  (text "TODO: 10U input caps??" (at 20.32 67.31 0)
+  (text "TODO: 10U input caps??\nand put after op-amp?\nSee Befaco Outv3"
+    (at 20.32 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7bcd2b39-3ed2-4d2c-8455-de5fcab07493)
   )
