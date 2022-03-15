@@ -746,7 +746,6 @@
     )
   )
 
-
   (junction (at 64.77 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 1070dd55-b600-4254-80cf-ba2e0f529d2d)
   )
@@ -783,8 +782,8 @@
 
   (no_connect (at 210.82 90.17) (uuid 90a74f5e-7380-4ff0-bb5e-d9d5841f174b))
   (no_connect (at 222.25 127) (uuid 9a7a10f5-09c1-4de5-9724-b704a0820d11))
-  (no_connect (at 207.01 129.54) (uuid 9a7a10f5-09c1-4de5-9724-b704a0820d11))
-  (no_connect (at 207.01 124.46) (uuid 9a7a10f5-09c1-4de5-9724-b704a0820d11))
+  (no_connect (at 207.01 129.54) (uuid 9a7a10f5-09c1-4de5-9724-b704a0820d12))
+  (no_connect (at 207.01 124.46) (uuid 9a7a10f5-09c1-4de5-9724-b704a0820d13))
 
   (wire (pts (xy 82.55 54.61) (xy 77.47 54.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1427,7 +1426,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2eca6176-25ea-42e1-bf31-9931a409e854)
     (property "Reference" "R9" (id 0) (at 132.08 66.4074 90))
-    (property "Value" "1K" (id 1) (at 132.08 68.9443 90))
+    (property "Value" "100R" (id 1) (at 132.08 68.9443 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 132.08 75.438 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1640,7 +1639,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 85eb368b-93b0-41f2-b00e-d11489b584d4)
     (property "Reference" "R10" (id 0) (at 132.08 87.9974 90))
-    (property "Value" "1K" (id 1) (at 132.08 90.5343 90))
+    (property "Value" "100R" (id 1) (at 132.08 90.5343 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 132.08 97.028 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1674,7 +1673,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8d97230d-a71a-41d6-8750-3631e7940725)
     (property "Reference" "C1" (id 0) (at 50.8 56.3712 90))
-    (property "Value" "470N" (id 1) (at 50.8 58.9081 90))
+    (property "Value" "1U" (id 1) (at 50.8 58.9081 90))
     (property "Footprint" "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm" (id 2) (at 54.61 61.2648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1920,7 +1919,7 @@
       (reference "#PWR010") (unit 1) (value "-12V") (footprint "")
     )
     (path "/8d97230d-a71a-41d6-8750-3631e7940725"
-      (reference "C1") (unit 1) (value "470N") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
+      (reference "C1") (unit 1) (value "1U") (footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm")
     )
     (path "/00000000-0000-0000-0000-0000615e2370"
       (reference "J1") (unit 1) (value "Conn_01x09") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
@@ -1929,7 +1928,7 @@
       (reference "R1") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/43ed0e42-4884-4fb2-ad1b-2bd299fee3f9"
-      (reference "R2") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R2") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/319adab0-4560-4f5f-ac5e-c4e6399fd082"
       (reference "R3") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -1941,22 +1940,22 @@
       (reference "R5") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/985c232a-779f-4ec3-a38d-438835f67191"
-      (reference "R6") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R6") (unit 1) (value "10K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/837b65a8-2979-4128-a58a-3a2dacc60cff"
-      (reference "R7") (unit 1) (value "43K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R7") (unit 1) (value "43K2") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/040ab060-d685-4ce3-9108-5d05848b41ee"
-      (reference "R8") (unit 1) (value "33K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R8") (unit 1) (value "33K2") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/2eca6176-25ea-42e1-bf31-9931a409e854"
-      (reference "R9") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R9") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/85eb368b-93b0-41f2-b00e-d11489b584d4"
-      (reference "R10") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R10") (unit 1) (value "100R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/fd7ee2e8-4d2a-4d5b-865f-b677244281a9"
-      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3386P_Top")
+      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
     )
     (path "/7474435c-27e8-4a39-84b9-efe9d8235613"
       (reference "U1") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
