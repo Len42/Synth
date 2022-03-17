@@ -1401,10 +1401,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9f782c92-a5e8-49db-bfda-752b35522ce4)
   )
-  (text "TODO: Verify all footprints & part nums" (at 208.28 48.26 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c5a264c8-44bb-476b-be97-40b7df78e32c)
-  )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll electrolytic capacitors are rated 25 VDC max."
     (at 177.8 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1914,7 +1910,7 @@
     (property "Value" "1U" (id 1) (at 189.6872 112.903 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-lmp-misc:CP_Radial_D4.0mm_P2.50mm" (id 2) (at 187.6552 115.57 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (id 2) (at 187.6552 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/977/e_YXJ-1601195.pdf" (id 3) (at 186.69 111.76 0)
@@ -1944,7 +1940,7 @@
     (uuid 00000000-0000-0000-0000-000060e73a2b)
     (property "Reference" "C18" (id 0) (at 224.79 83.693 90))
     (property "Value" "220U" (id 1) (at 224.79 86.0044 90))
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 228.6 89.2048 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (id 2) (at 228.6 89.2048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/315/ABA0000C1024-947657.pdf" (id 3) (at 224.79 90.17 0)
@@ -2094,7 +2090,7 @@
     (uuid 00000000-0000-0000-0000-000060e931cd)
     (property "Reference" "C19" (id 0) (at 224.79 116.713 90))
     (property "Value" "220U" (id 1) (at 224.79 119.0244 90))
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 228.6 122.2248 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (id 2) (at 228.6 122.2248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/315/ABA0000C1024-947657.pdf" (id 3) (at 224.79 123.19 0)
@@ -3209,7 +3205,7 @@
       (reference "C12") (unit 1) (value "47P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000060e6d9a4"
-      (reference "C15") (unit 1) (value "1U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+      (reference "C15") (unit 1) (value "1U") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
     )
     (path "/00000000-0000-0000-0000-000060e7790f"
       (reference "C16") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
@@ -3218,10 +3214,10 @@
       (reference "C17") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000060e73a2b"
-      (reference "C18") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C18") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/00000000-0000-0000-0000-000060e931cd"
-      (reference "C19") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C19") (unit 1) (value "220U") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
