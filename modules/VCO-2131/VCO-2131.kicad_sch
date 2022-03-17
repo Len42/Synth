@@ -5827,7 +5827,7 @@
       (reference "RV11") (unit 1) (value "5K") (footprint "-lmp-synth:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/e9999b27-52cc-41e4-afae-8d04f7d483bf/00000000-0000-0000-0000-0000617d5ef9"
-      (reference "SW5") (unit 1) (value "ON_ON") (footprint "-lmp-misc:SW_SPDT_THT_2.54")
+      (reference "SW5") (unit 1) (value "ON_OFF_ON") (footprint "-lmp-misc:SW_SPDT_THT_2.54")
     )
     (path "/5591601a-0208-417f-b6e4-bd68e0c1316e/00000000-0000-0000-0000-0000615b584a"
       (reference "U1") (unit 1) (value "L78L05") (footprint "-lmp-misc:TO-92_Inline_Wide")
