@@ -3169,10 +3169,10 @@
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c7fbfa"
-      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c8030a"
-      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P1.50mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b56e39"
       (reference "C3") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
