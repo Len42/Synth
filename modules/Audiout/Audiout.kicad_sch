@@ -7,7 +7,7 @@
   (title_block
     (title "Main - Eurorack Audiout Module")
     (date "2022-03-17")
-    (rev "1.2")
+    (rev "1.3")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
     (comment 2 "Stereo headphone and balanced line outputs with level controls, 4 HP")
