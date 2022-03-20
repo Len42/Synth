@@ -113,7 +113,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a790be)
-    (at 155.072 147.958)
+    (at 155.01 147.958)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -198,7 +198,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a790d2)
-    (at 155.072 161.934)
+    (at 155.01 161.934)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -241,7 +241,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a790dc)
-    (at 144.973 147.958)
+    (at 144.99 147.958)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -262,7 +262,7 @@
 
   (footprint "-lmp-holes:MountingHole_Jack_3.5mm_PJ398" (layer "F.Cu")
     (tedit 61A536EF) (tstamp 00000000-0000-0000-0000-000061a790e1)
-    (at 144.973 161.934)
+    (at 144.99 161.934)
     (descr "Mounting Hole for PJ398 3.5mm Jack")
     (tags "mounting hole jack 3.5mm pj398")
     (attr exclude_from_pos_files exclude_from_bom)
