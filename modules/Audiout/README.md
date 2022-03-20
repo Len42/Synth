@@ -7,7 +7,7 @@
 ### Features
 - _Input:_ Eurorack jacks for left & right channels, with left normalled to right for mono
 - _Headphone output:_ 3.5 mm stereo headphone jack
-- _Balanced stereo line output:_ 3.5 mm TRS jacks for left & right channels. Requires two cables with 3.5 mm TRS plug on one end and either 1/4 inch TRS or XLR on the other end.
+- _Balanced stereo line output:_ 3.5 mm TRS jacks for left & right channels. Requires two cables with a 3.5 mm TRS plug on one end and either a 1/4 inch TRS or XLR plug on the other end.
 - Separate level controls for headphone and line outputs.
 
 ### Notes
