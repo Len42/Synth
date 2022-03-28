@@ -3869,8 +3869,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b1ba7b91-0010-48a5-9fd5-4fe0ea2e7c4f)
     (property "Reference" "R2" (id 0) (at 85.09 34.6542 90))
-    (property "Value" "24K" (id 1) (at 85.09 37.1911 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 85.09 41.148 90)
+    (property "Value" "" (id 1) (at 85.09 37.1911 90))
+    (property "Footprint" "" (id 2) (at 85.09 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 85.09 39.37 0)
@@ -4822,7 +4822,7 @@
       (reference "R1") (unit 1) (value "1M") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/b1ba7b91-0010-48a5-9fd5-4fe0ea2e7c4f"
-      (reference "R2") (unit 1) (value "24K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R2") (unit 1) (value "24K (15K?)") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/3c085f79-ab56-4ae0-8f04-b1d322e8173a"
       (reference "R3") (unit 1) (value "16K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
