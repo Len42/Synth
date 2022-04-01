@@ -2,6 +2,8 @@
 
 ## 4HP Eurorack Module
 
+TODO: new photo
+
 <img src="Audiout.jpg" style="float:right">
 
 ### Features
@@ -15,10 +17,10 @@ This module requires a 16-pin Eurorack power cable that supplies +5 V power in a
 
 PCB layouts are provided in KiCad and gerber formats. A front panel design is included as a drilled PCB layout (with no labels or graphics).
 
-TBD: The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Front panel](https://oshpark.com/shared_projects/zzz)
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Main board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/ir0qqB0Y)
+- [Controls board](https://oshpark.com/shared_projects/OsCKzftx)
+- [Main board](https://oshpark.com/shared_projects/VA7ex4FE)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
