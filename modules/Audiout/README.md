@@ -2,8 +2,6 @@
 
 ## 4HP Eurorack Module
 
-TODO: new photo
-
 <img src="Audiout.jpg" style="float:right">
 
 ### Features
