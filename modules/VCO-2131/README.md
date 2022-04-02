@@ -7,6 +7,7 @@
 ### Features
 - Analog VCO with sawtooth, triangle, and square/pulse outputs
 - Pitch, PWM, and sync CV inputs
+- Coarse/fine tuning knobs and +/- 2-octave switch
 - Based on an [SSI2131 VCO chip](https://soundsemiconductor.com/downloads/ssi2131datasheet.pdf)
 - Volt-per-octave tracking over 10 octaves
 - 1V/octave input can default to the Eurorack bus CV line (jumper-selectable)
