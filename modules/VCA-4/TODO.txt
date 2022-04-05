@@ -13,11 +13,9 @@ Output clips at ~10 V.
 Level & CV Amt Controls
 -----------------------
 
-2Shapes module output is max 8.6 V. With Level at min, CV Amt maxes out at less than 100% gain, when fed from 2Shapes.
+There is enough gain so that a CV that maxes out at +10 V can give more than 0 dB gain (with the Level control at zero).
 
-But with CV = 10 V there seems to be enough gain with Level at zero.
-
-Level has to be up slightly for envelope to get up to 100% gain. With this setting there doesn't seem to be any audible feedthrough when envelope is off.
+2Shapes module output is max 8.6 V. With Level at min, CV Amt maxes out at less than 100% gain. But giving a bit of Level compensates for that, without any audible feedthrough.
 
 With no CV input, Level knob has to be around 80% to get 100% gain. OK.
 
