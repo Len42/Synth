@@ -22,3 +22,5 @@ Level has to be up slightly for envelope to get up to 100% gain. With this setti
 With no CV input, Level knob has to be around 80% to get 100% gain. OK.
 
 Bipolar CV can be used by adjusting Level control.
+
+Level control max gain (with no CV) = ~13 dB
