@@ -1,0 +1,27 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid b1126b5d-a20e-4895-b462-afcd166fd914)
+
+  (paper "A4")
+
+  (title_block
+    (title "Eurorack Panel")
+    (rev "0.1")
+    (company "Len Popp")
+    (comment 1 "Copyright © 2021 Len Popp CC BY")
+    (comment 2 "No schematic - PCB only")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "No Schematic\n\nPCB Only" (at 116.84 100.33 0)
+    (effects (font (size 5.08 5.08)) (justify left bottom))
+    (uuid 0aa3beed-33f5-4121-ac3c-bfca1445c8a8)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
