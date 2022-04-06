@@ -16,6 +16,8 @@ These designs are shared as open source. See the license details in each project
 
 These are the modules that I have built so far:
 
+[VCA-4](https://github.com/Len42/Synth/tree/main/modules/VCA-4) &mdash; Quad exponential VCA
+
 [Audiout](https://github.com/Len42/Synth/tree/main/modules/Audiout) &mdash; Audio output module
 
 [VCO-2131](https://github.com/Len42/Synth/tree/main/modules/VCO-2131) &mdash; Analog VCO based on the SSI2131 chip
