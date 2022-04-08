@@ -701,7 +701,7 @@
 
   (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top" (layer "F.Cu")
     (tedit 61D8820C) (tstamp 561a9777-3ee1-4e18-9853-7c8cfa786cbd)
-    (at 134.005 78.74 90)
+    (at 176.55 131.445 90)
     (descr "3310R-125-103L")
     (tags "Variable Resistor")
     (property "Distributor" "Mouser")
@@ -1071,7 +1071,7 @@
 
   (footprint "-lmp-breakout:Breakout_DIP-20_W15.24mm" (layer "F.Cu")
     (tedit 61F9CE05) (tstamp 8cc71da1-9bac-42d4-bb4e-7a6d299134e1)
-    (at 134.62 86.36)
+    (at 132.08 119.38)
     (descr "24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
     (property "Distributor" "Antique Electronic Supply")
@@ -1165,7 +1165,7 @@
 
   (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top" (layer "F.Cu")
     (tedit 61D8820C) (tstamp 8d1337ba-2675-46e1-abe5-9927b1a575e7)
-    (at 147.935 78.74 -90)
+    (at 190.48 131.445 -90)
     (descr "3310R-125-103L")
     (tags "Variable Resistor")
     (property "Distributor" "Mouser")
@@ -1329,7 +1329,7 @@
 
   (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top" (layer "F.Cu")
     (tedit 61D8820C) (tstamp 96534f41-18b2-4268-aa41-5c7675c975dd)
-    (at 134.005 66.04 90)
+    (at 176.55 118.745 90)
     (descr "3310R-125-103L")
     (tags "Variable Resistor")
     (property "Distributor" "Mouser")
@@ -1743,7 +1743,7 @@
 
   (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top" (layer "F.Cu")
     (tedit 61D8820C) (tstamp d7adcb4f-3068-4202-ac2f-5d5bf4a9d6cb)
-    (at 151.745 66.04 -90)
+    (at 194.29 118.745 -90)
     (descr "3310R-125-103L")
     (tags "Variable Resistor")
     (property "Distributor" "Mouser")
@@ -1961,7 +1961,7 @@
 
   (footprint "-lmp-misc:C_Radial_D5.0mm_H5.0mm_P2.50mm" (layer "F.Cu")
     (tedit 61254926) (tstamp e39de7f0-183c-4321-bd1b-931602ed44c0)
-    (at 142.24 25.4 -90)
+    (at 137.16 38.14 -90)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 2.50mm diameter 5mm height 5mm Non-Polar Electrolytic Capacitor")
     (property "Distributor" "Mouser")
@@ -2164,7 +2164,7 @@
 
   (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp f67fa892-4032-4a83-9963-6c50debdaadf)
-    (at 134.62 25.4 180)
+    (at 132.08 38.1 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Distributor" "Mouser")
