@@ -2713,6 +2713,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6fdba5e3-24a7-468a-9a13-453a064a8547)
   )
+  (text "TODO: front panel arrangement" (at 92.71 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a33a0e4c-89ff-40ee-80e7-153a9b124f00)
+  )
   (text "The volt/octave frequency input is \nnormalled from the Eurorack bus \n(jumper-enabled)."
     (at 54.61 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2726,6 +2730,11 @@
     (at 36.83 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d5fd4984-14ac-443e-ab71-de2c0217d36e)
+  )
+  (text "TODO: Can use Delptronics package?\nIf so, add to BOM."
+    (at 92.71 29.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d771e94e-0f74-4731-86f5-86187afaa8f6)
   )
 
   (global_label "CV-RES-POT-LO" (shape input) (at 111.76 57.15 0) (fields_autoplaced)
