@@ -4727,53 +4727,38 @@
     (path "/9096b0ed-3509-47ef-ae1f-8a2c56aab22a"
       (reference "C11") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
-      (reference "H1") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/f21adf6a-f285-4b44-adee-f33ac0ad1ce8"
+      (reference "H1") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a8fd"
-      (reference "H2") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b0d3"
-      (reference "H3") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b3cb"
-      (reference "H4") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/493561c2-e033-4e41-87a1-a91f5c2522bd"
+      (reference "H2") (unit 1) (value "Delptronics_MCS_10HP") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d5696d"
-      (reference "H5") (unit 1) (value "M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
-      (reference "H6") (unit 1) (value "11mm_M3x0.50") (footprint "")
+      (reference "H3") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d57717"
-      (reference "H7") (unit 1) (value "M3x0.50x6") (footprint "")
+      (reference "H4") (unit 1) (value "M3x0.50x6") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d56ebb"
-      (reference "H8") (unit 1) (value "M3x0.50x6") (footprint "")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
+      (reference "H5") (unit 1) (value "11mm_M3x0.50") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/2a086b65-8903-4f51-bbe6-0868308726b0"
-      (reference "H9") (unit 1) (value "11mm_M3x0.50") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d572ad"
-      (reference "H10") (unit 1) (value "M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/f21adf6a-f285-4b44-adee-f33ac0ad1ce8"
-      (reference "H11") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b3cb"
+      (reference "H6") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa77"
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa8b"
       (reference "J3") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa8b"
-      (reference "J4") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce0b8d"
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa77"
       (reference "J5") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0eba1"
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce0b8d"
       (reference "J7") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0eba1"
+      (reference "J8") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
       (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
@@ -4883,14 +4868,14 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd"
       (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cae66f"
-      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619c81a5"
-      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
+      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cae66f"
+      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb68dd"
-      (reference "RV6") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV7") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb7a59"
       (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
