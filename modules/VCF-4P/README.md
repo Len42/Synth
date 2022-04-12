@@ -4,17 +4,18 @@
 
 _A low-pass filter using the SSI2140 chip_
 
-<img src="title.jpg" style="float:right">
+<img src="VCF-4P.jpg" style="float:right">
 
 ### Features
-- [features]
+- Four-pole, 24 db/octave low-pass filter made with an [SSI2140 IC](https://soundsemiconductor.com/downloads/ssi2140datasheet.pdf)
+- Self-oscillates at maximum resonance
+- Two CV inputs for cutoff frequency. One is (approximately) 1V/octave and the other has an input attenuator.
+- CV input with attenuator for resonance control
 
 ### Notes
-[notes]
-
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
 
-PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
+A custom PCB design is used for the main board, but the front panel, the PCB for the controls, and the board-to-board connectors come from a Delptronics Module Construction Set (10 HP). The main PCB layout is provided in KiCad and gerber formats.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Controls board](https://oshpark.com/shared_projects/zzz)
