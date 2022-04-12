@@ -1061,7 +1061,7 @@
     (property "Distributor" "Mouser")
     (property "DistributorPartLink" "https://www.mouser.ca/c/passive-components/resistors/variable-resistors/trimmer-resistors-through-hole/?number+of+turns=1&series=3386&instock=y")
     (property "DistributorPartNum" "652-3386*")
-    (property "Label" "RES")
+    (property "Label" "CUTOFF")
     (property "Manufacturer" "Bourns")
     (property "ManufacturerPartNum" "3386*")
     (property "Sheetfile" "prototype.kicad_sch")
