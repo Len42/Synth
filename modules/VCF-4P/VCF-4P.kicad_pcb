@@ -1404,7 +1404,7 @@
 
   (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3" locked (layer "F.Cu")
     (tedit 622675F6) (tstamp 00000000-0000-0000-0000-0000619dd922)
-    (at 204.605 38.91)
+    (at 205.105 38.41)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "PanelPower.kicad_sch")
@@ -1432,7 +1432,7 @@
 
   (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3" locked (layer "F.Cu")
     (tedit 622675F6) (tstamp 00000000-0000-0000-0000-0000619e7a65)
-    (at 99.145 38.91)
+    (at 99.145 38.41)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "PanelPower.kicad_sch")
@@ -1459,7 +1459,7 @@
 
   (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3" locked (layer "F.Cu")
     (tedit 622675F6) (tstamp 00000000-0000-0000-0000-0000619f7340)
-    (at 143.645 38.91)
+    (at 144.145 38.41)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "PanelPower.kicad_sch")
@@ -1486,7 +1486,7 @@
 
   (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3" locked (layer "F.Cu")
     (tedit 622675F6) (tstamp 00000000-0000-0000-0000-0000619f73e9)
-    (at 160.105 38.91)
+    (at 160.105 38.41)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "PanelPower.kicad_sch")
