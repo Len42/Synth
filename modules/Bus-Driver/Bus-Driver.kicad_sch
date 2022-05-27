@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Bus Driver")
     (date "2022-05-26")
-    (rev "1.0")
+    (rev "2.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
     (comment 2 "Eurorack CV & gate bus driver module - 2HP")
@@ -2568,7 +2568,7 @@
     (pin "9" (uuid c5ddd112-b7a2-4639-9f66-6475ca910af1))
     (pin "12" (uuid 60709a97-f8d4-48ec-ba2a-d16aa331c3ac))
     (pin "13" (uuid 3bd4cfb3-d42b-41b0-b683-d1b1974aa8a7))
-    (pin "14" (uuid 6a27149e-bc0e-4792-9556-b66863693909))
+    (pin "14" (uuid 6a27149e-bc0e-4792-9556-b6686369390a))
     (pin "11" (uuid 31e9655c-ff8b-43df-a129-5103fca21812))
     (pin "4" (uuid d4ac16f7-355b-4ac1-988b-ef23459f3fb6))
   )
