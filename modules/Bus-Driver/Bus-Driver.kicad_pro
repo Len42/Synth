@@ -353,7 +353,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lmp-Euro-4HP.kicad_pro",
+    "filename": "Bus-Driver.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -457,10 +457,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000060cbfb6a",
-      "PanelPower"
     ]
   ],
   "text_variables": {}
