@@ -1,6 +1,6 @@
 # Bus Driver
 
-## 4HP Eurorack Module
+## 3HP Eurorack Module
 
 <img src="title.jpg" style="float:right">
 
@@ -11,6 +11,8 @@
 [notes]
 
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
+
+(TBD) power connector
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
