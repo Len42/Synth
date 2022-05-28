@@ -388,7 +388,9 @@
         "nets": [
           "+12V",
           "-12V",
-          "GND"
+          "GND",
+          "Net-(D1-Pad2)",
+          "Net-(D2-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
