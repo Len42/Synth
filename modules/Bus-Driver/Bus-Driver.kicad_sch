@@ -10,7 +10,7 @@
     (rev "2.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "Eurorack CV & gate bus driver module - 2HP")
+    (comment 2 "Eurorack CV & gate bus driver module - 3HP")
   )
 
   (lib_symbols
