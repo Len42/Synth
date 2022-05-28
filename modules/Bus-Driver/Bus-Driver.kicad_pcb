@@ -3703,6 +3703,9 @@
   (gr_text "rev ${REVISION}" (at 153.162 41.529) (layer "F.SilkS") (tstamp bc3b3f93-69e0-44a5-b919-319b81d13095)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
+  (gr_text "TODO: Shrink both board outlines\nTODO: Printing on main board" (at 123.5964 58.4708) (layer "Cmts.User") (tstamp 614f6b44-34b5-4410-aeb8-fc65aa65e9d4)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify left))
+  )
 
   (segment (start 159.131 70.1675) (end 157.861 70.1675) (width 0.762) (layer "F.Cu") (net 1) (tstamp 26611c63-2daa-4b4e-831e-b1094a276658))
   (segment (start 160.1216 100.8888) (end 161.036 99.9744) (width 0.762) (layer "F.Cu") (net 1) (tstamp 375f09e0-45c6-4005-8f90-cdf6fb01b3f2))
