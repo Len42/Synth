@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 40,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -34,6 +34,7 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
@@ -63,11 +64,11 @@
       35,
       36
     ],
-    "visible_layers": "000b3f0_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "0003fff_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "Buff-Mult.kicad_prl",
+    "filename": "panel.kicad_prl",
     "version": 3
   },
   "project": {
