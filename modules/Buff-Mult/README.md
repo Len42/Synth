@@ -7,6 +7,7 @@
 ### Features
 - Two 1:3 channels - each copies an input signal to three outputs.
 - Input of channel 1 is normalled to channel 2, so it can be used as a 1:6 multiple.
+- Outputs are buffered so that they don't affect each other, unlike a passive mult.
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
