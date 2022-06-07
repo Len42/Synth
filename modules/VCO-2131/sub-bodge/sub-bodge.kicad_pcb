@@ -250,8 +250,8 @@
   (gr_line (start 157.48 63.5) (end 157.48 111.76) (layer "Edge.Cuts") (width 0.05) (tstamp 89b53105-62d0-4ba5-a4c2-839fb0632144))
   (gr_line (start 132.08 111.76) (end 132.08 63.5) (layer "Edge.Cuts") (width 0.05) (tstamp cc269e33-056f-4019-90fe-c6d021b8723d))
   (gr_line (start 132.08 63.5) (end 157.48 63.5) (layer "Edge.Cuts") (width 0.05) (tstamp d989acdc-267a-4601-9a4b-a7122051f86f))
-  (gr_text "Long pins stick out the top" (at 145.415 62.23) (layer "Cmts.User") (tstamp 6529e12f-4bdc-456e-96d1-ad2a1e034d04)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Long pins stick out the top\nto mate with CD4013 socket" (at 134.239 61.214) (layer "Cmts.User") (tstamp 6529e12f-4bdc-456e-96d1-ad2a1e034d04)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
   (segment (start 137.16 76.2) (end 137.16 78.74) (width 0.762) (layer "B.Cu") (net 3) (tstamp 14b48ff7-2689-4ad3-a776-56542169a624))
