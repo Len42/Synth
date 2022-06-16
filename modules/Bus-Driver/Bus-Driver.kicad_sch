@@ -2450,7 +2450,7 @@
     (property "DistributorPartNum" "1540" (id 5) (at 125.73 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DistributorPartLink" "649-1012937993601BLF" (id 6) (at 125.73 36.83 0)
+    (property "DistributorPartLink" "https://www.adafruit.com/product/1540" (id 6) (at 125.73 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Distributor2" "Mouser" (id 9) (at 125.73 36.83 0)
