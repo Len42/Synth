@@ -16,6 +16,8 @@ These designs are shared as open source. See the license details in each project
 
 These are the modules that I have built so far:
 
+[Bus-Driver](https://github.com/Len42/Synth/tree/main/modules/Bus-Driver) &mdash; Driver module for Eurorack bus CV & gate signals
+
 [VCA-4](https://github.com/Len42/Synth/tree/main/modules/VCA-4) &mdash; Quad exponential VCA
 
 [Audiout](https://github.com/Len42/Synth/tree/main/modules/Audiout) &mdash; Audio output module
