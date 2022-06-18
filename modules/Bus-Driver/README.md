@@ -2,16 +2,15 @@
 
 ## 3HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+<img src="Bus-Driver.jpg" style="float:right">
 
 This module sends CV and gate signals to the Eurorack bus, for any modules that pay attention to those bus lines.
 
 ### Features
 - CV and gate inputs are sent to the corresponding lines on the Eurorack power bus
 - Inputs are also copied to output jacks on the front panel
-- Bus and panel outputs are buffered separately
-- Inputs are normalled to 0 V
-- Inputs can be completely disconnected from the bus by a switch
+- Bus and front panel outputs are buffered separately
+- Inputs are normalled to 0 V, and can be completely disconnected from the bus by a switch
 
 ### Notes
 This module is only useful if you have other modules that can use the CV & gate signals on the Eurorack bus (such as my [VCO](https://github.com/Len42/Synth/tree/main/modules/VCO-2131) and [envelope](https://github.com/Len42/Synth/tree/main/modules/Envelope2) modules, for example).
@@ -26,10 +25,10 @@ This module requires a 16-pin Eurorack power cable, but it does not depend on +5
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/DCkcxofG)
+- [Controls board](https://oshpark.com/shared_projects/zJFNumpm)
+- [Main board](https://oshpark.com/shared_projects/tTGp0mmq)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
