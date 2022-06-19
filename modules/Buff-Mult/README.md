@@ -5,17 +5,17 @@
 <img src="title.jpg" style="float:right">
 
 ### Features
-- Two 1:3 channels - each copies an input signal to three outputs.
-- Input of channel 1 is normalled to channel 2, so it can be used as a 1:6 multiple.
-- Outputs are buffered so that they don't affect each other, unlike a passive mult.
+- Two 1:3 channels - each channel copies an input signal to three outputs
+- Input of channel 1 is normalled to channel 2, so it can be used as a 1:6 multiple
+- Outputs are buffered so that they don't affect each other, unlike a passive multiple
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/zzz)
 - [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+- [Main board](https://oshpark.com/shared_projects/zzz)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
