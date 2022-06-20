@@ -59,9 +59,6 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59052"
       (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c4b62c"
-      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cc6663"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
@@ -171,16 +168,16 @@
       (reference "J9") (unit 1) (value "Conn_Eurorack_10") (footprint "-lmp-synth:IDC-Header-Eurorack-10-TH")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c12315"
-      (reference "J10") (unit 1) (value "Conn_Front_Left_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical")
+      (reference "J10") (unit 1) (value "Conn_Front_Left_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c179d1"
-      (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical")
+      (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c1cf6b"
-      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c2c145"
-      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd"
       (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
