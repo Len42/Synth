@@ -80,6 +80,18 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/14624382-e252-4ef8-b145-1ce8ce86c8a4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/2872bb70-0a0f-4a1f-88d2-7bf79c7a1491"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/76951364-654a-455c-9a64-765fd973f383"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/f98740b0-0511-4626-a2e0-748648749e98"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/4ce8f4c3-a359-4147-90a8-808866703305"
       (reference "A1") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
     )
@@ -156,7 +168,7 @@
       (reference "J8") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
-      (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-10-TH")
+      (reference "J9") (unit 1) (value "Conn_Eurorack_10") (footprint "-lmp-synth:IDC-Header-Eurorack-10-TH")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c12315"
       (reference "J10") (unit 1) (value "Conn_Front_Left_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical")
@@ -193,9 +205,6 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb7a59"
       (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c16982"
-      (reference "U3") (unit 3) (value "TL072") (footprint "-lmp-misc:DIP-8_W7.62mm_LongPads")
     )
   )
 )
