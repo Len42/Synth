@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -66,7 +67,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "lmp-Euro-8HP.kicad_prl",
+    "filename": "Mixer2.kicad_prl",
     "version": 3
   },
   "project": {
