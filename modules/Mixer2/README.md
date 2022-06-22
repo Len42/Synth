@@ -2,14 +2,17 @@
 
 ## 8HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+<img src="Mixer2.jpg" style="float:right">
 
 ### Features
+- Two-channel mixer for audio or CV signals
+- Each channel has 3 inputs with faders and an output level control
+- When channel 1 output is unplugged it is normalled to mix with channel 2, giving 6 inputs mixed to one output
+- Level indicator LED for each channel shows when the output level exceeds 5 V (nominal max for audio signals)
 - [features]
 
 ### Notes
 [notes]
-
 
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
 
