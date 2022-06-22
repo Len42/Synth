@@ -5,11 +5,11 @@
 <img src="Mixer2.jpg" style="float:right">
 
 ### Features
-- Two-channel mixer for audio or CV signals
-- Each channel has 3 inputs with faders and an output level control
-- When channel 1 output is unplugged it is normalled to mix with channel 2, giving 6 inputs mixed to one output
-- Level indicator LED for each channel shows when the output level exceeds 5 V (nominal max for audio signals)
-- [features]
+- Two-channel mixer with 3 inputs per channel
+- Inputs are DC coupled so it can be used with CV or audio signals
+- Input faders and output level controls
+- Channel 1 output is normalled to mix with channel 2 when unplugged, to mix 6 inputs to one output
+- Level indicator LED for each channel shows when the output level exceeds +/- 5 V (nominal max level for audio signals)
 
 ### Notes
 [notes]
