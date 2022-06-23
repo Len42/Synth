@@ -6618,6 +6618,9 @@
   (gr_text "https://len42.github.io/Synth/" (at 120.523 54.229) (layer "F.SilkS") (tstamp e1550b83-244c-452d-a2a3-53cf990c077d)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
+  (gr_text "TODO: verify positions match Delp panel" (at 120.523 34.163) (layer "Cmts.User") (tstamp dc00fa88-bff5-40d9-bde1-0e725ff2e8aa)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
 
   (segment (start 182.499 136.739) (end 182.499 131.786) (width 0.762) (layer "F.Cu") (net 1) (tstamp 19fecea8-208d-4f54-895c-eb18be8d64ae))
   (segment (start 170.922 117.475) (end 170.668 117.729) (width 0.762) (layer "F.Cu") (net 1) (tstamp 20932632-8df2-42db-88af-a424ae99d42b))
