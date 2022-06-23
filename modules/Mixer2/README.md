@@ -6,7 +6,7 @@
 
 ### Features
 - Two-channel mixer with 3 inputs per channel
-- Inputs are DC coupled so it can be used with CV or audio signals
+- Can be used with CV or audio signals (the inputs are DC coupled)
 - Input faders and output level controls
 - Channel 1 output is normalled to mix with channel 2 when unplugged, to mix 6 inputs to one output
 - Level indicator LED for each channel shows when the output level exceeds +/- 5 V (nominal max level for audio signals)
