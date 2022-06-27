@@ -1248,8 +1248,8 @@
   )
 
   (no_connect (at 132.08 144.78) (uuid 1a6eaaf8-86b3-4e44-97df-2922f3de786d))
-  (no_connect (at 147.32 147.32) (uuid 1a6eaaf8-86b3-4e44-97df-2922f3de786d))
-  (no_connect (at 132.08 149.86) (uuid 1a6eaaf8-86b3-4e44-97df-2922f3de786d))
+  (no_connect (at 147.32 147.32) (uuid 1a6eaaf8-86b3-4e44-97df-2922f3de786e))
+  (no_connect (at 132.08 149.86) (uuid 1a6eaaf8-86b3-4e44-97df-2922f3de786f))
   (no_connect (at 67.31 137.16) (uuid 79664334-5b39-4812-98f0-28ef66900517))
   (no_connect (at 64.77 137.16) (uuid 79664334-5b39-4812-98f0-28ef66900518))
   (no_connect (at 72.39 137.16) (uuid 90a74f5e-7380-4ff0-bb5e-d9d5841f174b))
@@ -2352,7 +2352,7 @@
     (uuid 54bc1fce-aa50-409c-888d-3c49ab3d37ba)
     (property "Reference" "R7" (id 0) (at 110.49 75.2942 90))
     (property "Value" "100K" (id 1) (at 110.49 77.8311 90))
-    (property "Footprint" "-lmp-stripboard:SB_Gen_5" (id 2) (at 110.49 81.788 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 110.49 81.788 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 110.49 80.01 0)
@@ -2835,7 +2835,7 @@
     (uuid c72d348a-c8d3-4f01-82dd-4e80e190e47d)
     (property "Reference" "R9" (id 0) (at 139.7 66.4074 90))
     (property "Value" "51R" (id 1) (at 139.7 68.9443 90))
-    (property "Footprint" "-lmp-stripboard:SB_Gen_1" (id 2) (at 139.7 75.438 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 139.7 75.438 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 139.7 73.66 0)
@@ -3041,7 +3041,7 @@
     (uuid f2da19ec-dbee-4e02-a277-f2e403c46806)
     (property "Reference" "R5" (id 0) (at 69.85 67.6742 90))
     (property "Value" "100K" (id 1) (at 69.85 70.2111 90))
-    (property "Footprint" "-lmp-stripboard:SB_Gen_5" (id 2) (at 69.85 74.168 90)
+    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 69.85 74.168 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 69.85 72.39 0)
@@ -3217,19 +3217,19 @@
       (reference "R4") (unit 1) (value "200R") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/f2da19ec-dbee-4e02-a277-f2e403c46806"
-      (reference "R5") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_5")
+      (reference "R5") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/33969647-2d0a-47cb-b9f5-ab3b56755807"
       (reference "R6") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/54bc1fce-aa50-409c-888d-3c49ab3d37ba"
-      (reference "R7") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_5")
+      (reference "R7") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/700067f7-ea47-4501-9bfa-0e0f4646fd40"
       (reference "R8") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/c72d348a-c8d3-4f01-82dd-4e80e190e47d"
-      (reference "R9") (unit 1) (value "51R") (footprint "-lmp-stripboard:SB_Gen_1")
+      (reference "R9") (unit 1) (value "51R") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/2ab1b8f3-5e25-4397-8aba-dbb71f73c294"
       (reference "R10") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
