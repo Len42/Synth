@@ -10,7 +10,7 @@
     (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "Eurorackbuffered multiple module - 4HP")
+    (comment 2 "Eurorack buffered multiple module - 4HP")
   )
 
   (lib_symbols
