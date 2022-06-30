@@ -6,7 +6,7 @@
 
 ### Features
 - Two 1:3 channels - each channel copies an input signal to three outputs
-- Input of channel 1 is normalled to channel 2, so it can be used as a 1:6 multiple
+- Input of channel 1 is normalled to channel 2, making a 1:6 multiple when only one input is used
 - Outputs are buffered so that they don't affect each other, unlike a passive multiple
 
 ### Notes
