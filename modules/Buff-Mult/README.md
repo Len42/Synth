@@ -2,7 +2,7 @@
 
 ## 4HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+<img src="Buff-Mult.jpg" style="float:right">
 
 ### Features
 - Two 1:3 channels - each channel copies an input signal to three outputs
