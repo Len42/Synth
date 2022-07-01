@@ -1824,7 +1824,7 @@
   (symbol (lib_id "-lmp-power:GND") (at 245.11 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 183e4ad0-5cdc-4c50-a021-5929da60f4af)
-    (property "Reference" "#PWR?" (id 0) (at 245.11 25.4 0)
+    (property "Reference" "#PWR019" (id 0) (at 245.11 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 245.11 28.1742 0))
@@ -3322,7 +3322,7 @@
   (symbol (lib_id "-lmp-power:-12V") (at 245.11 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f1f19851-0a64-4be8-a1b7-b4e96d677c89)
-    (property "Reference" "#PWR?" (id 0) (at 245.11 68.58 0)
+    (property "Reference" "#PWR020" (id 0) (at 245.11 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-12V" (id 1) (at 245.11 76.8334 0))
@@ -3604,10 +3604,10 @@
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/183e4ad0-5cdc-4c50-a021-5929da60f4af"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
     (path "/f1f19851-0a64-4be8-a1b7-b4e96d677c89"
-      (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
+      (reference "#PWR020") (unit 1) (value "-12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/4ce8f4c3-a359-4147-90a8-808866703305"
       (reference "A1") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
