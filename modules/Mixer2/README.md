@@ -12,16 +12,18 @@
 - LEDs show audio signal level
 
 ### Notes
-I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both CVs and audio signals and I find linear pots to be a better compromise.
-
-TODO: LEDs - not actually showing clipping, rather the nominal max audio level
-
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Controls board](https://oshpark.com/shared_projects/zzz)
 - [Middle board](https://oshpark.com/shared_projects/zzz)
 - [Back board](https://oshpark.com/shared_projects/zzz)
+
+I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both CVs and audio signals and I find linear pots to be a better compromise.
+
+LEDs are used to indicate when a mixed audio signal exceeds the nominal maximum level for Eurorack, which is 10 V peak-to-peak (-5 V to +5 V). Signals with a greater amplitude than that may cause clipping in some modules (but not this module, because it's meant to also handle control voltages which can have a greater voltage range).
+
+The bi-colour LEDs (one for each output) are off when the signal level is very low or there is no input connected; green when there is a signal up to about 8 V p-p; yellow(ish) to orange(ish) as the signal approaches to 10 V p-p; and red above about 10 V p-p. Note that these voltage levels are approximate and the LEDs give only a rough indication of whether the audio signal level is in the appropriate range. For CV signals, the LEDs are less useful - they light up only when the mixed CV is a positive voltage.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
