@@ -1,4 +1,4 @@
-# Dual 3:1 Mixer
+# Dual Mixer
 
 ## 8HP Eurorack Module
 
@@ -9,10 +9,12 @@
 - Can be used with CV or audio signals (the inputs are DC coupled)
 - Input attenuators and output level controls
 - When output 1 is unplugged it's normalled to mix into output 2, making a 6-channel mixer
-- Level indicator LEDs indicate audio signal clipping
+- LEDs show audio signal level
 
 ### Notes
-[notes]
+I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both CVs and audio signals and I find linear pots to be a better compromise.
+
+TODO: LEDs - not actually showing clipping, rather the nominal max audio level
 
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
 
