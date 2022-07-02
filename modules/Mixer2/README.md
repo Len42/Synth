@@ -6,10 +6,10 @@
 
 ### Features
 - Two 3-channel mixers
-- Can be used with CV or audio signals (the inputs are DC coupled)
+- Can be used with CV or audio signals - the inputs are DC coupled
 - Input attenuators and output level controls
 - When output 1 is unplugged it's normalled to mix into output 2, making a 6-channel mixer
-- LEDs show audio signal level
+- LEDs show the audio signal level
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
@@ -21,7 +21,7 @@ PCB layouts are provided in KiCad and gerber formats. A drilling template is pro
 
 I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both CVs and audio signals and I find linear pots to be a better compromise.
 
-LEDs are used to indicate when a mixed audio signal exceeds the nominal maximum level for Eurorack, which is 10 V peak-to-peak (-5 V to +5 V). Signals with a greater amplitude than that may cause clipping in some modules (but not this module, because it's meant to also handle control voltages which can have a greater voltage range).
+LEDs are used to indicate when a mixed audio signal exceeds the nominal maximum level for Eurorack, which is 10 V peak-to-peak (-5 V to +5 V). Signals with a greater amplitude than that may cause clipping in some modules (but not this module, because it's meant to also handle control voltages with a greater voltage range).
 
 The bi-colour LEDs (one for each output) are off when the signal level is very low or there is no input connected; green when there is a signal up to about 8 V p-p; yellow(ish) to orange(ish) as the signal approaches to 10 V p-p; and red above about 10 V p-p. Note that these voltage levels are approximate and the LEDs give only a rough indication of whether the audio signal level is in the appropriate range. For CV signals, the LEDs are less useful - they light up only when the mixed CV is a positive voltage.
 
