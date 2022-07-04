@@ -5,11 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "[title]")
-    (rev "0.1")
+    (title "VCO-2131 Sub Bodge")
+    (date "2022-07-04")
+    (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "[description]")
+    (comment 2 "Bodge board to fix sub-oscillator")
   )
 
   (lib_symbols
@@ -341,11 +342,11 @@
   )
 
   (no_connect (at 143.51 81.28) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
-  (no_connect (at 143.51 66.04) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
-  (no_connect (at 186.69 81.28) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
-  (no_connect (at 179.07 73.66) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
-  (no_connect (at 179.07 71.12) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
-  (no_connect (at 186.69 66.04) (uuid 181a100c-85de-4b60-af65-2a0d853309d6))
+  (no_connect (at 143.51 66.04) (uuid 181a100c-85de-4b60-af65-2a0d853309d7))
+  (no_connect (at 186.69 81.28) (uuid 181a100c-85de-4b60-af65-2a0d853309d8))
+  (no_connect (at 179.07 73.66) (uuid 181a100c-85de-4b60-af65-2a0d853309d9))
+  (no_connect (at 179.07 71.12) (uuid 181a100c-85de-4b60-af65-2a0d853309da))
+  (no_connect (at 186.69 66.04) (uuid 181a100c-85de-4b60-af65-2a0d853309db))
   (no_connect (at 194.31 104.14) (uuid 27810080-7204-4339-bc9c-70634d52ef0b))
   (no_connect (at 194.31 109.22) (uuid 27810080-7204-4339-bc9c-70634d52ef0c))
   (no_connect (at 194.31 76.2) (uuid 27810080-7204-4339-bc9c-70634d52ef0d))

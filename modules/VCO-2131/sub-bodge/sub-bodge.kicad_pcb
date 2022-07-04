@@ -6,11 +6,12 @@
 
   (paper "A4")
   (title_block
-    (title "[title]")
-    (rev "0.1")
+    (title "VCO-2131 Sub Bodge")
+    (date "2022-07-04")
+    (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "[description]")
+    (comment 2 "Bodge board to fix sub-oscillator")
   )
 
   (layers
