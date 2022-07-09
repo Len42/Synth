@@ -331,7 +331,7 @@
     (pad "6" thru_hole circle (at 0 12.7 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(U1-Pad2)") (pinfunction "~{Q}") (pintype "output") (tstamp ac2f4aca-c681-440f-917d-8d80b02dea78))
     (pad "7" thru_hole circle (at 0 15.24 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ec6c70df-db7a-4911-8281-52b4feaf69b6))
+      (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp ec6c70df-db7a-4911-8281-52b4feaf69b6))
     (pad "8" thru_hole circle (at 15.24 15.24 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 "unconnected-(U1-Pad8)") (pinfunction "~{Q}") (pintype "output+no_connect") (tstamp 7925eb3e-1949-47d7-9d98-e61a63ba0362))
     (pad "9" thru_hole circle (at 15.24 12.7 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -345,7 +345,7 @@
     (pad "13" thru_hole circle (at 15.24 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 16 "unconnected-(U1-Pad13)") (pinfunction "~{R}") (pintype "input+no_connect") (tstamp 1e140c28-1b56-451c-a06e-acf04d8212c0))
     (pad "14" thru_hole circle (at 15.24 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 4 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 5fa28b3c-0827-4da9-8185-85f69a18d686))
+      (net 4 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp 5fa28b3c-0827-4da9-8185-85f69a18d686))
   )
 
   (gr_line (start 123.19 102.87) (end 82.55 102.87) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc2))
