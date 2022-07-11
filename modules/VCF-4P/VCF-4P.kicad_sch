@@ -6468,7 +6468,7 @@
     (uuid ff910991-c247-4e33-91e3-e410c7d9b54a)
     (property "Reference" "RV9" (id 0) (at 35.56 165.4674 90))
     (property "Value" "5K (10K?)" (id 1) (at 35.56 168.0043 90))
-    (property "Footprint" "-lmp-synth:Potentiometer_Bourns_3296Y_Vertical" (id 2) (at 35.56 172.72 0)
+    (property "Footprint" "-lmp-synth:Potentiometer_Bourns_3296P_Horizontal" (id 2) (at 35.56 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/54/3296-776415.pdf" (id 3) (at 35.56 172.72 0)
@@ -6817,7 +6817,7 @@
       (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/ff910991-c247-4e33-91e3-e410c7d9b54a"
-      (reference "RV9") (unit 1) (value "5K (10K?)") (footprint "-lmp-synth:Potentiometer_Bourns_3296Y_Vertical")
+      (reference "RV9") (unit 1) (value "5K (10K?)") (footprint "-lmp-synth:Potentiometer_Bourns_3296P_Horizontal")
     )
     (path "/e72bd1b2-d357-44bf-bfb8-42d194b8fd68"
       (reference "RV10") (unit 1) (value "5K (10K?)") (footprint "-lmp-synth:Potentiometer_Bourns_3296Y_Vertical")
