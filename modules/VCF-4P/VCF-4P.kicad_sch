@@ -4211,6 +4211,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c84755cb-4efd-4cd9-b4c9-cbf2e492cb5c)
   )
+  (text "TODO" (at 67.31 60.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cd4807e8-4554-4138-bc2d-33dd510a3fbe)
+  )
   (text "Audio Input" (at 17.78 20.32 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid dd08cf63-80f1-4a88-b3ea-950c9bf1164b)
@@ -4256,6 +4260,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "IN-AUDIO-BUF" (shape output) (at 66.04 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 564d4efd-55fc-425d-a772-454ab8158046)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 82.7575 63.4206 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "CV-FREQ-POT" (shape input) (at 40.64 143.51 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5dc52739-bcd3-43d1-9c54-adbe84a7c08b)
@@ -4270,6 +4281,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "CV-FREQ-BUF" (shape output) (at 66.04 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 82e7d060-4b1e-4de2-b8a3-edb92d8a79aa)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 82.3947 68.5006 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "CV-RES-POT-HI" (shape output) (at 22.86 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8b7cc367-7c44-4112-aa19-768e028e663f)
@@ -4282,6 +4300,13 @@
     (uuid a3d8760d-8664-4c61-a93d-f97f3f35b50b)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 16.8468 161.2106 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "CV-RES-BUF" (shape output) (at 66.04 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a532e7f0-27d0-4135-9584-a0959e15f5fd)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 81.1852 65.9606 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "IN-AUDIO-POT-HI" (shape output) (at 40.64 33.02 0) (fields_autoplaced)
@@ -6550,38 +6575,8 @@
     (path "/20c20181-4e83-46ae-8a3b-0895e9378c27"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/a3528f30-022a-42ce-9dfe-fcd8ae4a67f3"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/31638242-dbda-4bf3-b60d-fcd7ad2f173f"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/c91d2b13-4e1a-49d6-ae47-e114110ddf42"
-      (reference "#PWR011") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/b801adf2-3615-4eb0-bc61-5abf085e6a62"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/7cb11774-6ed3-4180-bf9f-6f1e69f93f85"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/4d26908e-d2f7-4a00-a8af-bc8059514653"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/0d983f23-9b16-4073-88fd-9772fc1a4d3a"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7548b87c-4288-477b-9e07-55072edcbc81"
       (reference "#PWR016") (unit 1) (value "+12V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/c40ad742-3d4e-4906-b8eb-11640a033f1f"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/4e4c97b6-535c-445f-b77e-81e4fdbad858"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/f93a30fd-4495-4981-90d2-85d471a9f1e2"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
     (path "/009ee804-9995-481c-9a1c-35cca8432b8b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -6610,9 +6605,6 @@
     (path "/2485e469-a680-4270-be65-3be7a39e51a0"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200db44"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200e280"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
@@ -6627,6 +6619,15 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/40280ca4-04b1-46dc-9fa5-b6ce24bdef7d"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/460de5c6-5e61-4cae-9966-79eae8eb6385"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/609a3ec0-8725-4a39-963c-fc4ec9a3812e"
+      (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/35f023af-7ccf-417f-8e76-b0f7268a7dbd"
       (reference "A1") (unit 1) (value "Cable_Eurorack_16") (footprint "-lmp-misc:NoFootprint")
@@ -6699,12 +6700,6 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
       (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/5bbf070e-2efd-4e21-b379-d12649dfed08"
-      (reference "J10") (unit 1) (value "Conn_Front_Left") (footprint "-lmp-synth:PinSocket_Delptronics_Front")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/b00b4b72-10b7-4e77-8d3e-bc92504eb659"
-      (reference "J11") (unit 1) (value "Conn_Back_Right") (footprint "-lmp-synth:PinHeader_Delptronics_Back_8HP")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/2b1c7604-6fe0-414a-a3e2-0ab175fe6035"
       (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "-lmp-synth:PinSocket_Delptronics_Front")
