@@ -387,7 +387,8 @@
         "name": "Power",
         "nets": [
           "+12V",
-          "-12V"
+          "-12V",
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
