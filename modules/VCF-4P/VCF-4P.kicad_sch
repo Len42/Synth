@@ -7008,11 +7008,11 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
       (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/2b1c7604-6fe0-414a-a3e2-0ab175fe6035"
-      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "-lmp-synth:PinSocket_Delptronics_Front")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/60c4c9e6-f30b-4a62-8127-f37202e404a2"
+      (reference "J12") (unit 1) (value "Conn_PCB_Front") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/2ce92ac6-89d1-4dc9-9f6e-478036d3fc82"
-      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "-lmp-synth:PinHeader_Delptronics_Back_8HP")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/677c5a9c-c7e6-4e58-b4ce-be6445439dfd"
+      (reference "J13") (unit 1) (value "Conn_PCB_Back") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b13bc3"
       (reference "JP1") (unit 1) (value "CV-BUS") (footprint "-lmp-misc:PinHeader_1x03_P2.54mm_Vertical")
