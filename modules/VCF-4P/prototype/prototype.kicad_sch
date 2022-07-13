@@ -1216,7 +1216,6 @@
     )
   )
 
-
   (junction (at 97.79 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 1bbc644e-1d0f-4a2b-bdae-77129676dcaf)
   )
@@ -2961,7 +2960,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 561a72a5-4948-4d8a-a9ef-ff63b0ec757a)
     (property "Reference" "R1" (id 0) (at 48.26 137.5242 90))
-    (property "Value" "120K" (id 1) (at 48.26 140.0611 90))
+    (property "Value" "100K" (id 1) (at 48.26 140.0611 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 48.26 144.018 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4247,7 +4246,7 @@
       (reference "J1") (unit 1) (value "Conn_01x09") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/561a72a5-4948-4d8a-a9ef-ff63b0ec757a"
-      (reference "R1") (unit 1) (value "120K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R1") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/5f9ab64b-38ff-4889-9d59-ea8e53307840"
       (reference "R2") (unit 1) (value "153K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
