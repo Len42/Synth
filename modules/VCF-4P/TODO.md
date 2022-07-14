@@ -3,13 +3,15 @@
 ## Calibration
 ### Scale
 * Done: Approximate scale calibration using keyboard CV
-* TODO: Measure total resistance of pot + resistor - Pot range seems insufficient
+* TODO: Measure total resistance of pot + resistor - Pot range may be insufficient
+* * approx. 60K total required
+* * TODO: test with 56K resistor
 * TODO: Determine appropriate resistor & pot values
 ### Tuning
 * Tuning to 4.088 Hz @ 0 V gives a good range for the cutoff pot
 * TODO: Increase input resistor a bit to get a good adjustment range
 * * nominally 153K
-* * try 160K
+* * TODO: try 160K
 
 
 ## Resonance Issue
