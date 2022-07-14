@@ -1971,9 +1971,6 @@
     )
   )
 
-  (gr_circle (center 114.449903 55.245) (end 115.869806 55.245) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp 46578518-3109-4a3a-9587-d425b6f05bed))
-  (gr_circle (center 97.304903 97.155) (end 98.724806 97.155) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp 6d4d53d4-5206-4047-bfa5-f02c929e8c41))
-  (gr_circle (center 102.384903 50.165) (end 103.804806 50.165) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp e8bbeb88-0045-4928-881a-efa4445c5f14))
   (gr_line (start 123.19 168.91) (end 82.55 168.91) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc2))
   (gr_line (start 123.19 38.1) (end 123.19 168.91) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc5))
   (gr_line (start 82.55 168.91) (end 82.55 38.1) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc8))
@@ -1993,7 +1990,7 @@
   (gr_text "+12V" (at 102.81145 39.968162) (layer "Cmts.User") (tstamp 5bf032d7-1ed3-461e-8d9e-98362eeab2a2)
     (effects (font (size 1.524 1.524) (thickness 0.254)))
   )
-  (gr_text "+5V" (at 97.155 46.355) (layer "Cmts.User") (tstamp 841a7e74-47a7-43e9-bffb-88532f83f87f)
+  (gr_text "BUS" (at 95.25 40.005) (layer "Cmts.User") (tstamp 841a7e74-47a7-43e9-bffb-88532f83f87f)
     (effects (font (size 1.524 1.524) (thickness 0.254)))
   )
   (gr_text "CV2" (at 109.22 46.355) (layer "Cmts.User") (tstamp 8486c2c0-8885-4923-869a-317f2a5ae0e5)
