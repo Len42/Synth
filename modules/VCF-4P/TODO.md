@@ -3,16 +3,12 @@
 ## Calibration
 ### Scale
 * Done: Approximate scale calibration using keyboard CV
-* TODO: Measure total resistance of pot + resistor - Pot range may be insufficient
-* * approx. 60K total required
-* * TODO: test with 56K resistor
-* TODO: Determine appropriate resistor & pot values
+* Done:: Measure total resistance of pot + resistor - Pot range may be insufficient
+* * 47K + 10K works best, but may need to be adjusted due to variance of SSI2140 tempco resistor
 ### Tuning
 * Tuning to 4.088 Hz @ 0 V gives a good range for the cutoff pot
-* TODO: Increase input resistor a bit to get a good adjustment range
-* * nominally 153K
-* * TODO: try 160K
-
+* Done: Increase input resistor a bit to get a good adjustment range
+* * 160K + 10K works
 
 ## Resonance Issue
 * PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
