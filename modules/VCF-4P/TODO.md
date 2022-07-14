@@ -6,8 +6,11 @@
 * TODO: Measure total resistance of pot + resistor - Pot range seems insufficient
 * TODO: Determine appropriate resistor & pot values
 ### Tuning
-* TODO: Try to tune bottom note to something appropriate
-* TODO: Increase input resistor to get 16-25 Hz @ 0V - try 330K or so
+* Tuning to 4.088 Hz @ 0 V gives a good range for the cutoff pot
+* TODO: Increase input resistor a bit to get a good adjustment range
+* * nominally 153K
+* * try 160K
+
 
 ## Resonance Issue
 * PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
