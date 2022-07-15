@@ -1899,8 +1899,8 @@
     (uuid ff7bf34b-4f85-41f6-a7b5-84522f348c1a)
   )
 
-  (text "TODO: Increase this \nto see if it fixes \nsquare wave resonance"
-    (at 67.31 33.02 0)
+  (text "TODO: Try 30-36K with \natten pot, check clipping \nof sq.wave w/resonance."
+    (at 64.77 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a567bea-b4ae-4ae0-8fe6-f1ab689e091c)
   )
@@ -3339,7 +3339,7 @@
     (property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y" (id 8) (at 72.39 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value2" "15K" (id 9) (at 72.39 39.7312 90))
+    (property "Value2" "47K" (id 9) (at 72.39 39.7312 90))
     (pin "1" (uuid 337aee67-86f6-4f57-af8e-a3b17419aaf4))
     (pin "2" (uuid e034e0e9-7d64-4ef1-a06f-02d297681dfe))
   )
@@ -3973,7 +3973,7 @@
     (property "Reference" "R3" (id 0) (at 42.418 43.6153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M" (id 1) (at 42.418 46.1522 0)
+    (property "Value" "100K" (id 1) (at 42.418 46.1522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "-lmp-stripboard:SB_Gen_1" (id 2) (at 38.862 44.45 90)
@@ -4157,7 +4157,7 @@
       (reference "R2") (unit 1) (value "160K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/f3ba663e-8563-4c48-a8cc-72c18d8d96e8"
-      (reference "R3") (unit 1) (value "1M") (footprint "-lmp-stripboard:SB_Gen_1")
+      (reference "R3") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/0799aeaf-0b61-4214-a215-e0119c54fb0e"
       (reference "R4") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_2")
