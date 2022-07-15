@@ -1216,7 +1216,6 @@
     )
   )
 
-
   (junction (at 107.95 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 1bbc644e-1d0f-4a2b-bdae-77129676dcaf)
   )
@@ -1931,10 +1930,9 @@
     (uuid ff7bf34b-4f85-41f6-a7b5-84522f348c1a)
   )
 
-  (text "TODO: Try 30-36K with \natten pot, check clipping \nof sq.wave w/resonance."
-    (at 64.77 33.02 0)
+  (text "24K" (at 210.82 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6a567bea-b4ae-4ae0-8fe6-f1ab689e091c)
+    (uuid 5e87a753-38a5-41f3-8119-42b80fb85879)
   )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
     (at 177.8 156.21 0)
@@ -1944,6 +1942,10 @@
   (text "Feedback VCA" (at 100.33 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c8fd42a1-0109-4610-bcd7-2f6e1c2bcb63)
+  )
+  (text "150K" (at 219.71 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f5082684-b207-478c-9b1c-66173a2d43f0)
   )
 
   (global_label "BUS-CV" (shape output) (at 144.78 88.9 0) (fields_autoplaced)
@@ -3222,7 +3224,7 @@
     (property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y" (id 8) (at 87.63 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value2" "15K" (id 9) (at 89.408 49.9622 0)
+    (property "Value2" "30K used!" (id 9) (at 89.408 49.9622 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Note" "Q comp." (id 10) (at 89.408 52.4991 0)
@@ -3379,8 +3381,8 @@
   (symbol (lib_id "-lmp:R_1%_0W166") (at 72.39 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 930e576c-f43b-447a-9dc6-e10e21600007)
-    (property "Reference" "R7" (id 0) (at 72.39 34.6574 90))
-    (property "Value" "24K" (id 1) (at 72.39 37.1943 90))
+    (property "Reference" "R7" (id 0) (at 72.39 37.1942 90))
+    (property "Value" "24K" (id 1) (at 72.39 39.7311 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 72.39 43.688 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3402,7 +3404,6 @@
     (property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y" (id 8) (at 72.39 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value2" "47K" (id 9) (at 72.39 39.7312 90))
     (pin "1" (uuid 337aee67-86f6-4f57-af8e-a3b17419aaf4))
     (pin "2" (uuid e034e0e9-7d64-4ef1-a06f-02d297681dfe))
   )
@@ -4121,7 +4122,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f80c8b36-9b8e-4258-b65c-4004b040ed64)
     (property "Reference" "RV1" (id 0) (at 82.55 34.6574 90))
-    (property "Value" "10K" (id 1) (at 82.55 37.1943 90))
+    (property "Value" "25K" (id 1) (at 82.55 37.1943 90))
     (property "Footprint" "-lmp-misc:Potentiometer_Bourns_3310R_Top" (id 2) (at 82.55 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4359,7 +4360,7 @@
       (reference "R26") (unit 1) (value "10K") (footprint "-lmp-stripboard:SB_Gen_2")
     )
     (path "/f80c8b36-9b8e-4258-b65c-4004b040ed64"
-      (reference "RV1") (unit 1) (value "10K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
+      (reference "RV1") (unit 1) (value "25K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
     )
     (path "/df9dc159-c6c4-4dab-9262-0bd1093f8f73"
       (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
