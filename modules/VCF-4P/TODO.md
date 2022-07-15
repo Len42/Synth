@@ -12,13 +12,15 @@
 
 ## Resonance Issue
 * PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
-* TODO: Try reducing input level by increasing R7
+* Done: Try reducing input level by increasing R7 - Fixed! (but see below)
 * Self-resonance output level is much lower than full audio output level
 * TODO: Check if that's still true after all adjustments
 
 ## Audio Input
 * (see above for resonance issue)
 * TODO: Adjust input stage gain & output
+* * Test with 100K input atten pot & 30-36K resistor
+* * Measure onset of clipping with sq wave & high resonance
 
 ## Audio Output
 * TODO: Adjust output gain. (It's OK now but check again after changing input & resonance.)
