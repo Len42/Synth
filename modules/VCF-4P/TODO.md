@@ -1,5 +1,7 @@
 # TO BE DONE
 
+Note: prototype3 represents current breadboard prototype (July 15)
+
 ## Calibration
 ### Scale
 * Done: Approximate scale calibration using keyboard CV
@@ -12,16 +14,14 @@
 
 ## Resonance Issue
 * PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
-* Done: Try reducing input level by increasing R7 - Fixed! (but see below)
-* Self-resonance output level is much lower than full audio output level
+* FIXED: Reduce input level by increasing R7
+* Self-resonance output level is much lower than full audio output level - That's OK?
 * TODO: Check if that's still true after all adjustments
 
-## Audio Input
+## Audio Input & Output
 * (see above for resonance issue)
+* TODO: REMOVE Drive/Level control! It's too fiddly to get right.
+* * Find good values for input atten, input gain Q comp, output gain
 * TODO: Adjust input stage gain & output
-* * Test with 100K input atten pot & 30-36K resistor
-* * Measure onset of clipping with sq wave & high resonance
-
-## Audio Output
-* TODO: Adjust output gain. (It's OK now but check again after changing input & resonance.)
+* TODO: Adjust output gain.
 * PROBLEM: Output voltage offset 0.4V - Why?? Can fix? Need AC coupling?
