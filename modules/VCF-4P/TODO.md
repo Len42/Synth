@@ -7,10 +7,13 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * Done: Approximate scale calibration using keyboard CV
 * Done:: Measure total resistance of pot + resistor - Pot range may be insufficient
 * * 47K + 10K works best, but may need to be adjusted due to variance of SSI2140 tempco resistor
+* TODO: Re-check!
+* TODO: Will 47K+5K work?
 ### Tuning
 * Tuning to 4.088 Hz @ 0 V gives a good range for the cutoff pot
 * Done: Increase input resistor a bit to get a good adjustment range
 * * 160K + 10K works
+* TODO: Re-check!
 
 ## Resonance Issue
 * PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
