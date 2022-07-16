@@ -1,6 +1,6 @@
 # TO BE DONE
 
-Note: prototype3 represents current breadboard prototype (July 15)
+Note: prototype4 represents current breadboard prototype (July 15)
 
 ## Calibration
 ### Scale
@@ -20,8 +20,10 @@ Note: prototype3 represents current breadboard prototype (July 15)
 
 ## Audio Input & Output
 * (see above for resonance issue)
-* TODO: REMOVE Drive/Level control! It's too fiddly to get right.
-* * Find good values for input atten, input gain Q comp, output gain
-* TODO: Adjust input stage gain & output
-* TODO: Adjust output gain.
+* Done: REMOVE Drive/Level control! It's too fiddly to get right.
+* Done: Adjust input stage gain & output
+* * In main schematic, change input resistor to 36K, with no level/drive pot
+* TODO: Adjust output gain
+* * Try 160K/30K
 * PROBLEM: Output voltage offset 0.4V - Why?? Can fix? Need AC coupling?
+* TODO: What happens to output level when 220R resistors are changed to 200R as in schematic?
