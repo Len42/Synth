@@ -4362,7 +4362,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f33c203-31d2-460f-9264-17ddb640bb6d)
   )
-  (text "TODO: Adjust so oscillation starts at a resonable CV\nNom. onset at 221 uA into Q-CTRL"
+  (text "TODO: Adjust so oscillation starts at a resonable CV\nNom. onset at 221 uA into Q-CTRL\n* see prototype4"
     (at 33.02 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7773fab7-8edd-463c-a880-f160d965e8a2)

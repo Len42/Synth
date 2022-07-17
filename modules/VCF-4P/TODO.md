@@ -20,6 +20,8 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * Self-resonance output level is much lower than full audio output level - That's OK, I think?
 * Done: Adjust Q compensation resistor
 * Done: Check if that's still true after all adjustments
+* TODO: Change res pot to work with a voltage adder!
+* * see prototype4
 
 ## Audio Input & Output
 * (see above for resonance issue)
@@ -29,4 +31,5 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * Done: Adjust output gain
 * * 160K/30K works well
 * PROBLEM: Output voltage offset 0.4V - Why?? Can fix? Need AC coupling?
+* * TODO: Test AC coupling cap & bleeder
 * TODO: What happens to output level when 220R resistors are changed to 200R as in schematic?
