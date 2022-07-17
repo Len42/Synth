@@ -20,8 +20,6 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * Self-resonance output level is much lower than full audio output level - That's OK, I think?
 * Done: Adjust Q compensation resistor
 * Done: Check if that's still true after all adjustments
-* TODO: Change res pot to work with a voltage adder!
-* * see prototype4
 
 ## Audio Input & Output
 * (see above for resonance issue)
