@@ -1,6 +1,6 @@
 # TO BE DONE
 
-Note: prototype4 represents current breadboard prototype (July 15)
+Note: prototype4 represents current breadboard prototype (July 17)
 
 ## Calibration
 ### Scale
@@ -28,7 +28,8 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * * In main schematic, change input resistor to 36K, with no level/drive pot
 * Done: Adjust output gain
 * * 160K/30K works well
-* PROBLEM: Output voltage offset 0.4V - Why?? Can fix? Need AC coupling?
+* PROBLEM: Output voltage offset 0.4V - Why?? Can fix?
 * * Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
 * * Done: Test AC coupling cap & bleeder - messes up pulse waves. Do not do this.
+* * Resolution: DNF. It's a small offset, and may go away in the real module.
 * TODO: What happens to output level when 220R resistors are changed to 200R as in schematic?
