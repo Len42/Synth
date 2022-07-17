@@ -29,5 +29,6 @@ Note: prototype4 represents current breadboard prototype (July 15)
 * Done: Adjust output gain
 * * 160K/30K works well
 * PROBLEM: Output voltage offset 0.4V - Why?? Can fix? Need AC coupling?
-* * TODO: Test AC coupling cap & bleeder
+* * Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
+* * Done: Test AC coupling cap & bleeder - messes up pulse waves. Do not do this.
 * TODO: What happens to output level when 220R resistors are changed to 200R as in schematic?

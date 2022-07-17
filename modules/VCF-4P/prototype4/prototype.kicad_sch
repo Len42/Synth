@@ -1970,8 +1970,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b95f08ec-4a05-4797-a90e-9199b268d601)
   )
-  (text "TODO: Test AC coupling to \neliminate output DC offset"
-    (at 210.82 81.28 0)
+  (text "TESTED: AC coupling is bad." (at 210.82 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c8e3a797-0c1b-4bac-ad60-96667de57ad8)
   )
