@@ -6880,20 +6880,35 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/f21adf6a-f285-4b44-adee-f33ac0ad1ce8"
       (reference "H1") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/493561c2-e033-4e41-87a1-a91f5c2522bd"
-      (reference "H2") (unit 1) (value "Delptronics_MCS_10HP") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d5696d"
-      (reference "H3") (unit 1) (value "M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d57717"
-      (reference "H4") (unit 1) (value "M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
-      (reference "H5") (unit 1) (value "11mm_M3x0.50") (footprint "")
+      (reference "H2") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b3cb"
-      (reference "H6") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+      (reference "H3") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
+      (reference "H4") (unit 1) (value "11mm_M3x0.50") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/b0eedb59-27d0-4a5e-aeb2-f8572fb71322"
+      (reference "H5") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d57717"
+      (reference "H6") (unit 1) (value "M3x0.50x6") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/63f88a00-bff9-48f8-bc97-ab88fae28072"
+      (reference "H7") (unit 1) (value "M3x0.50x6") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/480cab8c-0731-4113-b755-f91a550272e7"
+      (reference "H8") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/61daa993-e3e2-44c9-99d8-17723283764c"
+      (reference "H9") (unit 1) (value "11mm_M3x0.50") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/76c8c075-2d76-4ab9-ae05-77b9c75007a8"
+      (reference "H10") (unit 1) (value "Hole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/062ffa8d-b9e5-48ee-9527-a0f96dc4faa1"
+      (reference "H11") (unit 1) (value "M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
