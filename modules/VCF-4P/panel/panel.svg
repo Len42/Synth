@@ -235,7 +235,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4241816"
      inkscape:cx="294.16332"
-     inkscape:cy="417.28854"
+     inkscape:cy="445.37485"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -382,7 +382,7 @@
     </g>
     <g
        id="g853-4-8-1-2-4-2-1"
-       transform="matrix(2.28125,0,0,2.28125,69.460625,96.745252)"
+       transform="matrix(2.28125,0,0,2.28125,69.460625,95.56225)"
        style="stroke-width:0.438355">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0438354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -585,7 +585,7 @@
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">14</tspan></text>
     <g
        id="g853-4-8-1-2-0"
-       transform="matrix(1.96875,0,0,1.96875,49.204375,97.74375)"
+       transform="matrix(1.96875,0,0,1.96875,49.204375,96.49975)"
        style="stroke-width:0.507936">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0507935;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -744,23 +744,23 @@
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
        x="50.5625"
-       y="99.418625"
+       y="98.360291"
        id="text1777-5"><tspan
          sodipodi:role="line"
          id="tspan1775-9"
          x="50.5625"
-         y="99.418625"
+         y="98.360291"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">d6.3 (trimmer)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="83.096062"
-       y="98.874397"
+       x="81.50856"
+       y="98.34523"
        id="text1777-8"><tspan
          sodipodi:role="line"
          id="tspan1775-7"
-         x="83.096062"
-         y="98.874397"
+         x="81.50856"
+         y="98.34523"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">d7.3 (pot)</tspan></text>
     <g
        id="g853-4-8-1-2-0-4"
@@ -796,7 +796,7 @@
        style="fill:none;stroke:#c0c0c0;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.06, 1.06"
        id="path1109-2"
        cx="86.57"
-       cy="103.589"
+       cy="102.40631"
        rx="9.1176891"
        ry="9.121727" />
     <text
@@ -881,7 +881,7 @@
          style="font-size:2.11667px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583">16.5</tspan></text>
     <g
        id="g963-3"
-       transform="translate(-4.6280015,-43.691001)">
+       transform="translate(-4.6280015,-44.935001)">
       <path
          d="m 67.094629,154.64031 0.0563,-0.32595 0.05531,-0.30676 0.05624,-0.26521 0.05624,-0.21091 0.05531,-0.13748 0.05624,-0.064 0.05531,0.0225 0.05625,0.10223 0.05531,0.17574 0.05624,0.23964 0.05625,0.2876 0.0553,0.31634 0.05625,0.32913 0.05531,0.31956 0.05624,0.28757 0.05624,0.23966 0.05531,0.17574 0.05625,0.10223 0.05531,0.0221 0.05624,-0.0639 0.05531,-0.1407 0.05624,-0.20769 0.05625,-0.26523 0.05531,-0.30676 0.05614,-0.32594"
          stroke="#000000"
@@ -974,14 +974,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:1;stop-color:#000000"
-       x="66.990852"
-       y="119.34381"
-       id="text1075"><tspan
+       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:1;stop-color:#000000"
+       x="90.474472"
+       y="74.869019"
+       id="text1077"><tspan
          sodipodi:role="line"
-         id="tspan1073"
-         x="66.990852"
-         y="119.34381"
-         style="stroke-width:1">TODO: MOVE stuff</tspan></text>
+         x="90.474472"
+         y="74.869019"
+         style="font-size:2.82222px;stroke-width:1"
+         id="tspan1079">No, this seems</tspan><tspan
+         sodipodi:role="line"
+         x="90.474472"
+         y="78.396797"
+         style="font-size:2.82222px;stroke-width:1"
+         id="tspan1083">all wrong :(</tspan></text>
   </g>
 </svg>
