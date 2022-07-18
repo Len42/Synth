@@ -1945,10 +1945,6 @@
     (uuid ff7bf34b-4f85-41f6-a7b5-84522f348c1a)
   )
 
-  (text "TESTED: Yes, 30K!" (at 72.39 57.15 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 363599a2-8100-4f29-b10a-1681d5a27ee6)
-  )
   (text "TESTED: 160K/30K works weell" (at 205.74 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ff2976d-f253-4f88-aa51-a88af378ff26)
@@ -3346,7 +3342,7 @@
     (property "Reference" "R9" (id 0) (at 79.248 47.4253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "30K" (id 1) (at 79.248 49.9622 0)
+    (property "Value" "24K" (id 1) (at 79.248 49.9622 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 75.692 48.26 90)
@@ -4439,7 +4435,7 @@
       (reference "R8") (unit 1) (value "47K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/7d663747-be0a-44a3-95d5-3d1f42f6eece"
-      (reference "R9") (unit 1) (value "30K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R9") (unit 1) (value "24K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/24b1db08-ca4f-4744-b138-01cefcb9b1a1"
       (reference "R10") (unit 1) (value "1K") (footprint "-lmp-stripboard:SB_Gen_1")
