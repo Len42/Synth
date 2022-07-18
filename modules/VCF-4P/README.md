@@ -14,13 +14,11 @@ _A low-pass filter using the SSI2140 chip_
 - Resonance CV input with attenuator
 
 ### Notes
-The cutoff CV inputs can be trimmed to track 1V/octave pretty well (but not as accurately as a VCO). Due to variations between different SSI2140 chips, it may be necessary to change the value of R31 to get proper scaling.
-
-If you don't care about precise frequency scaling, just set the trim pots RV9 & RV10 somewhere near the middle; or replace them with 4.7 kΩ resistors.
+The cutoff CV inputs can be trimmed to track 1V/octave pretty well (but not as accurately as a VCO). Due to variations between different SSI2140 chips, it may be necessary to change the value of R31 to get proper scaling. If you don't care about precise volt/octave scaling, just set the trim pots RV9 & RV10 somewhere near the middle, or even replace them with fixed 4.7 kΩ resistors.
 
 The SSI2140 VCF chip comes in an SSOP package that I cannot solder, but fortunately it's also available pre-soldered to a breakout board - that's what I use here.
 
-The filter capacitors C8-C11 are specified as high-stability types. Traditionally, polystyrene caps would be used, but those are hard to come by these days (hardly anyone makes them any more) so I've chosen PPS film caps.
+The filter capacitors C8-C11 are specified as high-stability types. Traditionally, polystyrene caps would be used, but those are hard to come by these days (hardly anyone makes them any more) so I've chosen PPS film caps. Ordinary polyester film caps might be OK, or audio-grade ceramics (C0G/NP0 type).
 
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
 
