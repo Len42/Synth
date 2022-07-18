@@ -7,8 +7,7 @@ Make a front panel PCB instead of using Delp MCS
 * TODO: Make a matching PCB for the front panel
 * TODO: Update & finish the panel graphics
 
-What happens to the output level when the 220R resistors in the prototype are changed to 200R as in the schematic?
-* TODO: Test to verify the levels are still OK
+TODO: Replace 220R with 200R and test!
 
 PROBLEM: Output voltage offset 0.4V - Why?? Can fix?
 * Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
