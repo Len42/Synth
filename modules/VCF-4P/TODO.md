@@ -2,34 +2,15 @@
 
 Note: prototype4 represents current breadboard prototype (July 17)
 
-## Calibration
-### Scale
-* Done: Approximate scale calibration using keyboard CV
-* Done:: Measure total resistance of pot + resistor - Pot range may be insufficient
-* * 47K + 10K works best, but may need to be adjusted due to variance of SSI2140 tempco resistor
-* Done: Re-check!
-### Tuning
-* Tuning to 4.088 Hz @ 0 V gives a good range for the cutoff pot
-* Done: Increase input resistor a bit to get a good adjustment range
-* * 160K + 10K works
-* Done: Re-check!
+Make a front panel PCB instead of using Delp MCS
+* TODO: Controls board is already changed
+* TODO: Make a matching PCB for the front panel
+* TODO: Update & finish the panel graphics
 
-## Resonance Issue
-* PROBLEM: Resonance works fine for saw & triangle wave input but does almost nothing to a square wave!
-* FIXED: Reduce input level by increasing R7
-* Self-resonance output level is much lower than full audio output level - That's OK, I think?
-* Done: Adjust Q compensation resistor
-* Done: Check if that's still true after all adjustments
+What happens to the output level when the 220R resistors in the prototype are changed to 200R as in the schematic?
+* TODO: Test to verify the levels are still OK
 
-## Audio Input & Output
-* (see above for resonance issue)
-* Done: REMOVE Drive/Level control! It's too fiddly to get right.
-* Done: Adjust input stage gain & output
-* * In main schematic, change input resistor to 36K, with no level/drive pot
-* Done: Adjust output gain
-* * 160K/30K works well
-* PROBLEM: Output voltage offset 0.4V - Why?? Can fix?
-* * Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
-* * Done: Test AC coupling cap & bleeder - messes up pulse waves. Do not do this.
-* * Resolution: DNF. It's a small offset, and may go away in the real module.
-* TODO: What happens to output level when 220R resistors are changed to 200R as in schematic?
+PROBLEM: Output voltage offset 0.4V - Why?? Can fix?
+* Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
+* AC-coupling the output does not work well.
+* Resolution: DNF. It's a small offset, and may go away in the real module.
