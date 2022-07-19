@@ -137,36 +137,6 @@
     </marker>
     <marker
        style="overflow:visible;"
-       id="marker1841"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1;fill:#0000ff;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path1839" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="marker1789"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#0000ff;stroke-width:1pt;stroke-opacity:1;fill:#0000ff;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path1787" />
-    </marker>
-    <marker
-       style="overflow:visible;"
        id="marker1297"
        refX="0.0"
        refY="0.0"
@@ -235,7 +205,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4241816"
      inkscape:cx="294.16332"
-     inkscape:cy="445.37485"
+     inkscape:cy="417.28854"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -243,7 +213,7 @@
      units="mm"
      inkscape:window-width="958"
      inkscape:window-height="1008"
-     inkscape:window-x="946"
+     inkscape:window-x="953"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      showguides="true"
@@ -382,7 +352,7 @@
     </g>
     <g
        id="g853-4-8-1-2-4-2-1"
-       transform="matrix(2.28125,0,0,2.28125,69.460625,95.56225)"
+       transform="matrix(2.28125,0,0,2.28125,69.460625,95.170252)"
        style="stroke-width:0.438355">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0438354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -545,13 +515,13 @@
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="70.429771"
-       y="59.486454"
+       x="70.615547"
+       y="65.610428"
        id="text1777"><tspan
          sodipodi:role="line"
          id="tspan1775"
-         x="70.429771"
-         y="59.486454"
+         x="70.615547"
+         y="65.610428"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">d7.3 (pot)</tspan></text>
     <text
        xml:space="preserve"
@@ -564,28 +534,9 @@
          x="43.976086"
          y="65.585793"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">14.9</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.519999, 0.26;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 64.0325,71.99028 4.1e-5,3.998841"
-       id="path1783" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1789);marker-end:url(#marker1841)"
-       d="m 50.09203,74.039742 14.046859,0.01369"
-       id="path1785" />
-    <text
-       xml:space="preserve"
-       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="56.090206"
-       y="75.957558"
-       id="text2475"><tspan
-         sodipodi:role="line"
-         id="tspan2473"
-         x="56.090206"
-         y="75.957558"
-         style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">14</tspan></text>
     <g
        id="g853-4-8-1-2-0"
-       transform="matrix(1.96875,0,0,1.96875,49.204375,96.49975)"
+       transform="matrix(1.96875,0,0,1.96875,49.204375,96.14375)"
        style="stroke-width:0.507936">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0507935;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -714,32 +665,6 @@
            y="89490.086"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3472.22px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:490.089">L</tspan></text>
     </g>
-    <ellipse
-       style="fill:none;stroke:#c0c0c0;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.06, 1.06"
-       id="path1109"
-       cx="75.402466"
-       cy="64.889"
-       rx="10.369981"
-       ry="10.371092" />
-    <g
-       id="g853-4-8-1-2-4-2"
-       transform="matrix(2.28125,0,0,2.28125,58.179028,58.04525)"
-       style="stroke-width:0.438355">
-      <circle
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0438354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="path4268-9-6-8-6-7-6"
-         cx="7.5"
-         cy="3"
-         r="1.5500001" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.0438355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 7.55,1.4 V 4.6"
-         id="path833-47-8-2-3-4-8" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.0438356;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 9.1,3.0499999 H 5.9"
-         id="path833-4-7-5-6-20-2-9" />
-    </g>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
@@ -755,16 +680,16 @@
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
        x="81.50856"
-       y="98.34523"
+       y="97.953232"
        id="text1777-8"><tspan
          sodipodi:role="line"
          id="tspan1775-7"
          x="81.50856"
-         y="98.34523"
+         y="97.953232"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583">d7.3 (pot)</tspan></text>
     <g
        id="g853-4-8-1-2-0-4"
-       transform="matrix(1.96875,0,0,1.96875,71.821312,116.68284)"
+       transform="matrix(1.96875,0,0,1.96875,71.821312,116.24375)"
        style="stroke-width:0.507936">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0507935;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -796,7 +721,7 @@
        style="fill:none;stroke:#c0c0c0;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.06, 1.06"
        id="path1109-2"
        cx="86.57"
-       cy="102.40631"
+       cy="102.01431"
        rx="9.1176891"
        ry="9.121727" />
     <text
@@ -881,7 +806,7 @@
          style="font-size:2.11667px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583">16.5</tspan></text>
     <g
        id="g963-3"
-       transform="translate(-4.6280015,-44.935001)">
+       transform="translate(-4.6280015,-45.291001)">
       <path
          d="m 67.094629,154.64031 0.0563,-0.32595 0.05531,-0.30676 0.05624,-0.26521 0.05624,-0.21091 0.05531,-0.13748 0.05624,-0.064 0.05531,0.0225 0.05625,0.10223 0.05531,0.17574 0.05624,0.23964 0.05625,0.2876 0.0553,0.31634 0.05625,0.32913 0.05531,0.31956 0.05624,0.28757 0.05624,0.23966 0.05531,0.17574 0.05625,0.10223 0.05531,0.0221 0.05624,-0.0639 0.05531,-0.1407 0.05624,-0.20769 0.05625,-0.26523 0.05531,-0.30676 0.05614,-0.32594"
          stroke="#000000"
@@ -917,12 +842,12 @@
        xml:space="preserve"
        style="font-size:3.175px;line-height:1.25;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
        x="86.723076"
-       y="117.49728"
+       y="117.10528"
        id="text1022-0-3-7"><tspan
          sodipodi:role="line"
          id="tspan1020-6-9-2"
          x="86.723076"
-         y="117.49728"
+         y="117.10528"
          style="fill:#000000;fill-opacity:1;stroke-width:1">res</tspan></text>
     <text
        xml:space="preserve"
@@ -950,12 +875,12 @@
        style="fill:none;stroke:#c0c0c0;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.06, 1.06"
        id="path1109-24"
        cx="75.402473"
-       cy="75.503242"
+       cy="70.666245"
        rx="10.369982"
        ry="10.371092" />
     <g
        id="g853-4-8-1-2-4-2-4"
-       transform="matrix(2.28125,0,0,2.28125,58.179028,68.659496)"
+       transform="matrix(2.28125,0,0,2.28125,58.179028,63.822496)"
        style="stroke-width:0.438355">
       <circle
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0438354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -974,19 +899,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:1;stop-color:#000000"
-       x="90.474472"
-       y="74.869019"
-       id="text1077"><tspan
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="60.955296"
+       y="163.14049"
+       id="text1665-3-4"><tspan
          sodipodi:role="line"
-         x="90.474472"
-         y="74.869019"
-         style="font-size:2.82222px;stroke-width:1"
-         id="tspan1079">No, this seems</tspan><tspan
-         sodipodi:role="line"
-         x="90.474472"
-         y="78.396797"
-         style="font-size:2.82222px;stroke-width:1"
-         id="tspan1083">all wrong :(</tspan></text>
+         id="tspan1663-0-7"
+         x="60.955296"
+         y="163.14049"
+         style="font-size:2.11667px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583">TODO: better icons</tspan></text>
   </g>
 </svg>
