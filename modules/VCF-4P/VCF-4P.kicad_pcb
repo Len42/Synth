@@ -757,7 +757,7 @@
     (property "ManufacturerPartNum" "RD901F-*")
     (property "Sheetfile" "PanelPower.kicad_sch")
     (property "Sheetname" "PanelPower")
-    (property "Value2" "LOG")
+    (property "Value2" "LIN")
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd")
     (attr through_hole)
     (fp_text reference "RV1" (at -2.286 2.4892) (layer "F.SilkS")

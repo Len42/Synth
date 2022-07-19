@@ -2445,7 +2445,7 @@
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/13/alpha_taiwan_08192019_RD901F-40-15R1-B(resistance_-1627810.pdf" (id 3) (at 46.99 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value2" "LOG" (id 4) (at 45.2121 46.1522 0)
+    (property "Value2" "LIN" (id 4) (at 45.2121 46.1522 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Label" "CUTOFF" (id 5) (at 45.2121 48.6891 0)
