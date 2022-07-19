@@ -1,11 +1,10 @@
 # TO BE DONE
 
-Note: prototype4 represents current breadboard prototype (July 17)
+Note: prototype4 represents current breadboard prototype (July 18)
 
 Make a front panel PCB instead of using Delp MCS
-* TODO: Controls board is already changed
-* TODO: Make a matching PCB for the front panel
-* TODO: Update & finish the panel graphics
+* TODO: make sure it matches the controls PCB
+* TODO: update & finish the panel graphics
 
 TODO: Replace 220R with 200R and test!
 
