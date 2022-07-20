@@ -2,8 +2,6 @@
 
 Note: prototype4 represents current breadboard prototype (July 18)
 
-TODO: Fix silkscreen
-
 TODO: Order PCBs
 
 TODO: Order remaining parts - see BOM
