@@ -6,12 +6,12 @@
 
   (paper "A4")
   (title_block
-    (title "Eurorack Panel")
-    (rev "0.1")
+    (title "Eurorack Panel for VCF-4P")
+    (date "2022-07-20")
+    (rev "1.0")
     (company "Len Popp")
-    (comment 1 "Copyright © 2021 Len Popp CC BY")
-    (comment 2 "4 HP, 8 HP or 10 HP")
-    (comment 3 "Mounting holes match Delptronics panels")
+    (comment 1 "Copyright © 2022 Len Popp CC BY")
+    (comment 2 "10 HP")
   )
 
   (layers
