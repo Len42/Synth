@@ -12,18 +12,18 @@
 - LEDs show the audio signal level
 
 ### Notes
+I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both audio and CV signals and I find linear pots to be a better compromise.
+
+LEDs are used to indicate when an output exceeds the nominal maximum level for Eurorack audio signals, which is 10 V peak-to-peak (-5 V to +5 V). Audio signals with a greater amplitude than that may cause clipping in some modules.
+The bi-colour LEDs (one for each output) are off when the output level is very low or there is no input connected; green when there is a signal up to about 8 V p-p; yellow(ish) to orange(ish) as the output approaches 10 V p-p; and red above about 10 V p-p. Note that these voltage levels are approximate and the LEDs give only a rough indication of whether the audio signal level is in the appropriate range.
+For CV signals, the LEDs are less useful - they light up only when the mixed output is a positive voltage.
+
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Controls board](https://oshpark.com/shared_projects/zzz)
 - [Middle board](https://oshpark.com/shared_projects/zzz)
 - [Back board](https://oshpark.com/shared_projects/zzz)
-
-I have used linear potentiometers for the level controls. Audio-taper pots would be better for mixing audio signals, but this mixer is meant to work with both CVs and audio signals and I find linear pots to be a better compromise.
-
-LEDs are used to indicate when an output exceeds the nominal maximum level for Eurorack audio signals, which is 10 V peak-to-peak (-5 V to +5 V). Audio signals with a greater amplitude than that may cause clipping in some modules.
-The bi-colour LEDs (one for each output) are off when the output level is very low or there is no input connected; green when there is a signal up to about 8 V p-p; yellow(ish) to orange(ish) as the output approaches 10 V p-p; and red above about 10 V p-p. Note that these voltage levels are approximate and the LEDs give only a rough indication of whether the audio signal level is in the appropriate range.
-For CV signals, the LEDs are less useful - they light up only when the mixed output is a positive voltage.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
