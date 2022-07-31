@@ -3,3 +3,15 @@ Fix labels on pcb
 - DONE everything else looks OK
 - put a note on OSHPark project
 - re-do gerbers
+
+Test
+- beep it out
+- plug it in
+
+Publish
+- on github
+- on OSHPark
+
+Panel graphics
+- adjust LED hole positions to match actual panel
+- print & stick
