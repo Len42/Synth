@@ -5,14 +5,14 @@
 <img src="DigiLFO.jpg" style="float:right">
 
 ### Features
-- LFO rate from approximately 0.06 Hz (17 seconds) to 245 Hz (B3)
+- LFO rate from approximately 0.06 Hz (17 seconds) to 220 Hz (A3)
 - CV input for LFO rate, with attenuator
 - Three simultaneous waveform outputs, switchable between:
     - triangle, ramp, and square; or
 	- three sine waves, 120° out of phase
 
 ### Notes
-With the CV attenuator turned all the way up, the CV input tracks 1 volt/octave. The LFO can be tuned to play notes below middle C, but due to limited resolution the tuning won't be as accurate as a proper VCO.
+With the CV attenuator turned all the way up, the CV input tracks 1 volt/octave. The LFO can play notes up to A3 (below middle C) but it's fiddly to tune.
 
 The LFO is implemented with an Arduino-compatible ATmega328P microcontroller. The firmware source code is an Arduino sketch in [firmware/DigiLFO/DigiLFO.ino](firmware/DigiLFO/DigiLFO.ino). MakeLookupTables is a program that generates data tables used in the firmware. See [here](https://len42.github.io/Synth/firmware-programming.html) for info about programming the firmware onto the microcontroller chip.
 
