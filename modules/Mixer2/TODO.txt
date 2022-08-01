@@ -5,8 +5,9 @@ Fix labels on pcb
 - re-do gerbers
 
 Test
-- beep it out
-- plug it in
+- DONE beep it out
+- DONE plug it in
+- scope it
 
 Publish
 - on github
