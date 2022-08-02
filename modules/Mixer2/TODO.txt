@@ -1,18 +1,24 @@
 Fix labels on pcb
-- DONE R19 & R20 are swapped
-- DONE everything else looks OK
-- put a note on OSHPark project
 - re-do gerbers
 
-Test
-- DONE beep it out
-- DONE plug it in
-- scope it
+Clean up git branch
 
-Publish
-- on github
-- on OSHPark
+Test
+- Scope again - check match of input vs. output
 
 Panel graphics
 - adjust LED hole positions to match actual panel
 - print & stick
+
+Photo
+- take it
+- check in
+
+Publish
+- on github
+- - update docs/index.md
+- - pull request
+- - release
+- DONE on OSHPark
+- on EEVBlog
+- on ModWiggler

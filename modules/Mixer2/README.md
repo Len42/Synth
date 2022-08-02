@@ -20,10 +20,9 @@ For CV signals, the LEDs are less useful - they light up only when the mixed out
 
 PCB layouts are provided in KiCad and gerber formats. A drilling template is provided for the front panel.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Main board](https://oshpark.com/shared_projects/YErYkHA9)
+- [Controls board](https://oshpark.com/shared_projects/AXUIl19Y)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
