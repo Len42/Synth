@@ -1,6 +1,3 @@
-Fix labels on pcb
-- re-do gerbers
-
 Clean up git branch
 
 Test
