@@ -16,6 +16,8 @@ These designs are shared as open source. See the license details in each project
 
 These are the modules that I have built so far:
 
+[Mixer2](https://github.com/Len42/Synth/tree/main/modules/Mixer2) &mdash; Dual mixer module
+
 [Buff-Mult](https://github.com/Len42/Synth/tree/main/modules/Buff-Mult) &mdash; Buffered multiples
 
 [Bus-Driver](https://github.com/Len42/Synth/tree/main/modules/Bus-Driver) &mdash; Driver module for Eurorack bus CV & gate signals

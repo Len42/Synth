@@ -51,9 +51,11 @@ int main(int argc, char* argv[])
 
 	std::cout << std::endl;
 
+	const double tuning = 0.059463636;
+	const double scaling = 0.019322371;
 	WriteTable("FreqMap", 1023 * 12 / 10 / 2 + 1/*npoints*/, nbits, typeName, std::cout,
-		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
-			double d = 0.05 * pow(2, 0.01956948 * ipoint);
+		[tuning,scaling](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
+			double d = tuning * pow(2, scaling * ipoint);
 			return (uint64_t)std::llround(d * 255);
 		});
 
