@@ -2,8 +2,7 @@
 
 Note: prototype4 represents current breadboard prototype (July 18)
 
-TODO: Order remaining parts - see BOM
-* Ordered - waiting
+TODO: Build & test
 
 PROBLEM: Output voltage offset 0.4V - Why?? Can fix?
 * Problem is in the input stage. Can't see why - maybe a ground offset somewhere?
