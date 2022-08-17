@@ -1069,7 +1069,6 @@
     )
   )
 
-
   (junction (at 153.67 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 01f87441-e212-4b07-9ea8-e23e94b82786)
   )
@@ -1148,7 +1147,7 @@
 
   (no_connect (at 232.41 77.47) (uuid 90a74f5e-7380-4ff0-bb5e-d9d5841f174b))
   (no_connect (at 120.65 62.23) (uuid 934157ab-2711-4498-9c27-c042d11903b7))
-  (no_connect (at 120.65 64.77) (uuid 934157ab-2711-4498-9c27-c042d11903b7))
+  (no_connect (at 120.65 64.77) (uuid 934157ab-2711-4498-9c27-c042d11903b8))
 
   (wire (pts (xy 137.16 58.42) (xy 135.89 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1874,7 +1873,7 @@
     (pin "1" (uuid 77dbec74-8e82-4d14-ae9e-65b4530dd31e))
   )
 
-  (symbol (lib_id "-lmp:R_POT_TRIM") (at 52.07 77.47 0) (unit 1)
+  (symbol (lib_id "-lmp:R_POT_TRIM") (at 52.07 77.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1d7df23b-e6f6-4a7f-9601-64615084e50c)
     (property "Reference" "RV2" (id 0) (at 50.292 75.3669 0)
@@ -2037,7 +2036,7 @@
     (pin "1" (uuid 2b4f9c86-5a60-4a60-9ad1-441826705571))
   )
 
-  (symbol (lib_id "-lmp:R_POT_TRIM") (at 43.18 72.39 0) (unit 1)
+  (symbol (lib_id "-lmp:R_POT_TRIM") (at 43.18 72.39 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 75bb53f0-45fd-4e94-a0b7-8d30f2bcdec1)
     (property "Reference" "RV1" (id 0) (at 41.402 70.2869 0)
@@ -2616,7 +2615,7 @@
     (pin "1" (uuid edd6e4f7-903d-48dc-a7e5-b7b9567251b1))
   )
 
-  (symbol (lib_id "-lmp:R_POT_TRIM") (at 60.96 82.55 0) (unit 1)
+  (symbol (lib_id "-lmp:R_POT_TRIM") (at 60.96 82.55 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f0bfd50d-d79e-4c77-b617-7f51a6f720f4)
     (property "Reference" "RV3" (id 0) (at 59.182 80.4469 0)
