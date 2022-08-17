@@ -1,0 +1,158 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "Eurorack Effects Module")
+    (date "2022-08-17")
+    (rev "1.0")
+    (company "Len Popp")
+    (comment 1 "Copyright © 2022 Len Popp CC BY")
+    (comment 2 "Eurorack digital effects module - 4HP")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
+    (at 177.8 156.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 16ded395-a862-4198-b3af-ba8c7fb298bb)
+  )
+  (text "Front Panel & Power" (at 304.8 21.59 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 851ab59d-1fd7-45c7-a775-29797327cafc)
+  )
+  (text "Title" (at 27.94 20.32 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid 975b065a-4fee-4d11-9f2f-b1d40a3629cb)
+  )
+
+  (sheet (at 304.8 25.4) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060cbfb6a)
+    (property "Sheet name" "PanelPower" (id 0) (at 304.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PanelPower.kicad_sch" (id 1) (at 304.8 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000060cbfb6a" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a3b57a"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59ad1"
+      (reference "#FLG0108") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59987"
+      (reference "#FLG0109") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c59052"
+      (reference "#FLG0110") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a0c7a0"
+      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a85fe4"
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c4b62c"
+      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cc6663"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200c540"
+      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200db44"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c927a4"
+      (reference "#PWR0117") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c86281"
+      (reference "#PWR0119") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c80bf1"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
+      (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/85a4332e-f4a0-4a12-8d78-3360bf491c00"
+      (reference "A1") (unit 1) (value "Cable_Eurorack_16") (footprint "-lmp-misc:NoFootprint")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c8030a"
+      (reference "C1") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c7fbfa"
+      (reference "C2") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db36a"
+      (reference "C3") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db370"
+      (reference "C4") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7311e"
+      (reference "C5") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061895d0d"
+      (reference "D1") (unit 1) (value "LED_5mm_Blue") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/88948196-6a74-42af-a5e6-9dd2ac95ca88"
+      (reference "H1") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
+      (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0cf9c"
+      (reference "J2") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa77"
+      (reference "J3") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa8b"
+      (reference "J4") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
+      (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c12315"
+      (reference "J10") (unit 1) (value "Conn_Front") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c179d1"
+      (reference "J11") (unit 1) (value "Conn_Back") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b13bc3"
+      (reference "JP1") (unit 1) (value "GATE-BUS") (footprint "-lmp-misc:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd"
+      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f089fa"
+      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cae66f"
+      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619c81a5"
+      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c16982"
+      (reference "U3") (unit 3) (value "TL072") (footprint "-lmp-misc:DIP-8_W7.62mm_LongPads")
+    )
+  )
+)
