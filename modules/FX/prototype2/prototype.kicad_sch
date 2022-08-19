@@ -1881,7 +1881,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x09") (at 57.15 154.94 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-0000615e2370)
     (property "Reference" "J1" (id 0) (at 57.15 149.9702 90))
     (property "Value" "Conn_01x09" (id 1) (at 57.15 152.5071 90))
