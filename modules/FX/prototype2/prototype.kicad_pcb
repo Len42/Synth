@@ -1412,6 +1412,7 @@
     )
   )
 
+  (gr_circle (center 91.44 46.99) (end 92.859903 46.99) (layer "Dwgs.User") (width 0.381) (fill none) (tstamp 3a1de50a-9d0d-4745-bee5-1bf4c75ac56e))
   (gr_line (start 123.19 191.77) (end 82.55 191.77) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc2))
   (gr_line (start 123.19 24.13) (end 123.19 191.77) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc5))
   (gr_line (start 82.55 191.77) (end 82.55 24.13) (layer "Edge.Cuts") (width 0.1) (tstamp 00000000-0000-0000-0000-00006121bfc8))
@@ -1430,6 +1431,9 @@
   )
   (gr_text "10" (at 120.602304 48.179794) (layer "Cmts.User") (tstamp 732d69fc-f7bd-4018-98c9-54443568c64d)
     (effects (font (size 1.524 1.524) (thickness 0.2286)))
+  )
+  (gr_text "R5:\n33K = reverb\n100K = echo\nomit = chorus" (at 71.12 46.355) (layer "Cmts.User") (tstamp 7f6a22f5-5c70-441c-9cf3-3d7badd56407)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "50" (at 120.665187 149.779794) (layer "Cmts.User") (tstamp 837f57b3-a726-4e58-a5b6-a46f9486925d)
     (effects (font (size 1.524 1.524) (thickness 0.2286)))
