@@ -1792,6 +1792,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3ac947ec-7b8c-4b36-a741-2b2d72079d9d)
   )
+  (text "TODO: Adjust for 2Vp-p \nwith A1 in place - 24K?" (at 78.74 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7d77bfd9-9669-4fb4-9c3e-3d8f70646a55)
+  )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
     (at 177.8 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
