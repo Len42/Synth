@@ -1412,8 +1412,6 @@
     )
   )
 
-  (gr_circle (center 87.63 68.58) (end 88.528026 68.58) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp 0a4c9037-984b-46c8-90b8-40efdde1c6fd))
-  (gr_circle (center 91.44 69.85) (end 92.338026 69.85) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp 2520013f-c80d-48dd-9a04-1f587f878389))
   (gr_circle (center 91.44 46.99) (end 92.859903 46.99) (layer "Dwgs.User") (width 0.381) (fill none) (tstamp 3a1de50a-9d0d-4745-bee5-1bf4c75ac56e))
   (gr_circle (center 102.235 59.055) (end 103.133026 59.055) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp bba5ab34-3588-4382-aa1f-8ef3d1d434f2))
   (gr_circle (center 101.6 64.135) (end 102.498026 64.135) (layer "Dwgs.User") (width 0.254) (fill none) (tstamp d6095839-2d23-4641-b544-c1e0c1a8ece9))
