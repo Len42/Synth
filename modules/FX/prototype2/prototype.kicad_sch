@@ -1792,7 +1792,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3ac947ec-7b8c-4b36-a741-2b2d72079d9d)
   )
-  (text "TODO: Adjust for 2Vp-p \nwith A1 in place" (at 78.74 49.53 0)
+  (text "TODO: Adjust for 2Vp-p \nwith A1 in place\n33K? 47K?"
+    (at 78.74 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d77bfd9-9669-4fb4-9c3e-3d8f70646a55)
   )
@@ -1805,7 +1806,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e2f8bf7c-e267-4879-8077-0d6e78f9f182)
   )
-  (text "TODO: Adjust gain of output stages" (at 140.97 95.25 0)
+  (text "TODO: Adjust gain & offset of output stages" (at 140.97 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fb6fcce6-1de2-437b-ada6-64795644d220)
   )
@@ -2453,7 +2454,7 @@
     (uuid 9ca401d0-8cbd-4a9f-8ae3-82c73c496b09)
     (property "Reference" "R7" (id 0) (at 148.59 56.2442 90))
     (property "Value" "10K" (id 1) (at 148.59 58.7811 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 148.59 62.738 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_4" (id 2) (at 148.59 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 148.59 60.96 0)
@@ -3029,7 +3030,7 @@
     (property "Value" "100K" (id 1) (at 76.962 90.6038 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "-lmp-misc:Potentiometer_Bourns_3310R_Top" (id 2) (at 78.74 90.17 0)
+    (property "Footprint" "-lmp-misc:Potentiometer_Bourns_3386P_Top" (id 2) (at 78.74 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 78.74 90.17 0)
@@ -3205,7 +3206,7 @@
       (reference "R6") (unit 1) (value "56K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/9ca401d0-8cbd-4a9f-8ae3-82c73c496b09"
-      (reference "R7") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R7") (unit 1) (value "10K") (footprint "-lmp-stripboard:SB_Gen_4")
     )
     (path "/f490e49b-fef1-4675-8181-f9effbb6f6cf"
       (reference "R8") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
@@ -3232,7 +3233,7 @@
       (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
     )
     (path "/f0bfd50d-d79e-4c77-b617-7f51a6f720f4"
-      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
+      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3386P_Top")
     )
     (path "/61d278ff-1f68-4913-805b-3c3c2dc77463"
       (reference "SW1") (unit 1) (value "SW_LED") (footprint "-lmp-breakout:Breakout_SW_Push_LED_C&K_D6R")
