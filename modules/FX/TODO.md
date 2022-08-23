@@ -1,9 +1,11 @@
 # Prototype
 
 TODO: Adjust input gain for close to 2Vp-p
+- TODO: Re-do patch to make simple 10Vp-p repeating
 - measured with A1 in place
 - it's too low now ~1.2V
 - try R4 = 33K or 47K
+- currently using 33K
 
 TODO: Test other diff output OUT1-
 - is it at the same offset as OUT1+?
