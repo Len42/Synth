@@ -1,3 +1,5 @@
+# Prototype
+
 TODO: Adjust input gain for close to 2Vp-p
 - measured with A1 in place
 - it's too low now ~1.2V
@@ -15,3 +17,7 @@ TODO: Differential amp stage
 
 TODO: Output stage
 - adjust gain & offset for correct audio output
+
+# Module
+
+Make it wide enough for all controls - 8 HP?
