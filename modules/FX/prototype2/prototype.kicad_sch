@@ -1792,8 +1792,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3ac947ec-7b8c-4b36-a741-2b2d72079d9d)
   )
-  (text "TODO: Adjust for 2Vp-p \nwith A1 in place\n33K? 47K?"
-    (at 78.74 49.53 0)
+  (text "TODO: Make input & output stages inverting.\nTake dry signal after input stage, mix into output."
+    (at 48.26 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d77bfd9-9669-4fb4-9c3e-3d8f70646a55)
   )

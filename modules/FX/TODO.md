@@ -20,6 +20,11 @@ TODO: Differential amp stage
 TODO: Output stage
 - adjust gain & offset for correct audio output
 
+TODO: Inverting stages
+- both input & output should be inverting
+- differential stage stays non-inverting
+- dry signal is inverted and mixes into output
+
 # Module
 
 Make it wide enough for all controls - 8 HP?
