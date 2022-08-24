@@ -1,6 +1,6 @@
 # Digital Effects Module
 
-## 4HP Eurorack Module
+## 8HP Eurorack Module
 
 <img src="title.jpg" style="float:right">
 

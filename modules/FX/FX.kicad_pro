@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.9,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -353,7 +353,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lmp-Euro-4HP.kicad_pro",
+    "filename": "lmp-Euro-8HP.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,7 +455,7 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2",
       ""
     ],
     [
