@@ -1811,6 +1811,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3ac947ec-7b8c-4b36-a741-2b2d72079d9d)
   )
+  (text "using 18K" (at 74.93 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5c67fb89-6b10-45f1-a66c-639ca2143aba)
+  )
   (text "TODO: Make sure there's \nno DC offset in the mix" (at 173.99 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d77bfd9-9669-4fb4-9c3e-3d8f70646a55)
@@ -2466,7 +2470,7 @@
     (uuid a1ed5115-0cb0-4ee9-a847-8e2633ea73bb)
     (property "Reference" "R2" (id 0) (at 63.5 49.8942 90))
     (property "Value" "100K" (id 1) (at 63.5 52.4311 90))
-    (property "Footprint" "-lmp-stripboard:SB_Gen_1" (id 2) (at 63.5 56.388 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_6" (id 2) (at 63.5 56.388 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 63.5 54.61 0)
@@ -2898,7 +2902,7 @@
   (symbol (lib_id "-lmp-power:GND") (at 69.85 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid de527646-e14a-4d8b-8217-4e12a334071e)
-    (property "Reference" "#PWR?" (id 0) (at 69.85 67.31 0)
+    (property "Reference" "#PWR0102" (id 0) (at 69.85 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 69.85 64.77 0)
@@ -3134,7 +3138,7 @@
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/de527646-e14a-4d8b-8217-4e12a334071e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/8e74fcbe-fb21-4387-a2f5-8b236b51cd08"
       (reference "A1") (unit 1) (value "Module_ABE") (footprint "-lmp-synth:Module_ABE_Vert")
@@ -3155,7 +3159,7 @@
       (reference "R1") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/a1ed5115-0cb0-4ee9-a847-8e2633ea73bb"
-      (reference "R2") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
+      (reference "R2") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_6")
     )
     (path "/cfad5264-cc48-46bb-990e-e6d0aa375cdc"
       (reference "R4") (unit 1) (value "20K") (footprint "-lmp-stripboard:SB_Gen_1")
