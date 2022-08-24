@@ -1,29 +1,45 @@
-# Prototype
+# Breadboard Prototype
 
-TODO: Adjust input gain for close to 2Vp-p
-- TODO: Re-do patch to make simple 10Vp-p repeating
-- measured with A1 in place
-- it's too low now ~1.2V
-- try R4 = 33K or 47K
-- currently using 33K
+PROBLEM: FX module isn't doing what it's supposed to
+- always vibrato...?!?
+- does respond to controls & tap tempo
+- seems to have bad connections to breadboard
 
-TODO: Test other diff output OUT1-
-- is it at the same offset as OUT1+?
+Done: Adjust input gain for close to 2Vp-p
+- see prototype3
 
 TODO: Differential amp stage
-- hook up OUT1-
-- measure output of differential amp
-- test different input waveforms
-- adjust resistors for gain
-- look for less than normal, e.g. 5Vp-p
+- Done: hook up OUT1-
+- TODO: adjust resistors for gain
+- currently ~3.6V (approx double the input)
 
 TODO: Output stage
 - adjust gain & offset for correct audio output
+- it a bit of offset
+- maybe should be AC coupled?
 
-TODO: Inverting stages
-- both input & output should be inverting
-- differential stage stays non-inverting
-- dry signal is inverted and mixes into output
+Done: Both input & output should be inverting
+
+TODO: Dry signal mix
+- watch out for amplitude & offset
+
+# PCB Prototype
+
+TODO
+
+Breadboard prototype doesn't work - it seems to have bad connections.
+
+Make a more reliable PCB protype, but keep it simple.
+
+- Use pot & resistor values similar to the datasheet
+- Socket header for FX module
+- Output stage gain ~2.5 (inverting)
+- Wet/dry mix pot? not sure it's necessary
+- Only one channel for simplicity
+
+Should it be a Eurorack module?
+- Only if it can fit on 1 PCB (but it can be ugly)
+- Convenient to use standard power cable
 
 # Module
 
