@@ -2244,7 +2244,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a272916-de9d-43b6-9246-2e75ed2ec5de)
   )
-  (text "TODO: connector for A1 in BOM?" (at 95.25 83.82 0)
+  (text "TODO: connector for \nA1 if desired" (at 102.87 86.36 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f07e8eb-8fea-4792-845f-99c6ee0a393a)
   )
@@ -2898,7 +2898,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4c70a7ef-bb57-49d7-84a4-665a49aa7f35)
     (property "Reference" "J3" (id 0) (at 41.91 122.0302 0))
-    (property "Value" "Conn_Eurorack_16" (id 1) (at 41.91 124.5671 0))
+    (property "Value" "Conn_Eurorack_10" (id 1) (at 41.91 124.5671 0))
     (property "Footprint" "-lmp-synth:IDC-Header-Eurorack-10-TH" (id 2) (at 43.18 141.224 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4085,7 +4085,7 @@
       (reference "J2") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/4c70a7ef-bb57-49d7-84a4-665a49aa7f35"
-      (reference "J3") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-10-TH")
+      (reference "J3") (unit 1) (value "Conn_Eurorack_10") (footprint "-lmp-synth:IDC-Header-Eurorack-10-TH")
     )
     (path "/aeb91224-9a24-4cd3-9921-651a8436404f"
       (reference "R1") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
