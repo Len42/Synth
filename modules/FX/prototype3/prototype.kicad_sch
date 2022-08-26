@@ -1807,6 +1807,10 @@
     (uuid fe99e45b-0b3e-48e4-a14e-4c83635451fb)
   )
 
+  (text "using 2K2" (at 153.67 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 07efad25-7806-4e7b-9278-0d606a72047c)
+  )
   (text "(33K)" (at 110.49 85.09 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3ac947ec-7b8c-4b36-a741-2b2d72079d9d)
@@ -1815,7 +1819,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5c67fb89-6b10-45f1-a66c-639ca2143aba)
   )
-  (text "TODO: Make sure there's \nno DC offset in the mix" (at 173.99 81.28 0)
+  (text "PROBLEM: Voltage offset: \ndry is 0-2V, wet is -1-+1V"
+    (at 173.99 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d77bfd9-9669-4fb4-9c3e-3d8f70646a55)
   )

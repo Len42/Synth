@@ -2225,16 +2225,18 @@
     (uuid fe10ead7-f50c-4b75-b94a-dd3bfdbbd9ef)
   )
 
-  (text "TODO: How to balance \nwet & dry levels" (at 157.48 78.74 0)
+  (text "Input stage reduces input \nsignal to nominal 2Vp-p"
+    (at 40.64 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 103e369b-3831-448d-ab3b-22eb0ba0c3e0)
+    (uuid 01cf3317-5feb-4606-8ec2-6a7cf41a2974)
   )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
     (at 177.8 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 160cb44e-5e81-454b-9642-f95193231b95)
   )
-  (text "TODO: Adjust gain & offset of output stages" (at 123.19 87.63 0)
+  (text "R6 & R7 set gain to produce \n2Vp-p signal, matching the input."
+    (at 125.73 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a272916-de9d-43b6-9246-2e75ed2ec5de)
   )
@@ -2246,7 +2248,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f444f51-7d0f-4346-8f41-4f57d8279572)
   )
-  (text "TODO: Make sure there's \nno DC offset in the mix" (at 157.48 72.39 0)
+  (text "PROBLEM: Voltage offset: \ndry is 0-2V, wet is -1-+1V"
+    (at 157.48 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9742b306-7d73-4e1c-9dfa-951d18865f9d)
   )
@@ -2254,7 +2257,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b37c1fea-f6ae-4b9e-a245-d2714b468590)
   )
-  (text "using 18K" (at 66.04 35.56 0)
+  (text "using 18K" (at 64.77 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc67a19c-75ad-4cf8-93dd-7ed333ae0b8e)
   )
@@ -2796,7 +2799,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3f350e6d-335e-46fb-9030-33a06d5f0a21)
     (property "Reference" "R7" (id 0) (at 140.97 76.5642 90))
-    (property "Value" "3K9" (id 1) (at 140.97 79.1011 90))
+    (property "Value" "2K2" (id 1) (at 140.97 79.1011 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 140.97 83.058 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2829,7 +2832,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 47f2a6d4-21f5-4a5e-8df4-18181cdeae5d)
     (property "Reference" "R6" (id 0) (at 140.97 33.3842 90))
-    (property "Value" "3K9" (id 1) (at 140.97 35.9211 90))
+    (property "Value" "2K2" (id 1) (at 140.97 35.9211 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 140.97 39.878 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4067,10 +4070,10 @@
       (reference "R5") (unit 1) (value "10K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/47f2a6d4-21f5-4a5e-8df4-18181cdeae5d"
-      (reference "R6") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R6") (unit 1) (value "2K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/3f350e6d-335e-46fb-9030-33a06d5f0a21"
-      (reference "R7") (unit 1) (value "3K9") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R7") (unit 1) (value "2K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/70b9914f-0138-470a-a07d-e1a88a53471e"
       (reference "R10") (unit 1) (value "47K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
