@@ -120,7 +120,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp 00000000-0000-0000-0000-000061a5e58d)
-    (at 70.8 66.39)
+    (at 70.8 65.12)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -1081,7 +1081,7 @@
 
   (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3" (layer "F.Cu")
     (tedit 622675F6) (tstamp 9b14b52a-7492-4dab-b3b9-a7c6eb79732f)
-    (at 80.15 62.36)
+    (at 80.15 62.86)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm m3")
     (clearance 1.15)
@@ -1126,7 +1126,7 @@
 
   (footprint "-lmp-holes:MountingHole_SW_Push_C&K_D6R" locked (layer "F.Cu")
     (tedit 622B7F76) (tstamp b6977247-0e8e-422f-b397-a64eed1d46da)
-    (at 89.5 65.36)
+    (at 89.5 66.36)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
