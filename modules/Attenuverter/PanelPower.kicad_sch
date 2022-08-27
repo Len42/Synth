@@ -2093,6 +2093,11 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 4fb21471-41be-4be8-9687-66030f97befc)
   )
+  (text "For best results, select \ngain potentiometers RV1 & RV2 \nas close to 100K as possible."
+    (at 95.25 39.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5f128bab-3aca-4ef5-b8d7-3c64fa1de1e4)
+  )
   (text "Board Connectors" (at 138.43 20.32 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid a3e4f0ae-9f86-49e9-b386-ed8b42e012fb)
