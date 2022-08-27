@@ -5,11 +5,11 @@
 <img src="Attenuverter.jpg" style="float:right">
 
 ### Features
-- Gain knob multiplies the input signal by 2 when turned to max and -1 when turned all the way down.
+- Gain knob multiplies the input signal by 2 when turned to max and -1 (i.e. inverted) when turned all the way down.
 - Offset knob adds an offset voltage in the range of -5 V to +5 V.
 - Channel 1's input is normalled from +5 V so it can be used as an adjustable CV source.
 - Channel 2's input is normalled from channel 1's input.
-- If channel 1's output is not patched it is normalled to mix with channel 2's output. (Please note that this can cause unintended results if channel 2 is used without using channel 1.)
+- If channel 1's output is not patched, it is normalled to mix with channel 2's output. (Please note that this can cause unintended results if channel 2 is used without using channel 1.)
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
