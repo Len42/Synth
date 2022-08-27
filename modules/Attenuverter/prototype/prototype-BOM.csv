@@ -1,5 +1,4 @@
 Ref,Qty,Value,Value2,Note,Description,Datasheet,Manufacturer,ManuPartNum,Distributor1,DistributorPartNum1,DistributorPartLink1
-"C1 C2","2","47P","","","Capacitor - Ceramic","","","","","",""
 "D1","1","LED_Bidi","","","Dual LED, red and green, common cathode on pin 2","https://www.mouser.ca/datasheet/2/216/WP937GYW-49419.pdf","Kingbright","WP937GYW","Mouser","604-WP937GYW","https://www.mouser.ca/ProductDetail/Kingbright/WP937GYW?qs=pYCps6XRS2BGAhGpbeAyzQ%3D%3D"
 "R1 R3 R4","3","100K","1%, 1/6 W","","Resistor","https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf","YAGEO","MFR-12*","Mouser","603-MFR-12*","https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
 "R2","1","33K2","","","Resistor","https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf","","","Mouser","",""

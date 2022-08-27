@@ -1060,7 +1060,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid c0e3e998-bc96-43e2-8a06-370869d5e37b)
   )
-  (text "TODO: Necessary? 10P?" (at 55.88 49.53 0)
+  (text "TODO: REMOVE" (at 55.88 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd9ba97c-232a-4d7b-8bad-0ea041fdc7c3)
   )
