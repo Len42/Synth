@@ -8,6 +8,7 @@
 - Two 1:3 channels - each channel copies an input signal to three outputs
 - Input of channel 1 is normalled to channel 2, making a 1:6 multiple when only one input is used
 - Outputs are buffered so that they don't affect each other, unlike a passive multiple
+- Blinking lights show when a signal is active and whether it's a CV or audio signal
 
 ### Notes
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
