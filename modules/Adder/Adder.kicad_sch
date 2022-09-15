@@ -1406,7 +1406,7 @@
     (uuid eaf85e24-8b97-4b6a-b6d8-623a2299743b)
   )
   (text "For a less precise, less expensive module, replace:\nU1, U4 with TL074\nU2 with TL072\nall 0.1% resistors with 1%"
-    (at 85.09 100.33 0)
+    (at 83.82 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ec2630d2-3dbf-4450-bc02-638504b4f5f2)
   )
