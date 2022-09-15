@@ -1760,7 +1760,7 @@
     (pin "4" (uuid daf62e84-e358-4f44-a910-8c20067fbaa0))
   )
 
-  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 123.19 0) (unit 1)
+  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 123.19 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1b58f4b1-edd2-4fa2-957e-11921d049a8d)
     (property "Reference" "U4" (id 0) (at 54.61 114.4102 0))
@@ -2026,7 +2026,7 @@
     (pin "2" (uuid a5c800e1-7d67-4c13-899f-55ec372e3715))
   )
 
-  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 166.37 0) (unit 3)
+  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 166.37 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 60c4ab7c-49dd-4160-b0aa-96a587a21680)
     (property "Reference" "U4" (id 0) (at 54.61 157.5902 0))
@@ -2142,7 +2142,7 @@
     (pin "2" (uuid 0d81d0be-361a-4661-9cad-766c07709093))
   )
 
-  (symbol (lib_id "-lmp-opamp:LT1014") (at 88.9 142.24 0) (mirror x) (unit 4)
+  (symbol (lib_id "-lmp-opamp:LT1014") (at 88.9 142.24 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6f3559d9-777f-4e6e-849f-4be419ce2125)
     (property "Reference" "U4" (id 0) (at 88.9 149.3504 0))
@@ -2524,7 +2524,7 @@
     (pin "2" (uuid edcd02dc-9f27-4793-ae51-a194f6e97b6e))
   )
 
-  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 144.78 0) (unit 2)
+  (symbol (lib_id "-lmp-opamp:LT1014") (at 54.61 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a4b43659-3bef-4f69-95d6-490780e9a28f)
     (property "Reference" "U4" (id 0) (at 54.61 136.0002 0))
@@ -3305,16 +3305,16 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/6a545968-9de9-4480-b880-a4ecfc1ca7bb"
       (reference "U3") (unit 3) (value "TL072") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
-    (path "/1b58f4b1-edd2-4fa2-957e-11921d049a8d"
+    (path "/a4b43659-3bef-4f69-95d6-490780e9a28f"
       (reference "U4") (unit 1) (value "LT1014") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/a4b43659-3bef-4f69-95d6-490780e9a28f"
+    (path "/60c4ab7c-49dd-4160-b0aa-96a587a21680"
       (reference "U4") (unit 2) (value "LT1014") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/60c4ab7c-49dd-4160-b0aa-96a587a21680"
+    (path "/6f3559d9-777f-4e6e-849f-4be419ce2125"
       (reference "U4") (unit 3) (value "LT1014") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/6f3559d9-777f-4e6e-849f-4be419ce2125"
+    (path "/1b58f4b1-edd2-4fa2-957e-11921d049a8d"
       (reference "U4") (unit 4) (value "LT1014") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/a6f99e02-32b8-4de0-b6fe-527085bb50e2"
