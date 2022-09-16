@@ -16,7 +16,7 @@ PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled
 The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Front panel](https://oshpark.com/shared_projects/exBVN6kN)
 - [Controls board](https://oshpark.com/shared_projects/ZccsRBLi)
-- [Main board](https://oshpark.com/shared_projects/9fD0SGfR)
+- [Main board](https://oshpark.com/shared_projects/9fD0SGfR) TODO: UPDATE
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
