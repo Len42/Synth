@@ -12,6 +12,8 @@
 - If channel 1's output is not patched, it is normalled to mix with channel 2's output. (Please note that this can cause unintended results if channel 2 is used without using channel 1.)
 
 ### Notes
+For best results, the gain potentiometers (RV1 & RV3) should be very close to 100 kΩ. The pots specified for this project have a tolerance of 20% so I recommend measuring a few and selecting the most accurate ones.
+
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
