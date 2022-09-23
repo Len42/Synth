@@ -1,6 +1,8 @@
 # VCO-2131 Calibration
 
-This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range. It's a bit fiddly and takes a few minutes but I was able to get good pitch tracking over 10 octaves.
+This is the procedure for adjusting the VCO to get accurate 1-volt-per-octave tracking and a reasonable tuning range. It's a bit fiddly and takes a few minutes but I was able to get excellent pitch tracking over 9 octaves.
+
+In addition to the tuning controls on the front panel, there are three adjustable trimmers on the back of the module: Pitch, scaling, and high-frequency trim. The scaling and high-frequency trim controls adjust the module's volt-per-octave response so that all notes up & down the keyboard are in tune. The pitch trimmer adjusts the overall tuning so that the front panel controls cover a reasonable range.
 
 ## Required Equipment
 **Either:**
@@ -21,6 +23,8 @@ Three appropriate pitch control voltages and corresponding frequencies must be s
 
 Other appropriate voltages may be used instead of 5V and 10V.
 
+[Here is a page listing the frequencies of musical notes.](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)
+
 ### Examples
 
 <table>
@@ -40,6 +44,8 @@ Do not connect the voltage source to the CV input yet.
 Leave the other inputs & outputs unconnected.
 
 Set the Range switch to the low (bass) setting, the Coarse Tuning knob fully counter-clockwise, and Fine Tuning to the centre.
+
+Turn the HF TRIM trimmer on the module's circuit board fully counter-clockwise.
 
 ## Trimming the VCO
 
