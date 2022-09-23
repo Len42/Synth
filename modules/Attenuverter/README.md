@@ -5,7 +5,7 @@
 <img src="Attenuverter.jpg" style="float:right">
 
 ### Features
-- Gain knob multiplies the input signal by 2 when turned to max and -1 (i.e. inverted) when turned all the way down.
+- Gain knob multiplies the input signal by 2 when turned to max and by -1 (i.e. inverted) when turned all the way down.
 - Offset knob adds an offset voltage in the range of -5 V to +5 V.
 - Channel 1's input is normalled from +5 V so it can be used as an adjustable CV source.
 - Channel 2's input is normalled from channel 1's input.
@@ -16,10 +16,10 @@ For best results, the gain potentiometers (RV1 & RV3) should be very close to 10
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Front panel](https://oshpark.com/shared_projects/zzz)
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Main board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/6utvepvX)
+- [Controls board](https://oshpark.com/shared_projects/9pQK8wer)
+- [Main board](https://oshpark.com/shared_projects/1qgK0ORb)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
