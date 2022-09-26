@@ -6,6 +6,8 @@ Other modules use PCBs that I designed, so the front panel is a PCB with holes.
 
 The graphics are designed in [Inkscape](https://inkscape.org/), laser printed on adhesive-backed paper, and covered with a clear adhesive lamination sheet.
 
+For filler panels I've used [chipboard](https://www.amazon.ca/gp/product/B0013L5PX2/) with graphics printed as above.
+
 <img src="panels1.jpg">
 <img src="panels2.png">
 <img src="panels3.jpg">
