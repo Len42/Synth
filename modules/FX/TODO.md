@@ -6,6 +6,6 @@ PROBLEM: FX module isn't doing what it's supposed to
 - seems to have bad connections to breadboard
 
 TODO: PCB protype
-- order parts & PCBs
+- Done: order parts & PCBs
 - build
 - test
