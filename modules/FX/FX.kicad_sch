@@ -1499,10 +1499,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ff6f45c-5cd4-4517-92fe-f2c5ba903e5b)
   )
-  (text "TODO: Verify output level" (at 191.77 86.36 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b5164e9f-e53a-4a81-aef7-b0f8a4698168)
-  )
   (text "Convert differential signals \nto Eurorack audio level outputs.\nFor mono output, use either one."
     (at 128.27 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1512,11 +1508,6 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid c2a5dbe4-caac-46d7-a493-7e5501d5db80)
   )
-  (text "The output is AC coupled \nbecause the wet & dry signals \nhave different DC offsets"
-    (at 217.17 45.72 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d3e56ebb-5891-4424-a16c-20cca700de69)
-  )
   (text "Input" (at 25.4 24.13 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid d568ce15-5dc0-47ff-add7-8f965942e31a)
@@ -1525,8 +1516,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid e15d097a-4761-479a-be84-b8e07d19b4c7)
   )
-  (text "Output of this stage is nominal 2Vp-p max, AC coupled"
-    (at 25.4 27.94 0)
+  (text "Output of this stage is nominal 2Vp-p max" (at 25.4 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9d3c5b5-2617-462f-95cd-7ece2eca15bf)
   )
@@ -2953,7 +2943,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea745f03-d3ce-4a1a-9ef3-c9f64a4f1bbe)
     (property "Reference" "R15" (id 0) (at 195.58 52.4342 90))
-    (property "Value" "50K" (id 1) (at 195.58 54.9711 90))
+    (property "Value" "27K" (id 1) (at 195.58 54.9711 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 195.58 58.928 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3299,7 +3289,7 @@
       (reference "R14") (unit 1) (value "2K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/ea745f03-d3ce-4a1a-9ef3-c9f64a4f1bbe"
-      (reference "R15") (unit 1) (value "50K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R15") (unit 1) (value "27K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/f0688393-00a6-44d1-a67d-6b45d3a18d2e"
       (reference "R16") (unit 1) (value "50K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

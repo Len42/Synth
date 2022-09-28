@@ -2459,10 +2459,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5331a2d5-c473-4597-b79b-7db0fa0a616b)
   )
-  (text "TODO: Other output channel" (at 140.97 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b37c1fea-f6ae-4b9e-a245-d2714b468590)
-  )
 
   (label "DRY" (at 124.46 36.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4197,7 +4193,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fd4b1314-1824-4744-88d4-df069314039f)
     (property "Reference" "R8" (id 0) (at 173.99 57.5142 90))
-    (property "Value" "50K" (id 1) (at 173.99 60.0511 90))
+    (property "Value" "27K" (id 1) (at 173.99 60.0511 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 173.99 64.008 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4349,7 +4345,7 @@
       (reference "R7") (unit 1) (value "2K2") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/fd4b1314-1824-4744-88d4-df069314039f"
-      (reference "R8") (unit 1) (value "50K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R8") (unit 1) (value "27K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/70b9914f-0138-470a-a07d-e1a88a53471e"
       (reference "R10") (unit 1) (value "120K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
