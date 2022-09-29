@@ -2463,6 +2463,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5331a2d5-c473-4597-b79b-7db0fa0a616b)
   )
+  (text "TODO: use 20K/100K" (at 170.18 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b1345b43-ea2d-442b-81cc-7ba1be1c48a1)
+  )
 
   (label "DRY" (at 124.46 36.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
