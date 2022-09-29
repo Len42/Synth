@@ -2997,7 +2997,7 @@
     (pin "2" (uuid 48bcad81-97a1-41d2-83f6-c0dd5f46f5a1))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 76.2 63.5 0) (unit 2)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 76.2 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da1e36fb-0c95-45a4-b7c5-887fd123a916)
     (property "Reference" "U2" (id 0) (at 76.2 54.7202 0))
@@ -3033,7 +3033,7 @@
     (pin "8" (uuid 5d07cfec-8c8b-4cb7-a4e7-076d67749902))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 57.15 48.26 0) (mirror x) (unit 1)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 57.15 48.26 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ddea2031-0391-496d-9117-3226824f2e27)
     (property "Reference" "U2" (id 0) (at 57.15 55.3704 0))
@@ -3558,10 +3558,10 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/84e7adde-3be1-42c6-9d16-89c04d2a584f"
       (reference "U1") (unit 1) (value "LM7808_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
-    (path "/ddea2031-0391-496d-9117-3226824f2e27"
+    (path "/da1e36fb-0c95-45a4-b7c5-887fd123a916"
       (reference "U2") (unit 1) (value "TL072") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
-    (path "/da1e36fb-0c95-45a4-b7c5-887fd123a916"
+    (path "/ddea2031-0391-496d-9117-3226824f2e27"
       (reference "U2") (unit 2) (value "TL072") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/36e5e851-027f-463c-8fb7-07de039119ba"
