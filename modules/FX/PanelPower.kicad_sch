@@ -2776,7 +2776,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 135735c6-9c20-4bf3-849f-8a3683d0618a)
   )
-  (text "Chorus: Rate\nEcho: Time/Divs\nReverb: Pre-delay" (at 85.09 86.36 0)
+  (text "Echo: Time/Divs\nChorus: Rate\nReverb: Pre-delay" (at 85.09 86.36 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 279e63c7-cecf-49e9-841e-9347ba5d072a)
   )
@@ -2785,7 +2785,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 292c02f1-523d-4844-90f0-a744ec5ae311)
   )
-  (text "MODE switch selects:\n0V - chorus\n2.25V - echo\n4.1V - reverb\nwith VPOT = 4.5V"
+  (text "MODE switch selects:\n2.25V - echo\n0V - chorus\n4.1V - reverb\nwith VPOT = 4.5V"
     (at 71.12 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2d54a14a-8382-488e-a63d-d6da4e143483)
@@ -2807,7 +2807,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 82daa76d-d30e-42c1-8add-210303d040c6)
   )
-  (text "Chorus: Depth\nEcho: Repeats\nReverb: Decay" (at 85.09 99.06 0)
+  (text "Echo: Repeats\nChorus: Depth\nReverb: Decay" (at 85.09 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8ea604d-fc1c-41c0-9cce-e7a155d4da51)
   )
