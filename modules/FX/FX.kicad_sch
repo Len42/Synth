@@ -2032,7 +2032,7 @@
     (property "Reference" "A1" (id 0) (at 52.8194 105.6472 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Module_ABE" (id 1) (at 52.8194 108.1841 0)
+    (property "Value" "ABE-01" (id 1) (at 52.8194 108.1841 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "-lmp-synth:Module_ABE_Horiz_NoPads" (id 2) (at 38.1 104.775 0)
@@ -3355,7 +3355,7 @@
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
     )
     (path "/27e76078-a5eb-49c2-9c1a-9d1a15120fd6"
-      (reference "A1") (unit 1) (value "Module_ABE") (footprint "-lmp-synth:Module_ABE_Horiz_NoPads")
+      (reference "A1") (unit 1) (value "ABE-01") (footprint "-lmp-synth:Module_ABE_Horiz_NoPads")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/4ce8f4c3-a359-4147-90a8-808866703305"
       (reference "A2") (unit 1) (value "Cable_Eurorack_10") (footprint "-lmp-misc:NoFootprint")
@@ -3414,35 +3414,20 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/c947bbf3-7a9c-47c5-a15e-a9f1475d2f68"
       (reference "D1") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
-      (reference "H1") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d5696d"
+      (reference "H1") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a8fd"
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
       (reference "H2") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b0d3"
-      (reference "H3") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
+      (reference "H3") (unit 1) (value "HW_Standoff_F-F_11mm_M3x0.50") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7b3cb"
       (reference "H4") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d5696d"
-      (reference "H5") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce872c"
-      (reference "H6") (unit 1) (value "HW_Standoff_F-F_11mm_M3x0.50") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d57717"
-      (reference "H7") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d56ebb"
-      (reference "H8") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/2a086b65-8903-4f51-bbe6-0868308726b0"
-      (reference "H9") (unit 1) (value "HW_Standoff_F-F_11mm_M3x0.50") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061d572ad"
-      (reference "H10") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
+      (reference "H5") (unit 1) (value "HW_Screw_M3x0.50x6") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
