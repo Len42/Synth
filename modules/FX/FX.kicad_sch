@@ -2514,7 +2514,7 @@
     (pin "2" (uuid 5bc35472-1ce9-46a6-a477-9389297334de))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 163.83 123.19 0) (unit 3)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 163.83 123.19 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 74c48025-a80d-487d-8ec3-c569d56ebd75)
     (property "Reference" "U3" (id 0) (at 167.64 116.84 0))
@@ -3135,7 +3135,7 @@
     (pin "2" (uuid 3d9ac07d-ab6e-4660-9371-f3cae6930b67))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 209.55 121.92 0) (mirror x) (unit 4)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 209.55 121.92 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e2d39f50-e0d4-4e9b-b538-d9a5019f496f)
     (property "Reference" "U3" (id 0) (at 209.55 129.0304 0))
@@ -3573,10 +3573,10 @@
     (path "/673ae97b-f54a-4e84-a674-f4b5f4fe6a91"
       (reference "U3") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/74c48025-a80d-487d-8ec3-c569d56ebd75"
+    (path "/e2d39f50-e0d4-4e9b-b538-d9a5019f496f"
       (reference "U3") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/e2d39f50-e0d4-4e9b-b538-d9a5019f496f"
+    (path "/74c48025-a80d-487d-8ec3-c569d56ebd75"
       (reference "U3") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/2a190f03-ce1e-4762-b404-984c277848d3"
