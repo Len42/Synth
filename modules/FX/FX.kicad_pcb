@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "Eurorack Effects Module")
-    (date "2022-08-23")
+    (date "2022-09-30")
     (rev "1.2")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
@@ -44247,7 +44247,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000061a5814c) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -44277,7 +44277,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000061aadd74) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -44307,7 +44307,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a060e16f-f275-448b-8fa2-1c2b832ead39) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
