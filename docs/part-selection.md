@@ -6,7 +6,7 @@ Each of these module designs includes a bill of materials (BOM) that lists all o
 
 But that doesn't mean that those exact parts must be used in every case. Many components, such as resistors, are available with similar specs from several manufacturers. Sometimes it matters which of those versions is used, sometimes it doesn't.
 
-Here are some notes on how to select appropriate components to make these modules.
+Here are some tips on how to select appropriate components to make these modules.
 
 ## Jellybeans
 
