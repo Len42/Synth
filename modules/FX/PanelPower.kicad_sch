@@ -2819,8 +2819,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 4cd38139-85d8-4bb0-8ec5-44fb4adb00fa)
   )
-  (text "8 volt regulator supplies \npower for the effects module"
-    (at 157.48 119.38 0)
+  (text "8 volt regulator \nsupplies power for A1" (at 200.66 119.38 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5be4871e-340b-4ca9-96da-e7915f98ccc6)
   )
@@ -2832,7 +2831,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8ea604d-fc1c-41c0-9cce-e7a155d4da51)
   )
-  (text "* Replace D1 with a jumper \nif the TEMPO LED is blue"
+  (text "* Replace D1 with a jumper wire \nif the TEMPO LED is blue or white"
     (at 71.12 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd12a628-00e8-4bba-8e1a-3d316fc36182)
@@ -4441,7 +4440,7 @@
     (property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/?qs=0lQeLiL1qyZS6rosZp7Ehg%3D%3D" (id 8) (at 73.66 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Note" "Replace with jumper if LED is blue" (id 9) (at 73.66 57.15 0)
+    (property "Note" "Replace with jumper if LED is blue or white" (id 9) (at 73.66 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c57abe82-347e-42b3-9c54-c560c8cd9c1e))
