@@ -43,6 +43,7 @@
       14,
       15,
       16,
+      17,
       18,
       19,
       20,
@@ -62,11 +63,11 @@
       35,
       36
     ],
-    "visible_layers": "000f3f0_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "000b3f0_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "VCO-2131.kicad_prl",
+    "filename": "Attenuverter.kicad_prl",
     "version": 3
   },
   "project": {
