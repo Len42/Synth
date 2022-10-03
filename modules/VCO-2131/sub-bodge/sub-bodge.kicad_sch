@@ -848,7 +848,7 @@
     (uuid fe10497b-4a47-4258-abf5-3d8d5fc97057)
   )
 
-  (text "TODO: Reduce or remove C1\nIt attenuates too much and \nlimits the frequency."
+  (text "Reduce or remove C1\nIt attenuates too much and \nlimits the frequency."
     (at 102.87 116.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab0a88a1-f540-4822-83d0-8358803e0543)
