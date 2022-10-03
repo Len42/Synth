@@ -12,9 +12,21 @@ These designs are shared as open source. See the license details in each project
 
 -- Len
 
+## General Info
+
+[Front Panels](panels.html) &mdash; How I make the front panels for my modules
+
+[Component Selection](part-selection.html) &mdash; Some notes on which parts to use when building these modules
+
+[Firmware Programming](firmware-programming.html) &mdash; How to program the firmware onto the microcontrollers in some modules
+
+[Discussions](https://github.com/Len42/Synth/discussions) &mdash; Forum for questions, comments, and conversations
+
 ## Modules
 
 These are the modules that I have built so far:
+
+[Attenuverter](https://github.com/Len42/Synth/tree/main/modules/Attenuverter) &mdash; Dual attenuverter module
 
 [VCF-4P](https://github.com/Len42/Synth/tree/main/modules/VCF-4P) &mdash; 4-pole lowpass filter module
 
@@ -43,13 +55,5 @@ These are the modules that I have built so far:
 [Power-Supply](https://github.com/Len42/Synth/tree/main/misc/Power-Supply) &mdash; Eurorack power supply using a laptop charger
 
 [Cable Hanger](https://github.com/Len42/Synth/tree/main/misc/cable-hanger) &mdash; Simple desk-mounted patch cable rack
-
-## General Info
-
-[Component Selection](part-selection.html) &mdash; Some notes on which parts to use when building these modules
-
-[Firmware Programming](firmware-programming.html) &mdash; How to program the firmware onto the microcontrollers in some modules
-
-[Discussions](https://github.com/Len42/Synth/discussions) &mdash; Forum for questions, comments, and conversations
 
 <hr /><div><div style="float:left; padding-right:10px;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0; padding-top:8px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div style="padding-left:10px;">© 2022 Len Popp<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div></div>
