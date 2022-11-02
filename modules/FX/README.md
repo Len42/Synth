@@ -2,7 +2,10 @@
 
 ## 8HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+<div style="float:right">
+<img src="FX.jpg"><br>
+<img src="header.jpg">
+</div>
 
 ### Features
 - [features]
@@ -10,12 +13,13 @@
 ### Notes
 [notes]
 
+
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/IcfnjVSe)
+- [Controls board](https://oshpark.com/shared_projects/3NuuYXm0)
+- [Main board](https://oshpark.com/shared_projects/yNs2Zlux)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
