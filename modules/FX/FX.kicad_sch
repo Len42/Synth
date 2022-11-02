@@ -1700,7 +1700,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 2e0ad251-1f52-4a40-96d6-41fb69e1e104)
   )
-  (text "Mounted in a right-angle socket header" (at 25.4 95.25 0)
+  (text "Mounted in a socket header" (at 25.4 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52a7e04b-57d7-4b2c-a1c8-ae36bfa763c1)
   )
