@@ -2,17 +2,20 @@
 
 ## 8HP Eurorack Module
 
-<div style="float:right">
-<img src="FX.jpg"><br>
-<img src="header.jpg">
-</div>
+<img src="FX.jpg" style="float:right">
 
 ### Features
-- [features]
+- Chorus, echo, and plate reverb effects
+- Uses an [Accu-Bell Effector](https://www.tubesandmore.com/sites/default/files/associated_files/p-r-abe.pdf) DSP module
+- Stereo outputs
+- Lighted pushbutton for tap tempo
 
 ### Notes
-[notes]
+I used a right-angle socket header connector for the DSP module so that it would lie flat on the PCB, but the connector's pins are too short so it ended up sitting at an angle:
 
+<img src="header.jpg" xstyle="float:right">
+
+The DSP module could be soldered directly to the PCB instead, so that it sticks out vertically.
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
