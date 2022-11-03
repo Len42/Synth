@@ -26,6 +26,8 @@ These designs are shared as open source. See the license details in each project
 
 These are the modules that I have built so far:
 
+[FX](https://github.com/Len42/Synth/tree/main/modules/FX) &mdash; Digital effects module
+
 [Attenuverter](https://github.com/Len42/Synth/tree/main/modules/Attenuverter) &mdash; Dual attenuverter module
 
 [VCF-4P](https://github.com/Len42/Synth/tree/main/modules/VCF-4P) &mdash; 4-pole lowpass filter module
