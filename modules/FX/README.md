@@ -5,19 +5,21 @@
 <img src="FX.jpg" style="float:right">
 
 ### Features
-- Chorus, echo, and plate reverb effects
-- Uses an [Accu-Bell Effector](https://www.tubesandmore.com/sites/default/files/associated_files/p-r-abe.pdf) DSP module
+- Chorus, echo, or plate reverb effect
 - Stereo outputs
 - Lighted pushbutton for tap tempo
+- Uses an [Accu-Bell Effector](https://www.tubesandmore.com/sites/default/files/associated_files/p-r-abe.pdf) DSP module
 
 ### Notes
-I used a right-angle socket header connector for the DSP module so that it would lie flat on the PCB, but the connector's pins are too short so it ended up sitting at an angle:
+Chorus and reverb effects are stereo; echo is mono, output to both channels.
+
+I wanted the DSP module to lie flat on the PCB so I used a right-angle socket header connector, but the connector's pins are too short so it ended up sitting at an angle:
 
 <img src="header.jpg" xstyle="float:right">
 
 The DSP module could be soldered directly to the PCB instead, so that it sticks out vertically.
 
-PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
+PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel is also included.
 
 The PCBs that I used can be ordered from OSH Park. The designs are here:
 - [Front panel](https://oshpark.com/shared_projects/IcfnjVSe)
