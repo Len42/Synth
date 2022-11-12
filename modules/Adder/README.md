@@ -1,4 +1,4 @@
-# Precision Adder / Unity-Gain Mixer
+# Unity-Gain Mixer / Precision Adder
 
 ## 4HP Eurorack Module
 
@@ -7,21 +7,22 @@
 ### Features
 - Two 3:1 mixing channels usable for CV or audio signals
 - All inputs are mixed equally, _i.e._ added together
-- Precision design handles pitch CVs accurately
-- Blinking lights show when a channel is active and whether it's a CV or audio signal
+- Blinking lights show when an output is active and whether it's a CV or audio signal
+- _Optional:_ Precision components can be used to make a high-precision adder for CVs
 
 ### Notes
-The precision op-amps and resistors are relatively expensive. For a less precise, less expensive module, you can replace:
-- U1, U4 with TL074
-- U2 with TL072
-- all 0.1% resistors with 1% resistors
+To make a high-precision adder (_e.g._ to add pitch CVs without going out of tune):
+- Use precision resistors (0.1% tolerance) for all 10kΩ resistors
+- Use precision op-amps for U1, U2, and U4 (but not U3, all it does is blink an LED)
+
+Note that some precision op-amps have low bandwidth or slew rate, which can be a problem for mixing audio signals. For example, I found that the LT1013/4 is good for accurately adding pitch CVs but causes distortion of audio-frequency signals. A possible compromise is to use precision resistors and regular op-amps (TL07x).
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Controls board](https://oshpark.com/shared_projects/eqKM6fyu)
+- [Main board](https://oshpark.com/shared_projects/4ohHbdpn)
+- [Front panel](https://oshpark.com/shared_projects/z20NA99Y)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
