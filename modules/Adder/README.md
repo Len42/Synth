@@ -8,7 +8,7 @@
 - Two 3:1 mixing channels usable for CV or audio signals
 - All inputs are mixed equally, _i.e._ added together
 - Blinking lights show when an output is active and whether it's a CV or audio signal
-- _Optional:_ Precision components can be used to make a high-precision adder for CVs
+- _Optional:_ A high-precision CV adder, if precision components are used
 
 ### Notes
 To make a high-precision adder (_e.g._ to add pitch CVs without going out of tune):
