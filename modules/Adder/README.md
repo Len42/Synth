@@ -2,7 +2,7 @@
 
 ## 4HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+<img src="Adder.jpg" style="float:right">
 
 ### Features
 - Two 3:1 mixing channels usable for CV or audio signals
