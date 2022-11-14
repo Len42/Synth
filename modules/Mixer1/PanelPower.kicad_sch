@@ -5,13 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "Eurorack Dual Mixer")
-    (date "2022-10-03")
-    (rev "1.2")
+    (title "Front Panel & Power - Eurorack Mixer")
+    (date "2022-11-13")
+    (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "Layout designed for 8HP module using Delptronics Module Construction Set")
-    (comment 3 "Eurorack 2-channel 3:1 mixer module - 8HP")
+    (comment 2 "Eurorack 3:1 mixer module - 4HP")
   )
 
   (lib_symbols

@@ -6,14 +6,13 @@
 
   (paper "A4")
   (title_block
-    (title "Eurorack Dual Mixer")
-    (date "2022-10-03")
-    (rev "1.2")
+    (title "Eurorack Mixer")
+    (date "2022-11-13")
+    (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2022 Len Popp CC BY")
-    (comment 2 "Front panel layout matches 8HP Delptronics Module Construction Set")
-    (comment 3 "Board settings comply with requirements of OSH Park https://oshpark.com/")
-    (comment 4 "Eurorack 2-channel 3:1 mixer module - 8HP")
+    (comment 2 "Board settings comply with requirements of OSH Park https://oshpark.com/")
+    (comment 3 "Eurorack 3:1 mixer module - 4HP")
   )
 
   (layers
@@ -6467,10 +6466,10 @@
   (gr_text "-12V" (at 178.562 143.764) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061aa8cc2)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
-  (gr_text "2Mix" (at 153.035 41.798) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061ade89e)
+  (gr_text "1Mix" (at 153.035 41.798) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061ade89e)
     (effects (font (size 1.524 1.524) (thickness 0.2286)) (justify left))
   )
-  (gr_text "2Mix" (at 120.65 110.38) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061bbc734)
+  (gr_text "1Mix" (at 120.65 110.38) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061bbc734)
     (effects (font (size 1.524 1.524) (thickness 0.2286)))
   )
   (gr_text "rev ${REVISION}" (at 120.65 113.284) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000061bbc737)
