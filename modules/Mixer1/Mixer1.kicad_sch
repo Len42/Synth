@@ -3136,7 +3136,7 @@
     (pin "2" (uuid 073c7265-0083-4983-b211-c4cfd6144b52))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 218.44 53.34 0) (mirror x) (unit 4)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 218.44 53.34 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3878b491-9edf-46e1-ad03-3877afa45803)
     (property "Reference" "U1" (id 0) (at 218.44 60.4504 0))
@@ -4057,7 +4057,7 @@
     (pin "2" (uuid 7a01b859-be06-4054-a662-71705349bcbf))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 224.79 107.95 0) (unit 2)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 224.79 107.95 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a4522f0a-31bb-44e2-ad4a-4d136216cdde)
     (property "Reference" "U1" (id 0) (at 224.79 99.1702 0))
@@ -5007,13 +5007,13 @@
     (path "/ccbc0386-a510-4148-907b-8eb0e4513bd9"
       (reference "U1") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/a4522f0a-31bb-44e2-ad4a-4d136216cdde"
+    (path "/3878b491-9edf-46e1-ad03-3877afa45803"
       (reference "U1") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/f6da037f-95d4-458a-8a75-230a964f4639"
       (reference "U1") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/3878b491-9edf-46e1-ad03-3877afa45803"
+    (path "/a4522f0a-31bb-44e2-ad4a-4d136216cdde"
       (reference "U1") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/974fb4f2-c67f-420b-8e9e-66d927511a2d"
