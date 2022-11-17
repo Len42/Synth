@@ -64,30 +64,6 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a0c7a0"
       (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a85fe4"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061c4b62c"
-      (reference "#PWR0104") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cc6663"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200c540"
-      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200cf9f"
-      (reference "#PWR0109") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200db44"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-00006200e280"
-      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c927a4"
-      (reference "#PWR0117") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c86281"
       (reference "#PWR0119") (unit 1) (value "+12V") (footprint "")
     )
@@ -96,6 +72,21 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/744c4cd3-d130-4941-af19-610d535846ab"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/880b5ec8-cdce-4acf-b87b-333b76c0141e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/a3eea5e2-df3a-4112-8695-aa70df3209f9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/a4ed6c8a-842f-438a-9c4a-2bfa804f72c1"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/c545ac48-5854-4f17-a8a7-0df5a2434409"
+      (reference "#PWR?") (unit 1) (value "-12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/ffa83238-2555-4a28-9cf2-ee04a99c5d51"
       (reference "A1") (unit 1) (value "Cable_Eurorack_16") (footprint "-lmp-misc:NoFootprint")
@@ -111,15 +102,6 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000615db370"
       (reference "C4") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7311e"
-      (reference "C5") (unit 1) (value "10U") (footprint "-lmp-misc:CP_Radial_D5.0mm_P2.50mm")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061895d0d"
-      (reference "D1") (unit 1) (value "LED_5mm_Blue") (footprint "LED_THT:LED_D5.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000618ae7eb"
-      (reference "D2") (unit 1) (value "LED_5mm_Blue") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
       (reference "H1") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
@@ -166,18 +148,6 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061cfaa8b"
       (reference "J4") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce0b8d"
-      (reference "J5") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061ce0ba1"
-      (reference "J6") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0eba1"
-      (reference "J7") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f0f6a2"
-      (reference "J8") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c34745"
       (reference "J9") (unit 1) (value "Conn_Eurorack_16") (footprint "-lmp-synth:IDC-Header-Eurorack-16-TH")
     )
@@ -187,11 +157,11 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c179d1"
       (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c1cf6b"
-      (reference "J12") (unit 1) (value "Conn_Front_Right") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/0f79fc53-099e-4fe4-b54d-32f1e567d948"
+      (reference "J?") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c2c145"
-      (reference "J13") (unit 1) (value "Conn_Back_Left") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/dc0e7e6d-eb58-4e58-a451-466a49bc1fb1"
+      (reference "J?") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b13bc3"
       (reference "JP1") (unit 1) (value "CV-BUS") (footprint "-lmp-misc:PinHeader_1x03_P2.54mm_Vertical")
@@ -208,17 +178,8 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619c81a5"
       (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619fabc7"
-      (reference "RV5") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb68dd"
-      (reference "RV6") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb73d3"
-      (reference "RV7") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060fb7a59"
-      (reference "RV8") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/00000000-0000-0000-0000-000060cbfb6a/80abb898-a0f1-47ab-9a26-e9ffaf5d6e63"
+      (reference "RV?") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c16982"
       (reference "U3") (unit 3) (value "TL072") (footprint "Package_DIP:DIP-8_W7.62mm")
