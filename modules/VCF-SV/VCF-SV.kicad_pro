@@ -353,7 +353,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lmp-Euro-8HP.kicad_pro",
+    "filename": "VCF-SV.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -387,7 +387,6 @@
         "name": "Power",
         "nets": [
           "+12V",
-          "+5V",
           "-12V",
           "GND"
         ],
