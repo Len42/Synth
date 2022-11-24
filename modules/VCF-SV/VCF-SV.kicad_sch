@@ -14,6 +14,32 @@
   )
 
   (lib_symbols
+    (symbol "-lmp-holes:WireHole_PTH" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 1.27 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Value" "WireHole_PTH" (id 1) (at 1.397 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Footprint" "-lmp-holes:WireHole_D0.8mm_OD1.6mm" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "WireHole_PTH_0_1"
+        (circle (center 0 0) (radius 0.762)
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "WireHole_PTH_1_1"
+        (pin passive line (at 0 0 0) (length 0)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "-lmp-opamp:TL072" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -3163,6 +3189,9 @@
   (junction (at 120.65 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 26588895-47aa-4ddb-9598-d382ce100c66)
   )
+  (junction (at 88.9 171.45) (diameter 0) (color 0 0 0 0)
+    (uuid 28430053-aafd-42c1-8489-aa6d5e18250a)
+  )
   (junction (at 82.55 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 292faebd-4a9e-4f97-9906-15a29ceded61)
   )
@@ -3204,6 +3233,9 @@
   )
   (junction (at 67.31 157.48) (diameter 0) (color 0 0 0 0)
     (uuid 78b69d33-19c1-49fb-9802-4fedca470656)
+  )
+  (junction (at 88.9 161.29) (diameter 0) (color 0 0 0 0)
+    (uuid 7fbe8bb2-ecc3-4d81-9a41-a8633cd30ce4)
   )
   (junction (at 93.98 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 8542860f-a37b-48de-906d-2596f0833f38)
@@ -3801,6 +3833,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cfed13c5-a9ea-467c-b749-5964f8e08a92)
   )
+  (wire (pts (xy 88.9 157.48) (xy 88.9 161.29))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d21a61d5-c607-41bc-8253-c6dcde8b9646)
+  )
   (wire (pts (xy 50.8 154.94) (xy 49.53 154.94))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d30b499e-bb07-460f-a9e8-45eb52b6522d)
@@ -3909,10 +3945,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fb9fe692-dc85-4137-9303-8f0ace96a5a0)
   )
-  (wire (pts (xy 88.9 161.29) (xy 88.9 157.48))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ff092ca2-7be4-4393-97fb-33452af7d61e)
-  )
   (wire (pts (xy 49.53 160.02) (xy 49.53 161.29))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ffb24d0d-c521-4bbb-9f41-93d965d89b10)
@@ -3953,7 +3985,7 @@
     (uuid 3d1b92ee-a728-4c37-a6da-ee0ea2e7fdac)
   )
   (text "Thermistor RT1 should be mounted \nin thermal contact with U1"
-    (at 67.31 181.61 0)
+    (at 68.58 182.88 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c776e19-e898-4727-9570-786bcb3c0941)
   )
@@ -3997,6 +4029,11 @@
   (text "Front Panel & Power" (at 304.8 21.59 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid e15d097a-4761-479a-be84-b8e07d19b4c7)
+  )
+
+  (label "VEE-U1" (at 110.49 170.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 15081ea0-7cad-4b80-82e1-f3d259331177)
   )
 
   (global_label "OUT-LP" (shape output) (at 201.93 59.69 0) (fields_autoplaced)
@@ -4161,7 +4198,7 @@
     (pin "1" (uuid 2fd94fe3-12a2-43f5-8183-d504c4620538))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 53.34 59.69 0) (mirror x) (unit 1)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 53.34 59.69 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 148e8e1c-441a-4186-a8b1-24170bca4d9a)
     (property "Reference" "U2" (id 0) (at 53.34 66.8004 0))
@@ -4236,7 +4273,7 @@
     (pin "2" (uuid eecd2ec5-5909-4f98-82e1-120795b08223))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 85.09 111.76 0) (mirror x) (unit 3)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 85.09 111.76 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1eb146c9-cb8f-4d4a-a04f-2cb681f97ed4)
     (property "Reference" "U2" (id 0) (at 85.09 118.8704 0))
@@ -4893,7 +4930,7 @@
     (pin "2" (uuid 7d5dc71e-5033-4cd7-8ebe-962bacb10d2b))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 57.15 109.22 0) (mirror x) (unit 2)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 57.15 109.22 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6bbaf494-658f-4fd5-938d-a4b2b8a027d2)
     (property "Reference" "U2" (id 0) (at 57.15 116.3304 0))
@@ -5164,7 +5201,7 @@
   )
 
   (symbol (lib_id "-lmp:R_Thermistor") (at 88.9 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board no) (fields_autoplaced)
     (uuid 7bfe3161-f52e-466e-924c-3de30cf8e875)
     (property "Reference" "RT1" (id 0) (at 91.567 164.2669 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5355,6 +5392,24 @@
     (pin "1" (uuid af9b9098-ca72-44bc-a5c2-74158ae833eb))
   )
 
+  (symbol (lib_id "-lmp-holes:WireHole_PTH") (at 88.9 161.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a42c5975-faa2-40c6-91ac-1409806dd399)
+    (property "Reference" "H12" (id 0) (at 90.17 161.29 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "WireHole_PTH" (id 1) (at 90.297 161.29 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "-lmp-holes:WireHole_D0.8mm_OD1.6mm" (id 2) (at 88.9 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 88.9 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dc41a112-d34f-4e1c-a348-790c60e1e2c0))
+  )
+
   (symbol (lib_id "-lmp:R_1%_0W166") (at 85.09 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a9eae5c5-65dc-4dfb-816f-51045c30d53b)
@@ -5540,6 +5595,24 @@
     (pin "1" (uuid 4c7a40b2-e5cc-4a08-b19e-9575da023e63))
   )
 
+  (symbol (lib_id "-lmp-holes:WireHole_PTH") (at 88.9 171.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid bb2f0adf-3c05-464e-8f65-e5a1190bdd8b)
+    (property "Reference" "H13" (id 0) (at 90.17 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "WireHole_PTH" (id 1) (at 90.297 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "-lmp-holes:WireHole_D0.8mm_OD1.6mm" (id 2) (at 88.9 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 88.9 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e10c160e-3404-48d9-b33d-3d126ae57024))
+  )
+
   (symbol (lib_id "-lmp-synth:R_POT_TRIM_PCB_Vert_Bourns") (at 82.55 157.48 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bf3c8b62-4078-4582-bc54-9b1394c2e89e)
@@ -5623,7 +5696,7 @@
     (pin "1" (uuid 95dd5009-43f1-4851-8c5f-9481182bf8dd))
   )
 
-  (symbol (lib_id "-lmp-opamp:TL074") (at 58.42 157.48 0) (mirror x) (unit 4)
+  (symbol (lib_id "-lmp-opamp:TL074") (at 58.42 157.48 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cc89e7a0-d107-4e1d-b22b-73795d13dbc5)
     (property "Reference" "U2" (id 0) (at 58.42 164.5904 0))
@@ -6311,6 +6384,12 @@
     (path "/00000000-0000-0000-0000-000060cbfb6a/f21adf6a-f285-4b44-adee-f33ac0ad1ce8"
       (reference "H11") (unit 1) (value "Jumper_2") (footprint "-lmp-misc:NoFootprint")
     )
+    (path "/a42c5975-faa2-40c6-91ac-1409806dd399"
+      (reference "H12") (unit 1) (value "WireHole_PTH") (footprint "-lmp-holes:WireHole_D0.8mm_OD1.6mm")
+    )
+    (path "/bb2f0adf-3c05-464e-8f65-e5a1190bdd8b"
+      (reference "H13") (unit 1) (value "WireHole_PTH") (footprint "-lmp-holes:WireHole_D0.8mm_OD1.6mm")
+    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cb8a0c"
       (reference "J1") (unit 1) (value "WQP-PJ398") (footprint "-lmp-synth:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
@@ -6470,16 +6549,16 @@
     (path "/4747f80b-7cbc-4090-8ca7-3b51d9c7c0e6"
       (reference "U1") (unit 6) (value "CEM3320") (footprint "Package_DIP:DIP-18_W7.62mm")
     )
-    (path "/148e8e1c-441a-4186-a8b1-24170bca4d9a"
+    (path "/1eb146c9-cb8f-4d4a-a04f-2cb681f97ed4"
       (reference "U2") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/6bbaf494-658f-4fd5-938d-a4b2b8a027d2"
+    (path "/148e8e1c-441a-4186-a8b1-24170bca4d9a"
       (reference "U2") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/1eb146c9-cb8f-4d4a-a04f-2cb681f97ed4"
+    (path "/cc89e7a0-d107-4e1d-b22b-73795d13dbc5"
       (reference "U2") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/cc89e7a0-d107-4e1d-b22b-73795d13dbc5"
+    (path "/6bbaf494-658f-4fd5-938d-a4b2b8a027d2"
       (reference "U2") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/2657b19b-432f-4064-8a62-0abcc219c3c2"
