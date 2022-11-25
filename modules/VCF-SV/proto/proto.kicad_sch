@@ -4920,7 +4920,7 @@
     (property "Value" "1K2" (id 1) (at 113.538 178.2322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-lmp-stripboard:SB_Gen_10" (id 2) (at 109.982 176.53 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_4" (id 2) (at 109.982 176.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 111.76 176.53 0)
@@ -6469,7 +6469,7 @@
       (reference "R12") (unit 1) (value "200K") (footprint "-lmp-stripboard:SB_Gen_2")
     )
     (path "/4662d251-9660-4f37-9f3b-f1ea0bd5d776"
-      (reference "R13") (unit 1) (value "1K2") (footprint "-lmp-stripboard:SB_Gen_10")
+      (reference "R13") (unit 1) (value "1K2") (footprint "-lmp-stripboard:SB_Gen_4")
     )
     (path "/867d2f86-d8b2-4152-aedb-c406671ab4ba"
       (reference "R14") (unit 1) (value "240K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
