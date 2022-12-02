@@ -6516,17 +6516,17 @@
     (path "/7bfe3161-f52e-466e-924c-3de30cf8e875"
       (reference "RT1") (unit 1) (value "1K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd"
-      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f089fa"
-      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060cae66f"
-      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
+      (reference "RV2") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-0000619c81a5"
-      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV3") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060f082fd"
+      (reference "RV4") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_SongHuei_Single_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/80abb898-a0f1-47ab-9a26-e9ffaf5d6e63"
       (reference "RV5") (unit 1) (value "100K") (footprint "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
