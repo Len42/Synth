@@ -4183,7 +4183,8 @@
     (uuid ffc9daeb-19b7-4edb-b2f9-e5dbeb05978c)
   )
 
-  (text "TODO: Try 62K to avoid clipping" (at 30.48 41.91 0)
+  (text "TODO: Try 62K to avoid clipping.\nAlso try increasing 200K pulldown."
+    (at 30.48 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0f2919ce-6c12-4c8f-bd38-5e99f668b857)
   )
