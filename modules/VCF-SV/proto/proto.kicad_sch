@@ -4183,7 +4183,7 @@
     (uuid ffc9daeb-19b7-4edb-b2f9-e5dbeb05978c)
   )
 
-  (text "TODO: Try 62K to avoid clipping.\nAlso try increasing 200K pulldown."
+  (text "TODO: May have to reduce R7 to avoid clipping.\nAdjust R12 if necessary to set offset."
     (at 30.48 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0f2919ce-6c12-4c8f-bd38-5e99f668b857)
@@ -4196,11 +4196,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a122d61-beec-452b-ab71-9c4da5220808)
   )
-  (text "TODO: Outputs' DC offsets are fubar" (at 198.12 69.85 0)
+  (text "TODO: Outputs' DC offsets are fubar.\nFigure out where to put 1M resistors.\nMaybe only need coupling cap at very output??"
+    (at 199.39 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7043957e-1a5e-47f5-85d8-f29a2e1d2084)
   )
-  (text "TODO: Adjust gain so output is 10V p-p\n\nTODO: Try mixing HP + LP for notch response\n\nTODO: Need 5P6 cap? Test with hipass."
+  (text "TODO: Adjust gain so output is 10V p-p\n\nTODO: Try mixing HP + LP for notch response\n\nTODO: Need 5P6 cap? Test."
     (at 128.27 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a9fa0fc-ed77-4ae7-8d1f-5701a9305cdd)
@@ -4214,6 +4215,11 @@
     (at 41.91 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d84a0c4a-892c-4b5f-9873-f5b202c70438)
+  )
+  (text "TODO: Adjust R3 for better range.\nCurrently -76 - +103 mV"
+    (at 35.56 173.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f4e82bbd-8e13-423b-ab8c-6ca877680f27)
   )
 
   (label "BP-OUT" (at 198.12 100.33 0)
@@ -4480,7 +4486,7 @@
     (property "Reference" "R12" (id 0) (at 75.692 65.2053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "200K" (id 1) (at 75.692 67.7422 0)
+    (property "Value" "300K" (id 1) (at 75.692 67.7422 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "-lmp-stripboard:SB_Gen_2" (id 2) (at 75.692 66.04 90)
@@ -6472,7 +6478,7 @@
       (reference "R11") (unit 1) (value "91K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/1d601427-0593-4d12-add2-c0b327e24504"
-      (reference "R12") (unit 1) (value "200K") (footprint "-lmp-stripboard:SB_Gen_2")
+      (reference "R12") (unit 1) (value "300K") (footprint "-lmp-stripboard:SB_Gen_2")
     )
     (path "/4662d251-9660-4f37-9f3b-f1ea0bd5d776"
       (reference "R13") (unit 1) (value "1K2") (footprint "-lmp-stripboard:SB_Gen_4")
