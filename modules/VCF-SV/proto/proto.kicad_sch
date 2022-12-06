@@ -3526,7 +3526,6 @@
     )
   )
 
-
   (junction (at 120.65 161.29) (diameter 0) (color 0 0 0 0)
     (uuid 089dbda0-35c7-4a75-ab44-ba75c6b367a9)
   )
@@ -4796,7 +4795,7 @@
     (uuid 354e0df5-8024-439a-b28a-4612656d6b04)
     (property "Reference" "R22" (id 0) (at 125.73 113.3942 90))
     (property "Value" "47K" (id 1) (at 125.73 115.9311 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 125.73 119.888 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_1" (id 2) (at 125.73 119.888 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 125.73 118.11 0)
@@ -6365,7 +6364,7 @@
     (uuid f3065198-1da4-44e9-9534-d7e40e9c10f2)
     (property "Reference" "R23" (id 0) (at 125.73 121.0142 90))
     (property "Value" "47K" (id 1) (at 125.73 123.5511 90))
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 125.73 127.508 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_1" (id 2) (at 125.73 127.508 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/Yageo_LR_MFR_1-1714151.pdf" (id 3) (at 125.73 125.73 0)
@@ -6621,10 +6620,10 @@
       (reference "R21") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/354e0df5-8024-439a-b28a-4612656d6b04"
-      (reference "R22") (unit 1) (value "47K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R22") (unit 1) (value "47K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/f3065198-1da4-44e9-9534-d7e40e9c10f2"
-      (reference "R23") (unit 1) (value "47K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R23") (unit 1) (value "47K") (footprint "-lmp-stripboard:SB_Gen_1")
     )
     (path "/222da466-117e-4a9c-a8e4-2897fdc4c4c1"
       (reference "RV1") (unit 1) (value "100K") (footprint "-lmp-misc:Potentiometer_Bourns_3310R_Top")
