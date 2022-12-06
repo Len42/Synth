@@ -4183,11 +4183,6 @@
     (uuid ffc9daeb-19b7-4edb-b2f9-e5dbeb05978c)
   )
 
-  (text "TODO: May have to reduce R7 to avoid clipping.\nAdjust R12 if necessary to set offset."
-    (at 30.48 41.91 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0f2919ce-6c12-4c8f-bd38-5e99f668b857)
-  )
   (text "should be 2M61" (at 71.12 114.3 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1214145e-c818-4446-976e-01877fdf0df5)
@@ -4211,13 +4206,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97954bdd-6f0e-481b-b33b-a2801266daa9)
   )
+  (text "TODO: R4 = 160K\ntests good" (at 19.05 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ade26a6b-0afd-4180-bf56-3d4f3b55ebaf)
+  )
   (text "TODO: Seems to be backwards??\nTellun has it this way, but \nLanterman says this is backwards"
     (at 41.91 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d84a0c4a-892c-4b5f-9873-f5b202c70438)
   )
-  (text "TODO: Adjust R3 for better range.\nCurrently -76 - +103 mV"
-    (at 35.56 173.99 0)
+  (text "TODO: Adjust R3 for better range.\nCurrently -76 - +103 mV\nTest 120K"
+    (at 35.56 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4e82bbd-8e13-423b-ab8c-6ca877680f27)
   )
