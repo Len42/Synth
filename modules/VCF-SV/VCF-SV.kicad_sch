@@ -3968,6 +3968,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f613982-d1ec-4e9d-93df-d25bf275467c)
   )
+  (text "TODO: Reversing attenuator\nsee TLN-428" (at 17.78 114.3 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 27015ad6-f61b-4429-9e9a-9d14c249d98c)
+  )
   (text "Filter" (at 95.25 20.32 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 37c98d04-b2d4-43a2-80a7-27ca6be335b8)
@@ -4029,10 +4033,6 @@
   (text "Audio Input" (at 22.86 20.32 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid dd08cf63-80f1-4a88-b3ea-950c9bf1164b)
-  )
-  (text "TODO: Backwards!" (at 27.94 111.76 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid deda5066-4c28-4721-87db-abf99125866a)
   )
   (text "Front Panel & Power" (at 304.8 21.59 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
@@ -6316,6 +6316,12 @@
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c864e4"
       (reference "#PWR0121") (unit 1) (value "-12V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/8d480f83-99a4-40a0-834e-e357fe87211f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060cbfb6a/e666764c-3bc8-48ef-8f90-030ff269b3f6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/ffa83238-2555-4a28-9cf2-ee04a99c5d51"
       (reference "A1") (unit 1) (value "Cable_Eurorack_16") (footprint "-lmp-misc:NoFootprint")
