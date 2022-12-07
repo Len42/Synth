@@ -4280,7 +4280,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c90f19ee-4ed0-463a-8af4-5309390ecf6f)
   )
-  (text "TODO: Seems to be backwards??\nTellun has it this way, but \nLanterman says this is backwards"
+  (text "TODO: Seems to be backwards??\nTellun has it this way, but \nLanterman says this is backwards. \nNeed to reverse pot and add CV \nat second stage?"
     (at 41.91 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d84a0c4a-892c-4b5f-9873-f5b202c70438)
