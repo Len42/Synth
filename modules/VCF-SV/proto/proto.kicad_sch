@@ -3526,7 +3526,6 @@
     )
   )
 
-
   (junction (at 120.65 161.29) (diameter 0) (color 0 0 0 0)
     (uuid 089dbda0-35c7-4a75-ab44-ba75c6b367a9)
   )
@@ -4275,6 +4274,11 @@
   (text "TODO: R4 = 160K\ntests good" (at 19.05 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ade26a6b-0afd-4180-bf56-3d4f3b55ebaf)
+  )
+  (text "TODO: Range is wrong, but \nit used to work better???"
+    (at 33.02 119.38 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c90f19ee-4ed0-463a-8af4-5309390ecf6f)
   )
   (text "TODO: Seems to be backwards??\nTellun has it this way, but \nLanterman says this is backwards"
     (at 41.91 92.71 0)
