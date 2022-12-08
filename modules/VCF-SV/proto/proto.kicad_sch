@@ -4282,7 +4282,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97954bdd-6f0e-481b-b33b-a2801266daa9)
   )
-  (text "TODO: Try changing \n47Ks to fix amplitude" (at 96.52 123.19 0)
+  (text "Note: Blended notch filter has \nlower amplitude no matter what"
+    (at 102.87 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d4eadb5d-15af-4980-b27f-c4ce5df76274)
   )
