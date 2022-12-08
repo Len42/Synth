@@ -5755,8 +5755,8 @@
   (symbol (lib_id "-lmp:R_1%_0W166") (at 41.91 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ccd11566-81bf-43ae-8e46-e65fe09df230)
-    (property "Reference" "R7" (id 0) (at 41.91 171.8142 90))
-    (property "Value" "130K" (id 1) (at 41.91 174.3511 90))
+    (property "Reference" "R7" (id 0) (at 41.91 169.2774 90))
+    (property "Value" "100K" (id 1) (at 41.91 171.8143 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 41.91 178.308 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5781,6 +5781,7 @@
     (property "Value2" "1%, 1/6 W" (id 9) (at 41.91 171.577 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Note" "*changed" (id 10) (at 41.91 174.3512 90))
     (pin "1" (uuid 7f9bc701-5feb-4f28-9edf-8fb3862286e8))
     (pin "2" (uuid e543a3e3-c2c1-4581-9639-72c15e9036b0))
   )
@@ -6462,7 +6463,7 @@
       (reference "R6") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/ccd11566-81bf-43ae-8e46-e65fe09df230"
-      (reference "R7") (unit 1) (value "130K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R7") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/5f67bdba-b7b8-4799-92c8-494682322525"
       (reference "R8") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")

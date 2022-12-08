@@ -4282,13 +4282,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97954bdd-6f0e-481b-b33b-a2801266daa9)
   )
+  (text "TODO: scaling \ntest 43K" (at 85.09 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ccc5c08d-5eed-41cf-9f39-9c16e195127a)
+  )
   (text "Note: Blended notch filter has \nlower amplitude no matter what"
     (at 102.87 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d4eadb5d-15af-4980-b27f-c4ce5df76274)
   )
-  (text "TODO: Adjust R3 for better range.\nCurrently -76 - +103 mV\nTest 120K"
-    (at 35.56 176.53 0)
+  (text "R3: 100K + 25K trimmer will work\n\nTODO: Adjust again after scaling"
+    (at 33.02 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4e82bbd-8e13-423b-ab8c-6ca877680f27)
   )
@@ -4743,7 +4747,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f512b25-5ff8-4c99-b1c5-1b144eb18ca2)
     (property "Reference" "R3" (id 0) (at 57.15 155.3074 90))
-    (property "Value" "140K" (id 1) (at 57.15 157.8443 90))
+    (property "Value" "120K" (id 1) (at 57.15 157.8443 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 57.15 164.338 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4765,7 +4769,7 @@
     (property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y" (id 8) (at 57.15 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value2" "150K used" (id 9) (at 57.15 160.3812 90))
+    (property "Value2" "*changed" (id 9) (at 57.15 160.3812 90))
     (pin "1" (uuid 37eeba64-8ae7-4997-a2a8-12f9fe24750d))
     (pin "2" (uuid b0ee7097-1322-4333-a81b-a24a227c2dfc))
   )
@@ -6739,7 +6743,7 @@
       (reference "R2") (unit 1) (value "120K") (footprint "-lmp-stripboard:SB_Gen_5")
     )
     (path "/2f512b25-5ff8-4c99-b1c5-1b144eb18ca2"
-      (reference "R3") (unit 1) (value "140K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R3") (unit 1) (value "120K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/24246891-480c-4609-897f-0759bb16b5d1"
       (reference "R4") (unit 1) (value "200K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
