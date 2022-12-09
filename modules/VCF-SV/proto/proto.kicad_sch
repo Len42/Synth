@@ -4260,8 +4260,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1214145e-c818-4446-976e-01877fdf0df5)
   )
-  (text "TODO: Adjust gain so output is \n9V p-p with no resonance"
-    (at 172.72 115.57 0)
+  (text "Gain varies with resonance and waveform. \nThis is a compromise."
+    (at 140.97 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a122d61-beec-452b-ab71-9c4da5220808)
   )
@@ -4270,8 +4270,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55bff2b4-c19c-4f97-b17a-dd0d4234594d)
   )
-  (text "Gain varies with resonance. \nThis is a compromise.\n\nTODO: Need 5P6 cap? Test."
-    (at 125.73 113.03 0)
+  (text "TODO: Need 5P6 cap? Test." (at 152.4 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a9fa0fc-ed77-4ae7-8d1f-5701a9305cdd)
   )
@@ -4285,7 +4284,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d4eadb5d-15af-4980-b27f-c4ce5df76274)
   )
-  (text "R3: 130K + 25K trimmer will work" (at 33.02 176.53 0)
+  (text "R3: 130K + 25K trimmer will work\n\nR9: 39K + 10K trimmer will work"
+    (at 50.8 177.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4e82bbd-8e13-423b-ab8c-6ca877680f27)
   )
@@ -5707,8 +5707,8 @@
   (symbol (lib_id "-lmp:R_1%_0W166") (at 171.45 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8104ad9e-8327-4eab-af6c-2c6640b99214)
-    (property "Reference" "R20" (id 0) (at 171.45 93.0742 90))
-    (property "Value" "100K" (id 1) (at 171.45 95.6111 90))
+    (property "Reference" "R20" (id 0) (at 171.45 90.5374 90))
+    (property "Value" "68K" (id 1) (at 171.45 93.0743 90))
     (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 171.45 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5733,6 +5733,7 @@
     (property "Value2" "1%, 1/6 W" (id 9) (at 171.45 92.837 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Note" "*changed" (id 10) (at 171.45 95.6112 90))
     (pin "1" (uuid e97cd6c2-78b2-4810-a57e-e1dbe49ead1d))
     (pin "2" (uuid 7611cb8a-3c63-4bfd-9335-e9359ff22c9d))
   )
@@ -6772,7 +6773,7 @@
       (reference "R19") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_2")
     )
     (path "/8104ad9e-8327-4eab-af6c-2c6640b99214"
-      (reference "R20") (unit 1) (value "100K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R20") (unit 1) (value "68K") (footprint "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/bd06235d-10dd-4e1d-a484-c13333493317"
       (reference "R21") (unit 1) (value "100K") (footprint "-lmp-stripboard:SB_Gen_1")
