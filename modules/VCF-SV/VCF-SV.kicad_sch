@@ -4449,7 +4449,7 @@
   (symbol (lib_id "-lmp:CC") (at 144.78 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 34925a35-1201-4393-9c57-abfe3bf7689b)
-    (property "Reference" "C12" (id 0) (at 144.78 19.5412 90))
+    (property "Reference" "C11" (id 0) (at 144.78 19.5412 90))
     (property "Value" "18P" (id 1) (at 144.78 22.0781 90))
     (property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm" (id 2) (at 148.59 24.4348 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4625,7 +4625,7 @@
   (symbol (lib_id "-lmp:CP") (at 190.5 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41190185-6086-4a2b-8c08-63056244349f)
-    (property "Reference" "C16" (id 0) (at 189.611 116.0612 90))
+    (property "Reference" "C15" (id 0) (at 189.611 116.0612 90))
     (property "Value" "4U7" (id 1) (at 189.611 118.5981 90))
     (property "Footprint" "-lmp-misc:CP_Radial_D4.0mm_P2.50mm" (id 2) (at 194.31 120.9548 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4777,7 +4777,7 @@
   (symbol (lib_id "-lmp:CF") (at 177.8 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4e55baad-05f2-4f94-b453-b701868bb807)
-    (property "Reference" "C15" (id 0) (at 180.721 71.5553 0)
+    (property "Reference" "C14" (id 0) (at 180.721 71.5553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150P" (id 1) (at 180.721 74.0922 0)
@@ -5182,7 +5182,7 @@
   (symbol (lib_id "-lmp:CP") (at 154.94 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 72f75d2b-9003-46ce-b4fe-7477bd81008a)
-    (property "Reference" "C14" (id 0) (at 157.861 70.6663 0)
+    (property "Reference" "C13" (id 0) (at 157.861 70.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4U7" (id 1) (at 157.861 73.2032 0)
@@ -6121,7 +6121,7 @@
   (symbol (lib_id "-lmp:CF") (at 143.51 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e267fbbb-901e-43f7-8488-02dbd0205b9a)
-    (property "Reference" "C13" (id 0) (at 146.431 71.5553 0)
+    (property "Reference" "C12" (id 0) (at 146.431 71.5553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150P" (id 1) (at 146.431 74.0922 0)
@@ -6595,19 +6595,19 @@
       (reference "C10") (unit 1) (value "100N") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/34925a35-1201-4393-9c57-abfe3bf7689b"
-      (reference "C12") (unit 1) (value "18P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
+      (reference "C11") (unit 1) (value "18P") (footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/e267fbbb-901e-43f7-8488-02dbd0205b9a"
-      (reference "C13") (unit 1) (value "150P") (footprint "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm")
+      (reference "C12") (unit 1) (value "150P") (footprint "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm")
     )
     (path "/72f75d2b-9003-46ce-b4fe-7477bd81008a"
-      (reference "C14") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+      (reference "C13") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
     )
     (path "/4e55baad-05f2-4f94-b453-b701868bb807"
-      (reference "C15") (unit 1) (value "150P") (footprint "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm")
+      (reference "C14") (unit 1) (value "150P") (footprint "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm")
     )
     (path "/41190185-6086-4a2b-8c08-63056244349f"
-      (reference "C16") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
+      (reference "C15") (unit 1) (value "4U7") (footprint "-lmp-misc:CP_Radial_D4.0mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061a7a513"
       (reference "H1") (unit 1) (value "MountingHole_M3") (footprint "-lmp-holes:MountingHole_PCB_3.2mm_M3")
@@ -6673,7 +6673,7 @@
       (reference "J10") (unit 1) (value "Conn_Front_Left_Top") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000060c179d1"
-      (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical")
+      (reference "J11") (unit 1) (value "Conn_Back_Right_Top") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060cbfb6a/00000000-0000-0000-0000-000061b13bc3"
       (reference "JP1") (unit 1) (value "CV-BUS") (footprint "-lmp-misc:PinHeader_1x03_P2.54mm_Vertical")

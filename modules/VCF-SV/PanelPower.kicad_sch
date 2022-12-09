@@ -2907,7 +2907,7 @@
     (uuid 00000000-0000-0000-0000-000060c179d1)
     (property "Reference" "J11" (id 0) (at 130.81 28.0502 0))
     (property "Value" "Conn_Back_Right_Top" (id 1) (at 132.08 30.48 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" (id 2) (at 130.81 50.8 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" (id 2) (at 130.81 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 50.8 0)
