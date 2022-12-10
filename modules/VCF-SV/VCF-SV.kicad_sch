@@ -5684,7 +5684,7 @@
   )
 
   (symbol (lib_id "-lmp-holes:WireHole_PTH") (at 88.9 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a42c5975-faa2-40c6-91ac-1409806dd399)
     (property "Reference" "H12" (id 0) (at 90.17 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -5957,7 +5957,7 @@
   )
 
   (symbol (lib_id "-lmp-holes:WireHole_PTH") (at 88.9 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid bb2f0adf-3c05-464e-8f65-e5a1190bdd8b)
     (property "Reference" "H13" (id 0) (at 90.17 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
