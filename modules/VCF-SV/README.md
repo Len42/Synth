@@ -17,9 +17,9 @@ This module requires a 16-pin Eurorack power cable, but it does not depend on +5
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/zzz)
 - [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Middle board](https://oshpark.com/shared_projects/zzz)
-- [Back board](https://oshpark.com/shared_projects/zzz)
+- [Main board](https://oshpark.com/shared_projects/zzz)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
