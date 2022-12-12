@@ -332,7 +332,7 @@
 
   (footprint "-lmp-holes:MountingHole_Pot_SongHuei" (layer "F.Cu")
     (tedit 622B7F76) (tstamp 8454cb6b-0849-4c10-be37-c442a713f93e)
-    (at 133.87 102.36)
+    (at 133.87 91.36)
     (descr "Mounting Hole for Alpha RD901F potentiometer")
     (tags "mounting hole Alpha RD901F potentiometer")
     (attr exclude_from_pos_files exclude_from_bom)
