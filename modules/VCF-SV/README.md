@@ -7,10 +7,19 @@ _A state-variable filter using the CEM3320 chip_
 <img src="title.jpg" style="float:right">
 
 ### Features
-- [features]
+- Two-pole state-variable filter made with a [CEM3320 IC](https://electricdruid.net/wp-content/uploads/2017/06/CEM3320-VCF.pdf)
+- Two separate outputs:
+    - Continuously-variable low-pass - notch - high-pass filter response
+    - Bandpass filter
+- Self-oscillates at maximum resonance
+- Two CV inputs for cutoff/centre frequency. One is 1V/octave and the other has an input attenuator.
+- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable)
+- Resonance CV input with attenuator
 
 ### Notes
-[notes]
+The cutoff CV inputs can be trimmed to track 1V/octave pretty well (but not as accurately as a VCO). The temperature-compensation resistor, RT1, should be mounted in thermal contact with the CEM3320 chip.
+
+If you don't care about precise volt/octave scaling, you can just set the trim pots RV6 & RV7 somewhere near the middle, or even replace them with fixed resistors (13 kΩ and 4.7 kΩ respectively). Also, you may replace tempco resistor RT1 with an ordinary resistor (1% metal film preferred).
 
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
 
@@ -23,9 +32,9 @@ PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
-## Acknowledgements
+### Acknowledgements
 
-[Tellun / Scott Juskiw](http://www.tellun.com/motm/diy/tln428/TLN-428.html)
+This design is based in part on the [Tellun TLN-428 module by Scott Juskiw](http://www.tellun.com/motm/diy/tln428/TLN-428.html).
 
 ### Software Used
 
