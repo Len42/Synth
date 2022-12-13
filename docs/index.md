@@ -18,6 +18,8 @@ These designs are shared as open source. See the license details in each project
 
 [Component Selection](part-selection.html) &mdash; Some notes on which parts to use when building these modules
 
+[Eurorack Bus CV and Gate](eurorack-bus-cv-gate.html) &mdash; Spaghetti reduction
+
 [Firmware Programming](firmware-programming.html) &mdash; How to program the firmware onto the microcontrollers in some modules
 
 [Discussions](https://github.com/Len42/Synth/discussions) &mdash; Forum for questions, comments, and conversations
