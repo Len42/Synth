@@ -4,7 +4,7 @@ Some of [my modules](index.html#modules) take advantage of the CV and gate lines
 
 If this feature is not wanted, it can be disabled by a jumper on the back of the module. The jumper’s “enabled” position is marked by an underline, as shown in the photo below.
 
-To put gate and pitch CV signals _onto_ the Eurorack bus, I use my [Bus-Driver module](../modules/Bus-Driver). The CV and gate signals come from either a keyboard or an [interface module](https://www.expert-sleepers.co.uk/es8.html).
+To put gate and pitch CV signals _onto_ the Eurorack bus, I use my [Bus-Driver module](https://github.com/Len42/Synth/tree/main/modules/Bus-Driver). The CV and gate signals come from either a keyboard or an [interface module](https://www.expert-sleepers.co.uk/es8.html).
 
 <div style="float:left;padding-right:10px">
 <img src="eurorack-bus-driver.jpg" style="float:left;padding-right:10px">
