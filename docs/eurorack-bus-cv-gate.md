@@ -12,14 +12,14 @@ To put gate and pitch CV signals _onto_ the Eurorack bus, I use my [Bus-Driver m
 
 <div style="float:left;padding-right:10px">
 <img src="eurorack-bus-on.jpg">
-
+<br/>
 <i>Jumper to take pitch CV from the bus by default -<br/>
 Note the underline indicating the enabled position</i>
 </div>
 
 <div style="float:left;padding-right:10px">
 <img src="eurorack-bus-off.jpg">
-
+<br/>
 <i>Default-from-bus jumper,<br/>
 disabled position</i>
 </div>
