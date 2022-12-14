@@ -11,7 +11,7 @@
 - Coarse/fine tuning knobs and +/- 2-octave switch
 - Based on an [SSI2131 VCO chip](https://soundsemiconductor.com/downloads/ssi2131datasheet.pdf)
 - Volt-per-octave tracking over 10 octaves
-- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable)
+- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable) - more info [here](https://len42.github.io/Synth/eurorack-bus-cv-gate.html)
 
 ### Notes
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
