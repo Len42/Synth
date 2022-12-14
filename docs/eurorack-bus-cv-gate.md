@@ -2,12 +2,12 @@
 
 <div style="float:right;padding-left:10px">
 
-![eurorack-bus-on](eurorack-bus-on.jpg)
+<img src="eurorack-bus-on.jpg">
 
 _Jumper to take pitch CV from the bus by default -  
 Note the underline indicating the enabled position_
 
-![eurorack-bus-off](eurorack-bus-off.jpg)
+<img src="eurorack-bus-off.jpg">
 
 _Default-from-bus jumper, disabled position_
 
