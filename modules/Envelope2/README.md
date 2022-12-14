@@ -8,7 +8,7 @@
 - Two ADSR envelope generators
 - Attack, decay, and release times range from very short (< 1 millisecond) to approx. 10 seconds
 - Envelopes are switchable between linear and logarithmic curves
-- Gate input can default to the Eurorack bus gate line (jumper-selectable)
+- Gate input can default to the Eurorack bus gate line (jumper-selectable) - more info [here](https://len42.github.io/Synth/eurorack-bus-cv-gate.html)
 - Channel 1 gate input is normalled to channel 2 so one gate signal can trigger both envelopes
 
 ### Notes
