@@ -23,6 +23,10 @@ If you don't care about precise volt/octave scaling, you can just set the trim p
 
 This module requires a 16-pin Eurorack power cable, but it does not depend on +5V power from the Eurorack system.
 
+### Calibration
+TODO - for CV rejection see http://www.tellun.com/motm/diy/tln428/TLN-428.html
+
+### PCBs
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
 (TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
