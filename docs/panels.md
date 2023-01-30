@@ -6,7 +6,7 @@ Other modules use PCBs that I designed, so the front panel is a PCB with holes.
 
 The graphics are designed in [Inkscape](https://inkscape.org/), laser printed on adhesive-backed paper, and covered with a clear adhesive lamination sheet. That does make the panels very shiny, which could cause annoying glare depending on the lighting. It's not a problem in my setup.
 
-For filler panels I've used [chipboard](https://www.amazon.ca/gp/product/B0013L5PX2/) with graphics printed as above.
+For filler panels, I use [chipboard](https://www.amazon.ca/gp/product/B0013L5PX2/) with graphics printed as above.
 
 <img src="panels1.jpg">
 <img src="panels2.png">
