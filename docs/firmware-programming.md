@@ -4,7 +4,7 @@ Some of my modules ([Envelope2][], [LFO-DigiVC][]) use an ATmega328P microcontro
 
 ## Programming the Microcontroller In Place
 
-The module has a serial programming header so that it can be programmed just like an Arduino board. This is the way that I did it.
+The module has a serial programming header so that it can be programmed just like an Arduino board. This is how I program my modules.
 
 You will need:
 1. an ATmega328P microcontroller that is pre-programmed with the Arduino bootloader (available [here][ATmega-Arduino], [here][ATmega-Adafruit], or [here][ATmega-Sparkfun])
