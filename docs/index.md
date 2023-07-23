@@ -28,6 +28,8 @@ These designs are shared as open source. See the license details in each project
 
 These are the modules that I have built so far:
 
+[Dexy](https://github.com/Len42/Dexy) &mdash; DX7-inspired FM synthesis with a Raspberry Pi Pico
+
 [VCF-SV](https://github.com/Len42/Synth/tree/main/modules/VCF-SV) &mdash; State-variable filter module
 
 [Adder](https://github.com/Len42/Synth/tree/main/modules/Adder) &mdash; Unity-gain mixer / precision adder
