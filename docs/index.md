@@ -2,7 +2,7 @@
 
 ## Designs for my Eurorack synthesizer modules
 
-<img src="https://raw.githubusercontent.com/Len42/Synth/main/docs/synth-photo.jpg" width=500px style="float:right">
+<img src="https://raw.githubusercontent.com/Len42/Synth/main/docs/synth-photo2.jpg" width=500px style="float:right">
 
 My modular synthesizer designs are shared in [this repository](https://github.com/Len42/Synth).
 
@@ -25,6 +25,8 @@ These designs are shared as open source. See the license details in each project
 [Discussions](https://github.com/Len42/Synth/discussions) &mdash; Forum for questions, comments, and conversations
 
 ## Modules
+
+<img src="https://raw.githubusercontent.com/Len42/Synth/main/docs/synth-photo.jpg" width=500px style="float:right">
 
 These are the modules that I have built so far:
 
