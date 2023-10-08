@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Eurorack ProtoModule")
+    (title "Vactrol Switch Prototype")
     (date "2021-10-06")
     (rev "1.0")
     (company "Len Popp")
