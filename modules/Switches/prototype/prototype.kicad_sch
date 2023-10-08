@@ -1423,7 +1423,7 @@
     (property "Reference" "R3" (at 120.65 57.1855 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R_1K_Output" (at 120.65 59.6097 90)
+    (property "Value" "1K" (at 120.65 59.6097 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "-lmp-stripboard:SB_Gen_3" (at 120.65 66.548 90)
