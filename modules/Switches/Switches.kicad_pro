@@ -177,8 +177,8 @@
       ],
       "track_widths": [
         0.0,
-        0.381,
-        0.762
+        0.3048,
+        0.635
       ],
       "via_dimensions": [
         {
@@ -404,7 +404,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -539,6 +539,10 @@
     [
       "4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2",
       ""
+    ],
+    [
+      "4b37ef0c-1391-46de-9fa1-c7437c667b9e",
+      "Channels3-4"
     ],
     [
       "00000000-0000-0000-0000-000060cbfb6a",
