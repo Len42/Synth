@@ -1457,6 +1457,21 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 480975f7-021b-467b-8f8e-ae43ef90ca1a)
   )
+  (text "The signal is muted by shunting it to ground.\nThe JFET's on resistance prevents it from completely \nmuting the signal, so two JFETs are used in parallel \nto give ≥ 60 dB of muting."
+    (at 135.89 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6aa23a37-9f99-4c3b-9d44-ea91b61ca00d)
+  )
+  (text "Q1 converts the \"on\" state from \n+5 V to -12 V to turn off the \nJFETs."
+    (at 101.6 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6cc87b15-ca59-4c93-a911-77faaf567920)
+  )
+  (text "Flip-flop U2 makes a momentary push of the switch \nchange the on/off state.\nIt's important that the flip-flop has Schmitt-trigger \ninputs to prevent multiple transitions due to switch \nbouncing (even with a capacitor for de-bouncing)."
+    (at 46.99 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cfb9895f-bc4f-4ccf-bb7a-9959c163f0c4)
+  )
   (text "Channel 1" (at 46.99 31.75 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid dd08cf63-80f1-4a88-b3ea-950c9bf1164b)
