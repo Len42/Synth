@@ -2945,7 +2945,7 @@
   (symbol (lib_id "-lmp-synth:Conn_Eurorack_Pwr_16") (at 31.75 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c34745)
-    (property "Reference" "J1" (at 33.02 173.355 0)
+    (property "Reference" "J9" (at 33.02 173.355 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Eurorack_16" (at 33.02 175.6664 0)
@@ -2991,7 +2991,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J1") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3287,7 +3287,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 40.64 36.83 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060cb8a0c)
-    (property "Reference" "J2" (at 36.068 35.1282 0)
+    (property "Reference" "J1" (at 36.068 35.1282 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 36.068 37.4396 0)
@@ -3341,7 +3341,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3350,7 +3350,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 40.64 87.63 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f0cf9c)
-    (property "Reference" "J4" (at 36.068 85.9282 0)
+    (property "Reference" "J3" (at 36.068 85.9282 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 36.068 88.2396 0)
@@ -3404,7 +3404,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3413,7 +3413,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 116.84 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f0eba1)
-    (property "Reference" "J7" (at 112.268 66.8782 0)
+    (property "Reference" "J6" (at 112.268 66.8782 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 112.268 69.1896 0)
@@ -3467,7 +3467,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3476,7 +3476,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 116.84 119.38 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f0f6a2)
-    (property "Reference" "J9" (at 112.268 117.6782 0)
+    (property "Reference" "J8" (at 112.268 117.6782 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 112.268 119.9896 0)
@@ -3530,7 +3530,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J9") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -3856,7 +3856,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 40.64 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ce0b8d)
-    (property "Reference" "J3" (at 36.068 66.8782 0)
+    (property "Reference" "J2" (at 36.068 66.8782 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 36.068 69.1896 0)
@@ -3910,7 +3910,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3919,7 +3919,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 40.64 119.38 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ce0ba1)
-    (property "Reference" "J5" (at 36.068 117.6782 0)
+    (property "Reference" "J4" (at 36.068 117.6782 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 36.068 119.9896 0)
@@ -3973,7 +3973,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4039,7 +4039,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 116.84 36.83 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061cfaa77)
-    (property "Reference" "J6" (at 112.268 35.1282 0)
+    (property "Reference" "J5" (at 112.268 35.1282 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 112.268 37.4396 0)
@@ -4093,7 +4093,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -4102,7 +4102,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 116.84 87.63 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061cfaa8b)
-    (property "Reference" "J8" (at 112.268 85.9282 0)
+    (property "Reference" "J7" (at 112.268 85.9282 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 112.268 88.2396 0)
@@ -4156,7 +4156,7 @@
     (instances
       (project "Switches"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J8") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
