@@ -6,7 +6,7 @@
 
   (title_block
     (title "Switches - Channels 1 & 2")
-    (date "2023-10-12")
+    (date "2023-10-17")
     (rev "1.0")
     (company "Len Popp")
     (comment 1 "Copyright © 2023 Len Popp CC BY")
@@ -4072,10 +4072,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 4b37ef0c-1391-46de-9fa1-c7437c667b9e)
-    (property "Sheetname" "Channels3-4" (at 304.8 24.6884 0)
+    (property "Sheetname" "Channels34" (at 304.8 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Channels3-4.kicad_sch" (at 304.8 51.3846 0)
+    (property "Sheetfile" "Channels34.kicad_sch" (at 304.8 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
