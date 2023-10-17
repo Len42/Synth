@@ -1476,7 +1476,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 955b03a5-6e58-4e14-bbfc-93f216fbd255)
   )
-  (text "Flip-flop U2 makes a momentary push of the switch \nchange the on/off state.\nIt's important that the flip-flop has Schmitt-trigger \ninputs to prevent multiple transitions due to switch \nbouncing (even with a capacitor for de-bouncing)."
+  (text "~{S} is briefly high at \nstartup to initialize the \nchannel to \"on\" state."
+    (at 59.69 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c56eb278-4614-49d1-a916-9054ad790744)
+  )
+  (text "Switching circuit makes a momentary push of the \nbutton change the on/off state.\nIt's important that the flip-flop has Schmitt-trigger \ninputs to prevent multiple transitions due to switch \nbouncing (even with a capacitor for de-bouncing)."
     (at 41.91 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cfb9895f-bc4f-4ccf-bb7a-9959c163f0c4)
