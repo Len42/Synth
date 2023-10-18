@@ -1444,7 +1444,7 @@
     (uuid fdc5911d-59c5-4222-8dfc-4dfb9c005fa2)
   )
 
-  (text "R8  may be changed to \nsuit the LED used." (at 78.74 162.56 0)
+  (text "R8 may be changed to \nsuit the LED used." (at 78.74 162.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 086aef7b-82cf-4491-900b-12aa14bc3833)
   )
@@ -1471,8 +1471,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6cc87b15-ca59-4c93-a911-77faaf567920)
   )
-  (text "R16 & C4 set the turn-on & turn-off time.\nThey may need to be changed if different \nJFETs are used."
-    (at 114.3 171.45 0)
+  (text "R16 & C4 set the turn-on & turn-off time.\nThey can be changed to adjust the \"soft \nswitching\" behaviour. They also may need \nto be changed if different JFETs are used."
+    (at 114.3 173.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 955b03a5-6e58-4e14-bbfc-93f216fbd255)
   )
