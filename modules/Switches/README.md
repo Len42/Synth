@@ -4,14 +4,17 @@
 
 _4-channel muting module_
 
-<img src="title.jpg" style="float:right">
+<img src="Switches.jpg" style="float:right;width:360px">
 
 ### Features
-- 4 channels with light-up muting buttons
-- JFET-based "soft switching" for click-free muting
+- 4 channels with individual mute switches
+- Soft-touch pushbuttons that light up when the channel is "on"
+- JFET "soft switching" for click-free muting
 - Each input is normalled to the next one
 
 ### Notes
+Due to the JFET cut-off voltage, signals below approx. -8 V are not passed through. This does not affect "normal" audio or CV signals, but an over-driven audio signal may be clipped or an extremely negative CV may be altered.
+
 This module requires a 16-pin Eurorack power cable that supplies +5 V power in addition to +12 V and -12 V.
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
