@@ -26,6 +26,9 @@ PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
+### Acknowledgements
+This design is based in part on [a circuit by Rod Elliott](http://sound-au.com/articles/muting.html#s2).
+
 ### Software Used
 
 * [KiCad](https://www.kicad.org/) 7.0.8
