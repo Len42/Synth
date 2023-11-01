@@ -8,7 +8,7 @@ _4-channel muting module_
 
 ### Features
 - 4 channels with individual mute switches
-- Soft-touch pushbuttons that light up when the channel is "on"
+- Light-touch pushbuttons that light up when a channel is "on"
 - JFET "soft switching" for click-free muting
 - Each input is normalled to the next one
 
