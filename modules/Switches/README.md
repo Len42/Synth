@@ -4,7 +4,7 @@
 
 _4-channel muting module_
 
-<img src="Switches.jpg" style="float:right;width:360px">
+<img src="Switches.jpg" style="float:right">
 
 ### Features
 - 4 channels with individual mute switches
@@ -19,10 +19,10 @@ This module requires a 16-pin Eurorack power cable that supplies +5 V power in a
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Main board](https://oshpark.com/shared_projects/zzz)
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Front panel](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Main board](https://oshpark.com/shared_projects/p9aatPIx)
+- [Controls board](https://oshpark.com/shared_projects/ahwXdaiJ)
+- [Front panel](https://oshpark.com/shared_projects/iH5W0M5Z)
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
