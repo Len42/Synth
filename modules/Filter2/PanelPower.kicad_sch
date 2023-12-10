@@ -1659,7 +1659,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x11") (at 172.72 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c12315)
-    (property "Reference" "J7" (at 170.6372 27.5082 0)
+    (property "Reference" "J105" (at 170.6372 27.5082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Front_Left_Top" (at 170.6372 29.8196 0)
@@ -1703,7 +1703,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J7") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -1712,7 +1712,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x11") (at 190.5 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c179d1)
-    (property "Reference" "J9" (at 192.5828 27.5082 0)
+    (property "Reference" "J106" (at 192.5828 27.5082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Back_Right_Top" (at 192.5828 29.8196 0)
@@ -1756,7 +1756,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J9") (unit 1)
+          (reference "J106") (unit 1)
         )
       )
     )
@@ -1765,7 +1765,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 172.72 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c1cf6b)
-    (property "Reference" "J8" (at 170.6372 70.6882 0)
+    (property "Reference" "J107" (at 170.6372 70.6882 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Front_Right" (at 170.6372 72.9996 0)
@@ -1806,7 +1806,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J8") (unit 1)
+          (reference "J107") (unit 1)
         )
       )
     )
@@ -1815,7 +1815,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 190.5 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c2c145)
-    (property "Reference" "J10" (at 192.5828 70.6882 0)
+    (property "Reference" "J108" (at 192.5828 70.6882 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Back_Left" (at 192.5828 72.9996 0)
@@ -1859,7 +1859,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J10") (unit 1)
+          (reference "J108") (unit 1)
         )
       )
     )
@@ -1868,7 +1868,7 @@
   (symbol (lib_id "-lmp-synth:Conn_Eurorack_Pwr_10") (at 170.18 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000060c34745)
-    (property "Reference" "J6" (at 171.45 124.1257 0)
+    (property "Reference" "J109" (at 171.45 124.1257 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_Eurorack_16" (at 171.45 126.5499 0)
@@ -1917,7 +1917,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J6") (unit 1)
+          (reference "J109") (unit 1)
         )
       )
     )
@@ -2001,7 +2001,7 @@
   (symbol (lib_id "-lmp-synth:CP_10U") (at 189.23 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c7fbfa)
-    (property "Reference" "C6" (at 192.2272 127.1016 0)
+    (property "Reference" "C101" (at 192.2272 127.1016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10U" (at 192.2272 129.413 0)
@@ -2048,7 +2048,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C6") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -2057,7 +2057,7 @@
   (symbol (lib_id "-lmp-synth:CP_10U") (at 189.23 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060c8030a)
-    (property "Reference" "C7" (at 192.2272 134.7216 0)
+    (property "Reference" "C102" (at 192.2272 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10U" (at 192.2272 137.033 0)
@@ -2104,7 +2104,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C7") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -2188,7 +2188,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 48.26 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060cb8a0c)
-    (property "Reference" "J1" (at 43.688 32.5882 0)
+    (property "Reference" "J101" (at 43.688 32.5882 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 43.688 34.8996 0)
@@ -2242,7 +2242,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J1") (unit 1)
+          (reference "J101") (unit 1)
         )
       )
     )
@@ -2251,7 +2251,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 48.26 48.26 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060f0cf9c)
-    (property "Reference" "J2" (at 43.688 46.5582 0)
+    (property "Reference" "J102" (at 43.688 46.5582 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 43.688 48.8696 0)
@@ -2305,7 +2305,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J2") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
@@ -2314,7 +2314,7 @@
   (symbol (lib_id "-lmp:CC_100N") (at 210.82 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615db36a)
-    (property "Reference" "C8" (at 213.741 127.1016 0)
+    (property "Reference" "C103" (at 213.741 127.1016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100N" (at 213.741 129.413 0)
@@ -2349,7 +2349,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C8") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -2358,7 +2358,7 @@
   (symbol (lib_id "-lmp:CC_100N") (at 210.82 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615db370)
-    (property "Reference" "C9" (at 213.741 134.7216 0)
+    (property "Reference" "C104" (at 213.741 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100N" (at 213.741 137.033 0)
@@ -2393,7 +2393,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C9") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -2402,7 +2402,7 @@
   (symbol (lib_id "-lmp-holes:MountingHole_PCB_M3") (at 229.87 35.56 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061a7a513)
-    (property "Reference" "H2" (at 232.41 34.3916 0)
+    (property "Reference" "H102" (at 232.41 34.3916 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "MountingHole_M3" (at 241.3 35.56 0)
@@ -2417,7 +2417,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H2") (unit 1)
+          (reference "H102") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "-lmp-holes:MountingHole_PCB_M3") (at 229.87 72.39 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061a7a8fd)
-    (property "Reference" "H7" (at 232.41 71.2216 0)
+    (property "Reference" "H107" (at 232.41 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "MountingHole_M3" (at 241.3 72.39 0)
@@ -2441,7 +2441,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H7") (unit 1)
+          (reference "H107") (unit 1)
         )
       )
     )
@@ -2450,7 +2450,7 @@
   (symbol (lib_id "-lmp-holes:MountingHole_PCB_M3") (at 229.87 86.36 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061a7b0d3)
-    (property "Reference" "H9" (at 232.41 85.1916 0)
+    (property "Reference" "H109" (at 232.41 85.1916 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "MountingHole_M3" (at 241.3 86.36 0)
@@ -2465,7 +2465,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H9") (unit 1)
+          (reference "H109") (unit 1)
         )
       )
     )
@@ -2474,7 +2474,7 @@
   (symbol (lib_id "-lmp-holes:MountingHole_PCB_M3") (at 229.87 49.53 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061a7b3cb)
-    (property "Reference" "H4" (at 232.41 48.3616 0)
+    (property "Reference" "H104" (at 232.41 48.3616 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "MountingHole_M3" (at 241.3 49.53 0)
@@ -2489,7 +2489,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H4") (unit 1)
+          (reference "H104") (unit 1)
         )
       )
     )
@@ -2498,7 +2498,7 @@
   (symbol (lib_name "HW_Standoff_F-F_11mm_M3x0.50_1") (lib_id "-lmp-synth:HW_Standoff_F-F_11mm_M3x0.50") (at 229.87 41.91 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ce872c)
-    (property "Reference" "H3" (at 231.8512 40.7416 0)
+    (property "Reference" "H103" (at 231.8512 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "HW_Standoff_F-F_11mm_M3x0.50" (at 231.8512 41.91 0)
@@ -2546,7 +2546,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H3") (unit 1)
+          (reference "H103") (unit 1)
         )
       )
     )
@@ -2555,7 +2555,7 @@
   (symbol (lib_id "-lmp-synth:HW_Screw_M3x0.50x6") (at 229.87 27.94 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 00000000-0000-0000-0000-000061d5696d)
-    (property "Reference" "H1" (at 229.87 27.94 0)
+    (property "Reference" "H101" (at 229.87 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "HW_Screw_M3x0.50x6" (at 233.1212 27.94 0)
@@ -2570,7 +2570,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H1") (unit 1)
+          (reference "H101") (unit 1)
         )
       )
     )
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "-lmp-synth:HW_Screw_M3x0.50x6") (at 229.87 64.77 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 00000000-0000-0000-0000-000061d56ebb)
-    (property "Reference" "H6" (at 229.87 64.77 0)
+    (property "Reference" "H106" (at 229.87 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "HW_Screw_M3x0.50x6" (at 233.1212 64.77 0)
@@ -2594,7 +2594,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H6") (unit 1)
+          (reference "H106") (unit 1)
         )
       )
     )
@@ -2603,7 +2603,7 @@
   (symbol (lib_id "-lmp-synth:HW_Screw_M3x0.50x6") (at 229.87 92.71 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 00000000-0000-0000-0000-000061d572ad)
-    (property "Reference" "H10" (at 229.87 92.71 0)
+    (property "Reference" "H110" (at 229.87 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "HW_Screw_M3x0.50x6" (at 233.1212 92.71 0)
@@ -2618,7 +2618,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H10") (unit 1)
+          (reference "H110") (unit 1)
         )
       )
     )
@@ -2627,7 +2627,7 @@
   (symbol (lib_id "-lmp-synth:HW_Screw_M3x0.50x6") (at 229.87 55.88 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 00000000-0000-0000-0000-000061d57717)
-    (property "Reference" "H5" (at 229.87 55.88 0)
+    (property "Reference" "H105" (at 229.87 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "HW_Screw_M3x0.50x6" (at 233.1212 55.88 0)
@@ -2642,7 +2642,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H5") (unit 1)
+          (reference "H105") (unit 1)
         )
       )
     )
@@ -2651,7 +2651,7 @@
   (symbol (lib_id "-lmp-synth:Cable_Eurorack_10") (at 233.68 104.14 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 040376d1-ca75-428d-bf66-2b39475d1bc5)
-    (property "Reference" "A1" (at 240.7412 102.9279 0)
+    (property "Reference" "A101" (at 240.7412 102.9279 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Cable_Eurorack_10" (at 240.7412 105.3521 0)
@@ -2687,7 +2687,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "A1") (unit 1)
+          (reference "A101") (unit 1)
         )
       )
     )
@@ -2774,7 +2774,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 113.03 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cc898cb-57f4-4718-9209-3ef1dfece3bc)
-    (property "Reference" "J4" (at 108.458 32.5882 0)
+    (property "Reference" "J103" (at 108.458 32.5882 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 108.458 34.8996 0)
@@ -2828,7 +2828,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J4") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
@@ -2862,7 +2862,7 @@
   (symbol (lib_id "-lmp-synth:HW_Standoff_F-F_11mm_M3x0.50") (at 229.87 78.74 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid 2a086b65-8903-4f51-bbe6-0868308726b0)
-    (property "Reference" "H8" (at 231.8512 77.5716 0)
+    (property "Reference" "H108" (at 231.8512 77.5716 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "HW_Standoff_F-F_11mm_M3x0.50" (at 231.8512 78.74 0)
@@ -2910,7 +2910,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "H8") (unit 1)
+          (reference "H108") (unit 1)
         )
       )
     )
@@ -2919,7 +2919,7 @@
   (symbol (lib_id "-lmp:CC_100N") (at 232.41 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3992458e-ab4d-40e0-beb5-0b2b907161dc)
-    (property "Reference" "C11" (at 235.331 134.7216 0)
+    (property "Reference" "C106" (at 235.331 134.7216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100N" (at 235.331 137.033 0)
@@ -2954,7 +2954,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C11") (unit 1)
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -2963,7 +2963,7 @@
   (symbol (lib_id "-lmp-synth:Jack_WQP-PJ398") (at 113.03 48.26 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cb9ee1b-6062-42aa-aea6-8400ac3ca209)
-    (property "Reference" "J5" (at 108.458 46.5582 0)
+    (property "Reference" "J104" (at 108.458 46.5582 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "WQP-PJ398" (at 108.458 48.8696 0)
@@ -3017,7 +3017,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J5") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -3051,7 +3051,7 @@
   (symbol (lib_id "-lmp:CC_100N") (at 232.41 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8132eb83-9bb0-4a4a-8a62-f6899beeed04)
-    (property "Reference" "C10" (at 235.331 127.1016 0)
+    (property "Reference" "C105" (at 235.331 127.1016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100N" (at 235.331 129.413 0)
@@ -3086,7 +3086,7 @@
     (instances
       (project "Filter2"
         (path "/4fe3cd02-8864-4b3e-a1a0-2dfa4d191ca2/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C10") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
