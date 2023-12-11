@@ -23,6 +23,10 @@ PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
+### Acknowledgements
+
+[haraldswerk](https://www.haraldswerk.de/Filter/Bandpass_quad/Bandpass_quad.html)
+
 ### Software Used
 
 * [KiCad](https://www.kicad.org/) 7.0.8
