@@ -36,6 +36,7 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
@@ -64,18 +65,18 @@
       35,
       36
     ],
-    "visible_layers": "000b3f0_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "0003fff_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "Filter2.kicad_prl",
+    "filename": "panel.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Filter2.kicad_sch",
-        "open": true,
+        "name": "panel.kicad_sch",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": false,
@@ -86,12 +87,12 @@
         }
       },
       {
-        "name": "Filter2.kicad_pcb",
-        "open": false,
+        "name": "panel.kicad_pcb",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": -7,
+          "pos_x": 953,
           "pos_y": 0,
           "size_x": 974,
           "size_y": 1047
