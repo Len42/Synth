@@ -2,12 +2,14 @@
 
 ## 10HP Eurorack Module
 
-_Dual parametric filter / EQ module_
+_Dual filter / EQ module_
 
 <img src="title.jpg" style="float:right">
 
 ### Features
-- [features]
+- Two separate multi-mode filters (low/high/band-pass)
+- _Not_ voltage controlled. Use your fingers!
+- Channel 1 input is normalled to channel 2
 
 ### Notes
 [notes]
