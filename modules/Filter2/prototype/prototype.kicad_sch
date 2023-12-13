@@ -2096,6 +2096,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e95ac8cf-21eb-4c64-a320-d8241ac0202a)
   )
+  (text "Who needs these \ncaps anyway?" (at 195.58 115.57 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f9e0164c-dda0-49a4-a5bd-7fc3d7ab817b)
+  )
 
   (global_label "LP" (shape output) (at 223.52 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -3225,7 +3229,7 @@
   )
 
   (symbol (lib_id "-lmp:CC_100N") (at 213.36 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 44855012-fa83-4656-aaaa-0496f8b2edf6)
     (property "Reference" "C9" (at 216.281 130.8679 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3257,8 +3261,8 @@
     (property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6" (at 213.36 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c27387b-4004-414e-abb3-2731dc4874ad))
-    (pin "2" (uuid 47c6a4a3-d326-4ba5-bd89-8bdada8211ab))
+    (pin "1" (uuid 37bc8ed2-1a7f-4579-aec1-8b71378989d3))
+    (pin "2" (uuid b11e1148-b1d5-4e63-8f99-8b5073eb21db))
     (instances
       (project "prototype"
         (path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
@@ -3313,7 +3317,7 @@
   )
 
   (symbol (lib_id "-lmp:CC_100N") (at 195.58 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 46b77d16-6c4b-4d19-bae3-58b05a5b11db)
     (property "Reference" "C7" (at 198.501 130.8679 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3345,8 +3349,8 @@
     (property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6" (at 195.58 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c97f47b-8f8e-447b-807d-e8bb1dcd6d59))
-    (pin "2" (uuid 5eb43df7-0002-4e57-b6ec-1adf57a15046))
+    (pin "1" (uuid dba37213-9791-498c-82cd-17a8f9fdd957))
+    (pin "2" (uuid ac8b3b54-1c6c-423f-a4f4-5f63fa9e3fcc))
     (instances
       (project "prototype"
         (path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
@@ -3898,7 +3902,7 @@
   )
 
   (symbol (lib_id "-lmp:CC_100N") (at 213.36 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid a66a0d1f-3ad3-4b5e-a5d6-abac6b0c96ee)
     (property "Reference" "C8" (at 216.281 120.7079 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3930,8 +3934,8 @@
     (property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6" (at 213.36 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 509f0f00-f6c1-40c2-a87b-abe30b6cb874))
-    (pin "2" (uuid f2dbb443-582c-4d16-83f8-a8b563ea57f2))
+    (pin "1" (uuid f294fb22-e859-424e-a530-c1bd25c50263))
+    (pin "2" (uuid 013205d3-6270-49c9-8cd2-a1ad736180fc))
     (instances
       (project "prototype"
         (path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
@@ -4341,7 +4345,7 @@
   )
 
   (symbol (lib_id "-lmp:CC_100N") (at 195.58 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid d94abf15-3bd4-473b-a5aa-45f1ad9384f7)
     (property "Reference" "C6" (at 198.501 120.7079 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4373,8 +4377,8 @@
     (property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6" (at 195.58 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12291ac6-f031-4433-88bf-81896679c80a))
-    (pin "2" (uuid 714275bd-5f24-4f6d-8cfe-1ee013956342))
+    (pin "1" (uuid ab8e39b9-685d-4b13-882c-f1c24324f4e7))
+    (pin "2" (uuid b565b2cf-579c-4d5a-b143-5143d3e2ae29))
     (instances
       (project "prototype"
         (path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
