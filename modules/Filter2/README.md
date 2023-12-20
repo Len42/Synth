@@ -1,13 +1,12 @@
-# Filter2 - Dual Filter Module
+# Filter2 - Dual Formant Filter Module
 
 ## 10HP Eurorack Module
-
-_Dual filter / EQ module_
 
 <img src="title.jpg" style="float:right">
 
 ### Features
 - Two separate multi-mode filters (low/high/band-pass)
+- Frequency, resonance, and gain controls
 - _Not_ voltage controlled. Use your fingers!
 - Channel 1 input is normalled to channel 2
 
