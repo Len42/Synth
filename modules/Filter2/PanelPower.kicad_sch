@@ -1972,7 +1972,7 @@
     (property "Reference" "J109" (at 43.18 148.2557 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_Eurorack_16" (at 43.18 150.6799 0)
+    (property "Value" "Conn_Eurorack_10" (at 43.18 150.6799 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "-lmp-synth:IDC-Header-Eurorack-10-TH" (at 44.45 167.894 0)

@@ -5277,7 +5277,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6cc1b966-5e8f-4201-8bcd-45cd6d338424)
     )
-    (fp_text value "Conn_Eurorack_16" (at 1.27 14.986) (layer "F.Fab")
+    (fp_text value "Conn_Eurorack_10" (at 1.27 14.986) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c9ce228f-f57a-401d-9009-e196e707279d)
     )
