@@ -75,7 +75,7 @@
     "files": [
       {
         "name": "Filter2.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": false,
