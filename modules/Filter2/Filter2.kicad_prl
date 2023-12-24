@@ -74,24 +74,24 @@
   "project": {
     "files": [
       {
-        "name": "Filter2.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
-        }
-      },
-      {
         "name": "Filter2.kicad_pcb",
         "open": true,
         "window": {
           "display": 0,
           "maximized": false,
           "pos_x": 953,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      },
+      {
+        "name": "Filter2.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -7,
           "pos_y": 0,
           "size_x": 974,
           "size_y": 1047
