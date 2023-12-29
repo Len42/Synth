@@ -1,17 +1,19 @@
-# Filter2 - Dual Formant Filter Module
+# Filter2 - Dual Filter Module
 
 ## 10HP Eurorack Module
 
-<img src="title.jpg" style="float:right">
+_Variable formant or whatever filters_
+
+<img src="Filter2.jpg" style="float:right">
 
 ### Features
 - Two separate multi-mode filters (low/high/band-pass)
-- Frequency, resonance, and gain controls
 - _Not_ voltage controlled. Use your fingers!
+- Frequency, resonance, and gain controls
 - Channel 1 input is normalled to channel 2
 
 ### Notes
-[notes]
+[TBD: notes]
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
