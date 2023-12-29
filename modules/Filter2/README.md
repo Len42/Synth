@@ -26,7 +26,7 @@ Please note that I am a hobbyist, not a trained electronics engineer. No guarant
 
 ### Acknowledgements
 
-[haraldswerk](https://www.haraldswerk.de/Filter/Bandpass_quad/Bandpass_quad.html)
+[Quad Bandpass, Parametric Equalizer - haraldswerk](https://www.haraldswerk.de/Filter/Bandpass_quad/Bandpass_quad.html)
 
 ### Software Used
 
