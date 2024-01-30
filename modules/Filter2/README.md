@@ -8,12 +8,14 @@ _Two variable formant or whatever filters_
 
 ### Features
 - Two separate multi-mode filters (low/high/band-pass)
-- _Not_ voltage controlled. Use your fingers! 👆
+- _Not_ voltage controlled. Use your fingers! 👌
 - Frequency, resonance, and gain controls
 - Channel 1 input is normalled to channel 2
 
 ### Notes
-[TBD: notes - 2-pole state-variable, resonance, uses]
+This module has two 2-pole state-variable filters, switchable between lowpass, highpass, and bandpass. They can be used for for tone shaping, formant synthesis, or EQ. By making them manually adjustable but not voltage-controlled, I was able to fit two filters into a 10 HP module using through-hole components. I just need lots of filters!
+
+These filters do not self-oscillate at maximum resonance.
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
