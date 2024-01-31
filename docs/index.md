@@ -32,6 +32,8 @@ These are the modules that I have built so far:
 
 [Dexy](https://github.com/Len42/Dexy) &mdash; DX7-inspired FM synthesis with a Raspberry Pi Pico
 
+[Filter2](https://github.com/Len42/Synth/tree/main/modules/Filter2) &mdash; Dual filter module
+
 [Switches](https://github.com/Len42/Synth/tree/main/modules/Switches) &mdash; 4-channel muting module
 
 [VCF-SV](https://github.com/Len42/Synth/tree/main/modules/VCF-SV) &mdash; State-variable filter module
