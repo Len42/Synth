@@ -13,7 +13,7 @@ _A state-variable filter using the CEM3320 chip_
     - Bandpass filter
 - Self-oscillates at maximum resonance
 - Two CV inputs for cutoff/centre frequency. One is 1V/octave and the other has an input attenuator.
-- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable) - more info [here](https://len42.github.io/Synth/eurorack-bus-cv-gate.html)
+- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable) - more info [here](https://lenp.net/synth/eurorack-bus-cv-gate.html)
 - Resonance CV input with attenuator
 
 ### Notes

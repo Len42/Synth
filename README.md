@@ -6,7 +6,7 @@
 
 This repo is where I am sharing my modular synthesizer designs.
 
-[See here](https://len42.github.io/Synth/) for more info.
+[See here](https://lenp.net/synth/) for more info.
 
 Please note that I am a hobbyist, not a trained electronics engineer! These designs are not perfect. The modules work for me, but I can't promise they'll work for everyone who builds them.
 
