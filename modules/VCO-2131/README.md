@@ -18,8 +18,6 @@ This module requires a 16-pin Eurorack power cable, but it does not depend on +5
 
 [Here are instructions for calibration](https://lenp.net/synth/vco-calibration.html) of the VCO for proper 1V/octave tracking.
 
-[TODO: old link for testing](calibration.md)
-
 PCB layouts are provided in KiCad and gerber formats.
 A drilling template is provided for the front panel.
 
