@@ -13,3 +13,4 @@ x64/
 *auto_saved_files*
 _autosave-*
 *.lck
+.vscode
