@@ -10,7 +10,7 @@ _A low-pass filter using the SSI2140 chip_
 - Four-pole, 24 db/octave low-pass filter made with an [SSI2140 IC](https://soundsemiconductor.com/downloads/ssi2140datasheet.pdf)
 - Self-oscillates at maximum resonance
 - Two CV inputs for cutoff frequency. One is 1V/octave and the other has an input attenuator.
-- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable) - more info [here](https://len42.github.io/Synth/eurorack-bus-cv-gate.html)
+- 1V/octave input can default to the Eurorack bus CV line (jumper-selectable) - more info [here](https://lenp.net/synth/eurorack-bus-cv-gate.html)
 - Resonance CV input with attenuator
 - A large knob
 
