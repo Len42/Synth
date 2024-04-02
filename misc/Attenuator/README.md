@@ -18,7 +18,7 @@ I made two of these small attenuator dongles for my Eurorack system because I ke
 
 My particular reasons for using this attenuator are:
 * _Using a tuner (or other external device)_ - I have a [tuner](https://www.korg.com/caen/products/tuners/ot_120/) that has trouble with the signal level straight out of a Eurorack VCO, so I keep one of these attenuators plugged into the tuner.
-* _Bad design choices_ - I made the pitch mod inputs on my oscillator modules way too sensitive. Even though there's an attenuator control on the input, it's hard to get a reasonable vibrato when I patch in an LFO. Sending the LFO through this attenuator gives a much better range of adjustment on the pitch mod input, in most cases.
+* _Bad design choices_ - I made the pitch mod inputs on my oscillator modules way too sensitive. Even though there's an attenuator control on the input, it's hard to get a reasonable vibrato when I patch in an LFO. Sending the LFO through this attenuator gives a much better range of adjustment on the pitch mod input, for most purposes.
 
 The device is assembled on a small piece of stripboard PCB. See the attached layout diagram.
 
