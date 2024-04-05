@@ -2951,7 +2951,7 @@
     )
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 191.77 54.61 0) (mirror x) (unit 1)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 191.77 54.61 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d3b7703-2fd0-4414-a824-a618de546d3f)
     (property "Reference" "U2" (at 191.77 61.4101 0)
@@ -2992,7 +2992,7 @@
     (instances
       (project "Wavefolder"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U2") (unit 1)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -4258,8 +4258,8 @@
     (property "Value2" "1%, 1/6 W" (at 105.283 35.56 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cf3a5f8-d9c3-4f0f-abe6-3cfafc44e01d))
-    (pin "2" (uuid e699a9b2-8e7a-4fbf-a22f-683a047ca368))
+    (pin "1" (uuid 98716c92-a9d0-445d-9893-3b78ba3673b0))
+    (pin "2" (uuid 7369c0d5-dbbf-464f-a7c7-dde66698c6ec))
     (instances
       (project "Wavefolder"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -4706,7 +4706,7 @@
   (symbol (lib_id "-lmp:Q_NPN_2N3904") (at 97.79 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7577a1dc-77d3-432c-89fa-f55d35d3ee43)
-    (property "Reference" "Q1" (at 100.965 53.3979 0)
+    (property "Reference" "Q2" (at 100.965 53.3979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N3904" (at 100.965 55.8221 0)
@@ -4739,7 +4739,7 @@
     (instances
       (project "Wavefolder"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -5513,7 +5513,7 @@
   (symbol (lib_id "-lmp:Q_PNP_2N3906") (at 97.79 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ba73f98-9c0f-4f48-b384-be27fdb2fd13)
-    (property "Reference" "Q2" (at 100.965 43.2379 0)
+    (property "Reference" "Q1" (at 100.965 43.2379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N3906" (at 100.965 45.6621 0)
@@ -5546,7 +5546,7 @@
     (instances
       (project "Wavefolder"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -5999,7 +5999,7 @@
     )
   )
 
-  (symbol (lib_id "-lmp-opamp:TL072") (at 191.77 116.84 0) (mirror x) (unit 2)
+  (symbol (lib_id "-lmp-opamp:TL072") (at 191.77 116.84 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2efe52b-9805-4ddf-a14e-20377ddcf752)
     (property "Reference" "U2" (at 191.77 123.6401 0)
@@ -6040,7 +6040,7 @@
     (instances
       (project "Wavefolder"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U2") (unit 2)
+          (reference "U2") (unit 1)
         )
       )
     )

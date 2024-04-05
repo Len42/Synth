@@ -65,7 +65,7 @@
       36
     ],
     "visible_layers": "000b3f0_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "Wavefolder.kicad_prl",
@@ -74,24 +74,24 @@
   "project": {
     "files": [
       {
-        "name": "Wavefolder.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 953,
-          "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
-        }
-      },
-      {
         "name": "Wavefolder.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
           "maximized": false,
           "pos_x": -7,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      },
+      {
+        "name": "Wavefolder.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 953,
           "pos_y": 0,
           "size_x": 974,
           "size_y": 1047
