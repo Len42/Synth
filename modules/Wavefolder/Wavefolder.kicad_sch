@@ -2633,10 +2633,6 @@
     (uuid fe4621cd-32ee-48c4-8ee4-c108f340b8db)
   )
 
-  (text "TODO: REMOVE" (at 289.56 39.37 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0343b0df-27ee-4b61-a6f5-0573fa995dcd)
-  )
   (text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
     (at 177.8 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2653,10 +2649,6 @@
   (text "Channel 2" (at 25.4 87.63 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 69071b26-186b-429b-b351-26ea7a1872e8)
-  )
-  (text "Front Panel & Power" (at 304.8 21.59 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 851ab59d-1fd7-45c7-a775-29797327cafc)
   )
   (text "Channel 1" (at 25.4 25.4 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
@@ -2767,9 +2759,6 @@
     (pin "8" (uuid cf8ff56b-5643-4812-b5b8-c728c3bcc429))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "U3") (unit 3)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U2") (unit 3)
         )
@@ -2937,9 +2926,6 @@
     (pin "9" (uuid 42889937-21aa-4d40-893e-74720ed6d31b))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J11") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J103") (unit 1)
         )
@@ -3220,9 +3206,6 @@
     (pin "1" (uuid 4ff49a2d-f562-4267-860c-59b746a014a7))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#FLG0110") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG0102") (unit 1)
         )
@@ -3436,9 +3419,6 @@
     (pin "2" (uuid 65b6f43f-7b46-496a-9fdd-c0fecdd15953))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C1") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C102") (unit 1)
         )
@@ -3533,9 +3513,6 @@
     (pin "1" (uuid 4116f933-97b9-4cde-bda1-ff9cf36ba983))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#FLG0109") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG0103") (unit 1)
         )
@@ -3759,9 +3736,6 @@
     (pin "2" (uuid 3042f6cb-80fd-4e93-a730-5f28b8aab6d5))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C4") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C104") (unit 1)
         )
@@ -4148,9 +4122,6 @@
     (pin "1" (uuid c540c7d8-a9dc-4f73-8175-41d91532cba1))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#PWR0105") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0107") (unit 1)
         )
@@ -4689,9 +4660,6 @@
     (pin "2" (uuid f50df1b2-13dc-4fc4-96a0-34e11c00baeb))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C103") (unit 1)
         )
@@ -5156,9 +5124,6 @@
     (pin "9" (uuid 6c2f5b4b-085d-4213-b9e7-04765b63a559))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J10") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J102") (unit 1)
         )
@@ -5209,9 +5174,6 @@
     (pin "1" (uuid ac65f423-ad1f-4832-ac1a-b2a6c78c4168))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#PWR0119") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
         )
@@ -5268,9 +5230,6 @@
     (pin "2" (uuid 9f5144c6-2330-4cde-a43d-9257841bea40))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C2") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C101") (unit 1)
         )
@@ -5380,9 +5339,6 @@
     (pin "1" (uuid ecc36cd5-abb8-464e-802e-c47124786af0))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#FLG0108") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#FLG0104") (unit 1)
         )
@@ -5452,9 +5408,6 @@
     (pin "2" (uuid cbc24938-60d0-4b33-8c8a-9ad256a73701))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C3") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C105") (unit 1)
         )
@@ -5566,9 +5519,6 @@
     (pin "1" (uuid f341095b-e536-4726-a1df-2171c76c29bc))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#PWR0121") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0106") (unit 1)
         )
@@ -5825,9 +5775,6 @@
     (pin "9" (uuid 212f174c-6587-45e7-a499-4efcbf7ea5a1))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "J9") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J101") (unit 1)
         )
@@ -6214,9 +6161,6 @@
     (pin "2" (uuid 9a49952e-fdb6-4ec6-884f-64573bad3e50))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "C4") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C106") (unit 1)
         )
@@ -6267,9 +6211,6 @@
     (pin "1" (uuid 8cd54bfe-6516-4752-bb9b-35fc4aa5ad06))
     (instances
       (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
-          (reference "#PWR0120") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0103") (unit 1)
         )
@@ -6676,23 +6617,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q3") (unit 1)
         )
-      )
-    )
-  )
-
-  (sheet (at 304.8 25.4) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-000060cbfb6a)
-    (property "Sheetname" "PanelPower" (at 304.8 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PanelPower.kicad_sch" (at 304.8 51.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Wavefolder"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
   )
