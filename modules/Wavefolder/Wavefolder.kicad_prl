@@ -75,11 +75,11 @@
     "files": [
       {
         "name": "Wavefolder.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": -7,
+          "pos_x": 953,
           "pos_y": 0,
           "size_x": 974,
           "size_y": 1047
