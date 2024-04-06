@@ -2790,7 +2790,7 @@
     (property "Value" "15K" (at 102.108 126.9421 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 98.552 125.73 90)
+    (property "Footprint" "-lmp-stripboard:SB_Gen_1" (at 98.552 125.73 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf" (at 100.33 125.73 0)
