@@ -47,8 +47,6 @@ static const char sCompilerVersion[] = "gcc version " TO_STR(__GNUC__) "." TO_ST
 #else // !DEBUG
 #define DEBUG_ERROR_COUNTER
 #define DEBUG_WATCHDOG
-// TODO: REMOVE:
-#define DEBUG_TIME_TEST
 #endif
 
 #define INLINE __attribute__((always_inline))
@@ -708,7 +706,7 @@ const word freqTimer = 20000; // 24000; // 25000; // 31250; // timer interrupt f
 const word compareTimer = 799; // 666;  // 639; // 511; // compare value for timer interrupts
 const byte bitsTimerPrescaler = 0b001;  // /1 timer clock prescaler
 const byte maskTimerPrescaler = 0b111;  // bit mask for setting the prescaler
-// frequency = fCLK_IO / (2 * prescale * (1 + compare))
+// According to the datasheet, frequency = fCLK_IO / (2 * prescale * (1 + compare))
 // BUG: this gives freqTimer = 10000, not 20000 as measured
 
 void initTimerInterrupt()
