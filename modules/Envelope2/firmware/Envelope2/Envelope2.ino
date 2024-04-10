@@ -187,13 +187,17 @@ unsigned readADCPin(byte pin)
   return w;
 }
 
-uint32_t readTimeInput(byte pin)
+uint32_t readTimeInput(byte pin, bool fLog)
 {
   // Read an A, D or R knob and return the corresponding timer increment value.
   unsigned w = readADCPin(pin);
   if (w > cTimeInputMapTable)
     w = cTimeInputMapTable;
-  return PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
+  uint32_t result = PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
+  // For logarithmic envelope, stretch it out because it drops too quickly at first.
+  if (fLog)
+    result /= 4;
+  return result;
 }
 
 unsigned readSustainInput(byte pin)
@@ -314,11 +318,11 @@ void ADSREnvelope::ReadControls()
 {
   // NOTE: The correct channel must be selected in the ADC switch
   // before calling this function.
-  dwIncrAttack = readTimeInput(pinAttack);
-  dwIncrDecay = readTimeInput(pinDecay);
-  wSustain = readSustainInput(pinSustain);
-  dwIncrRelease = readTimeInput(pinRelease);
   fLogarithmic = (readDigitalPin(pinLogLin) == LOW);
+  dwIncrAttack = readTimeInput(pinAttack, false); // do not adjust in log mode
+  dwIncrDecay = readTimeInput(pinDecay, fLogarithmic);
+  wSustain = readSustainInput(pinSustain);
+  dwIncrRelease = readTimeInput(pinRelease, fLogarithmic);
 }
 
 void ADSREnvelope::HandleGateInterrupt()
@@ -531,7 +535,7 @@ word ADSREnvelope::LookupAttackValue(word wValue)
 word ADSREnvelope::InterpolateAttackValue(word wValue)
 {
   // Log curve - Table lookup with interpolation using the bottom 2 bits of wValue
-  word* pw = LogAttackMapTable + (wValue >> 2);
+  const word* pw = LogAttackMapTable + (wValue >> 2);
   word w0 = PMEMW(pw);   // LogAttackMapTable[(wValue >> 2)]
   word w1 = PMEMW(pw+1); // LogAttackMapTable[(wValue >> 2)+1]
   word wOut = w0;
@@ -576,7 +580,7 @@ word ADSREnvelope::LookupDecayValue(word wValue)
 word ADSREnvelope::InterpolateDecayValue(word wValue)
 {
   // Log curve - Table lookup with interpolation using the bottom 2 bits of wValue
-  word* pw = LogDecayMapTable + (wValue >> 2);
+  const word* pw = LogDecayMapTable + (wValue >> 2);
   word w0 = PMEMW(pw);   // LogDecayMapTable[(wValue >> 2)]
   word w1 = PMEMW(pw+1); // LogDecayMapTable[(wValue >> 2)+1]
   word wOut = w0;
@@ -637,9 +641,9 @@ void ADSREnvelope::DebugOut()
 }
 #endif // DEBUG_ENV_OUTPUT
 
-volatile ADSREnvelope envelope1(0, 1, 4, 5, pinSwLogLin1, pinGate1);
+ADSREnvelope envelope1(0, 1, 4, 5, pinSwLogLin1, pinGate1);
 
-volatile ADSREnvelope envelope2(2, 3, 4, 5, pinSwLogLin2, pinGate2);
+ADSREnvelope envelope2(2, 3, 4, 5, pinSwLogLin2, pinGate2);
 
 //
 // SPI Interface to DACs
@@ -701,6 +705,8 @@ const word freqTimer = 20000; // 24000; // 25000; // 31250; // timer interrupt f
 const word compareTimer = 799; // 666;  // 639; // 511; // compare value for timer interrupts
 const byte bitsTimerPrescaler = 0b001;  // /1 timer clock prescaler
 const byte maskTimerPrescaler = 0b111;  // bit mask for setting the prescaler
+// According to the datasheet, frequency = fCLK_IO / (2 * prescale * (1 + compare))
+// BUG: this gives freqTimer = 10000, not 20000 as measured
 
 void initTimerInterrupt()
 {
@@ -790,7 +796,7 @@ public:
     byte b = wValue >> 4;
     // Light curve mapping to make the LED look nicer.
     // LEDMapTable entries are in progmem
-    byte* addr = LEDMapTable + b;
+    const byte* addr = LEDMapTable + b;
     b = PMEMB(addr); // LEDMapTable[index];
     analogWrite(pin, b);
   }

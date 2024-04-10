@@ -31,24 +31,23 @@ static void WriteTable(const char* tableName, unsigned npoints, unsigned nbits, 
 
 int main(int argc, char* argv[])
 {
-	std::cout << "#if !defined(PROGMEM)" << std::endl << "#define PROGMEM" << std::endl << "#endif" << std::endl << std::endl;
+	std::cout << "#if !defined(PROGMEM)\n#define PROGMEM\n#endif\n";
 	
 	WriteTable("TimeInputMap", 1023/*npoints*/, 32, "uint32_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
 			uint64_t n;
+			static constexpr uint64_t nMax = (1ull << 24);
 			if (ipoint == 0) {
-				n = (1 << 24);
+				n = nMax;
 			} else {
-				double d = 0.005 * pow(2, 0.01072 * ipoint) - 0.005;
+				double d = 0.005 * pow(2, 0.0123 * ipoint) - 0.005;
 				d = (4096. * 4096. / 20000.) / d;
 				n = (uint64_t)std::llround(d);
-				if (n >= (1 << 24))
-					n = (1 << 24);
+				if (n > nMax)
+					n = nMax;
 			}
 			return n;
 		});
-
-	std::cout << std::endl;
 
 	WriteTable("LogAttackMap", 1024/*npoints*/, 16, "uint16_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
@@ -56,15 +55,11 @@ int main(int argc, char* argv[])
 			return (uint64_t)std::llround(d * 4096);
 		});
 
-	std::cout << std::endl;
-
 	WriteTable("LogDecayMap", 1024/*npoints*/, 16, "uint16_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
 			double d = (1 - exp(-(int)(ipoint) / 150.0)) / 0.999265; // 0.999035;
 			return (uint64_t)std::llround(d * 4096);
 		});
-
-	std::cout << std::endl;
 
 	WriteTable("LEDMap", 255/*npoints*/, 8, "uint8_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
@@ -90,18 +85,18 @@ static void WriteTable(const char* tableName, unsigned npoints, unsigned nbits, 
 {
 	const uint64_t uMax = (((uint64_t)1) << nbits) - 1;
 	const uint64_t uHalf = ((uint64_t)1) << (nbits - 1);
-	ostr << "// table=" << tableName << " npoints=" << npoints << " nbits=" << nbits << " type=" << typeName << " uMax=" << uMax << std::endl;
-	ostr << "const " << typeName << " c" << tableName << "Table = " << npoints << ';' << std::endl;
+	ostr << "\n// table=" << tableName << " npoints=" << npoints << " nbits=" << nbits << " type=" << typeName << " uMax=" << uMax << '\n';
+	ostr << "const " << typeName << " c" << tableName << "Table = " << npoints << ";\n";
 	ostr << "const PROGMEM " << typeName << " " << tableName << "Table[] = {";
 	// Iterate npoints+1 times, to get one extra point for interpolation.
 	for (unsigned ipoint = 0; ipoint <= npoints; ipoint++) {
 		if ((ipoint & 7) == 0)
-			ostr << std::endl << "    ";
+			ostr << "\n    ";
 		uint64_t uVal;
 		uVal = func(ipoint, npoints, uHalf, uMax);
 		uVal = std::min(uVal, uMax);
 		ostr << uVal << ", ";
 	}
 
-	ostr << std::endl << "};" << std::endl;
+	ostr << "\n};\n";
 }
