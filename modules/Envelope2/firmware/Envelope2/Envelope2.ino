@@ -32,8 +32,6 @@ THE SOFTWARE.
 #define _TO_STR(x) #x
 #define TO_STR(x) _TO_STR(x)
 
-static const char sCompilerVersion[] = "gcc version " TO_STR(__GNUC__) "." TO_STR(__GNUC_MINOR__) "." TO_STR(__GNUC_PATCHLEVEL__);
-
 // Debugging flags
 //#define DEBUG
 #ifdef DEBUG
@@ -47,8 +45,6 @@ static const char sCompilerVersion[] = "gcc version " TO_STR(__GNUC__) "." TO_ST
 #else // !DEBUG
 #define DEBUG_ERROR_COUNTER
 #define DEBUG_WATCHDOG
-// TODO: REMOVE
-//#define DEBUG_FAKE_GATES
 #endif
 
 #define INLINE __attribute__((always_inline))
@@ -200,11 +196,11 @@ uint32_t readTimeInput(byte pin, bool fLog)
   unsigned w = readADCPin(pin);
   if (w > cTimeInputMapTable)
     w = cTimeInputMapTable;
-  w = PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
+  uint32_t result = PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
   // For logarithmic envelope, stretch it out because it drops too quickly at first.
   if (fLog)
-    w /= 4;
-  return w;
+    result /= 4;
+  return result;
 }
 
 unsigned readSustainInput(byte pin)
@@ -1017,7 +1013,6 @@ void setup()
 {
   Serial.begin(115200);
   Serial.println("\nEnvelope2 start");
-  Serial.println(sCompilerVersion);
 
   initIOPins();
   initSPI();
