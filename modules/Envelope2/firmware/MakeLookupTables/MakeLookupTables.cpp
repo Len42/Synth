@@ -39,11 +39,11 @@ int main(int argc, char* argv[])
 			if (ipoint == 0) {
 				n = (1 << 24);
 			} else {
-				double d = 0.005 * pow(2, 0.01072 * ipoint) - 0.005;
+				double d = 0.005 * pow(2, 0.0123 * ipoint) - 0.005;
 				d = (4096. * 4096. / 20000.) / d;
 				n = (uint64_t)std::llround(d);
-				if (n >= (1 << 24))
-					n = (1 << 24);
+				if (n >= (1ull << 24))
+					n = (1ull << 24);
 			}
 			return n;
 		});

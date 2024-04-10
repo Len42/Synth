@@ -47,6 +47,8 @@ static const char sCompilerVersion[] = "gcc version " TO_STR(__GNUC__) "." TO_ST
 #else // !DEBUG
 #define DEBUG_ERROR_COUNTER
 #define DEBUG_WATCHDOG
+// TODO: REMOVE
+//#define DEBUG_FAKE_GATES
 #endif
 
 #define INLINE __attribute__((always_inline))
@@ -192,13 +194,17 @@ unsigned readADCPin(byte pin)
   return w;
 }
 
-uint32_t readTimeInput(byte pin)
+uint32_t readTimeInput(byte pin, bool fLog)
 {
   // Read an A, D or R knob and return the corresponding timer increment value.
   unsigned w = readADCPin(pin);
   if (w > cTimeInputMapTable)
     w = cTimeInputMapTable;
-  return PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
+  w = PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
+  // For logarithmic envelope, stretch it out because it drops too quickly at first.
+  if (fLog)
+    w /= 2;
+  return w;
 }
 
 unsigned readSustainInput(byte pin)
@@ -319,11 +325,11 @@ void ADSREnvelope::ReadControls()
 {
   // NOTE: The correct channel must be selected in the ADC switch
   // before calling this function.
-  dwIncrAttack = readTimeInput(pinAttack);
-  dwIncrDecay = readTimeInput(pinDecay);
-  wSustain = readSustainInput(pinSustain);
-  dwIncrRelease = readTimeInput(pinRelease);
   fLogarithmic = (readDigitalPin(pinLogLin) == LOW);
+  dwIncrAttack = readTimeInput(pinAttack, false); // do not adjust in log mode
+  dwIncrDecay = readTimeInput(pinDecay, fLogarithmic);
+  wSustain = readSustainInput(pinSustain);
+  dwIncrRelease = readTimeInput(pinRelease, fLogarithmic);
 }
 
 void ADSREnvelope::HandleGateInterrupt()
