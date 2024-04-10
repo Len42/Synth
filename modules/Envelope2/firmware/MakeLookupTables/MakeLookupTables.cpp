@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 	WriteTable("TimeInputMap", 1023/*npoints*/, 32, "uint32_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
 			uint64_t n;
-			static constexpr uint64_t nMax = (1ull << 24) - 1;
+			static constexpr uint64_t nMax = (1ull << 24);
 			if (ipoint == 0) {
 				n = nMax;
 			} else {
