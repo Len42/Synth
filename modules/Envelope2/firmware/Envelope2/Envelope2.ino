@@ -535,7 +535,7 @@ word ADSREnvelope::LookupAttackValue(word wValue)
 word ADSREnvelope::InterpolateAttackValue(word wValue)
 {
   // Log curve - Table lookup with interpolation using the bottom 2 bits of wValue
-  word* pw = LogAttackMapTable + (wValue >> 2);
+  const word* pw = LogAttackMapTable + (wValue >> 2);
   word w0 = PMEMW(pw);   // LogAttackMapTable[(wValue >> 2)]
   word w1 = PMEMW(pw+1); // LogAttackMapTable[(wValue >> 2)+1]
   word wOut = w0;
@@ -580,7 +580,7 @@ word ADSREnvelope::LookupDecayValue(word wValue)
 word ADSREnvelope::InterpolateDecayValue(word wValue)
 {
   // Log curve - Table lookup with interpolation using the bottom 2 bits of wValue
-  word* pw = LogDecayMapTable + (wValue >> 2);
+  const word* pw = LogDecayMapTable + (wValue >> 2);
   word w0 = PMEMW(pw);   // LogDecayMapTable[(wValue >> 2)]
   word w1 = PMEMW(pw+1); // LogDecayMapTable[(wValue >> 2)+1]
   word wOut = w0;
@@ -641,9 +641,9 @@ void ADSREnvelope::DebugOut()
 }
 #endif // DEBUG_ENV_OUTPUT
 
-volatile ADSREnvelope envelope1(0, 1, 4, 5, pinSwLogLin1, pinGate1);
+ADSREnvelope envelope1(0, 1, 4, 5, pinSwLogLin1, pinGate1);
 
-volatile ADSREnvelope envelope2(2, 3, 4, 5, pinSwLogLin2, pinGate2);
+ADSREnvelope envelope2(2, 3, 4, 5, pinSwLogLin2, pinGate2);
 
 //
 // SPI Interface to DACs
@@ -796,7 +796,7 @@ public:
     byte b = wValue >> 4;
     // Light curve mapping to make the LED look nicer.
     // LEDMapTable entries are in progmem
-    byte* addr = LEDMapTable + b;
+    const byte* addr = LEDMapTable + b;
     b = PMEMB(addr); // LEDMapTable[index];
     analogWrite(pin, b);
   }
