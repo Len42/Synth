@@ -36,14 +36,15 @@ int main(int argc, char* argv[])
 	WriteTable("TimeInputMap", 1023/*npoints*/, 32, "uint32_t", std::cout,
 		[](unsigned ipoint, unsigned npoints, uint64_t uHalf, uint64_t uMax) -> uint64_t {
 			uint64_t n;
+			static constexpr uint64_t nMax = (1ull << 24) - 1;
 			if (ipoint == 0) {
-				n = (1 << 24);
+				n = nMax;
 			} else {
 				double d = 0.005 * pow(2, 0.0123 * ipoint) - 0.005;
 				d = (4096. * 4096. / 20000.) / d;
 				n = (uint64_t)std::llround(d);
-				if (n >= (1ull << 24))
-					n = (1ull << 24);
+				if (n > nMax)
+					n = nMax;
 			}
 			return n;
 		});

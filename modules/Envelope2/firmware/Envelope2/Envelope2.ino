@@ -203,7 +203,7 @@ uint32_t readTimeInput(byte pin, bool fLog)
   w = PMEMD(TimeInputMapTable + w); // TimeInputMapTable[w];
   // For logarithmic envelope, stretch it out because it drops too quickly at first.
   if (fLog)
-    w /= 2;
+    w /= 4;
   return w;
 }
 
