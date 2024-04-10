@@ -29,9 +29,6 @@ THE SOFTWARE.
 // Misc Definitions
 //
 
-#define _TO_STR(x) #x
-#define TO_STR(x) _TO_STR(x)
-
 // Debugging flags
 //#define DEBUG
 #ifdef DEBUG
@@ -1013,7 +1010,6 @@ void setup()
 {
   Serial.begin(115200);
   Serial.println("\nEnvelope2 start");
-
   initIOPins();
   initSPI();
   initTimerInterrupt();
