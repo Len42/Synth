@@ -7735,7 +7735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "-lmp-stripboard:SB_Gen_4"
 			(at 150.368 100.33 90)
 			(effects
 				(font
@@ -8742,7 +8742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "-lmp-stripboard:SB_Gen_4"
 			(at 150.368 90.17 90)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "-lmp-stripboard:SB_Gen_9"
 			(at 154.94 128.778 90)
 			(effects
 				(font
@@ -10468,7 +10468,7 @@
 	)
 	(symbol
 		(lib_id "-lmp-synth:R_1K_Output")
-		(at 163.83 113.03 180)
+		(at 163.83 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10482,7 +10482,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1K"
@@ -10491,11 +10491,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 165.608 113.03 90)
+		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+			(at 162.052 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,11 +10527,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Note" "Output limiting"
-			(at 165.735 111.125 90)
+			(at 161.925 114.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +10558,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 165.735 113.03 90)
+			(at 161.925 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +11964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "-lmp-stripboard:SB_Gen_2"
 			(at 168.91 109.728 90)
 			(effects
 				(font
