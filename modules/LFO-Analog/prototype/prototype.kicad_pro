@@ -237,11 +237,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "global_label_dangling|1612900|1270000|e30480f1-6979-4d5b-8c26-5c49d7e54063|00000000-0000-0000-0000-000000000000|/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401||",
-      "global_label_dangling|1638300|1270000|e30480f1-6979-4d5b-8c26-5c49d7e54063|00000000-0000-0000-0000-000000000000|/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401||",
-      "global_label_dangling|2336800|800100|ef9ab9de-65de-453b-92d1-8911d65e0733|00000000-0000-0000-0000-000000000000|/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -551,11 +547,113 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor2",
+          "name": "Distributor2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor3",
+          "name": "Distributor3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink",
+          "name": "DistributorPartLink",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink2",
+          "name": "DistributorPartLink2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink3",
+          "name": "DistributorPartLink3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum",
+          "name": "DistributorPartNum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum2",
+          "name": "DistributorPartNum2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum3",
+          "name": "DistributorPartNum3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ManufacturerPartNum",
+          "name": "ManufacturerPartNum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Value2",
+          "name": "Value2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "exclude_from_bom",
+          "name": "exclude_from_bom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

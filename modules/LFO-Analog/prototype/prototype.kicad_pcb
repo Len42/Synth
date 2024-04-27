@@ -2497,7 +2497,7 @@
 	(footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "31b4b3b1-7692-429e-8215-de65bbc8e0d1")
-		(at 128.31 76.2)
+		(at 119.4 58.42)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C6"
@@ -3489,7 +3489,7 @@
 		(descr "MMK5223J50J01L4BULK-2")
 		(tags "Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -2.2 270)
+			(at 2.5 -2.2 -90)
 			(layer "F.SilkS")
 			(uuid "93a76609-a013-45c9-87d0-c71a1a4ff9c5")
 			(effects
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "Value" "3N3"
-			(at 2.5 0 270)
+			(at 2.5 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eeb07e4a-1fd8-4437-8a96-a3003651d849")
@@ -3738,7 +3738,7 @@
 			(uuid "e3ba8231-799b-49e7-8377-8cb1156a46f4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 270)
+			(at 2.5 0 -90)
 			(layer "F.Fab")
 			(uuid "bad1e907-5ea5-44e4-86ea-4a02b60bbb8c")
 			(effects
@@ -6919,7 +6919,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/4c4cb197-663b-4797-a7d4-e55746fb5652")
+		(path "/724bf7a4-f28c-4595-b89f-68fc6069ad73")
 		(sheetname "Root")
 		(sheetfile "prototype.kicad_sch")
 		(attr through_hole)
@@ -7950,7 +7950,7 @@
 	(footprint "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "bcaa3d46-71d6-428e-9e2b-60c2bcffd03d")
-		(at 128.31 72.15)
+		(at 83.84 58.42)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C5"
@@ -8536,7 +8536,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 2.54 -3.56 270)
+			(at 2.54 -3.56 -90)
 			(layer "F.SilkS")
 			(uuid "c1c82103-4534-4380-898b-98987a33cd39")
 			(effects
@@ -8547,7 +8547,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 2.54 2.79 270)
+			(at 2.54 2.79 -90)
 			(layer "F.Fab")
 			(uuid "739154f8-6d81-43c9-8b0c-69305f6871a9")
 			(effects
@@ -8790,7 +8790,7 @@
 			(uuid "5d060e8e-3550-4906-bf6c-929c6094894e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 270)
+			(at 2.54 0 -90)
 			(layer "F.Fab")
 			(uuid "a4406811-8e20-4899-9349-5ed046a2dffb")
 			(effects
@@ -11644,7 +11644,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 2.54 -3.56 270)
+			(at 2.54 -3.56 -90)
 			(layer "F.SilkS")
 			(uuid "b7c003be-6416-4310-9a32-4125a411a957")
 			(effects
@@ -11655,7 +11655,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 2.54 2.79 270)
+			(at 2.54 2.79 -90)
 			(layer "F.Fab")
 			(uuid "f171a722-5b09-4eb8-9a78-187060e2ac85")
 			(effects
@@ -11898,7 +11898,7 @@
 			(uuid "c7c9ea5d-0004-44bb-a8cf-dd3878d92fc6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 270)
+			(at 2.54 0 -90)
 			(layer "F.Fab")
 			(uuid "1090e929-94ec-499c-bd8b-53b88d4322a0")
 			(effects
@@ -12729,30 +12729,30 @@
 		(uuid "95e4970a-d868-4638-8922-27007b4fcd02")
 	)
 	(segment
-		(start 103.613949 77.47)
-		(end 86.886051 77.47)
+		(start 103.613949 74.93)
+		(end 86.886051 74.93)
 		(width 0.4064)
 		(layer "In4.Cu")
 		(net 1)
-		(uuid "b70e0d67-4442-4144-ace4-d0a3ebfa6f0e")
+		(uuid "7af517a8-d21b-4f05-b0da-ba0fb1e186c5")
 	)
 	(arc
 		(start 106.68 76.2)
-		(mid 105.273284 77.139938)
-		(end 103.613949 77.47)
+		(mid 105.273284 75.260062)
+		(end 103.613949 74.93)
 		(width 0.4064)
 		(layer "In4.Cu")
 		(net 1)
-		(uuid "2e6f31db-b647-467d-b9de-e7083a9814a6")
+		(uuid "b4d7fb56-a3e6-44fe-b699-a656d830fd79")
 	)
 	(arc
-		(start 86.886051 77.47)
-		(mid 85.226716 77.139938)
+		(start 86.886051 74.93)
+		(mid 85.226717 75.260062)
 		(end 83.82 76.2)
 		(width 0.4064)
 		(layer "In4.Cu")
 		(net 1)
-		(uuid "ab28afca-e7b1-4702-acd9-99f77cafee80")
+		(uuid "f4731409-2cd3-4f9c-b1e8-58a358b0863b")
 	)
 	(segment
 		(start 102.87 98.425)
