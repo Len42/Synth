@@ -3946,22 +3946,28 @@
 		(uuid "3317f226-0396-4796-b19d-0adabba70c05")
 	)
 	(junction
-		(at 203.2 85.09)
+		(at 236.22 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d3c477-efe0-4c90-8102-b509f2191697")
 	)
 	(junction
-		(at 194.31 92.71)
+		(at 227.33 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38bb7224-1f3f-4f77-b372-86435171609c")
 	)
 	(junction
-		(at 148.59 95.25)
+		(at 187.96 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e1b075b-40c5-4864-9119-26114f18ddfe")
+		(uuid "3c310a1e-f5cc-4777-a308-578f2f0e8abe")
+	)
+	(junction
+		(at 170.18 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2a7b82-edcb-4d87-a084-9a2b9080fd33")
 	)
 	(junction
 		(at 105.41 90.17)
@@ -4030,12 +4036,6 @@
 		(uuid "83c70ce6-e441-4b07-80a6-2f5fb8a6492d")
 	)
 	(junction
-		(at 163.83 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "842bd505-1e22-4912-95c5-7f2b7b8a1e47")
-	)
-	(junction
 		(at 148.59 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4048,7 +4048,13 @@
 		(uuid "8ee0d2f8-fb66-40d5-bd16-499452fc6f39")
 	)
 	(junction
-		(at 194.31 77.47)
+		(at 170.18 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f89da86-677e-4eaa-9dba-0b43285b737a")
+	)
+	(junction
+		(at 227.33 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999868f5-b574-4fc1-a851-8d15ad72bf77")
@@ -4145,13 +4151,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 95.25)
+			(xy 170.18 107.95) (xy 171.45 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "009b1c37-ea4a-4d6a-82b7-09031fc63146")
+		(uuid "014d66e0-93eb-477c-8c35-4f61e654ec2a")
 	)
 	(wire
 		(pts
@@ -4192,16 +4198,6 @@
 			(type default)
 		)
 		(uuid "08623332-420c-4dde-878d-c59da0bb6f43")
-	)
-	(wire
-		(pts
-			(xy 182.88 107.95) (xy 181.61 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a0f9f46-f7d6-479a-b213-e93c80472e7e")
 	)
 	(wire
 		(pts
@@ -4275,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 115.57) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17610140-bf59-45dd-bec6-65a6b4fcc1f1")
+	)
+	(wire
+		(pts
 			(xy 105.41 62.23) (xy 105.41 69.85)
 		)
 		(stroke
@@ -4312,16 +4318,6 @@
 			(type default)
 		)
 		(uuid "1b69ddf7-d225-460d-867c-325655930162")
-	)
-	(wire
-		(pts
-			(xy 180.34 97.79) (xy 182.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc45b2c-2b83-41ae-ab53-f3ea626c57af")
 	)
 	(wire
 		(pts
@@ -4375,6 +4371,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 95.25) (xy 170.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d2fefb-6a06-4cdc-b97e-4f95862d5a31")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274d24ec-5572-4f15-8f5a-420a9ab2783f")
+	)
+	(wire
+		(pts
 			(xy 113.03 123.19) (xy 113.03 129.54)
 		)
 		(stroke
@@ -4385,7 +4401,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 213.36 85.09)
+			(xy 161.29 102.87) (xy 148.59 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f873bd-26c7-4918-b57b-392e2163ecc3")
+	)
+	(wire
+		(pts
+			(xy 236.22 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4435,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 77.47) (xy 203.2 77.47)
+			(xy 227.33 113.03) (xy 236.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4465,37 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32deb215-2a1f-48ff-88c7-349964fba251")
-	)
-	(wire
-		(pts
-			(xy 148.59 95.25) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f6972e-f033-4a8c-8de7-f1cdb60a522d")
-	)
-	(wire
-		(pts
-			(xy 165.1 107.95) (xy 163.83 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3343cb47-1a28-4c99-bd29-95f6c556c16b")
-	)
-	(wire
-		(pts
-			(xy 194.31 92.71) (xy 203.2 92.71)
+			(xy 227.33 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4601,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 85.09) (xy 213.36 86.36)
+			(xy 246.38 120.65) (xy 246.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4615,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 118.11) (xy 163.83 116.84)
+			(xy 170.18 120.65) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4645,13 +4641,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 165.1 100.33)
+			(xy 199.39 105.41) (xy 196.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fdfe2c4-d9f4-4ee1-bbad-2b8051016537")
+		(uuid "4f2f2b9f-ebee-4ca0-93f2-cde3018d19f6")
 	)
 	(wire
 		(pts
@@ -4752,6 +4748,16 @@
 			(type default)
 		)
 		(uuid "60bc8b94-d2e7-423b-b036-288031cc75e9")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d4b162-db9f-46d9-bea7-7eb0a2bb0f55")
 	)
 	(wire
 		(pts
@@ -4935,6 +4941,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 107.95) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88646386-4f2e-4946-a4d8-65cde7f97e6d")
+	)
+	(wire
+		(pts
 			(xy 148.59 116.84) (xy 148.59 107.95)
 		)
 		(stroke
@@ -4942,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "8c0cb249-83d1-4555-ab70-a776166cdcae")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93548500-7f8a-47c4-9df0-321a88ebd818")
 	)
 	(wire
 		(pts
@@ -4965,13 +4991,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 165.1 95.25)
+			(xy 189.23 105.41) (xy 187.96 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98888f1b-c8f1-4e3a-8081-8227e1c5101c")
+		(uuid "965e2916-f844-42ac-ba8e-df6484f94ed6")
 	)
 	(wire
 		(pts
@@ -5025,6 +5051,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 95.25) (xy 182.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2157ec-b312-4bdf-9c43-750b5ff4abfc")
+	)
+	(wire
+		(pts
 			(xy 113.03 129.54) (xy 130.81 129.54)
 		)
 		(stroke
@@ -5075,16 +5111,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 109.22) (xy 163.83 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9325d5-d965-4d33-9f3e-5dda6a3ce40f")
-	)
-	(wire
-		(pts
 			(xy 130.81 137.16) (xy 130.81 138.43)
 		)
 		(stroke
@@ -5095,13 +5121,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 107.95) (xy 172.72 107.95)
+			(xy 187.96 105.41) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1d31d58-87e4-4461-8ddf-c96cdaa6643a")
+		(uuid "b0f478d8-399a-4ab1-a25c-192ed08ce8cc")
 	)
 	(wire
 		(pts
@@ -5145,6 +5171,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 106.68) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ec2b3c-690f-4bfe-b465-b7d1a1d2d9ea")
+	)
+	(wire
+		(pts
 			(xy 110.49 52.07) (xy 105.41 52.07)
 		)
 		(stroke
@@ -5155,13 +5191,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 148.59 107.95)
+			(xy 148.59 102.87) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1eebd40-2d12-48f6-a127-6045abe74e6f")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3418806-21d6-41d9-9d05-cdc23ede01ce")
 	)
 	(wire
 		(pts
@@ -5172,6 +5218,16 @@
 			(type default)
 		)
 		(uuid "c526f7a8-e660-46fa-aba2-0412717ed6c6")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9106c3d-39ca-40e3-ae6a-cbdfb7e1b29a")
 	)
 	(wire
 		(pts
@@ -5265,16 +5321,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 148.59 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bfb5fd-319a-4f78-bc4a-77608a668044")
-	)
-	(wire
-		(pts
 			(xy 130.81 107.95) (xy 130.81 116.84)
 		)
 		(stroke
@@ -5325,16 +5371,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 97.79) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb233357-c8d6-4f30-b6cc-b4c49bc8f56c")
-	)
-	(wire
-		(pts
 			(xy 104.14 154.94) (xy 102.87 154.94)
 		)
 		(stroke
@@ -5342,6 +5378,16 @@
 			(type default)
 		)
 		(uuid "ebf01df1-b21b-4366-8367-e69510a7c38c")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d572d3-738b-49c0-bf58-b8304ed09699")
 	)
 	(wire
 		(pts
@@ -5414,15 +5460,27 @@
 		)
 		(uuid "014b8984-e282-4468-8e19-3214b97df122")
 	)
-	(text "TODO: Fix the LED!\n(see simulation)"
+	(text "TODO: The LED blinks backwards.\nNeeds another opamp to fix."
 		(exclude_from_sim no)
-		(at 169.164 85.09 0)
+		(at 164.846 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "065a7528-7963-49bf-a5bb-baa166e1fb8d")
+		(uuid "54a969b5-61e0-4aa3-a19d-e1f5bda73048")
+	)
+	(text "TODO: Buffer the output\nif there's room for opamps"
+		(exclude_from_sim no)
+		(at 123.19 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a803ec5-15b1-4951-957d-e65f851aaca8")
 	)
 	(text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
 		(exclude_from_sim no)
@@ -6957,8 +7015,7 @@
 	)
 	(symbol
 		(lib_id "-lmp-synth:LED_3mm_Blue")
-		(at 177.8 107.95 0)
-		(mirror x)
+		(at 193.04 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6967,7 +7024,7 @@
 		(fields_autoplaced yes)
 		(uuid "2855f8e1-b8d9-481c-841b-76454ac6da0b")
 		(property "Reference" "D1"
-			(at 176.2125 110.9401 0)
+			(at 194.6275 108.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7032,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 176.2125 113.3644 0)
+			(at 194.6275 110.8244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +7040,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +7049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/239/Lite-On_LTL17KTBS3KS-032A-ver.02-1175323.pdf"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7058,7 @@
 			)
 		)
 		(property "Description" "Blue Light Emitting Diode"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7067,7 @@
 			)
 		)
 		(property "Label" ""
-			(at 176.2125 110.9401 0)
+			(at 194.6275 108.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7076,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7085,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "WP710A10QBD/D"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7094,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7103,7 @@
 			)
 		)
 		(property "DistributorPartNum" "604-WP710A10QBD/D"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7112,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Kingbright/WP710A10QBD-D?qs=%2Fha2pyFaduhxM0Yc4LNdCV5tSkUIQ4jFdDFR7390XhPTkxv9WTdJ0Q%3D%3D"
-			(at 177.8 107.95 0)
+			(at 193.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,16 +7383,16 @@
 	)
 	(symbol
 		(lib_id "-lmp-opamp:TL074")
-		(at 172.72 97.79 0)
+		(at 179.07 105.41 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3092bc6f-532c-4586-a4c7-30be83467798")
 		(property "Reference" "U1"
-			(at 172.72 88.5655 0)
+			(at 179.07 114.6345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +7400,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 172.72 90.9898 0)
+			(at 179.07 112.2102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +7408,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 171.45 95.25 0)
+			(at 177.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 173.99 92.71 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +7426,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7435,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7444,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "TL074BCN"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7453,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7462,7 @@
 			)
 		)
 		(property "DistributorPartNum" "595-TL074BCN"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7471,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/?qs=vxEfx8VrU7BHurOY5iQdiA%3D%3D"
-			(at 172.72 97.79 0)
+			(at 179.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +7776,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:R_1%_0W166")
-		(at 148.59 100.33 180)
+		(at 165.1 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7728,25 +7785,23 @@
 		(fields_autoplaced yes)
 		(uuid "36fceaf8-23a4-4661-89c8-577dc2809552")
 		(property "Reference" "R19"
-			(at 150.368 99.1178 0)
+			(at 165.1 97.7095 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100K"
-			(at 150.368 101.5421 0)
+		(property "Value" "220K"
+			(at 165.1 100.1338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_4"
-			(at 150.368 100.33 90)
+		(property "Footprint" "-lmp-stripboard:SB_Gen_5"
+			(at 165.1 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +7828,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7837,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "MFR-12*"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +7846,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7855,7 @@
 			)
 		)
 		(property "DistributorPartNum" "603-MFR-12*"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7864,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
-			(at 148.59 100.33 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7873,7 @@
 			)
 		)
 		(property "Value2" "1%, 1/6 W"
-			(at 143.637 100.33 90)
+			(at 165.1 107.823 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +7967,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "-lmp-power:GND")
-		(at 213.36 86.36 0)
+		(at 246.38 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7921,7 +7976,7 @@
 		(fields_autoplaced yes)
 		(uuid "425a6608-9775-4d14-8c86-79339722d0f7")
 		(property "Reference" "#PWR020"
-			(at 213.36 92.71 0)
+			(at 246.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7985,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 90.17 0)
+			(at 246.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +7994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 86.36 0)
+			(at 246.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +8003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 86.36 0)
+			(at 246.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +8012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 86.36 0)
+			(at 246.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,44 +8504,35 @@
 		)
 	)
 	(symbol
-		(lib_id "-lmp-opamp:TL074")
-		(at 196.85 85.09 0)
-		(unit 5)
+		(lib_id "-lmp:R_1%_0W166")
+		(at 170.18 115.57 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c4cb197-663b-4797-a7d4-e55746fb5652")
-		(property "Reference" "U1"
-			(at 194.945 83.8778 0)
+		(uuid "4bce538c-47af-46b1-a3df-e3121c601170")
+		(property "Reference" "R22"
+			(at 171.958 114.3578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TL074"
-			(at 194.945 86.3021 0)
+		(property "Value" "36K"
+			(at 171.958 116.7821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 195.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 198.12 80.01 0)
+		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+			(at 171.958 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,8 +8540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 196.85 85.09 0)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,8 +8549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 196.85 85.09 0)
+		(property "Description" "Resistor"
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,8 +8558,17 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "TL074BCN"
-			(at 196.85 85.09 0)
+		(property "Manufacturer" "YAGEO"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNum" "MFR-12*"
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8577,131 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 196.85 85.09 0)
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartNum" "603-MFR-12*"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "1%, 1/6 W"
+			(at 165.227 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69e72eb-272f-4d83-927e-7820b2df0875")
+		)
+		(pin "2"
+			(uuid "b517c53e-bdc7-42b2-8300-e334d926a7fc")
+		)
+		(instances
+			(project "prototype"
+				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-lmp-opamp:TL074")
+		(at 229.87 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c4cb197-663b-4797-a7d4-e55746fb5652")
+		(property "Reference" "U1"
+			(at 227.965 119.4378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 227.965 121.8621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 228.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNum" "TL074BCN"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 229.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8710,7 @@
 			)
 		)
 		(property "DistributorPartNum" "595-TL074BCN"
-			(at 196.85 85.09 0)
+			(at 229.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8719,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/?qs=vxEfx8VrU7BHurOY5iQdiA%3D%3D"
-			(at 196.85 85.09 0)
+			(at 229.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +8780,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CC_100N")
-		(at 203.2 88.9 0)
+		(at 236.22 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8610,7 +8789,7 @@
 		(fields_autoplaced yes)
 		(uuid "51b96cf5-08b2-415a-b93e-b402cceb6a70")
 		(property "Reference" "C6"
-			(at 206.121 87.6878 0)
+			(at 239.141 123.2478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,7 +8798,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 206.121 90.1121 0)
+			(at 239.141 125.6721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8807,7 @@
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 204.1652 92.71 0)
+			(at 237.1852 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8816,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
-			(at 202.565 92.71 0)
+			(at 235.585 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8825,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Ceramic - IC decoupling"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8834,7 @@
 			)
 		)
 		(property "Note" "IC decoupling"
-			(at 203.835 93.98 0)
+			(at 236.855 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8844,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8853,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "FG18X7R1H104KNT06"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8862,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8871,7 @@
 			)
 		)
 		(property "DistributorPartNum" "810-FG18X7R1H104KNT6"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8880,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6"
-			(at 203.2 88.9 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8905,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:R_1%_0W166")
-		(at 148.59 90.17 180)
+		(at 165.1 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8735,25 +8914,23 @@
 		(fields_autoplaced yes)
 		(uuid "5330f702-2411-47d9-92c1-d6fe8379e637")
 		(property "Reference" "R20"
-			(at 150.368 88.9578 0)
+			(at 165.1 110.6861 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "220K"
-			(at 150.368 91.3821 0)
+			(at 165.1 113.1104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "-lmp-stripboard:SB_Gen_4"
-			(at 150.368 90.17 90)
+			(at 165.1 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +8939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +8948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8957,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +8966,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "MFR-12*"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8975,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8984,7 @@
 			)
 		)
 		(property "DistributorPartNum" "603-MFR-12*"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8993,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
-			(at 148.59 90.17 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +9002,7 @@
 			)
 		)
 		(property "Value2" "1%, 1/6 W"
-			(at 143.637 90.17 90)
+			(at 165.1 112.903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,6 +9020,128 @@
 			(project "prototype"
 				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-lmp:R_1%_0W166")
+		(at 179.07 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557a4f88-262e-4e18-8b94-875940c286bc")
+		(property "Reference" "R23"
+			(at 179.07 90.0895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 179.07 92.5138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+			(at 179.07 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNum" "MFR-12*"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartNum" "603-MFR-12*"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "1%, 1/6 W"
+			(at 179.07 100.203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e6e9aed-7069-409f-a92a-b60cd5c0c0ed")
+		)
+		(pin "2"
+			(uuid "06178ddf-ca52-4379-8471-9a1765c8f026")
+		)
+		(instances
+			(project "prototype"
+				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9159,6 +9458,74 @@
 			(project "prototype"
 				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "-lmp-power:GND")
+		(at 199.39 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676d6cb9-e86c-48fb-a232-75493b5a1d39")
+		(property "Reference" "#PWR021"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445aeef5-e004-426d-a3a8-7476f79423a0")
+		)
+		(instances
+			(project "prototype"
+				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9843,72 +10210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "-lmp-power:+12V")
-		(at 148.59 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "763963f2-908b-4755-a452-2cae3d048252")
-		(property "Reference" "#PWR018"
-			(at 148.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 148.59 80.9569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f166fa3a-d7d3-4a41-8316-0f287f33dd09")
-		)
-		(instances
-			(project "prototype"
-				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "-lmp-synth:R_1K_Output")
 		(at 154.94 127 90)
 		(unit 1)
@@ -10285,7 +10586,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CC_100N")
-		(at 203.2 81.28 0)
+		(at 236.22 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10294,7 +10595,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c9802e1-81c5-40d6-9cf0-7652c25d676c")
 		(property "Reference" "C5"
-			(at 206.121 80.0678 0)
+			(at 239.141 115.6278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10604,7 @@
 			)
 		)
 		(property "Value" "100N"
-			(at 206.121 82.4921 0)
+			(at 239.141 118.0521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10613,7 @@
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 204.1652 85.09 0)
+			(at 237.1852 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10622,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
-			(at 202.565 85.09 0)
+			(at 235.585 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10631,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Ceramic - IC decoupling"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10640,7 @@
 			)
 		)
 		(property "Note" "IC decoupling"
-			(at 203.835 86.36 0)
+			(at 236.855 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10650,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10659,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "FG18X7R1H104KNT06"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10668,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10677,7 @@
 			)
 		)
 		(property "DistributorPartNum" "810-FG18X7R1H104KNT6"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10686,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/810-FG18X7R1H104KNT6"
-			(at 203.2 81.28 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,139 +10772,6 @@
 			(project "prototype"
 				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-lmp-synth:R_1K_Output")
-		(at 163.83 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2360100-11cd-473c-8659-b6ab76a30bfe")
-		(property "Reference" "R22"
-			(at 162.052 110.6057 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 162.052 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
-			(at 162.052 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/427/ccf07-1762725.pdf"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value2" "5%, 1/4 W"
-			(at 162.052 115.4543 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Note" "Output limiting"
-			(at 161.925 114.935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay / Dale"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ManufacturerPartNum" "CCF071K00JKE36"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 161.925 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DistributorPartNum" "71-CCF071K00JKE36"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Vishay-Dale/CCF071K00JKE36?qs=sGAEpiMZZMsPqMdJzcrNwqw41JD0NFylHV1MADcQnpo%3D"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61f31684-50d9-48ca-a021-7a292a9364b8")
-		)
-		(pin "1"
-			(uuid "4f1ea736-45af-4e38-927b-5c22fa9ff0bb")
-		)
-		(instances
-			(project "prototype"
-				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11204,6 +11372,73 @@
 		)
 	)
 	(symbol
+		(lib_id "-lmp-power:+12V")
+		(at 160.02 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7cbb071-769b-47c7-ac57-55042dc314e8")
+		(property "Reference" "#PWR018"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 156.845 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f304a90-ff43-411f-ba08-7753bcb73814")
+		)
+		(instances
+			(project "prototype"
+				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "-lmp:R_1%_0W166")
 		(at 69.85 67.31 90)
 		(unit 1)
@@ -11328,7 +11563,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "-lmp-power:GND")
-		(at 163.83 118.11 0)
+		(at 170.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11337,7 +11572,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0d3c9ad-6ef3-4417-b4f2-d7a50b6a79fb")
 		(property "Reference" "#PWR019"
-			(at 163.83 124.46 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +11581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 121.92 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,7 +11590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 118.11 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11364,7 +11599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 118.11 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 118.11 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11696,7 @@
 	)
 	(symbol
 		(lib_id "-lmp-power:+12V")
-		(at 194.31 77.47 0)
+		(at 227.33 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11470,7 +11705,7 @@
 		(fields_autoplaced yes)
 		(uuid "df2be6de-dc24-4960-973a-87f7ddd371c5")
 		(property "Reference" "#PWR010"
-			(at 194.31 81.28 0)
+			(at 227.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +11714,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 194.31 73.3369 0)
+			(at 227.33 108.8969 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 77.47 0)
+			(at 227.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 77.47 0)
+			(at 227.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 77.47 0)
+			(at 227.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11762,7 @@
 	)
 	(symbol
 		(lib_id "-lmp-power:-12V")
-		(at 194.31 92.71 0)
+		(at 227.33 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11536,7 +11771,7 @@
 		(fields_autoplaced yes)
 		(uuid "e042aab9-2e22-41bf-9b09-e76bca05f5f0")
 		(property "Reference" "#PWR011"
-			(at 194.31 88.9 0)
+			(at 227.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +11780,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 194.31 96.8431 0)
+			(at 227.33 132.4031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 92.71 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11562,7 +11797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 92.71 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +11806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 194.31 92.71 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +12185,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:R_1%_0W166")
-		(at 168.91 107.95 90)
+		(at 199.39 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11959,23 +12194,25 @@
 		(fields_autoplaced yes)
 		(uuid "fae6e531-63a9-4439-8b43-166c3ae3b7eb")
 		(property "Reference" "R21"
-			(at 168.91 110.6861 90)
+			(at 201.168 109.2778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "220R"
-			(at 168.91 113.1104 90)
+		(property "Value" "1K"
+			(at 201.168 111.7021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_2"
-			(at 168.91 109.728 90)
+		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+			(at 201.168 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +12221,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +12230,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12002,7 +12239,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12011,7 +12248,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "MFR-12*"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,7 +12257,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12029,7 +12266,7 @@
 			)
 		)
 		(property "DistributorPartNum" "603-MFR-12*"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +12275,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
-			(at 168.91 107.95 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +12284,7 @@
 			)
 		)
 		(property "Value2" "1%, 1/6 W"
-			(at 168.91 102.997 90)
+			(at 194.437 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
