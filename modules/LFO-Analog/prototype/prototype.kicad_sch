@@ -3922,6 +3922,12 @@
 		)
 	)
 	(junction
+		(at 93.98 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1902f820-2441-408a-bd9c-354690fb0698")
+	)
+	(junction
 		(at 123.19 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4136,6 +4142,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95005de-da4c-4f1e-95ce-8aadf4918331")
+	)
+	(junction
+		(at 90.17 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd3c7dcc-beb8-45d5-bb81-4e0d38265beb")
 	)
 	(no_connect
 		(at 226.06 77.47)
@@ -4681,6 +4693,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 59.69) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5645224d-ad27-43d5-b5db-df426bfbdb04")
+	)
+	(wire
+		(pts
 			(xy 233.68 80.01) (xy 233.68 77.47)
 		)
 		(stroke
@@ -4908,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "7dc4e5af-73cd-4380-bb08-d7454cc09709")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd312a6-bab9-4bf4-a0cb-eea722b0dbe4")
 	)
 	(wire
 		(pts
@@ -5431,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 53.34) (xy 93.98 69.85)
+			(xy 93.98 53.34) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6258,8 +6290,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "01733e8c-7ef8-4251-a65d-11e629c73cce")
 		(property "Reference" "R16"
@@ -6843,8 +6875,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "15fe611a-9eb6-408d-abd7-a89e514ec1de")
 		(property "Reference" "C3"
@@ -7263,8 +7295,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2c3f11c7-4876-4398-923c-e693dd714a44")
 		(property "Reference" "R17"
@@ -7678,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "-lmp-stripboard:SB_Gen_4"
 			(at 100.33 71.628 90)
 			(effects
 				(font
@@ -8159,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "10K"
 			(at 135.128 78.6821 0)
 			(effects
 				(font
@@ -9549,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "13K"
 			(at 128.27 69.6538 90)
 			(effects
 				(font
@@ -11234,8 +11266,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a904d503-de20-476a-aabb-40bc384927e7")
 		(property "Reference" "JP2"
