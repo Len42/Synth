@@ -554,7 +554,7 @@
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R13"
-			(at 1.27 -2.37 270)
+			(at 1.27 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "b55ae0d1-9cc9-45f5-94cf-e925306d28cd")
 			(effects
@@ -565,7 +565,7 @@
 			)
 		)
 		(property "Value" "4M7"
-			(at 1.27 2.37 270)
+			(at 1.27 2.37 -90)
 			(layer "F.Fab")
 			(uuid "117189db-0507-4928-9532-7237d60c4889")
 			(effects
@@ -774,7 +774,7 @@
 			(uuid "60648afa-d2f2-4136-831a-ed82a5a6fcbf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.37 270)
+			(at 1.27 -2.37 -90)
 			(layer "F.Fab")
 			(uuid "d4547445-c734-4774-967a-5a0153740fec")
 			(effects
@@ -1639,7 +1639,7 @@
 		(descr "Stripboard, span 2 rows")
 		(tags "Stripboard")
 		(property "Reference" "R12"
-			(at 2.54 -2.37 270)
+			(at 2.54 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "341c1c70-683e-4328-af1b-a241cd1bebca")
 			(effects
@@ -1650,7 +1650,7 @@
 			)
 		)
 		(property "Value" "200K"
-			(at 2.54 2.37 270)
+			(at 2.54 2.37 -90)
 			(layer "F.Fab")
 			(uuid "912a9634-49c3-455a-b131-addd0ecc2cd6")
 			(effects
@@ -1859,7 +1859,7 @@
 			(uuid "f8c097e8-04e9-4fa9-b0ba-9eb421aa0a19")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -2.37 270)
+			(at 2.54 -2.37 -90)
 			(layer "F.Fab")
 			(uuid "51c05e60-96c9-4201-8ec8-2020b772be5e")
 			(effects
@@ -5072,7 +5072,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R14"
-			(at 3.81 -2.37 270)
+			(at 3.81 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "4d243ffc-5570-4852-b826-9c5364901b42")
 			(effects
@@ -5083,7 +5083,7 @@
 			)
 		)
 		(property "Value" "13K"
-			(at 3.81 2.37 270)
+			(at 3.81 2.37 -90)
 			(layer "F.Fab")
 			(uuid "f93b33f6-31ad-4ce5-9568-a6d0d39573ab")
 			(effects
@@ -5373,7 +5373,7 @@
 			(uuid "4314f382-668f-4946-aa2b-372767c2cd14")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 270)
+			(at 3.81 0 -90)
 			(layer "F.Fab")
 			(uuid "8b5882af-793a-422c-9fef-fddf37576d8b")
 			(effects
@@ -8372,7 +8372,7 @@
 		(descr "Stripboard, span 2 rows")
 		(tags "Stripboard")
 		(property "Reference" "C4"
-			(at 2.54 -2.37 270)
+			(at 2.54 -2.37 -90)
 			(layer "F.SilkS")
 			(uuid "756d6bbf-6d7e-48d2-963c-ff9478206a3b")
 			(effects
@@ -8383,7 +8383,7 @@
 			)
 		)
 		(property "Value" "47P"
-			(at 2.54 2.37 270)
+			(at 2.54 2.37 -90)
 			(layer "F.Fab")
 			(uuid "21968a98-7770-4d0f-8e7e-dd9120091489")
 			(effects
@@ -8579,7 +8579,7 @@
 			(uuid "b172823e-f4ba-4673-a270-e67cfefbb189")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -2.37 270)
+			(at 2.54 -2.37 -90)
 			(layer "F.Fab")
 			(uuid "9828ceb1-047a-4b38-a95c-14b5a16034ac")
 			(effects
@@ -10840,7 +10840,7 @@
 		)
 	)
 	(gr_text "TODO: \nCONNECT"
-		(at 86.995 72.39 0)
+		(at 99.06 73.66 0)
 		(layer "Cmts.User")
 		(uuid "b05d3f3e-a082-41ce-9dca-82ecb81da76e")
 		(effects
@@ -10874,10 +10874,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TODO: \nREMOVE"
-		(at 99.06 95.25 0)
+	(gr_text "OUT"
+		(at 104.14 94.615 0)
 		(layer "Cmts.User")
-		(uuid "ff9663e8-b6a3-4a0d-8074-43d62b4856d7")
+		(uuid "fc00491b-47ba-4bae-af36-d1d1b82c6731")
 		(effects
 			(font
 				(size 1 1)
@@ -11742,7 +11742,7 @@
 		(uuid "fd622951-8cdf-4a96-b96b-236c5b44e4fe")
 	)
 	(segment
-		(start 97.7392 53.975)
+		(start 97.7392 52.986447)
 		(end 97.7392 63.38396)
 		(width 0.4064)
 		(layer "In3.Cu")
@@ -11750,7 +11750,7 @@
 		(uuid "60223f77-b857-4174-bf89-7684e04c6727")
 	)
 	(segment
-		(start 100.397356 47.557644)
+		(start 99.698343 48.256657)
 		(end 104.14 43.815)
 		(width 0.4064)
 		(layer "In3.Cu")
@@ -11783,9 +11783,9 @@
 		(uuid "3e3c9e09-bff4-464a-bfc7-66352fa82789")
 	)
 	(arc
-		(start 97.7392 53.975)
-		(mid 98.430032 50.501952)
-		(end 100.397356 47.557644)
+		(start 97.7392 52.986447)
+		(mid 98.248365 50.426703)
+		(end 99.698343 48.256657)
 		(width 0.4064)
 		(layer "In3.Cu")
 		(net 7)
@@ -11904,14 +11904,6 @@
 		(uuid "71aebed3-63b3-4a83-956b-bb18556ebe54")
 	)
 	(via
-		(at 99.06 91.44)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 11)
-		(uuid "48ba9498-9460-4b65-a419-7106ebf26bc2")
-	)
-	(via
 		(at 96.52 68.58)
 		(size 0.8)
 		(drill 0.4)
@@ -11927,6 +11919,22 @@
 		(net 11)
 		(uuid "74fefedd-0b3e-4f7e-b018-da4ea524357c")
 	)
+	(via
+		(at 99.06 71.12)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "ae0acc0f-8c0d-4ee0-a81a-5dd481d563f4")
+	)
+	(via
+		(at 99.06 91.44)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 11)
+		(uuid "c08c581c-f164-4d0a-b8ae-6bd2b0eb8e64")
+	)
 	(segment
 		(start 96.52 68.58)
 		(end 96.52 71.12)
@@ -11936,21 +11944,38 @@
 		(uuid "e91ef1c1-4072-4d66-b0ca-8d034e74e9e8")
 	)
 	(segment
-		(start 104.960987 97.340987)
-		(end 99.06 91.44)
+		(start 100.965 86.995)
+		(end 100.965 75.719076)
 		(width 0.4064)
-		(layer "In4.Cu")
+		(layer "In3.Cu")
 		(net 11)
-		(uuid "a7c34f38-6d87-4605-a31c-bebfc6268218")
+		(uuid "773cab81-8eea-45ba-99ea-bcad7bb12170")
+	)
+	(segment
+		(start 99.06 91.44)
+		(end 99.168948 91.331052)
+		(width 0.4064)
+		(layer "In3.Cu")
+		(net 11)
+		(uuid "edf76a08-9508-40e2-a5ee-827d93c3e20f")
 	)
 	(arc
-		(start 105.41 98.425)
-		(mid 105.293305 97.838336)
-		(end 104.960987 97.340987)
+		(start 100.965 75.719076)
+		(mid 100.469907 73.230074)
+		(end 99.06 71.12)
 		(width 0.4064)
-		(layer "In4.Cu")
+		(layer "In3.Cu")
 		(net 11)
-		(uuid "dcdcc88e-70c3-437e-a457-84cee96c6877")
+		(uuid "26939ec6-4b46-4ee1-a4af-55a1e77dd22a")
+	)
+	(arc
+		(start 99.168948 91.331052)
+		(mid 100.498221 89.341654)
+		(end 100.965 86.995)
+		(width 0.4064)
+		(layer "In3.Cu")
+		(net 11)
+		(uuid "a92999fb-9129-4667-a23c-9526cd247438")
 	)
 	(segment
 		(start 99.06 83.82)
