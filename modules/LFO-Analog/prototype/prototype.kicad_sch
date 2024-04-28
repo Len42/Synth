@@ -5414,6 +5414,16 @@
 		)
 		(uuid "014b8984-e282-4468-8e19-3214b97df122")
 	)
+	(text "TODO: Fix the LED!\n(see simulation)"
+		(exclude_from_sim no)
+		(at 169.164 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "065a7528-7963-49bf-a5bb-baa166e1fb8d")
+	)
 	(text "All fixed resistors are 1% tolerance unless otherwise specified.\nAll eletrolytic capacitors are rated for 25VDC unless otherwise specified."
 		(exclude_from_sim no)
 		(at 177.8 156.21 0)
@@ -11956,7 +11966,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "220R"
 			(at 168.91 113.1104 90)
 			(effects
 				(font

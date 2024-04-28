@@ -1257,7 +1257,7 @@
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R7"
-			(at 1.27 -2.37 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "9df58cb4-b025-4703-9a45-19a9e114e4e3")
 			(effects
@@ -1529,7 +1529,7 @@
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R8"
-			(at 1.27 -2.37 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "dba7a012-7748-4bb7-bc72-63667d9abf11")
 			(effects
@@ -1801,7 +1801,7 @@
 		(descr "Stripboard, span 4 rows")
 		(tags "Stripboard")
 		(property "Reference" "R20"
-			(at 5.08 -2.37 90)
+			(at -1.905 0 180)
 			(layer "F.SilkS")
 			(uuid "761bee2e-bb5c-4770-a053-fb031671df97")
 			(effects
@@ -2501,7 +2501,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C6"
-			(at 1.25 -2.5 0)
+			(at 5.06 0 0)
 			(layer "F.SilkS")
 			(uuid "daba7945-3f90-438e-bfb9-839124a9286d")
 			(effects
@@ -2811,7 +2811,7 @@
 		(descr "Stripboard, span 4 rows")
 		(tags "Stripboard")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 -90)
+			(at 5.08 0 -90)
 			(layer "F.SilkS")
 			(uuid "a2475500-4f25-4453-bc32-846f1c126a15")
 			(effects
@@ -3161,7 +3161,7 @@
 		(descr "IR-LED, diameter 3.0mm, 2 pins, color: clear")
 		(tags "IR infrared LED diameter 3.0mm 2 pins clear")
 		(property "Reference" "D1"
-			(at 1.27 -2.96 90)
+			(at -1.905 0 180)
 			(layer "F.SilkS")
 			(uuid "89eb79b4-7e2d-4217-9137-2efa7c3f3c3d")
 			(effects
@@ -3485,11 +3485,11 @@
 	(footprint "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm"
 		(layer "F.Cu")
 		(uuid "4a36abef-01cf-4ce1-a338-651d5cffb3d1")
-		(at 114.3 73.62 90)
+		(at 116.84 73.58 90)
 		(descr "MMK5223J50J01L4BULK-2")
 		(tags "Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -2.2 -90)
+			(at 2.46 0.635 -90)
 			(layer "F.SilkS")
 			(uuid "93a76609-a013-45c9-87d0-c71a1a4ff9c5")
 			(effects
@@ -4137,7 +4137,7 @@
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R2"
-			(at 1.27 -2.37 180)
+			(at 5.08 0 180)
 			(layer "F.SilkS")
 			(uuid "51a501e7-c08b-4631-b8ba-c751dbf08e2f")
 			(effects
@@ -4759,7 +4759,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1"
-			(at -2.54 -3.66 90)
+			(at 3.81 0 180)
 			(layer "F.SilkS")
 			(uuid "4e32955b-97b3-4377-9149-8cd9a608a060")
 			(effects
@@ -5824,7 +5824,7 @@
 		(descr "Stripboard, span 4 rows")
 		(tags "Stripboard")
 		(property "Reference" "R19"
-			(at 5.08 -2.37 270)
+			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "c3490b66-9bc6-4a5b-bca6-2e83f83066b9")
 			(effects
@@ -5835,7 +5835,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 5.08 2.37 270)
+			(at 5.08 2.37 -90)
 			(layer "F.Fab")
 			(uuid "1ef44a6e-58eb-4c98-950b-a74178207d89")
 			(effects
@@ -6125,7 +6125,7 @@
 			(uuid "a3637fb4-d29d-41af-b4b7-98904aafb8ca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
+			(at 5.08 0 -90)
 			(layer "F.Fab")
 			(uuid "ac92bea9-24c5-43b7-abc9-001c12d99d00")
 			(effects
@@ -8260,11 +8260,11 @@
 	(footprint "-lmp-stripboard:SB_Gen_1"
 		(layer "F.Cu")
 		(uuid "c129447b-5680-455c-951f-fa8801716a6c")
-		(at 116.84 76.425 -90)
+		(at 116.84 76.2 -90)
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R6"
-			(at 1.27 -2.37 -90)
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
 			(uuid "6e1afcaa-3f09-42ac-af05-392be18a27a7")
 			(effects
@@ -8536,7 +8536,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 2.54 -3.56 -90)
+			(at 5.08 3.81 0)
 			(layer "F.SilkS")
 			(uuid "c1c82103-4534-4380-898b-98987a33cd39")
 			(effects
@@ -9985,7 +9985,7 @@
 		(descr "Stripboard, span 1 row")
 		(tags "Stripboard")
 		(property "Reference" "R22"
-			(at 1.27 -2.37 360)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "701c6bd7-8463-4e27-99b6-85a69d2ec283")
 			(effects
@@ -9996,7 +9996,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 1.27 2.37 360)
+			(at 1.27 2.37 0)
 			(layer "F.Fab")
 			(uuid "139935ab-e039-4fbb-a7da-d70c51d65d6d")
 			(effects
@@ -10221,7 +10221,7 @@
 			(uuid "a13b5a6b-5abb-47e1-988d-6c51b1c0a796")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.37 360)
+			(at 1.27 -2.37 0)
 			(layer "F.Fab")
 			(uuid "3b2cc411-226b-4f7b-9177-0cbc765348fd")
 			(effects
@@ -10270,7 +10270,7 @@
 		(descr "Stripboard, span 2 rows")
 		(tags "Stripboard")
 		(property "Reference" "R21"
-			(at 2.54 -2.37 90)
+			(at 6.985 0 180)
 			(layer "F.SilkS")
 			(uuid "dd8f2ebe-dee0-4132-b76a-e8e1205b1532")
 			(effects
@@ -10280,7 +10280,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "220R"
 			(at 2.54 2.37 90)
 			(layer "F.Fab")
 			(uuid "0aadef7c-23c4-4326-b2e5-9fcd7bb35710")
@@ -10853,7 +10853,7 @@
 		(descr "Stripboard, span 9 rows")
 		(tags "Stripboard")
 		(property "Reference" "R18"
-			(at 11.43 -2.37 90)
+			(at 11.43 -0.635 90)
 			(layer "F.SilkS")
 			(uuid "31b0ebf6-33c6-485d-9669-93735333ee81")
 			(effects
@@ -11212,11 +11212,11 @@
 	(footprint "-lmp-stripboard:SB_Gen_2"
 		(layer "F.Cu")
 		(uuid "e5f51724-10d3-4eee-8369-a28dfee6cb4a")
-		(at 116.84 73.66 90)
+		(at 114.3 73.66 90)
 		(descr "Stripboard, span 2 rows")
 		(tags "Stripboard")
 		(property "Reference" "R9"
-			(at 2.54 -2.37 90)
+			(at 2.54 -0.635 90)
 			(layer "F.SilkS")
 			(uuid "2efa7d14-a08f-4dff-b728-c9bd51e60a37")
 			(effects
@@ -11488,7 +11488,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 2.54 -3.56 -90)
+			(at 5.08 -4.445 0)
 			(layer "F.SilkS")
 			(uuid "b7c003be-6416-4310-9a32-4125a411a957")
 			(effects
