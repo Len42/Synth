@@ -5283,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 80.01) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5caf618-16c5-4609-8a8d-d83f69d09e9e")
+	)
+	(wire
+		(pts
 			(xy 74.93 59.69) (xy 76.2 59.69)
 		)
 		(stroke
@@ -6533,7 +6543,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "-lmp-power:GND")
-		(at 60.96 72.39 0)
+		(at 60.96 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6542,7 +6552,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a23b418-8a4f-4a38-940a-e09e7bfba62d")
 		(property "Reference" "#PWR013"
-			(at 60.96 78.74 0)
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6561,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 76.2 0)
+			(at 60.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 72.39 0)
+			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 72.39 0)
+			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 72.39 0)
+			(at 60.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,6 +6875,130 @@
 				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-lmp:R_1%_0W166")
+		(at 60.96 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1351b81c-7b10-42c9-a8c6-79b8e674758f")
+		(property "Reference" "R24"
+			(at 62.738 74.9878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 62.738 77.4121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 59.182 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/YAGEO_MFR_datasheet_2023v3-3324391.pdf"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNum" "MFR-12*"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartNum" "603-MFR-12*"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value2" "1%, 1/6 W"
+			(at 65.913 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5c40d6a-4168-4209-91da-1b1d5233cdbf")
+		)
+		(pin "1"
+			(uuid "e09a26f8-6ccf-400c-8708-da77a20c4164")
+		)
+		(instances
+			(project "prototype"
+				(path "/a1a9a0d8-c6de-418f-9a57-bf7f74b6d401"
+					(reference "R24")
+					(unit 1)
 				)
 			)
 		)
@@ -10906,7 +11040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "-lmp-misc:Potentiometer_Bourns_3310R_Top"
+		(property "Footprint" "-lmp-synth:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 60.96 67.31 0)
 			(effects
 				(font
