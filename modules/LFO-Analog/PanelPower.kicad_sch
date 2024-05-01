@@ -10275,46 +10275,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "105ff6ee-6f32-4f54-8e47-d721487b0258")
+			(uuid "105ff6ee-6f32-4f54-8e47-d721487b0259")
 		)
 		(pin "2"
-			(uuid "bda0f26b-be8a-4eee-b05f-c557d748c2e7")
+			(uuid "bda0f26b-be8a-4eee-b05f-c557d748c2e8")
 		)
 		(pin "3"
-			(uuid "839b6352-ce34-453b-8d7a-d420618d9263")
+			(uuid "839b6352-ce34-453b-8d7a-d420618d9264")
 		)
 		(pin "5"
-			(uuid "0bdcb428-ea7a-42f2-89d0-1ed54a5b46f1")
+			(uuid "0bdcb428-ea7a-42f2-89d0-1ed54a5b46f2")
 		)
 		(pin "8"
-			(uuid "ed3152f0-31d2-4c9f-b1bb-f2a568384f47")
+			(uuid "ed3152f0-31d2-4c9f-b1bb-f2a568384f48")
 		)
 		(pin "11"
 			(uuid "b192e55f-8591-4409-8a52-e5e29ad57ec7")
 		)
 		(pin "6"
-			(uuid "56a573a3-826b-477d-be27-5072ca9e0949")
+			(uuid "56a573a3-826b-477d-be27-5072ca9e094a")
 		)
 		(pin "4"
 			(uuid "8ccbda38-cdf2-466c-a738-5adafccc8aa5")
 		)
 		(pin "9"
-			(uuid "52091b74-0847-4b8d-952a-138b7234454e")
+			(uuid "52091b74-0847-4b8d-952a-138b7234454f")
 		)
 		(pin "10"
-			(uuid "0b92c4cd-eca8-46bf-8e55-bc5c0bc46dfc")
+			(uuid "0b92c4cd-eca8-46bf-8e55-bc5c0bc46dfd")
 		)
 		(pin "14"
-			(uuid "8cc89b7b-f4fb-4069-9ca4-db8965fc8f68")
+			(uuid "8cc89b7b-f4fb-4069-9ca4-db8965fc8f69")
 		)
 		(pin "7"
-			(uuid "1e9cbfb1-344b-4c71-b542-47cb43eef570")
+			(uuid "1e9cbfb1-344b-4c71-b542-47cb43eef571")
 		)
 		(pin "12"
-			(uuid "f8d61787-15a7-4c8c-a923-303409102f0a")
+			(uuid "f8d61787-15a7-4c8c-a923-303409102f0b")
 		)
 		(pin "13"
-			(uuid "bf5dcb53-b400-4b18-9804-6cb066724fe0")
+			(uuid "bf5dcb53-b400-4b18-9804-6cb066724fe1")
 		)
 		(instances
 			(project "LFO-Analog"

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 40,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "002b3f0_80000001",
+    "visible_layers": "000b3f0_80000001",
     "zone_display_mode": 1
   },
   "git": {
@@ -80,8 +80,20 @@
   "project": {
     "files": [
       {
+        "name": "LFO-Analog.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -7,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      },
+      {
         "name": "LFO-Analog.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": false,
