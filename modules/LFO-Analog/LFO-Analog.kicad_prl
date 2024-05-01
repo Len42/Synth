@@ -90,30 +90,6 @@
           "size_x": 974,
           "size_y": 1047
         }
-      },
-      {
-        "name": "LFO-Analog.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
-        }
-      },
-      {
-        "name": "LFO-Analog.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 407,
-          "pos_y": 49,
-          "size_x": 995,
-          "size_y": 641
-        }
       }
     ]
   }

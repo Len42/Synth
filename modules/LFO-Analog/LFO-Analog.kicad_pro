@@ -456,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lmp-Euro-4HP.kicad_pro",
+    "filename": "LFO-Analog.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -653,6 +653,6 @@
     ]
   ],
   "text_variables": {
-    "MODULE": "[Module]"
+    "MODULE": "AnLFO"
   }
 }
