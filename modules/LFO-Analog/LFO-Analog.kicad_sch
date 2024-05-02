@@ -4990,7 +4990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_2"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 141.732 124.46 90)
 			(effects
 				(font
@@ -5683,7 +5683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_2"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 141.732 40.64 90)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 151.892 40.64 90)
 			(effects
 				(font
@@ -10423,7 +10423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_9"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 85.09 90)
 			(effects
 				(font
@@ -10735,7 +10735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 159.512 146.05 90)
 			(effects
 				(font
@@ -11882,7 +11882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 159.512 62.23 90)
 			(effects
 				(font
@@ -13499,7 +13499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_1"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 151.892 124.46 90)
 			(effects
 				(font
@@ -13990,7 +13990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-lmp-stripboard:SB_Gen_9"
+		(property "Footprint" "-lmp-misc:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 168.91 90)
 			(effects
 				(font
