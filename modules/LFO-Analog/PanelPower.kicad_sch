@@ -5579,7 +5579,7 @@
 	)
 	(global_label "RANGE-LO-2"
 		(shape passive)
-		(at 184.15 63.5 0)
+		(at 184.15 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5589,7 +5589,7 @@
 		)
 		(uuid "19a754bf-72a5-40ef-b5a9-77da992d2112")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3495 63.5 0)
+			(at 198.3495 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 	)
 	(global_label "FEEDBACK-2"
 		(shape passive)
-		(at 184.15 53.34 0)
+		(at 184.15 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5809,7 +5809,7 @@
 		)
 		(uuid "732a048c-80ae-4f0f-b567-2290ff902395")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8656 53.34 0)
+			(at 197.8656 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6084,7 @@
 	)
 	(global_label "RANGE-2"
 		(shape passive)
-		(at 184.15 60.96 0)
+		(at 184.15 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6094,7 +6094,7 @@
 		)
 		(uuid "d3e6ac80-2630-4e0b-a110-a49e20a17902")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.4185 60.96 0)
+			(at 194.4185 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6216,7 @@
 	)
 	(global_label "RATE-2"
 		(shape passive)
-		(at 184.15 55.88 0)
+		(at 184.15 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6226,7 +6226,7 @@
 		)
 		(uuid "f2787ecf-f566-466c-b456-3c4f7e6a98d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.7856 55.88 0)
+			(at 192.7856 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

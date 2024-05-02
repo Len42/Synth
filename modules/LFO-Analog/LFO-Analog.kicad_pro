@@ -184,8 +184,8 @@
       ],
       "track_widths": [
         0.0,
-        0.381,
-        0.762
+        0.3048,
+        0.635
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -473,7 +473,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
+        "track_width": 0.3048,
         "via_diameter": 0.762,
         "via_drill": 0.381,
         "wire_width": 6
@@ -490,7 +490,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
+        "track_width": 0.635,
         "via_diameter": 0.762,
         "via_drill": 0.381,
         "wire_width": 6
