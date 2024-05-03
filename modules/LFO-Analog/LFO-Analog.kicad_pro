@@ -585,11 +585,107 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor2",
+          "name": "Distributor2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor3",
+          "name": "Distributor3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink",
+          "name": "DistributorPartLink",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink2",
+          "name": "DistributorPartLink2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartLink3",
+          "name": "DistributorPartLink3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum",
+          "name": "DistributorPartNum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum2",
+          "name": "DistributorPartNum2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DistributorPartNum3",
+          "name": "DistributorPartNum3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ManufacturerPartNum",
+          "name": "ManufacturerPartNum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Value2",
+          "name": "Value2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
