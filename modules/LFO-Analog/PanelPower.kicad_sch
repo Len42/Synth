@@ -5523,16 +5523,6 @@
 		)
 		(uuid "c801d42e-dd94-493e-bd2f-6c3ddad43f55")
 	)
-	(text "TODO: pin assignments"
-		(exclude_from_sim no)
-		(at 170.18 23.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e474b1c0-ae79-4320-9ffa-eed511846281")
-	)
 	(global_label "LED-2"
 		(shape input)
 		(at 125.73 67.31 0)
