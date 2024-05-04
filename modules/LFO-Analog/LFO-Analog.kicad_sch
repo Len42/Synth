@@ -4902,7 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220K"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220K"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220K?qs=oAGoVhmvjhzRYglFF6%2Fz8A%3D%3D"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 143.51 124.46 0)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 143.51 124.46 0)
 			(effects
 				(font
@@ -5053,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 143.51 124.46 0)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5139,44 +5139,49 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82EC1330JE50J"
 			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82EC1330JE50J"
 			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
 			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5256,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-200K"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -5274,7 +5279,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-200K"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -5283,7 +5288,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-200K?qs=oAGoVhmvjhzyXGTT6oqbfw%3D%3D"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -5378,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5396,7 +5401,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5405,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5719,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -5737,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -5746,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -5928,6 +5933,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "3N3"
@@ -5936,6 +5942,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm"
@@ -5947,7 +5954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -5965,48 +5972,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82EC1330JE50J"
 			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82EC1330JE50J"
 			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
 			(at 60.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "PPS for best results"
-			(at 60.96 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -6261,7 +6264,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -6270,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -6338,7 +6341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -6356,44 +6359,49 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82EC1330JE50J"
 			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82EC1330JE50J"
 			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
 			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6634,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
 			(at 100.33 40.64 0)
 			(effects
 				(font
@@ -6652,44 +6660,49 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay"
 			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "K470J15C0GF53L2"
 			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "594-K470J15C0GF53L2"
 			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Vishay-BC-Components/K470J15C0GF53L2?qs=0lkCALImJFekxt0Idj4Frg%3D%3D"
 			(at 100.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value2" "C0G"
@@ -6779,7 +6792,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -6797,7 +6810,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -6806,7 +6819,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 119.38 40.64 0)
 			(effects
 				(font
@@ -7050,7 +7063,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -7068,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -7077,7 +7090,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -7266,7 +7279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/3296-776415.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/pv36-907345.pdf"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7301,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "3296X-*"
+		(property "ManufacturerPartNum" "PV36W253C01B00"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7319,7 +7332,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "652-3296Z-*"
+		(property "DistributorPartNum" "81-PV36W253C01B00"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7328,7 +7341,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/passive-components/potentiometers-trimmers-rheostats/trimmer-resistors-through-hole/?adjustment=Side+Slot&m=Bourns&series=3296"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Bourns/PV36W253C01B00?qs=iLpuOiyXdNEZfHLQPbI%252BMg%3D%3D"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7417,7 +7430,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220K"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -7435,7 +7448,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220K"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -7444,7 +7457,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220K?qs=oAGoVhmvjhzRYglFF6%2Fz8A%3D%3D"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -7541,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-2K2"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -7559,7 +7572,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-2K2"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -7568,7 +7581,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-2K2?qs=oAGoVhmvjhyDYjSfkwEmQQ%3D%3D"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -7786,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -7804,44 +7817,49 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay"
 			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "K470J15C0GF53L2"
 			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "594-K470J15C0GF53L2"
 			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Vishay-BC-Components/K470J15C0GF53L2?qs=0lkCALImJFekxt0Idj4Frg%3D%3D"
 			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value2" "C0G"
@@ -7929,7 +7947,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 86.36 59.69 0)
 			(effects
 				(font
@@ -7947,7 +7965,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 86.36 59.69 0)
 			(effects
 				(font
@@ -7956,7 +7974,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 86.36 59.69 0)
 			(effects
 				(font
@@ -8335,7 +8353,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -8353,7 +8371,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -8362,7 +8380,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 181.61 38.1 0)
 			(effects
 				(font
@@ -8593,7 +8611,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -8611,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -8620,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 172.72 55.88 0)
 			(effects
 				(font
@@ -8715,7 +8733,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -8733,7 +8751,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -8742,7 +8760,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -8968,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-4M7"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -8986,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-4M7"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -8995,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-4M7?qs=oAGoVhmvjhy9t6uwRLL13w%3D%3D"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -9044,6 +9062,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "680N"
@@ -9052,6 +9071,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm"
@@ -9063,7 +9083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 60.96 133.35 0)
 			(effects
 				(font
@@ -9081,48 +9101,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82DC3680Z360K"
 			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82DC3680Z360K"
 			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
 			(at 60.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "PPS for best results"
-			(at 60.96 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 60.96 49.53 0)
 			(effects
 				(font
@@ -9331,48 +9347,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82DC3680Z360K"
 			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82DC3680Z360K"
 			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
 			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "PPS for best results"
-			(at 60.96 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9598,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-200K"
 			(at 100.33 135.89 0)
 			(effects
 				(font
@@ -9604,7 +9616,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-200K"
 			(at 100.33 135.89 0)
 			(effects
 				(font
@@ -9613,7 +9625,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-200K?qs=oAGoVhmvjhzyXGTT6oqbfw%3D%3D"
 			(at 100.33 135.89 0)
 			(effects
 				(font
@@ -9708,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 220.98 109.22 0)
 			(effects
 				(font
@@ -9726,7 +9738,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 220.98 109.22 0)
 			(effects
 				(font
@@ -9735,7 +9747,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 220.98 109.22 0)
 			(effects
 				(font
@@ -9830,7 +9842,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220K"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -9848,7 +9860,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220K"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -9857,7 +9869,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220K?qs=oAGoVhmvjhzRYglFF6%2Fz8A%3D%3D"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -9954,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -9972,7 +9984,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -9981,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -10145,7 +10157,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-4M7"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -10163,7 +10175,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-4M7"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -10172,7 +10184,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-4M7?qs=oAGoVhmvjhy9t6uwRLL13w%3D%3D"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -10267,7 +10279,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-300K"
 			(at 46.99 140.97 0)
 			(effects
 				(font
@@ -10285,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-300K"
 			(at 46.99 140.97 0)
 			(effects
 				(font
@@ -10294,7 +10306,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-300K?qs=oAGoVhmvjhxCRCahlqQtCA%3D%3D"
 			(at 46.99 140.97 0)
 			(effects
 				(font
@@ -10459,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-68K"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10477,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-68K"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10486,7 +10498,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-68K?qs=oAGoVhmvjhyL5MsnBkXRfA%3D%3D"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10581,7 +10593,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-300K"
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -10599,7 +10611,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-300K"
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -10608,7 +10620,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-300K?qs=oAGoVhmvjhxCRCahlqQtCA%3D%3D"
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -10771,7 +10783,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-470R"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -10789,7 +10801,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-470R"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -10798,7 +10810,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-470R?qs=oAGoVhmvjhzwbENn17GKHQ%3D%3D"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -11363,7 +11375,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -11381,7 +11393,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -11390,7 +11402,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -11485,7 +11497,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220R"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -11503,7 +11515,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220R"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -11512,7 +11524,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220R?qs=oAGoVhmvjhzXw9VFfgOBPg%3D%3D"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -11580,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/3296-776415.pdf"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/pv36-907345.pdf"
 			(at 148.59 162.56 0)
 			(effects
 				(font
@@ -11615,7 +11627,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "3296X-*"
+		(property "ManufacturerPartNum" "PV36W253C01B00"
 			(at 148.59 162.56 0)
 			(effects
 				(font
@@ -11633,7 +11645,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "652-3296Z-*"
+		(property "DistributorPartNum" "81-PV36W253C01B00"
 			(at 148.59 162.56 0)
 			(effects
 				(font
@@ -11642,7 +11654,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/passive-components/potentiometers-trimmers-rheostats/trimmer-resistors-through-hole/?adjustment=Side+Slot&m=Bourns&series=3296"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/Bourns/PV36W253C01B00?qs=iLpuOiyXdNEZfHLQPbI%252BMg%3D%3D"
 			(at 148.59 162.56 0)
 			(effects
 				(font
@@ -11704,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
 			(at 60.96 120.65 0)
 			(effects
 				(font
@@ -11722,48 +11734,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" ""
+		(property "ManufacturerPartNum" "R82EC1330JE50J"
 			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Mouser"
 			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" ""
+		(property "DistributorPartNum" "80-R82EC1330JE50J"
 			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" ""
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
 			(at 60.96 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Note" "PPS for best results"
-			(at 60.96 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +11925,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-470R"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -11935,7 +11943,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-470R"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -11944,7 +11952,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-470R?qs=oAGoVhmvjhzwbENn17GKHQ%3D%3D"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -12041,7 +12049,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -12059,7 +12067,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -12068,7 +12076,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -12163,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220R"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -12181,7 +12189,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220R"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -12190,7 +12198,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220R?qs=oAGoVhmvjhzXw9VFfgOBPg%3D%3D"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -12435,7 +12443,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-220K"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -12453,7 +12461,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-220K"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -12462,7 +12470,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-220K?qs=oAGoVhmvjhzRYglFF6%2Fz8A%3D%3D"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -12690,7 +12698,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-100K"
 			(at 220.98 25.4 0)
 			(effects
 				(font
@@ -12708,7 +12716,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-100K"
 			(at 220.98 25.4 0)
 			(effects
 				(font
@@ -12717,7 +12725,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-100K?qs=oAGoVhmvjhxn7uX6J9%2FOug%3D%3D"
 			(at 220.98 25.4 0)
 			(effects
 				(font
@@ -12814,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-36K"
 			(at 172.72 139.7 0)
 			(effects
 				(font
@@ -12832,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-36K"
 			(at 172.72 139.7 0)
 			(effects
 				(font
@@ -12841,7 +12849,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-36K?qs=oAGoVhmvjhyIq6EO5blb%252BQ%3D%3D"
 			(at 172.72 139.7 0)
 			(effects
 				(font
@@ -13221,7 +13229,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -13239,7 +13247,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -13248,7 +13256,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -13410,7 +13418,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-11K"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -13428,7 +13436,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-11K"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -13437,7 +13445,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-11K?qs=oAGoVhmvjhx1sOCa0IR7aA%3D%3D"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -13534,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-10K"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -13552,7 +13560,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-10K"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -13561,7 +13569,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -13777,7 +13785,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-11K"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -13795,7 +13803,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-11K"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -13804,7 +13812,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-11K?qs=oAGoVhmvjhx1sOCa0IR7aA%3D%3D"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -13901,7 +13909,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-2K2"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -13919,7 +13927,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-2K2"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -13928,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-2K2?qs=oAGoVhmvjhyDYjSfkwEmQQ%3D%3D"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -14025,7 +14033,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "MFR-12*"
+		(property "ManufacturerPartNum" "MFR-12FTF52-68K"
 			(at 148.59 171.45 0)
 			(effects
 				(font
@@ -14043,7 +14051,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "603-MFR-12*"
+		(property "DistributorPartNum" "603-MFR-12FTF52-68K"
 			(at 148.59 171.45 0)
 			(effects
 				(font
@@ -14052,7 +14060,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/c/?m=YAGEO&power+rating=166+mW+(1%2f6+W)&tolerance=1+%25&instock=y"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/YAGEO/MFR-12FTF52-68K?qs=oAGoVhmvjhyL5MsnBkXRfA%3D%3D"
 			(at 148.59 171.45 0)
 			(effects
 				(font
