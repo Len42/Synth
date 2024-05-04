@@ -78,6 +78,19 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "LFO-Analog.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -4,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      }
+    ]
   }
 }

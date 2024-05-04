@@ -11467,7 +11467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -12146,7 +12146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 146.05 0)
 			(effects
 				(font
