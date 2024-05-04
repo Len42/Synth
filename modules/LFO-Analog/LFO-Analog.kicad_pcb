@@ -3302,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "OUT-SQUARE-1"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5099,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "OUT-SINE-1"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5809,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "OUT-SQUARE-2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6368,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "OUT-SINE-2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
