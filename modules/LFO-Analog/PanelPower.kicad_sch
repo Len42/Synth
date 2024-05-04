@@ -7114,7 +7114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), QingPu / Thonkiconn"
 			(at 38.1 92.71 0)
 			(effects
 				(font
@@ -7295,7 +7295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 105.41 36.83 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), QingPu / Thonkiconn"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -7855,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor - Ceramic - IC decoupling"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -7978,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor - Ceramic - IC decoupling"
 			(at 205.74 118.11 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), QingPu / Thonkiconn"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -8351,7 +8351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), QingPu / Thonkiconn"
 			(at 104.14 106.68 0)
 			(effects
 				(font
@@ -8720,7 +8720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor - Ceramic - IC decoupling"
 			(at 224.79 118.11 0)
 			(effects
 				(font
@@ -9515,6 +9515,30 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ManufacturerPartNum" ""
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DistributorPartNum" ""
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "LFO-Analog"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-000060cbfb6a"
@@ -9845,7 +9869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor - Ceramic - IC decoupling"
 			(at 224.79 110.49 0)
 			(effects
 				(font

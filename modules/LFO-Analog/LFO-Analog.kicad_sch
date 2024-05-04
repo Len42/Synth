@@ -4884,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 38.1 0)
 			(effects
 				(font
@@ -5008,7 +5008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 143.51 124.46 0)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 143.51 40.64 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal NPN Transistor, 0.2A Ic, 40V Vce, TO-92"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -7159,7 +7159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal NPN Transistor, 0.2A Ic, 40V Vce, TO-92"
 			(at 156.21 139.7 0)
 			(effects
 				(font
@@ -7275,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -7284,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" ""
+		(property "Label" "[label]"
 			(at 148.59 73.4639 90)
 			(effects
 				(font
@@ -7400,7 +7400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 116.84 0)
 			(effects
 				(font
@@ -9812,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 33.02 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 85.09 0)
 			(effects
 				(font
@@ -10753,7 +10753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -11229,7 +11229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal NPN Transistor, 0.2A Ic, 40V Vce, TO-92"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -11589,7 +11589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer"
 			(at 148.59 160.02 0)
 			(effects
 				(font
@@ -11598,7 +11598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Label" ""
+		(property "Label" "[label]"
 			(at 148.59 157.2839 90)
 			(effects
 				(font
@@ -11900,7 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -12418,7 +12418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 207.01 121.92 0)
 			(effects
 				(font
@@ -13517,7 +13517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 153.67 124.46 0)
 			(effects
 				(font
@@ -13644,7 +13644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal NPN Transistor, 0.2A Ic, 40V Vce, TO-92"
 			(at 140.97 55.88 0)
 			(effects
 				(font
@@ -14008,7 +14008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 168.91 0)
 			(effects
 				(font
