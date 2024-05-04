@@ -9222,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "SINE-ADJ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24112,7 +24112,7 @@
 				)
 			)
 		)
-		(property "Label" "[label]"
+		(property "Label" "SINE-ADJ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
