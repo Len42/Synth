@@ -2006,16 +2006,16 @@
 		(uuid "2d495525-c37b-4df2-a101-4ec8052ca684")
 	)
 	(junction
+		(at 81.28 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3169ba9a-773b-4671-8f70-93b22f4628d3")
+	)
+	(junction
 		(at 109.22 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34f4dbac-68d9-4cb9-bc39-075f4c09581f")
-	)
-	(junction
-		(at 81.28 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fe928c7-bc64-4e92-81c1-dd39ffbc202b")
 	)
 	(junction
 		(at 91.44 124.46)
@@ -2120,12 +2120,6 @@
 		(uuid "75e5ede8-10a0-470e-829a-1d866e60ecb0")
 	)
 	(junction
-		(at 81.28 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79744b20-a35b-49f3-8e03-bd54ec9c6921")
-	)
-	(junction
 		(at 91.44 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2216,6 +2210,12 @@
 		(uuid "e1fe0bb7-bcf7-47bf-b6ec-1dd6c9592570")
 	)
 	(junction
+		(at 81.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2815693-d8f0-4a1c-8801-2ec590f269f4")
+	)
+	(junction
 		(at 190.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2265,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 143.51) (xy 80.01 157.48)
+			(xy 81.28 143.51) (xy 81.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 133.35) (xy 52.07 133.35)
+			(xy 55.88 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 36.83) (xy 64.77 36.83)
+			(xy 64.77 36.83) (xy 63.5 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 119.38 73.66)
+			(xy 81.28 73.66) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2555,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 36.83) (xy 52.07 36.83)
+			(xy 55.88 36.83) (xy 52.07 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 64.77 49.53)
+			(xy 64.77 49.53) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 157.48) (xy 119.38 157.48)
+			(xy 81.28 157.48) (xy 119.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2945,16 +2945,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 82.55 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46cd0b2c-04d0-4302-ae0b-44b0237a7ab5")
-	)
-	(wire
-		(pts
 			(xy 29.21 53.34) (xy 27.94 53.34)
 		)
 		(stroke
@@ -3125,13 +3115,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 82.55 59.69)
+			(xy 81.28 143.51) (xy 82.55 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e1102a5-86e7-490b-85bc-3ac80c02335c")
+		(uuid "60e1da87-7f12-4bc3-8d6d-81270a6bb656")
 	)
 	(wire
 		(pts
@@ -3155,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 120.65) (xy 52.07 120.65)
+			(xy 55.88 120.65) (xy 52.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3215,23 +3205,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 80.01 73.66)
+			(xy 81.28 59.69) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "730ffd20-dbef-41bb-a366-6ba09424291f")
-	)
-	(wire
-		(pts
-			(xy 81.28 59.69) (xy 80.01 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739ba18f-196b-46a0-9491-ac1e35fec5c0")
 	)
 	(wire
 		(pts
@@ -3245,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 80.01 143.51)
+			(xy 80.01 143.51) (xy 81.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3325,6 +3305,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 59.69) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccdee01-0cd7-4fec-99fa-3a8dec2b9df1")
+	)
+	(wire
+		(pts
 			(xy 190.5 116.84) (xy 203.2 116.84)
 		)
 		(stroke
@@ -3345,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 52.07 49.53)
+			(xy 55.88 49.53) (xy 52.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 81.28 143.51)
+			(xy 80.01 127) (xy 80.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 43.18) (xy 81.28 43.18)
+			(xy 77.47 43.18) (xy 80.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3875,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 43.18) (xy 81.28 59.69)
+			(xy 80.01 43.18) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4165,7 +4155,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 81.28 127)
+			(xy 77.47 127) (xy 80.01 127)
 		)
 		(stroke
 			(width 0)
@@ -4275,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 64.77 120.65)
+			(xy 64.77 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4285,13 +4275,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 133.35) (xy 64.77 133.35)
+			(xy 64.77 133.35) (xy 63.5 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f438536b-bcac-416e-a808-7bd2557b8a94")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53e0688-5de3-4d61-bd9a-8f2e80b01be4")
 	)
 	(wire
 		(pts
@@ -4369,7 +4369,7 @@
 	)
 	(text "LED driver"
 		(exclude_from_sim no)
-		(at 218.694 48.006 0)
+		(at 204.216 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,17 +4378,18 @@
 		)
 		(uuid "347a5442-f56c-4b35-b45d-6e60dd366f0e")
 	)
-	(text "TODO: verify cap footprints"
+	(text "To RANGE switch"
 		(exclude_from_sim no)
-		(at 66.548 125.222 0)
+		(at 64.516 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "5420ccab-5d2b-410e-a306-00a718da2757")
+		(uuid "3eb21796-bf4b-4547-bda4-fd6d03635065")
 	)
-	(text "This section is the LFO core which\nproduces triangle and square outputs"
+	(text "This section is the oscillator which\nproduces triangle and square outputs"
 		(exclude_from_sim no)
 		(at 30.48 26.924 0)
 		(effects
@@ -4411,16 +4412,6 @@
 			(justify left bottom)
 		)
 		(uuid "851ab59d-1fd7-45c7-a775-29797327cafc")
-	)
-	(text "TODO: verify resistor values"
-		(exclude_from_sim no)
-		(at 121.92 27.686 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89c672b6-e14f-484a-ae02-6264bf1f113b")
 	)
 	(text "LFO 1"
 		(exclude_from_sim no)
@@ -4446,19 +4437,9 @@
 		)
 		(uuid "a4e5cb2e-ff60-49b5-8d72-f285b0a87803")
 	)
-	(text "TODO: verify resistor values"
+	(text "To RATE pot"
 		(exclude_from_sim no)
-		(at 121.92 111.506 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba92ba61-d8ed-4bcd-b85e-e717b9be66ce")
-	)
-	(text "These connect to the RATE \npot on the front panel"
-		(exclude_from_sim no)
-		(at 24.638 61.468 0)
+		(at 29.21 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4467,24 +4448,14 @@
 		)
 		(uuid "d32c6637-3396-439e-bb84-136fc4c2dd4b")
 	)
-	(text "TODO: verify cap footprints"
-		(exclude_from_sim no)
-		(at 49.022 40.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4f3cc16-fc7d-4fcf-8720-233d218b623d")
-	)
 	(label "TRIANGLE"
-		(at 80.01 67.31 180)
+		(at 82.55 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ed8fced0-1ffd-4998-9d08-435ba533b8ae")
 	)
@@ -4512,7 +4483,7 @@
 	)
 	(global_label "RANGE-HI-2"
 		(shape passive)
-		(at 66.04 120.65 0)
+		(at 64.77 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4522,7 +4493,7 @@
 		)
 		(uuid "0dd13e61-6dfc-4c5b-8ce8-3dda1e700ebb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.8162 120.65 0)
+			(at 78.5462 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4505,7 @@
 	)
 	(global_label "RANGE-2"
 		(shape passive)
-		(at 78.74 127 180)
+		(at 77.47 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4544,7 +4515,7 @@
 		)
 		(uuid "139beb60-20d1-488e-963e-d74c1959f5ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.4715 127 0)
+			(at 67.2015 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4527,7 @@
 	)
 	(global_label "RANGE-LO-2"
 		(shape passive)
-		(at 66.04 133.35 0)
+		(at 64.77 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4566,7 +4537,7 @@
 		)
 		(uuid "151beeaa-7dd0-4949-9a8c-174a1f28ed98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.2395 133.35 0)
+			(at 78.9695 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4571,7 @@
 	)
 	(global_label "RANGE-LO-1"
 		(shape passive)
-		(at 66.04 49.53 0)
+		(at 64.77 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4610,7 +4581,7 @@
 		)
 		(uuid "432a7c11-6776-4c82-aab2-9d96224dc09a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.2395 49.53 0)
+			(at 78.9695 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4703,7 @@
 	)
 	(global_label "RANGE-HI-1"
 		(shape passive)
-		(at 66.04 36.83 0)
+		(at 64.77 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4742,7 +4713,7 @@
 		)
 		(uuid "a8826be4-84e9-4b7b-a4a5-8d219f7e562a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.8162 36.83 0)
+			(at 78.5462 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4747,7 @@
 	)
 	(global_label "RANGE-1"
 		(shape passive)
-		(at 78.74 43.18 180)
+		(at 77.47 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4786,7 +4757,7 @@
 		)
 		(uuid "cb9c26bd-2c2e-4276-8623-edeaeadba4e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.4715 43.18 0)
+			(at 67.2015 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5890,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CF")
-		(at 60.96 36.83 90)
+		(at 59.69 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5928,25 +5899,23 @@
 		(fields_autoplaced yes)
 		(uuid "1fc7ded7-8b58-487b-b4e0-340580dd578c")
 		(property "Reference" "C1"
-			(at 60.96 30.5265 90)
+			(at 59.69 30.5265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3N3"
-			(at 60.96 32.9508 90)
+			(at 59.69 32.9508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm"
-			(at 64.77 35.8648 0)
+			(at 63.5 35.8648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +5933,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Film"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5942,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5951,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "R82EC1330JE50J"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +5960,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +5969,7 @@
 			)
 		)
 		(property "DistributorPartNum" "80-R82EC1330JE50J"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +5978,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
-			(at 60.96 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +9017,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CF")
-		(at 60.96 133.35 90)
+		(at 59.69 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9057,25 +9026,23 @@
 		(fields_autoplaced yes)
 		(uuid "8586faa7-8c02-4f7c-b925-394d743619ee")
 		(property "Reference" "C6"
-			(at 60.96 127.0465 90)
+			(at 59.69 127.0465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "680N"
-			(at 60.96 129.4708 90)
+			(at 59.69 129.4708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm"
-			(at 64.77 132.3848 0)
+			(at 63.5 132.3848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +9060,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Film"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9069,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9078,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "R82DC3680Z360K"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9087,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +9096,7 @@
 			)
 		)
 		(property "DistributorPartNum" "80-R82DC3680Z360K"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +9105,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
-			(at 60.96 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9263,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CF")
-		(at 60.96 49.53 90)
+		(at 59.69 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9305,7 +9272,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c570c79-754a-4c8e-ad70-66cac0d34305")
 		(property "Reference" "C2"
-			(at 60.96 43.2265 90)
+			(at 59.69 43.2265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9280,7 @@
 			)
 		)
 		(property "Value" "680N"
-			(at 60.96 45.6508 90)
+			(at 59.69 45.6508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,7 +9288,7 @@
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_L7.2mm_W4.5mm_P5.00mm"
-			(at 64.77 48.5648 0)
+			(at 63.5 48.5648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9297,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9306,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Film"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9315,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9324,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "R82DC3680Z360K"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9333,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9342,7 @@
 			)
 		)
 		(property "DistributorPartNum" "80-R82DC3680Z360K"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +9351,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
-			(at 60.96 49.53 0)
+			(at 59.69 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,7 +11650,7 @@
 	)
 	(symbol
 		(lib_id "-lmp:CF")
-		(at 60.96 120.65 90)
+		(at 59.69 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11692,7 +11659,7 @@
 		(fields_autoplaced yes)
 		(uuid "c65e6efa-4a95-4c4c-90bf-532a55c29138")
 		(property "Reference" "C5"
-			(at 60.96 114.3465 90)
+			(at 59.69 114.3465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11667,7 @@
 			)
 		)
 		(property "Value" "3N3"
-			(at 60.96 116.7708 90)
+			(at 59.69 116.7708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11675,7 @@
 			)
 		)
 		(property "Footprint" "-lmp-misc:C_Rect_Kemet_L7.2mm_W2.5mm_P5mm"
-			(at 64.77 119.6848 0)
+			(at 63.5 119.6848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +11684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/447/KEM_F3101_R82-3316969.pdf"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,7 +11693,7 @@
 			)
 		)
 		(property "Description" "Capacitor - Film"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,7 +11702,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11711,7 @@
 			)
 		)
 		(property "ManufacturerPartNum" "R82EC1330JE50J"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11720,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,7 +11729,7 @@
 			)
 		)
 		(property "DistributorPartNum" "80-R82EC1330JE50J"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11771,7 +11738,7 @@
 			)
 		)
 		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
