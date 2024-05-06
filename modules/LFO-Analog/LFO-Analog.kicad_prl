@@ -80,18 +80,6 @@
   "project": {
     "files": [
       {
-        "name": "LFO-Analog.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 472,
-          "pos_y": -16,
-          "size_x": 976,
-          "size_y": 1056
-        }
-      },
-      {
         "name": "LFO-Analog.kicad_sch",
         "open": true,
         "window": {
