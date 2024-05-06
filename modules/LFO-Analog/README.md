@@ -19,7 +19,7 @@ PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled
 - [Middle board](https://oshpark.com/shared_projects/zzz)
 - [Back board](https://oshpark.com/shared_projects/zzz)
 
-A parts list is [here](bom.csv).
+There is a [parts list](bom.csv) in spreadsheet-friendly text format.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 

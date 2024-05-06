@@ -4378,6 +4378,16 @@
 		)
 		(uuid "347a5442-f56c-4b35-b45d-6e60dd366f0e")
 	)
+	(text "TODO: change capacitor values"
+		(exclude_from_sim no)
+		(at 53.594 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a58c500-1fc6-4824-bd21-ec8efb12b594")
+	)
 	(text "To RANGE switch"
 		(exclude_from_sim no)
 		(at 64.516 33.782 0)
