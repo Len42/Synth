@@ -4459,13 +4459,13 @@
 		(uuid "d32c6637-3396-439e-bb84-136fc4c2dd4b")
 	)
 	(label "TRIANGLE"
-		(at 82.55 73.66 0)
+		(at 118.11 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ed8fced0-1ffd-4998-9d08-435ba533b8ae")
 	)
@@ -5129,7 +5129,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC1330AA50K"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5147,7 +5147,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC1330AA50K"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/80-R82EC1330AA50K"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -5916,7 +5916,7 @@
 				)
 			)
 		)
-		(property "Value" "3N3"
+		(property "Value" "10N"
 			(at 59.69 32.9508 90)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC2100SH50J"
 			(at 59.69 36.83 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC2100SH50J"
 			(at 59.69 36.83 0)
 			(effects
 				(font
@@ -5987,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC2100SH50J?qs=Jv4FAWB%252B0HY5NUeHWRshKg%3D%3D"
 			(at 59.69 36.83 0)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC1330AA50K"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC1330AA50K"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -6374,7 +6374,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/80-R82EC1330AA50K"
 			(at 181.61 27.94 0)
 			(effects
 				(font
@@ -9043,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Value" "680N"
+		(property "Value" "470N"
 			(at 59.69 129.4708 90)
 			(effects
 				(font
@@ -9087,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82DC3680Z360K"
+		(property "ManufacturerPartNum" "R82DC3470SH60J"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -9105,7 +9105,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82DC3680Z360K"
+		(property "DistributorPartNum" "80-R82DC3470SH60J"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -9114,7 +9114,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3470SH60J?qs=Jv4FAWB%252B0HZ72wFOzKdj%2Fw%3D%3D"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -9289,7 +9289,7 @@
 				)
 			)
 		)
-		(property "Value" "680N"
+		(property "Value" "470N"
 			(at 59.69 45.6508 90)
 			(effects
 				(font
@@ -9333,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82DC3680Z360K"
+		(property "ManufacturerPartNum" "R82DC3470SH60J"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -9351,7 +9351,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82DC3680Z360K"
+		(property "DistributorPartNum" "80-R82DC3470SH60J"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3470SH60J?qs=Jv4FAWB%252B0HZ72wFOzKdj%2Fw%3D%3D"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Value" "3N3"
+		(property "Value" "10N"
 			(at 59.69 116.7708 90)
 			(effects
 				(font
@@ -11720,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC2100SH50J"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -11738,7 +11738,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC2100SH50J"
 			(at 59.69 120.65 0)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 				(hide yes)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC2100SH50J?qs=Jv4FAWB%252B0HY5NUeHWRshKg%3D%3D"
 			(at 59.69 120.65 0)
 			(effects
 				(font

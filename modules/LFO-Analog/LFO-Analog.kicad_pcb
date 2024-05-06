@@ -12597,7 +12597,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12623,7 +12623,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12636,7 +12636,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/80-R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17928,7 +17928,7 @@
 				)
 			)
 		)
-		(property "Value" "680N"
+		(property "Value" "470N"
 			(at 2.5 3.5 180)
 			(layer "F.Fab")
 			(uuid "2a4690df-d267-4e79-85a8-58ec8ebfebb6")
@@ -17988,7 +17988,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82DC3680Z360K"
+		(property "ManufacturerPartNum" "R82DC3470SH60J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18014,7 +18014,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82DC3680Z360K"
+		(property "DistributorPartNum" "80-R82DC3470SH60J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18027,7 +18027,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3470SH60J?qs=Jv4FAWB%252B0HZ72wFOzKdj%2Fw%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23741,7 +23741,7 @@
 				)
 			)
 		)
-		(property "Value" "3N3"
+		(property "Value" "10N"
 			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -23802,7 +23802,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC2100SH50J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23828,7 +23828,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC2100SH50J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23841,7 +23841,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC2100SH50J?qs=Jv4FAWB%252B0HY5NUeHWRshKg%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25831,7 +25831,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25857,7 +25857,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25870,7 +25870,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/80-R82EC1330AA50K"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28112,7 +28112,7 @@
 				)
 			)
 		)
-		(property "Value" "3N3"
+		(property "Value" "10N"
 			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -28173,7 +28173,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82EC1330JE50J"
+		(property "ManufacturerPartNum" "R82EC2100SH50J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28199,7 +28199,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82EC1330JE50J"
+		(property "DistributorPartNum" "80-R82EC2100SH50J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28212,7 +28212,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC1330JE50J?qs=Jv4FAWB%252B0HaKxYy7WO79fg%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82EC2100SH50J?qs=Jv4FAWB%252B0HY5NUeHWRshKg%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29110,7 +29110,7 @@
 				)
 			)
 		)
-		(property "Value" "680N"
+		(property "Value" "470N"
 			(at 2.5 3.5 180)
 			(layer "F.Fab")
 			(uuid "a20a81e8-e460-4bc1-821a-fa42363b934e")
@@ -29170,7 +29170,7 @@
 				)
 			)
 		)
-		(property "ManufacturerPartNum" "R82DC3680Z360K"
+		(property "ManufacturerPartNum" "R82DC3470SH60J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29196,7 +29196,7 @@
 				)
 			)
 		)
-		(property "DistributorPartNum" "80-R82DC3680Z360K"
+		(property "DistributorPartNum" "80-R82DC3470SH60J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29209,7 +29209,7 @@
 				)
 			)
 		)
-		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3680Z360K?qs=Jv4FAWB%252B0HbUJ2Jg5yDgdA%3D%3D"
+		(property "DistributorPartLink" "https://www.mouser.ca/ProductDetail/KEMET/R82DC3470SH60J?qs=Jv4FAWB%252B0HZ72wFOzKdj%2Fw%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
