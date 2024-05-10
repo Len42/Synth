@@ -5,8 +5,8 @@
 	(uuid "d0dfd7c1-401d-4f64-8463-f4c0813ac28f")
 	(paper "A4")
 	(title_block
-		(title "Eurorack Dual LFO")
-		(date "2024-05-05")
+		(title "Eurorack Dual LFO - Panel & Power")
+		(date "2024-05-06")
 		(rev "1.0")
 		(company "Len Popp")
 		(comment 1 "https://lenp.net/synth/")

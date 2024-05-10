@@ -90,6 +90,18 @@
           "size_x": 974,
           "size_y": 1047
         }
+      },
+      {
+        "name": "LFO-Analog.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 860,
+          "pos_y": 3,
+          "size_x": 976,
+          "size_y": 1056
+        }
       }
     ]
   }

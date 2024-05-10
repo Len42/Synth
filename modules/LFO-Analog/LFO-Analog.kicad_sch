@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Eurorack Dual LFO")
-		(date "2024-05-05")
+		(date "2024-05-06")
 		(rev "1.0")
 		(company "Len Popp")
 		(comment 1 "https://lenp.net/synth/")
