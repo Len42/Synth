@@ -82,12 +82,12 @@
     "files": [
       {
         "name": "panel.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 952,
-          "pos_y": -8,
+          "pos_x": 471,
+          "pos_y": 0,
           "size_x": 976,
           "size_y": 1056
         }

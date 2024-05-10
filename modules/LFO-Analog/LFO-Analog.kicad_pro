@@ -525,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/xxx/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
