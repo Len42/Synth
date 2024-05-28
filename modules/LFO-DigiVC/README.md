@@ -12,11 +12,15 @@
 	- three sine waves, 120° out of phase
 
 ### Notes
+(I have also made a [dual analog LFO](https://github.com/Len42/Synth/tree/main/modules/LFO-Analog#readme) without voltage control.)
+
 With the CV attenuator turned all the way up, the CV input tracks 1 volt/octave. The LFO can play notes up to A3 (below middle C) but it's fiddly to tune.
 
 The LFO is implemented with an Arduino-compatible ATmega328P microcontroller. The firmware source code is an Arduino sketch in [firmware/DigiLFO/DigiLFO.ino](firmware/DigiLFO/DigiLFO.ino). MakeLookupTables is a program that generates data tables used in the firmware. See [here](https://lenp.net/synth/firmware-programming.html) for info about programming the firmware onto the microcontroller chip.
 
 This module is built using the [Delptronics Module Construction Set](https://delptronics.com/module-construction-set.php) which includes PCBs for the front panel controls and other components. The PCB layout file is just a guide showing how I placed the components on the Delptronics boards. (It's a bit of a mess - sorry!)
+
+There is a [parts list](LFO-DigiVC-BOM.csv) in spreadsheet-friendly text format.
 
 Please note that I am a hobbyist, not a trained electronics engineer. No guarantees!
 
