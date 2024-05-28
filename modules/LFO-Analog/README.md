@@ -6,7 +6,7 @@
 
 ### Features
 - Two independent analog LFOs
-- LFO rate from approximately 0.008 Hz (120 seconds) to 170 Hz
+- LFO rate from approximately 0.008 Hz (120 seconds) to 170 Hz, in two ranges
 - Each LFO has sine and square wave outputs
 - Not voltage controlled. Use your fingers! 👌
 
@@ -15,10 +15,10 @@
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 
-(TBD) The PCBs that I used can be ordered from OSH Park. The designs are here:
-- [Front panel](https://oshpark.com/shared_projects/zzz)
-- [Controls board](https://oshpark.com/shared_projects/zzz)
-- [Main board](https://oshpark.com/shared_projects/zzz)
+The PCBs that I used can be ordered from OSH Park. The designs are here:
+- [Front panel](https://oshpark.com/shared_projects/gXxsPQ2r)
+- [Controls board](https://oshpark.com/shared_projects/Vs8kgjxu)
+- [Main board](https://oshpark.com/shared_projects/36ruR2I4)
 
 There is a [parts list](bom.csv) in spreadsheet-friendly text format.
 
