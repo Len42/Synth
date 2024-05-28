@@ -6,7 +6,7 @@
 
 ### Features
 - Two independent analog LFOs
-- LFO rate from approximately 0.008 Hz (120 seconds) to 170 Hz, in two ranges
+- LFO rate from approximately 0.01 Hz (100 seconds) to 170 Hz, in two ranges
 - Each LFO has sine and square wave outputs
 - Not voltage controlled. Use your fingers! 👌
 
