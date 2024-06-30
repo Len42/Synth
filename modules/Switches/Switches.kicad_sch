@@ -1476,7 +1476,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 955b03a5-6e58-4e14-bbfc-93f216fbd255)
   )
-  (text "~{S} is briefly high at \nstartup to initialize the \nchannel to \"on\" state."
+  (text "~{S} is briefly low at \nstartup to initialize the \nchannel to \"on\" state."
     (at 59.69 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c56eb278-4614-49d1-a916-9054ad790744)
