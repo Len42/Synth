@@ -1,6 +1,8 @@
 # Eurorack Power Supply
 
-This is the power supply that I made for my Eurorack modular system. It is meant to live inside the system case with the power switch and DC input jack mounted on the side of the case.
+This is the power supply that I made for my Eurorack modular system.
+
+[See here for more info, photos, etc.](https://lenp.net/synth/power-supply/)
 
 ### Specs
 
