@@ -14,7 +14,7 @@ This is version 2 of the Wavefolder module. [Version 1](../Wavefolder-v1/) used 
 
 The amount of folding is controlled by the level of the input signal which is adjusted by an attenuator pot on the input. There are no CV inputs, but CV control of the folding can be done by running the input signal through a VCA.
 
-The circuit design is based on [Ken Stone's Simple Wave Folder](http://www.synthpanel.com/modules/cgs52_folder.html) and [yusynth's Metalizer](http://yusynth.net/Modular/EN/METALIZER/).
+The circuit design is based on [Ken Stone's Simple Wave Folder](https://www.elby-designs.com/webtek/cgs/cgs52/cgs52_folder.html) and [yusynth's Metalizer](http://yusynth.net/Modular/EN/METALIZER/).
 
 PCB layouts are provided in KiCad and gerber formats. A PCB layout for a drilled front panel (with no labels) is also included.
 

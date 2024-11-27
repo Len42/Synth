@@ -12,7 +12,7 @@
 ### Notes
 The amount of folding is controlled by the level of the input signal which is adjusted by an attenuator pot on the input. There are no CV inputs, but CV control of the folding can be done by running the input signal through a VCA.
 
-The circuit design is based on [Ken Stone's Simple Wave Folder](http://www.synthpanel.com/modules/cgs52_folder.html) and [yusynth's Metalizer](http://yusynth.net/Modular/EN/METALIZER/).
+The circuit design is based on [Ken Stone's Simple Wave Folder](https://www.elby-designs.com/webtek/cgs/cgs52/cgs52_folder.html) and [yusynth's Metalizer](http://yusynth.net/Modular/EN/METALIZER/).
 
 This module is built using the [Delptronics Module Construction Set](https://delptronics.com/module-construction-set.php) which includes PCBs for the front panel controls and other components. The PCB layout file is just a guide showing how I placed the components on the Delptronics boards. (It's a bit of a mess - sorry!)
 
